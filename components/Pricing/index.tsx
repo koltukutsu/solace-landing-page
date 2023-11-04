@@ -11,8 +11,8 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Size Özel Paketlerimiz"
+          paragraph="İhtiyaçlarınıza göre size özel kişiselleştirilebilir paketler sunuyoruz."
           center
           width="665px"
         />
@@ -30,7 +30,7 @@ const Pricing = () => {
                   : "text-dark dark:text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
-              Monthly
+               Hazır Paketler
             </span>
             <div
               onClick={() => setIsMonthly(!isMonthly)}
@@ -55,52 +55,63 @@ const Pricing = () => {
                   : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
-              Yearly
+              Kendin Oluştur
             </span>
           </div>
         </div>
-
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
-          </PricingBox>
+        {isMonthly? <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
             packageName="Basic"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            price={isMonthly ? "40" : "120"}
+            duration={isMonthly ? "Hazır Paket" : "yr"}
+            subtitle="Akıllı Ev Sistemlerine hızlı bir başlangıç yapın. Son teknolojinin sağladığı imkanlardan faydalanın."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Akıllı Priz" status="active" />
+            <OfferList text="Ortam Işık Kontrolü" status="active" />
+            <OfferList text="Ortam Sıcaklık Kontrolü" status="active" />
+            <OfferList text="Özelliştirilebilir Arayüz" status="active" />
+            {/* <OfferList text="Lifetime Access" status="inactive" /> */}
+            {/* <OfferList text="Free Lifetime Updates" status="inactive" /> */}
           </PricingBox>
           <PricingBox
-            packageName="Plus"
+            packageName="Medium"
+            price={isMonthly ? "399" : "789"}
+            duration={isMonthly ? "Hazır Paket" : "yr"}
+            subtitle="Sizi yorabilecek ve sıkabilecek temel ev işlerini Akıllı Sistemlere ve Robotlara bırakın."
+          >
+            <OfferList text="Akıllı Ses Sistemleri" status="active" />
+            <OfferList text="Akıllı Perde" status="active" />
+            <OfferList text="Otomasyon Sistemleri" status="active" />
+            <OfferList text="Akıllı Temizlik" status="active" />
+            <OfferList text="Akıllı Beyaz Eşyalar ile Entegrasyon" status="active" />
+          </PricingBox>
+          <PricingBox
+            packageName="Premium"
             price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
+            duration={isMonthly ? "Hazır Paket" : "yr"}
+            subtitle="Mental yükünüzü ve Güvenliğinizi son teknolojiye devredin. Bir kere karar alın, gerisi robotlar ve akıllı ev sistemleri yapsın. Otomasyonun ve Yapay Zekanın gücünü kullanın."
+          >
+            <OfferList text="Dijital Anahtarlı Kapı" status="active" />
+            <OfferList text="Akıllı Güvenlik Kameraları" status="active" />
+            <OfferList text="Enerji Takip Sistemleri" status="active" />
+            <OfferList text="Su Tesisatı Arıza Alarmı" status="active" />
+            <OfferList text="Otomatik Sulama Sistemi" status="active" />
+            <OfferList text="Ev Aleti Otomatik Entegrasyon Sistemi" status="active" />
+          </PricingBox>
+        </div>:<PricingBox
+            packageName="Premium"
+            price={isMonthly ? "589" : "999"}
+            duration={isMonthly ? "mo" : "Kişiselleştirilebilir"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
+            <OfferList text="Dijital Anahtarlı Kapı" status="active" />
+            <OfferList text="Akıllı Güvenlik Kameraları" status="active" />
             <OfferList text="Commercial Use" status="active" />
             <OfferList text="Email Support" status="active" />
             <OfferList text="Lifetime Access" status="active" />
             <OfferList text="Free Lifetime Updates" status="active" />
-          </PricingBox>
-        </div>
+          </PricingBox>}
+        
       </div>
 
       <div className="absolute bottom-0 left-0 z-[-1]">
