@@ -14,7 +14,14 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
-                  <Image
+                <h2 className="w-full dark:hidden text-3xl font-bold text-logo-text-color">
+                  Solace
+                </h2>
+
+                <h2 className="hidden w-full dark:block text-3xl font-bold">
+                  Solace
+                </h2>
+                  {/* <Image
                     src="/images/logo/logo-2.svg"
                     alt="logo"
                     className="w-full dark:hidden"
@@ -27,7 +34,7 @@ const Footer = () => {
                     className="hidden w-full dark:block"
                     width={140}
                     height={30}
-                  />
+                  /> */}
                 </Link>
                 <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
                   Solace Akıllı Ev Sistemleri her daim yanınızda.
