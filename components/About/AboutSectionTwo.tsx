@@ -11,16 +11,16 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/graphs/first.png"
+                src="/graphs/data-graph-light.png"
                 alt="about image"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="/graphs/first.png"
+                src="/graphs/data-graph-dark.png"
                 alt="about image"
                 fill
-                className="drop-shadow-three hidden dark:block dark:drop-shadow-none"
+                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
             </div>
           </div>
@@ -31,8 +31,9 @@ const AboutSectionTwo = () => {
                   Akıllı Evlere Olan İlgi Artışı
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Günümüzde toplumumuzun %71'i, Akıllı Ev sistemlerine ilgilier
+                  olduğunu ifade ediyor. Bu oran gün geçtikçe artmakta ve
+                  müşterilerin tüketim alışkanlıklarını değiştirmekte.
                 </p>
               </div>
               <div className="mb-9">
@@ -40,8 +41,11 @@ const AboutSectionTwo = () => {
                   Enerji Harcamanızı Azaltın
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  Enerji harcamalarınızın %80'e kadar azalabilme imkanı var!
+                  Yapay Zeka ve İnternet Devrimi ile birlikte Akıllı
+                  Cihazlarımızı en verimli şekilde kullanabiliyoruz. Bu da bize
+                  Enerji Tasarrufu ve Gereksiz Harcamaların önünü kesmek olarak
+                  geri dönüyor.
                 </p>
               </div>
               <div className="mb-1">
@@ -49,8 +53,8 @@ const AboutSectionTwo = () => {
                   Akıllı Evlerin Satışındaki Kar Artışı
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  Günümüzde Akıllı Evlerin evlerin, Akıllı Sistemlere sahip olmayan evlere göre, %35'a yakın bir ek kâr getirisi olduğundan ötürü,
+                  artık Akıllı Evlere ve Akıllı Sistemlere yönelik ciddi bir yönelim var.
                 </p>
               </div>
             </div>

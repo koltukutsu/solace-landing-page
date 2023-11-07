@@ -99,17 +99,19 @@ const Pricing = () => {
             <OfferList text="Ev Aleti Otomatik Entegrasyon Sistemi" status="active" />
           </PricingBox>
         </div>:<PricingBox
-            packageName="Premium"
+            packageName="Özel Paket"
             price={isMonthly ? "589" : "999"}
             duration={isMonthly ? "mo" : "Kişiselleştirilebilir"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Kişiselleştirilebilir Özel Paketimiz sayesinde, sizin ihtiyaçlarınıza sunuduğumuz çözümler arasından tercihler yapabilecek ve Akıllı Ev Sisteminizi bir üst seviyeye çıkar."
           >
-            <OfferList text="Dijital Anahtarlı Kapı" status="active" />
-            <OfferList text="Akıllı Güvenlik Kameraları" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="Yüksek Seviye Kişiselleştirilebilir Sistem Entegrasyonları" status="active" />
+            <OfferList text="Tüm Akıllı Cihaz Entegrasyonları" status="active" />
+            <OfferList text="Akıllı Güvenlik Entegrasyonları" status="active" />
+            <OfferList text="Yapay Zeka ile Veri Analizi ve Raporlama" status="active" />
+            <OfferList text="Akıllı Yaşam Entegrasyonları" status="active" />
+            <OfferList text="Üst Seviye Otomasyon Tanımlamaları" status="active" />
+            <OfferList text="Özel Kurulum Destekleri" status="active" />
+            <OfferList text="Finansal Bilanço ve Bütçe Destekleri" status="active" />
           </PricingBox>}
         
       </div>

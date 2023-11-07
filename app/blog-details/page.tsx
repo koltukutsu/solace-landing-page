@@ -5,10 +5,11 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Details Page for Startup Nextjs Template",
+  title: "Solace | Akıllı Ev Çözümleri",
+  description: "Solace ile Yaşamı Avuçlarınıza Sunuyoruz",
   // other metadata
 };
+
 
 const BlogDetailsPage = () => {
   return (

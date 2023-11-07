@@ -14,7 +14,7 @@ const featuresData: Feature[] = [
     ),
     title: "Akıllı ve Sorunsuz Ev",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Akıllı ev sistemleri, yaşamınızı daha konforlu hale getirirken günlük görevleri otomatikleştirir ve enerji tasarrufu sağlar. Aynı zamanda uzaktan erişimle evinizi kontrol etme olanağı sunar, böylece her zaman bağlı kalırsınız.",
   },
   {
     id: 1,
@@ -29,7 +29,7 @@ const featuresData: Feature[] = [
     ),
     title: "Kolay Kullanım ve Kolay Kurulum",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Sistemlerimiz kullanıcı dostu arayüzlerle gelir ve hızlı kurulum sunar. Teknik beceriye ihtiyaç duymadan, evinizi hızla akıllı hale getirebilirsiniz.",
   },
   {
     id: 1,
@@ -44,7 +44,7 @@ const featuresData: Feature[] = [
     ),
     title: "Yüksek Teknoloji",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Akıllı ev sistemlerimiz son teknolojiyi kullanarak evinizi güvenli ve verimli hale getirir. Sensörler ve kameralar, evinizi sürekli izler ve size anlık bilgi sağlar.",
   },
   {
     id: 1,
@@ -59,7 +59,7 @@ const featuresData: Feature[] = [
     ),
     title: "Yapay Zeka Destekli",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Yapay zeka ile desteklenen sistemlerimiz, evinizi kişiselleştirir ve otomatik olarak optimize eder. Günlük rutinlerinizi öğrenir ve buna göre ayarlar.",
   },
   {
     id: 1,
@@ -74,7 +74,7 @@ const featuresData: Feature[] = [
     ),
     title: "Size Ait Size Özgü",
     paragraph:
-      "Tamamiyle Kişiselleştirilebilir. Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Sistemlerimiz tamamen kişiselleştirilebilir, böylece evinizi tamamen kendi zevkinize göre şekillendirebilirsiniz. Her cihazı ve ayarı, sizin ihtiyaçlarınıza uygun hale getirebilirsiniz.",
   },
   {
     id: 1,
@@ -89,7 +89,7 @@ const featuresData: Feature[] = [
     ),
     title: "Veri Tabanlı",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Akıllı ev sistemlerimiz, verileri analiz ederek enerji tasarrufu ve güvenlik önlemlerini optimize eder. Bu sayede hem tasarruf sağlarsınız hem de eviniz daha güvenli hale gelir.",
   },
 ];
 export default featuresData;

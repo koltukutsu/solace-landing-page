@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "A. Faris BALOĞLU",
+    designation: "Türkiye ve İslam Birliği Stratejileri Sorumlusu",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+      "Dünya günbegün değişiyor, halihazırda Solace'ın yaptıklarını gayet yerinde buluyorum. İlkelerini temellendirmiş olması benim için oldukça önemli, bundan ötürü Solace'ı olumluyorum. Solace, Akıllı Ev Sistemleri ile bilrikte Akıllı Yaşama doğru yürümeyi tercih etmesiyle büyük bir yanlış yapmaktan kurtuldu. Yalnış yapanları sevmem!",
+    image: "/faces/faris.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "A. Furkan AKINCI",
+    designation: "Türkiye Sanayii ve Kalkınma Bakanı",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+      "Otomobil üreticileri, bağlı araç içi eğlence üniteleri sayesinde büyük kar artışları ve marka bağlılığı gördüler. Ev inşaatçıları bu konudan ilham alarak geleneksel olarak dar marjlı bir sektöre kar merkezi eklemenin yolunu buldular. Artık inşaatçılar fiyatları artırmak için özel mutfak gibi yüksek işçilikli ürünlere baskı yapmak zorunda değiller - bu düşük maliyetli, yüksek etkili teknoloji eklemeleri karı artırabilir.",
+    image: "/faces/furkan.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "...",
+    designation: "...",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -34,11 +34,11 @@ const testimonialData: Testimonial[] = [
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="relative z-10 bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Akıllı Evler ve Daha Fazlası"
+          paragraph="Dünya çapında Akıllı Ev Sistemlerinden Akıllı Yaşama doğru evrilen bu serüven içerisinde, yüzyılımızın liderleri neler düşünüyorlar?"
           center
         />
 
