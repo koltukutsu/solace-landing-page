@@ -13,7 +13,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Solace | Yaşamı Avuçlarınıza Sunuyoruz",
-  description: "Hayatı Elinize Alın",
+  description: "Akıllı Ev Sistemi Çözümleri",
   // other metadata
 };
 
