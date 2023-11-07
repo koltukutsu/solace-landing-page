@@ -31,7 +31,7 @@ const AboutSectionTwo = () => {
                   Akıllı Evlere Olan İlgi Artışı
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Günümüzde toplumumuzun %71'i, Akıllı Ev sistemlerine ilgilier
+                  Günümüzde toplumumuzun %71&apos;i, Akıllı Ev sistemlerine ilgilier
                   olduğunu ifade ediyor. Bu oran gün geçtikçe artmakta ve
                   müşterilerin tüketim alışkanlıklarını değiştirmekte.
                 </p>
@@ -41,7 +41,7 @@ const AboutSectionTwo = () => {
                   Enerji Harcamanızı Azaltın
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Enerji harcamalarınızın %80'e kadar azalabilme imkanı var!
+                  Enerji harcamalarınızın %80&apos;e kadar azalabilme imkanı var!
                   Yapay Zeka ve İnternet Devrimi ile birlikte Akıllı
                   Cihazlarımızı en verimli şekilde kullanabiliyoruz. Bu da bize
                   Enerji Tasarrufu ve Gereksiz Harcamaların önünü kesmek olarak
@@ -53,7 +53,7 @@ const AboutSectionTwo = () => {
                   Akıllı Evlerin Satışındaki Kar Artışı
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Günümüzde Akıllı Evlerin evlerin, Akıllı Sistemlere sahip olmayan evlere göre, %35'a yakın bir ek kâr getirisi olduğundan ötürü,
+                  Günümüzde Akıllı Evlerin evlerin, Akıllı Sistemlere sahip olmayan evlere göre, %35&apos;e yakın bir ek kâr getirisi olduğundan ötürü,
                   artık Akıllı Evlere ve Akıllı Sistemlere yönelik ciddi bir yönelim var.
                 </p>
               </div>
