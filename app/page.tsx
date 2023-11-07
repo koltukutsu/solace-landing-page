@@ -12,7 +12,7 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Solace Akıllı Ev Çözümleri",
+  title: "Solace | Yaşamı Avuçlarınıza Sunuyoruz",
   description: "Hayatı Elinize Alın",
   // other metadata
 };
