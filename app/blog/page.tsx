@@ -5,8 +5,8 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Solace | Akıllı Ev Çözümleri",
-  description: "Solace ile Yaşamı Avuçlarınıza Sunuyoruz",
+  title: "Solace | Yaşamı Avuçlarınıza Sunuyoruz",
+  description: "Akıllı Ev Sistemi Çözümleri",
   // other metadata
 };
 
