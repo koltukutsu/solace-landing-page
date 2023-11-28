@@ -1,6 +1,21 @@
+'use client';
+
 import NewsLatterBox from "./NewsLatterBox";
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+
+  const sendEmail = (e) => {
+    e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
+
+    emailjs.sendForm('service_i4ff1ww', "template_ai702wb", e.target, '3-aHCRQQH3M0wliD5')
+      .then((result) => {
+          window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
+
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -17,7 +32,7 @@ const Contact = () => {
               <p className="mb-12 text-base font-medium text-body-color">
                 İletişim Ekibimiz size en kısa zamanda dönüş sağlayacaktır.
               </p>
-              <form>
+              <form onSubmit={sendEmail}>
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
@@ -29,6 +44,7 @@ const Contact = () => {
                       </label>
                       <input
                         type="text"
+                        name="user_name"
                         placeholder="İsminizi giriniz"
                         className="border-stroke dark:text-body-color-dark dark:shadow-two w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
                       />
@@ -44,6 +60,7 @@ const Contact = () => {
                       </label>
                       <input
                         type="email"
+                        name='user_email'
                         placeholder="Emailinizi giriniz"
                         className="border-stroke dark:text-body-color-dark dark:shadow-two w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
                       />

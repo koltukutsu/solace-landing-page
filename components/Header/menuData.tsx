@@ -9,9 +9,29 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "Hakkımızda",
+    title: "Akıllı Yaşam",
     path: "/about",
     newTab: false,
+    submenu: [
+      {
+        id: 21,
+        title: "Akıllı Ev Sistemleri",
+        path: "/about",
+        newTab: false,
+      },
+      {
+        id: 22,
+        title: "Akıllı Altyapı",
+        path: "/about",
+        newTab: false,
+      },
+      {
+        id: 23,
+        title: "Akıllı Gelecek",
+        path: "/about",
+        newTab: false,
+      },
+    ]
   },
   // {
   //   id: 33,
@@ -19,66 +39,42 @@ const menuData: Menu[] = [
   //   path: "/blog",
   //   newTab: false,
   // },
-  // {
-  //   id: 3,
-  //   title: "Support",
-  //   path: "/contact",
-  //   newTab: false,
-  // },
   {
     id: 4,
-    title: "Hizmetler",
+    title: "Hakkımızda",
     newTab: false,
     submenu: [
       {
         id: 41,
-        title: "About Page",
+        title: "Vizyonumuz & Misyonumuz",
         path: "/about",
         newTab: false,
       },
-      // {
-      //   id: 42,
-      //   title: "Contact Page",
-      //   path: "/contact",
-      //   newTab: false,
-      // },
-      // {
-      //   id: 43,
-      //   title: "Blog Grid Page",
-      //   path: "/blog",
-      //   newTab: false,
-      // },
-      // {
-      //   id: 44,
-      //   title: "Blog Sidebar Page",
-      //   path: "/blog-sidebar",
-      //   newTab: false,
-      // },
-      // {
-      //   id: 45,
-      //   title: "Blog Details Page",
-      //   path: "/blog-details",
-      //   newTab: false,
-      // },
-      // {
-      //   id: 46,
-      //   title: "Sign In Page",
-      //   path: "/signin",
-      //   newTab: false,
-      // },
-      // {
-      //   id: 47,
-      //   title: "Sign Up Page",
-      //   path: "/signup",
-      //   newTab: false,
-      // },
-      // {
-      //   id: 48,
-      //   title: "Error Page",
-      //   path: "/error",
-      //   newTab: false,
-      // },
+      {
+        id: 42,
+        title: "Değerlerimiz",
+        path: "/about",
+        newTab: false,
+      },
+      {
+        id: 43,
+        title: "Biz Kimiz?",
+        path: "/about",
+        newTab: false,
+      },
     ],
+  },
+  {
+    id: 5,
+    title: "Bize Ulaşın",
+    path: "/about",
+    newTab: false,
+  },
+  {
+    id: 5,
+    title: "SSS",
+    path: "/about",
+    newTab: false,
   },
 ];
 export default menuData;
