@@ -4,6 +4,11 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
+
+import '@mantine/core/styles.css';
+
+import { MantineProvider, ColorSchemeScript } from '@mantine/core';
+
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 
@@ -21,14 +26,16 @@ export default function RootLayout({
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-
+      {/* <ColorSchemeScript/>? */}
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
+        <MantineProvider>
         <Providers>
           <Header />
           {children}
           <Footer />
           <ScrollToTop />
         </Providers>
+        </MantineProvider>
       </body>
     </html>
   );

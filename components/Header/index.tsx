@@ -67,7 +67,7 @@ const Header = () => {
                   Solace
                 </h2>
 
-                <h2 className="hidden w-full dark:block text-5xl font-bold">
+                <h2 className="hidden w-full dark:block text-5xl font-bold text-white">
                   Solace
                 </h2>
                 {/* <Image
