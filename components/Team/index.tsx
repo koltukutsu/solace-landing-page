@@ -1,4 +1,5 @@
 // components/TeamSection.js
+import SectionTitle from "../Common/SectionTitle";
 import teamData from "./teamData";
 
 const TeamSection = () => {
@@ -17,6 +18,12 @@ const TeamSection = () => {
   );
   return (
     <div className="container">
+      <SectionTitle
+          title="Ekibimiz"
+          paragraph=""
+          center
+          width="665px"
+        />
       <div className="grid grid-cols-2 gap-8 md:grid-cols-2 lg:grid-cols-4">
         {teamData.map((member) => (
           <div

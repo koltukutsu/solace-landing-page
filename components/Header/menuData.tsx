@@ -10,7 +10,7 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "Akıllı Yaşam",
-    path: "/about",
+    path: "/smart-life",
     newTab: false,
     submenu: [
       {
@@ -46,20 +46,20 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 41,
-        title: "Vizyonumuz & Misyonumuz",
-        path: "/about",
+        title: "Vizyon ve Misyonumuz",
+        path: "/about-vision-and-mission",
         newTab: false,
       },
       {
         id: 42,
         title: "Değerlerimiz",
-        path: "/about",
+        path: "/about-values",
         newTab: false,
       },
       {
         id: 43,
         title: "Biz Kimiz?",
-        path: "/about",
+        path: "/about-who-are-we",
         newTab: false,
       },
     ],
@@ -67,13 +67,13 @@ const menuData: Menu[] = [
   {
     id: 5,
     title: "Bize Ulaşın",
-    path: "/about",
+    path: "/contact",
     newTab: false,
   },
   {
     id: 5,
     title: "SSS",
-    path: "/about",
+    path: "/faq",
     newTab: false,
   },
 ];

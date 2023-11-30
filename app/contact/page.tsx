@@ -12,7 +12,7 @@ const ContactPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Hakkımızda"
+        pageName="Bize Ulaşın"
         description="Solace Akıllı Ev Sistemlerini Vizyon ve Misyonu."
       />
 
