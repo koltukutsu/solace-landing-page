@@ -12,6 +12,7 @@ import Video from "@/components/Video";
 import TeamSection from "@/components/Team";
 
 import { Metadata } from "next";
+import InformationsSection from "@/components/About/InformationsSection";
 
 export const metadata: Metadata = {
   title: "Solace | Yaşamı Avuçlarınıza Sunuyoruz",
@@ -29,6 +30,7 @@ export default function Home() {
       {/* <Brands /> */}
       <AboutSectionOne />
       <AboutSectionTwo />
+      <InformationsSection/>
       {/* <Testimonials /> */}
       <Pricing />
       {/* <Blog /> */}

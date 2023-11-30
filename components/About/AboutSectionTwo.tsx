@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SectionTitle from "../Common/SectionTitle";
 
 const AboutSectionTwo = () => {
   return (
@@ -6,6 +7,11 @@ const AboutSectionTwo = () => {
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
+          <SectionTitle
+                title="Kârınızı Müşteri Memnuniyetini Artırın, Rakiplerinizin Önüne Geçin!"
+                paragraph="Solace'ın Akıllı Ev Sistemleri çözümleri ile hem kârınızı hem de müşteri memnuniyetinizi yukarılara çıkarın. Modern çağı yakalayın ve rakiplerinizden her seferinde bir adım önde olun."
+                mb="44px"
+              />
             <div
               className="wow fadeInUp relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
               data-wow-delay=".15s"
