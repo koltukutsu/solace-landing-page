@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
+import SocialMediaAccounts from "@/components/Contact/SocialMediaAccounts";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
@@ -15,7 +16,7 @@ const ContactPage = () => {
         pageName="Bize Ulaşın"
         description="Solace Akıllı Ev Sistemlerini Vizyon ve Misyonu."
       />
-
+      <SocialMediaAccounts/>
       <Contact />
     </>
   );
