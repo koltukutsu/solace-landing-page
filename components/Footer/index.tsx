@@ -19,7 +19,7 @@ const Footer = () => {
                     Solace
                   </h2>
 
-                  <h2 className="hidden w-full text-3xl font-bold dark:block">
+                  <h2 className="hidden w-full text-3xl font-bold dark:block text-white">
                     Solace
                   </h2>
                   {/* <Image
