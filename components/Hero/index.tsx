@@ -41,7 +41,8 @@ const Hero = () => {
           </div>
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
-          <svg
+          // INFO: removed circles are here
+          {/* <svg
             width="450"
             height="556"
             viewBox="0 0 450 556"
@@ -176,7 +177,7 @@ const Hero = () => {
                 <stop offset="1" stopColor="#" stopOpacity="0" />
               </linearGradient>
             </defs>
-          </svg>
+          </svg> */}
         </div>
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
