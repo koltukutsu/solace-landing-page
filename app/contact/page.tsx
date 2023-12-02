@@ -14,7 +14,7 @@ const ContactPage = () => {
     <>
       <Breadcrumb
         pageName="Bize Ulaşın"
-        description="Solace Akıllı Ev Sistemlerini Vizyon ve Misyonu."
+        description="Solace Akıllı Yaşam Sistemlerini Vizyon ve Misyonu."
       />
       <SocialMediaAccounts/>
       <Contact />
