@@ -58,27 +58,27 @@ const Header = () => {
               >
                 <div className="flex items-center">
 
-                {/* <Image
-                  src="/images/logo/logo_new.png"
+                <Image
+                  src="/images/logo/logo.svg"
                   alt="logo"
                   width={60}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo_new.png"
+                  src="/images/logo/logo.svg"
                   alt="logo"
                   width={60}
                   height={30}
                   className="hidden w-full dark:block"
-                /> */}
-                <h2 className="w-full dark:hidden text-5xl font-bold text-linkedin">
+                />
+                {/* <h2 className="w-full dark:hidden text-5xl font-bold text-linkedin">
                   Solace
                 </h2>
 
                 <h2 className="hidden w-full dark:block text-5xl font-bold text-white">
                   Solace
-                </h2>
+                </h2> */}
                 </div>
                 
                 

@@ -25,7 +25,7 @@ const TeamSection = ({ customWidth = "w-56", customHeight = "h-56" }) => {
         {teamData.map((member) => (
           <div className="w-full max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800" key={member.id}>
             <div className="flex justify-end px-4 pt-4">
-              <button
+              {/* <button
                 id="dropdownButton"
                 data-dropdown-toggle="dropdown"
                 className="inline-block rounded-lg p-1.5 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
@@ -41,7 +41,7 @@ const TeamSection = ({ customWidth = "w-56", customHeight = "h-56" }) => {
                 >
                   <path d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z" />
                 </svg>
-              </button>
+              </button> */}
               <div
                 id="dropdown"
                 className="z-10 hidden w-44 list-none divide-y divide-gray-100 rounded-lg bg-white text-base shadow dark:bg-gray-700"
@@ -76,6 +76,8 @@ const TeamSection = ({ customWidth = "w-56", customHeight = "h-56" }) => {
             </div>
             <div className="flex flex-col items-center pb-10">
               <Image
+              width={400}
+              height={400}
                 className={
                   customWidth +
                   " " +

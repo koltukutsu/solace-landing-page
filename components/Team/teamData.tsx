@@ -5,14 +5,14 @@ const teamData: Person[] = [
     id: 1,
     name: "Kenan KOÇAK",
     position: "Proje Lideri",
-    image: "/faces/kenan_kocak.jpeg", // Replace with the path to the member's image
+    image: "/faces/kenan_kocak_2.png", // Replace with the path to the member's image
     linkedin: "https://www.linkedin.com/in/kenan-ko%C3%A7ak-b19b66194/",
   },
   {
     id: 2,
     name: "A. Faris BALOĞLU",
     position: "Strateji ve Finans Lideri",
-    image: "/faces/faris.png", // Replace with the path to the member's image
+    image: "/faces/faris_2.png", // Replace with the path to the member's image
     linkedin: "https://www.linkedin.com/in/ahmed-faris-balo%C4%9Flu-7459332a2/",
   },
   {
