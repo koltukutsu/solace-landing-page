@@ -58,6 +58,7 @@ const Footer = () => {
                   <a
                     href={socialMediaAccounts["linkedin"]}
                     target="_blank"
+                    rel="noopener noreferrer"
                     aria-label="social-link"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
@@ -66,6 +67,7 @@ const Footer = () => {
                   <a
                     href={socialMediaAccounts["instagram"]}
                     target="_blank"
+                    rel="noopener noreferrer"
                     aria-label="social-link"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
@@ -74,6 +76,7 @@ const Footer = () => {
                   <a
                     href={socialMediaAccounts["twitter"]}
                     target="_blank"
+                    rel="noopener noreferrer"
                     aria-label="social-link"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >

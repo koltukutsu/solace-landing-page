@@ -2,6 +2,7 @@
 import { FaLinkedin } from "react-icons/fa";
 import SectionTitle from "../Common/SectionTitle";
 import teamData from "./teamData";
+import Image from "next/image";
 
 const TeamSection = ({ customWidth = "w-56", customHeight = "h-56" }) => {
   const LinkedinSvg = () => (
@@ -74,7 +75,7 @@ const TeamSection = ({ customWidth = "w-56", customHeight = "h-56" }) => {
               </div>
             </div>
             <div className="flex flex-col items-center pb-10">
-              <img
+              <Image
                 className={
                   customWidth +
                   " " +
@@ -84,7 +85,7 @@ const TeamSection = ({ customWidth = "w-56", customHeight = "h-56" }) => {
                 src={member.image}
                 alt="Bonnie image"
               />
-              <a href={member.linkedin} target="_blank">
+              <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
                 <div className="flex items-center">
                   <FaLinkedin className="hover:text-primary-dark -ml-1 mr-2 text-3xl text-linkedin duration-300 lg:text-3xl" />
                   <h5 className="mb-1 text-xl font-medium text-gray-900 hover:text-primary dark:text-white">

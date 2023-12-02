@@ -40,7 +40,7 @@ const FAQSectionOne = () => {
               <Accordion variant="separated">
                 {
                   faqList.map((item) => (
-                    <Accordion.Item className="" value={item.id}>
+                    <Accordion.Item className="" value={item.id} key={item.id}>
                   <Accordion.Control className="">
                     {item.question}
                   </Accordion.Control>
