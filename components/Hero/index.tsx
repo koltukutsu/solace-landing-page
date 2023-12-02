@@ -41,7 +41,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
-          // INFO: removed circles are here
+          {/* INFO: removed circles are here */}
           {/* <svg
             width="450"
             height="556"
