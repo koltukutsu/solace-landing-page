@@ -47,7 +47,7 @@ const AboutSectionTwo = () => {
                   Enerji Harcamanızı Azaltın
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Enerji harcamalarınızın %80&apos;e kadar azalabilme imkanı var!
+                  Enerji harcamalarınızın %20&apos;e kadar azalabilme imkanı var!
                   Yapay Zeka ve İnternet Devrimi ile birlikte Akıllı
                   Cihazlarımızı en verimli şekilde kullanabiliyoruz. Bu da bize
                   Enerji Tasarrufu ve Gereksiz Harcamaların önünü kesmek olarak
