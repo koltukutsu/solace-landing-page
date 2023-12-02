@@ -23,7 +23,7 @@ const TeamSection = ({ customWidth = "w-56", customHeight = "h-56" }) => {
       <SectionTitle title="Ekibimiz" paragraph="" center width="665px" />
       <div className="grid grid-cols-2 gap-8 md:grid-cols-2 lg:grid-cols-4">
         {teamData.map((member) => (
-          <div className="w-full max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800">
+          <div className="w-full max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800" key={member.id}>
             <div className="flex justify-end px-4 pt-4">
               <button
                 id="dropdownButton"
