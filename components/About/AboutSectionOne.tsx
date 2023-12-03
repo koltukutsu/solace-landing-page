@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import Link from "next/link";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -45,6 +46,12 @@ const AboutSectionOne = () => {
                     <List text="Uzaktan kontrolü sağlayın." />
                     <List text="Enerji tasarrufuyla ön plana çıkın." />
                   </div>
+                  <Link
+                    href="/smart-life"
+                    className="inline-block rounded-md bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:primary/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5 mt-8"
+                  >
+                    Akıllı Yaşam Hizmetlerimizi Görün
+                  </Link>
                 </div>
               </div>
             </div>

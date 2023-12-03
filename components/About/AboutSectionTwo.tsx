@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import Link from "next/link";
 
 const AboutSectionTwo = () => {
   return (
@@ -17,16 +18,16 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/graphs/data-graph-light.png"
-                alt="about image"
+                src="/images/about/about-smart-house.png"
+                alt="Smart House"
                 fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none rounded-md"
               />
               <Image
-                src="/graphs/data-graph-dark.png"
-                alt="about image"
+                src="/images/about/about-smart-house.png"
+                alt="Smart House"
                 fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
+                className="hidden drop-shadow-three dark:block dark:drop-shadow-none rounded-md"
               />
             </div>
           </div>
@@ -63,8 +64,15 @@ const AboutSectionTwo = () => {
                   artık Akıllı Evlere ve Akıllı Sistemlere yönelik ciddi bir yönelim var.
                 </p>
               </div>
+              <Link
+                    href="/smart-life"
+                    className="inline-block rounded-md bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5 mt-8"
+                  >
+                    Çözümlerimizi Keşfedin
+                  </Link>
             </div>
           </div>
+          
         </div>
       </div>
     </section>
