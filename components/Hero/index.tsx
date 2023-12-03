@@ -180,7 +180,8 @@ const Hero = () => {
           </svg> */}
         </div>
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
-          <svg
+          {/* SVG KALDIRILDI 2 */}
+          {/* <svg
             width="364"
             height="201"
             viewBox="0 0 364 201"
@@ -280,7 +281,7 @@ const Hero = () => {
                 <stop offset="1" stopColor="white" stopOpacity="0.08" />
               </radialGradient>
             </defs>
-          </svg>
+          </svg> */}
         </div>
       </section>
     </>
