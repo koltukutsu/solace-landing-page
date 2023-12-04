@@ -52,18 +52,18 @@ const valuesList: {
 
 const ValuesSectionOne = () => {
   return (
-    <div className="container mb-8">
+    <div className="container mb-8 px-16">
       <SectionTitle title="Değerlerimiz" paragraph="" center width="665px" />
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 -mt-8">
         {valuesList.map((e) => {
           return (
             <div
-              className="max-w-sm overflow-hidden rounded shadow-lg"
+              className="max-w-sm overflow-hidden rounded-lg border border-gray-200 bg-white shadow-lg dark:border-gray-700 dark:bg-gray-800"
               key={e.id}
             >
               <div className="px-6 py-4">
-                <div className="mb-2 text-xl font-bold text-center">{e.valueTitle}</div>
-                <p className="text-base text-gray-700 text-center">{e.valueDescription}</p>
+                <div className="mb-2 text-xl font-bold text-center text-black dark:white">{e.valueTitle}</div>
+                <p className="text-base text-gray-400 dark:text-gray-400 text-center">{e.valueDescription}</p>
               </div>
               {/* <div className="px-6 pt-4 pb-2">
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>

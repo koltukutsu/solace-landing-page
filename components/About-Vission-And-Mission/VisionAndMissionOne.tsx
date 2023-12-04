@@ -24,12 +24,12 @@ const VisionAndMissionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Satışlarınızı ve Müşteri Memnuniyetinizi maksimum seviyeye çıkarın."
-                paragraph="Akıllı Ev ile satışlarınızdaki kârınızı arttırın. Yüksek teknoloji ile evinize değer katın, değeriniz artsın."
+                title="Misyonumuz"
+                paragraph="Solace olarak misyonumuz, etik değerler çerçevesinde gelişmekte olan akıllı cihazlar teknolojisini müşterilerle buluşturmaktır."
                 mb="44px"
               />
 
-              <div
+              {/* <div
                 className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
@@ -46,7 +46,7 @@ const VisionAndMissionOne = () => {
                     <List text="Enerji tasarrufuyla ön plana çıkın." />
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
@@ -55,16 +55,16 @@ const VisionAndMissionOne = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/about-vision-and-mission/mission.png"
                   alt="about-image"
                   fill
-                  className="drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
+                  className="mx-auto max-w-full rounded-md drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/about/about-image-dark.svg"
+                  src="/images/about-vision-and-mission/mission.png"
                   alt="about-image"
                   fill
-                  className="drop-shadow-three mx-auto hidden max-w-full dark:block dark:drop-shadow-none lg:mr-0"
+                  className="mx-auto hidden max-w-full rounded-md drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                 />
               </div>
             </div>

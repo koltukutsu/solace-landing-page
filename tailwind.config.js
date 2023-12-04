@@ -41,7 +41,7 @@ module.exports = {
         // primary: "#0E76A8",
         primary: "#00AEEF",
         yellow: "#FBB040",
-        linkedin: "#0e2160",
+        linkedin: "#0E76A8",
         "logo-text-color":"#00AEEF",
         "body-color": "#788293",
         "body-color-dark": "#959CB1",
