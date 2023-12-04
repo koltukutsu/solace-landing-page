@@ -8,8 +8,8 @@ const WhoAreWe = () => {
         <Breadcrumb
           pageName="Biz Kimiz?"
           description="Solace,
-          teknoloji odakli yenilenebilir
-          yasam alanlarini sunan bir şirkettir."
+          teknoloji odaklı yenilenebilir
+          yaşam alanlarını sunan bir şirkettir."
         />
         <WhoAreWeSectionOne />
         {/* <WhoAreWeSectionTwo /> */}

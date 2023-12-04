@@ -27,8 +27,8 @@ const WhoAreWeSectionOne = () => {
               <SectionTitleAboutWhoAreWe
                 titleFirst="Solace "
                 titleSecond="Nedir?"
-                paragraph="teknoloji odakli yenilenebilir
-                yasam alanlarini sunan bir şirkettir.
+                paragraph="teknoloji odaklı yenilenebilir
+                yaşam alanlarını sunan bir şirkettir.
                 En yeni akıllı teknolojileri maliyet-etkin bir şekilde müşterilerle buluşturuyoruz."
                 mb="44px"
               />
