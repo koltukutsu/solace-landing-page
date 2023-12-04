@@ -29,7 +29,7 @@ const SectionTitleAboutWhoAreWe = ({
         </h2>
         </div>
         
-        <p className="text-base !leading-relaxed text-primary md:text-2xl mx-4">
+        <p className="text-base !leading-relaxed text-body-color md:text-2xl mx-4">
           {paragraph}
         </p>
       </div>
