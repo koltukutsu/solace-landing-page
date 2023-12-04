@@ -9,10 +9,10 @@ const OurValues = () => {
     return <>
     <Breadcrumb
       pageName="Değerlerimiz"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+      description="Solace Akıllı Yaşam Sistemleri olarak, yaşamın kendisine değer veriyoruz."
     />
     <ValuesSectionOne />
-    <ValuesSectionTwo/>
+    {/* <ValuesSectionTwo/> */}
   </>;
 
 }
