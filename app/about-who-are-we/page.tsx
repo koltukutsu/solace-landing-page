@@ -7,10 +7,12 @@ const WhoAreWe = () => {
     <>
         <Breadcrumb
           pageName="Biz Kimiz?"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+          description="Solace,
+          teknoloji odakli yenilenebilir
+          yasam alanlarini sunan bir şirkettir."
         />
         <WhoAreWeSectionOne />
-        <WhoAreWeSectionTwo />
+        {/* <WhoAreWeSectionTwo /> */}
     </>
   );
 };

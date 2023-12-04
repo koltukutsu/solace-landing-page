@@ -1,6 +1,7 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 import TeamSection from "../Team";
+import SectionTitleAboutWhoAreWe from "../Common/SectionTitleAboutWhoAreWe";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -19,13 +20,16 @@ const WhoAreWeSectionOne = () => {
   );
 
   return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
+    <section id="about" className="pt-8 md:pt-12 lg:pt-14">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
-              <SectionTitle
-                title="Satışlarınızı ve Müşteri Memnuniyetinizi maksimum seviyeye çıkarın."
-                paragraph="Akıllı Ev ile satışlarınızdaki kârınızı arttırın. Yüksek teknoloji ile evinize değer katın, değeriniz artsın."
+              <SectionTitleAboutWhoAreWe
+                titleFirst="Solace "
+                titleSecond="Nedir?"
+                paragraph="teknoloji odakli yenilenebilir
+                yasam alanlarini sunan bir şirkettir.
+                En yeni akıllı teknolojileri maliyet-etkin bir şekilde müşterilerle buluşturuyoruz."
                 mb="44px"
               />
 
