@@ -9,8 +9,8 @@ const AboutSectionTwo = () => {
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
           <SectionTitle
-                title="Kârınızı Müşteri Memnuniyetini Artırın, Rakiplerinizin Önüne Geçin!"
-                paragraph="Solace'ın Akıllı Ev Sistemleri çözümleri ile hem kârınızı hem de müşteri memnuniyetinizi yukarılara çıkarın. Modern çağı yakalayın ve rakiplerinizden her seferinde bir adım önde olun."
+                title="Cironuzu ve Müşteri Memnuniyetinizi Artırın. Rakiplerinizin Önüne Geçin!"
+                paragraph="Solace'ın Akıllı Ev Sistemleri çözümleri ile hem kazancınızı hem de müşteri memnuniyetinizi yukarılara çıkarın. Modern çağı yakalayın ve rakiplerinizden her seferinde bir adım önde olun."
                 mb="44px"
               />
             <div
@@ -60,7 +60,7 @@ const AboutSectionTwo = () => {
                   Akıllı Evlerin Satışındaki Kar Artışı
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Günümüzde Akıllı Evlerin evlerin, Akıllı Sistemlere sahip olmayan evlere göre, %35&apos;e yakın bir ek kâr getirisi olduğundan ötürü,
+                  Günümüzde Akıllı Evlerin evlerin, Akıllı Sistemlere sahip olmayan evlere göre, %35&apos;e yakın bir ek kazanç getirisi olduğundan ötürü,
                   artık Akıllı Evlere ve Akıllı Sistemlere yönelik ciddi bir yönelim var.
                 </p>
               </div>

@@ -25,7 +25,7 @@ const SmartLifeSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Satışlarınızı ve Müşteri Memnuniyetinizi maksimum seviyeye çıkarın."
-                paragraph="Akıllı Ev ile satışlarınızdaki kârınızı arttırın. Yüksek teknoloji ile evinize değer katın, değeriniz artsın."
+                paragraph="Akıllı Ev ile satışlarınızdaki kazancınızı arttırın. Yüksek teknoloji ile evinize değer katın, değeriniz artsın."
                 mb="44px"
               />
 

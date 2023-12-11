@@ -26,7 +26,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Satışlarınızı ve Müşteri Memnuniyetinizi maksimum seviyeye çıkarın."
-                paragraph="Akıllı Ev ile satışlarınızdaki kârınızı arttırın. Yüksek teknoloji ile evinize değer katın, değeriniz artsın."
+                paragraph="Akıllı Ev ile satışlarınızdaki kazancınızı arttırın. Yüksek teknoloji ile evinize değer katın, değeriniz artsın."
                 mb="44px"
               />
 
@@ -36,7 +36,7 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Akıllı Ev ile satışlarınızdaki kârınızı arttırın." />
+                    <List text="Akıllı Ev ile satışlarınızdaki kazancınızı arttırın." />
                     <List text="Yüksek teknoloji ile evinize değer katın, değeriniz artsın." />
                     <List text="Müşterilerinize kişiselleştirilebilirliği tattırın." />
                   </div>

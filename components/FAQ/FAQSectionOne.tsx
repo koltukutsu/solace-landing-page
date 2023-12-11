@@ -33,7 +33,7 @@ const FAQSectionOne = () => {
             <div className="w-full px-4 lg:w-full">
               <SectionTitle
                 title="Evet, hayatı avuçlarınıza sunuyoruz."
-                paragraph="Akıllı Ev ile satışlarınızdaki kârınızı arttırın. Yüksek teknoloji ile evinize değer katın, değeriniz artsın."
+                paragraph="Akıllı Ev ile satışlarınızdaki kazancınızı arttırın. Yüksek teknoloji ile evinize değer katın, değeriniz artsın."
                 mb="44px"
               />
               {/* FAQ Section */}

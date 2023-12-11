@@ -53,7 +53,7 @@ const ValuesSectionTwo = () => {
                   Akıllı Evlerin Satışındaki Kar Artışı
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Günümüzde Akıllı Evlerin evlerin, Akıllı Sistemlere sahip olmayan evlere göre, %35&apos;e yakın bir ek kâr getirisi olduğundan ötürü,
+                  Günümüzde Akıllı Evlerin evlerin, Akıllı Sistemlere sahip olmayan evlere göre, %35&apos;e yakın bir ek kazanç getirisi olduğundan ötürü,
                   artık Akıllı Evlere ve Akıllı Sistemlere yönelik ciddi bir yönelim var.
                 </p>
               </div>
