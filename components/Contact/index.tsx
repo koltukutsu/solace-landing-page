@@ -1,5 +1,4 @@
 "use client";
-import { FaLinkedin, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
 import NewsLatterBox from "./NewsLatterBox";
 import emailjs from "emailjs-com";
 

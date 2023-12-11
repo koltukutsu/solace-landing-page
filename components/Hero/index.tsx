@@ -1,6 +1,15 @@
+'use client'
+
 import Link from "next/link";
 
 const Hero = () => {
+  const scrollToSolutions = () => {
+    const solutionsElement = document.getElementById('solutions');
+    
+    if (solutionsElement) {
+      solutionsElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <>
       <section
@@ -29,12 +38,12 @@ const Hero = () => {
                   >
                     İletişime Geçin
                   </Link>
-                  <Link
-                    href="/contact"
+                  <button
+                    onClick={scrollToSolutions}
                     className="inline-block rounded-md bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
                     Çözümlerimizi Keşfedin
-                  </Link>
+                  </button>
                 </div>
               </div>
             </div>

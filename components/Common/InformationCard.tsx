@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const InformationCard = ({ image, title, description }) => {
   return (
     <div className="grid max-w-sm flex-col rounded-3xl bg-white shadow-sm  dark:bg-gray-dark">
@@ -70,21 +72,18 @@ const InformationCardOnlyTitle = ({ image, title }) => {
     <div className="flex h-screen items-center justify-center bg-[#0d1829] ">
       <div className=" mx-auto rounded-3xl bg-white shadow-xl">
         <div className="grid max-w-sm flex-col rounded-3xl bg-slate-100  shadow-sm">
-          <img
+          <Image
             src={image}
-            width="390"
-            height="200"
+            fill
             className="grid h-80 justify-center rounded-t-3xl object-cover"
             alt="movie.title"
           />
 
           <div className="group z-10 grid p-6">
-            <a
-              href="<---somelink--->"
-              className="line-clamp-2 font-bold group-hover:text-cyan-700 sm:text-2xl"
+            <span className="line-clamp-2 font-bold group-hover:text-cyan-700 sm:text-2xl"
             >
               {title}
-            </a>
+            </span>
           </div>
         </div>
       </div>

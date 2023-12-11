@@ -3,6 +3,7 @@ import ValuesSectionTwo from "@/components/About-Values/ValuesSectionTwo";
 import VisionAndMissionOne from "@/components/About-Vission-And-Mission/VisionAndMissionOne";
 import VisionAndMissionTwo from "@/components/About-Vission-And-Mission/VisionAndMissionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import Contact from "@/components/Contact";
 
 const OurValues = () => {
 
@@ -12,6 +13,8 @@ const OurValues = () => {
       description="Solace Akıllı Yaşam Sistemleri olarak, yaşamın kendisine değer veriyoruz."
     />
     <ValuesSectionOne />
+    <Contact/>
+
     {/* <ValuesSectionTwo/> */}
   </>;
 

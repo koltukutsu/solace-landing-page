@@ -1,6 +1,7 @@
 import VisionAndMissionOne from "@/components/About-Vission-And-Mission/VisionAndMissionOne";
 import VisionAndMissionTwo from "@/components/About-Vission-And-Mission/VisionAndMissionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import Contact from "@/components/Contact";
 
 const VisionAndMission = () => {
   return (
@@ -11,6 +12,8 @@ const VisionAndMission = () => {
       />
       <VisionAndMissionOne />
       <VisionAndMissionTwo />
+      <Contact/>
+
     </>
   );
 };

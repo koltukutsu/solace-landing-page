@@ -14,7 +14,7 @@ const InformationsSection = () => {
               />
         <div className="flex flex-wrap -mx-4">
           {informationCardsList.map((card) => (
-            <div key={card.title} className="w-1/2 sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 mb-8">
+            <div key={card.title} className="w-full sm:w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
               {/* Each card takes up full width on small screens, half on medium, and one-third on large */}
               <InformationCard
                 title={card.title}
