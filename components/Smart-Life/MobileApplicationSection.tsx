@@ -146,7 +146,7 @@ const MobileApplicationSection = () => {
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
-          <div className="flex-cols flex w-full items-center px-4 md:w-full xl:w-1/2">
+          <div className="flex-cols flex w-full items-center px-4 md:w-full xl:w-1/2 ">
             <div className="md:flex">
               <ul className="flex-column space-y mb-4 space-y-4 text-sm font-medium text-gray-500 dark:text-gray-400 md:mb-0 md:me-4">
                 {mobileAppData.map((e) => {
@@ -155,7 +155,7 @@ const MobileApplicationSection = () => {
                       <button
                         type="button"
                         className={
-                          "active inline-flex w-full items-center justify-start rounded-md border-2 px-4 py-3  " +
+                          "active inline-flex w-full items-center justify-start rounded-md px-4 py-3  " +
                           (e.id === chosenTab
                             ? "text-primary hover:text-primary"
                             : "text-gray-500 hover:text-primary")
@@ -203,14 +203,14 @@ const MobileApplicationSection = () => {
             </div>
           </div>
           <div className="w-full pl-4 md:w-full xl:w-1/2">
-            <div className="wow fadeInUp max-w-[400px]" data-wow-delay=".2s">
-              <div className="mb-9 ml-10">
+            <div className="wow fadeInUp max-w-full" data-wow-delay=".2s">
+              <div className="mb-9 ml-10 sm:mt-4 md:mt-6">
                 <h3 className="text-6xl mb-4 font-bold text-black dark:text-white sm:text-6xl lg:text-6xl xl:text-6xl">
                   Tüm Cihazlarınız İçin Kolay Kullanım.
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Markası ne olursa olsun tüm akıllı cihazlarınız için harika
-                  bir arayüz! Akıllı evinizi avuçlarınıza sunuyoruz.
+                  bir arayüz! <br/> Akıllı evinizi avuçlarınıza sunuyoruz.
                 </p>
               </div>
             </div>
@@ -226,7 +226,7 @@ const MobileApplicationSection = () => {
         <div className="-mx-4 flex flex-wrap items-center">
           <CarouselMobileApp />
           <div className="w-full pl-4 md:w-full">
-            <div className="wow fadeInUp max-w-[400px]" data-wow-delay=".2s">
+            <div className="wow fadeInUp max-w-5/6" data-wow-delay=".2s">
               <div className="mb-9">
                 <h3 className="text-6xl mb-4 font-bold text-black dark:text-white sm:text-6xl lg:text-6xl xl:text-6xl">
                   Tüm Cihazlarınız İçin Kolay Kullanım.
