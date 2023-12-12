@@ -46,12 +46,12 @@ const AboutSectionOne = () => {
                     <List text="Uzaktan kontrolü sağlayın." />
                     <List text="Enerji tasarrufuyla ön plana çıkın." />
                   </div>
-                  <Link
+                  {/* <Link
                     href="/smart-life"
                     className="inline-block rounded-md bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:primary/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5 mt-8"
                   >
                     Akıllı Yaşam Hizmetlerimizi Görün
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
