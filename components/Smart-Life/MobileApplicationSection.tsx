@@ -1,62 +1,70 @@
 "use client";
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { useEffect, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
+import termostatImage from "@/public/images/mobile/termostat.png";
+import isikImage from "@/public/images/mobile/isik.png";
+import sensorlerImage from "@/public/images/mobile/sensorler.png";
+import kapiKilidiImage from "@/public/images/mobile/kapi-kilidi.png";
+import muzikImage from "@/public/images/mobile/muzik.png";
+import prizlerImage from "@/public/images/mobile/prizler.png";
+import perdelerImage from "@/public/images/mobile/perdeler.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { useSpring, animated } from '@react-spring/web'
 
 const mobileAppData: {
   id: string;
-  phoneImagePath: string;
+  phoneImagePath: StaticImageData;
   phoneImageAlt: string;
   svgPath: string;
   svgAlt: string;
 }[] = [
   {
     id: "Termostat",
-    phoneImagePath: "/images/mobile/termostat.png",
+    phoneImagePath: termostatImage,
     phoneImageAlt: "Termometre - Isi Kontrol",
     svgPath: "/images/mobile/svg/thermometer.svg",
     svgAlt: "Termometre - Isi Kontrol",
   },
   {
     id: "Işık",
-    phoneImagePath: "/images/mobile/isik.png",
+    phoneImagePath: isikImage,
     phoneImageAlt: "Isik Kontrol",
     svgPath: "/images/mobile/svg/bulp.svg",
     svgAlt: "Isik Kontrol",
   },
   {
     id: "Sensörler",
-    phoneImagePath: "/images/mobile/sensorler.png",
+    phoneImagePath: sensorlerImage,
     phoneImageAlt: "Sensorler Kontrol",
     svgPath: "/images/mobile/svg/sensor.svg",
     svgAlt: "Sensorler Kontrol",
   },
   {
     id: "Kapı Kilidi",
-    phoneImagePath: "/images/mobile/kapi-kilidi.png",
+    phoneImagePath: kapiKilidiImage,
     phoneImageAlt: "Termometre - Isi Kontrol",
     svgPath: "/images/mobile/svg/thermometer.svg",
     svgAlt: "Termometre - Isi Kontrol",
   },
   {
     id: "Müzik",
-    phoneImagePath: "/images/mobile/muzik.png",
+    phoneImagePath: muzikImage,
     phoneImageAlt: "Guvenlik Kontrolu",
     svgPath: "/images/mobile/svg/shield.svg",
     svgAlt: "Guvenlik Kontrolu",
   },
   {
     id: "Prizler",
-    phoneImagePath: "/images/mobile/prizler.png",
+    phoneImagePath: prizlerImage,
     phoneImageAlt: "Termometre - Isi Kontrol",
     svgPath: "/images/mobile/svg/plug.svg",
     svgAlt: "Prizler Kontrol",
   },
   {
     id: "Perdeler",
-    phoneImagePath: "/images/mobile/perdeler.png",
+    phoneImagePath: perdelerImage,
     phoneImageAlt: "Perdeler Kontrol",
     svgPath: "/images/mobile/svg/blind.svg",
     svgAlt: "Perdeler Kontrol",
@@ -64,9 +72,7 @@ const mobileAppData: {
 ];
 
 const MobileApplicationSection = () => {
-  const [mobileImage, setMobileImage] = useState(
-    "/images/mobile/termostat.png",
-  );
+  const [mobileImage, setMobileImage] = useState(termostatImage);
   const [chosenTab, setChosenTab] = useState("Termostat");
   const [isSmallScreen, setIsSmallScreen] = useState(false);
   useEffect(() => {
@@ -87,9 +93,24 @@ const MobileApplicationSection = () => {
     };
   }, []);
 
+  const [springs, api] = useSpring(() => ({
+    from: { x: 0, opacity: 1 }, // Adding opacity property for fade-in effect
+  }));
+
+  const handleClick = () => {
+    api.start({
+      from: { x: -25, opacity: 0 }, // Make sure to include opacity in the "from" object
+      to: { x: 0, opacity: 1 }, // Adding opacity property for fade-out effect
+    });
+  };
+
   const PhoneView = ({ contextPath, contextAlt }) => {
     return (
-      <div
+      <animated.div
+      style={{
+        transform: springs.x.interpolate((x) => `translateX(${x}px)`),
+        opacity: springs.opacity, // Use opacity from the animated values
+      }}
         className="wow fadeInUp relative mx-auto mb-12 aspect-[25/24] min-h-[800px] w-[400px] text-center lg:m-0"
         data-wow-delay=".15s"
       >
@@ -97,33 +118,28 @@ const MobileApplicationSection = () => {
           src={contextPath}
           alt={contextAlt}
           fill
-          className="relative drop-shadow-three dark:hidden dark:drop-shadow-none"
+          className="relative drop-shadow-three"
         />
-        <Image
-          src={contextPath}
-          alt={contextAlt}
-          fill
-          className="relative hidden drop-shadow-three dark:block dark:drop-shadow-none"
-        />
-      </div>
+      </animated.div>
     );
   };
 
   const CarouselMobileApp = () => {
     return (
       <Carousel className="p-6" autoPlay>
-          {mobileAppData.map((e) => (
-            <div key={e.id}>
-              <Image
-                src={e.phoneImagePath}
-                height={280}
-                width={140}
-                alt={e.phoneImageAlt}
-              />
-              <p className="legend">{e.id}</p>
-            </div>
-          ))}
-        </Carousel>
+        {mobileAppData.map((e) => (
+          <div key={e.id}>
+            <Image
+              src={e.phoneImagePath}
+              height={280}
+              width={140}
+              alt={e.phoneImageAlt}
+              priority={true}
+            />
+            <p className="legend">{e.id}</p>
+          </div>
+        ))}
+      </Carousel>
     );
   };
   const LargeScreen = () => (
@@ -148,6 +164,7 @@ const MobileApplicationSection = () => {
                         onClick={() => {
                           setMobileImage(e.phoneImagePath);
                           setChosenTab(e.id);
+                          handleClick();
                           console.log(chosenTab);
                         }}
                       >
@@ -166,6 +183,8 @@ const MobileApplicationSection = () => {
                             height={24}
                             autoCorrect="true"
                             className="fill-[#00AEFF]"
+                            priority={true}
+
                             // style={{ fill: "#00AEEF" }}
                           />
                           <span className="px-4 text-2xl">{e.id}</span>
@@ -223,7 +242,11 @@ const MobileApplicationSection = () => {
       </div>
     </section>
   );
-  return <div id="solutions">{isSmallScreen ? <SmallScreen /> : <LargeScreen />}</div>;
+  return (
+    <div id="solutions">
+      {isSmallScreen ? <SmallScreen /> : <LargeScreen />}
+    </div>
+  );
 };
 
 export default MobileApplicationSection;

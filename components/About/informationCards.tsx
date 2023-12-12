@@ -8,7 +8,7 @@ const informationCardsList: InformationCard[] = [
     },
     {
         title:"Aklınız Evinizde Kalmasın!",
-        description:"Güvenkik alarmımız ile evinizden uzakta olsanız dahi, her an evinizin güvenliğinden emin olun.",
+        description:"Güvenlik alarmımız ile evinizden uzakta olsanız dahi, her an evinizin güvenliğinden emin olun.",
         image:"/images/info-cards/security-home.png",
     },
     {
