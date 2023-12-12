@@ -205,7 +205,7 @@ const MobileApplicationSection = () => {
           <div className="w-full pl-4 md:w-full xl:w-1/2">
             <div className="wow fadeInUp max-w-[400px]" data-wow-delay=".2s">
               <div className="mb-9 ml-10">
-                <h3 className="text-6l mb-4 font-bold text-black dark:text-white sm:text-8xl lg:text-8xl xl:text-8xl">
+                <h3 className="text-6xl mb-4 font-bold text-black dark:text-white sm:text-6xl lg:text-6xl xl:text-6xl">
                   Tüm Cihazlarınız İçin Kolay Kullanım.
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
@@ -228,7 +228,7 @@ const MobileApplicationSection = () => {
           <div className="w-full pl-4 md:w-full">
             <div className="wow fadeInUp max-w-[400px]" data-wow-delay=".2s">
               <div className="mb-9">
-                <h3 className="text-6l mb-4 font-bold text-black dark:text-white sm:text-8xl lg:text-8xl xl:text-8xl">
+                <h3 className="text-6xl mb-4 font-bold text-black dark:text-white sm:text-6xl lg:text-6xl xl:text-6xl">
                   Tüm Cihazlarınız İçin Kolay Kullanım.
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
