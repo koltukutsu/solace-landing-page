@@ -3,12 +3,13 @@ import Image from "next/image";
 const InformationCard = ({ image, title, description }) => {
   return (
     <div className="grid max-w-sm flex-col rounded-3xl bg-white shadow-sm  dark:bg-gray-dark">
-      <img
+      <Image
         src={image}
         width="390"
         height="200"
         className="grid h-80 justify-center rounded-t-3xl object-cover"
-        alt="movie.title"
+        alt="Information Card"
+        priority={true}
       />
 
       <div className="group z-10 grid p-6">
@@ -76,7 +77,7 @@ const InformationCardOnlyTitle = ({ image, title }) => {
             src={image}
             fill
             className="grid h-80 justify-center rounded-t-3xl object-cover"
-            alt="movie.title"
+            alt="Information Cards"
           />
 
           <div className="group z-10 grid p-6">

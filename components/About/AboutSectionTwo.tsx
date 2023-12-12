@@ -1,6 +1,7 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 import Link from "next/link";
+import houseImage from "@/public/images/about/about-smart-house.png";
 
 const AboutSectionTwo = () => {
   return (
@@ -18,14 +19,16 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-smart-house.png"
+                src={houseImage}
                 alt="Smart House"
+                priority={true}
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none rounded-md"
               />
               <Image
-                src="/images/about/about-smart-house.png"
+                src={houseImage}
                 alt="Smart House"
+                priority={true}
                 fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none rounded-md"
               />
