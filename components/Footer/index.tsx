@@ -38,7 +38,7 @@ const Footer = () => {
                   /> */}
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Solace Akıllı Ev Sistemleri her daim yanınızda.
+                  Solace Akıllı Yaşam Sistemleri her daim yanınızda.
                 </p>
                 <div className="flex items-center">
                   {/* <a
