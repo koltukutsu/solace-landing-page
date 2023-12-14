@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import logoImage from "/images/logo/logo.svg";
 
 const Header = () => {
   // Navbar toggle
@@ -59,18 +60,20 @@ const Header = () => {
                 <div className="flex items-center">
 
                 <Image
-                  src="/images/logo/logo.svg"
-                  alt="logo"
+                  src={logoImage}
+                  alt="Solace logo"
                   width={60}
                   height={30}
                   className="w-full dark:hidden"
+                  priority
                 />
                 <Image
-                  src="/images/logo/logo.svg"
-                  alt="logo"
+                  src={logoImage}
+                  alt="Solace logo"
                   width={60}
                   height={30}
                   className="hidden w-full dark:block"
+                  priority
                 />
                 {/* <h2 className="w-full dark:hidden text-5xl font-bold text-linkedin">
                   Solace
