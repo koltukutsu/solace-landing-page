@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-import logoImage from "/images/logo/logo.svg";
+import logoImage from "@/public/images/logo/main_logo.svg";
 
 const Header = () => {
   // Navbar toggle
