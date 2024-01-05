@@ -7,8 +7,8 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Solace | Yaşamı Avuçlarınıza Sunuyoruz",
-  description: "Akıllı Ev Sistemi Çözümleri",
+  title: "Solace | Yaşamı Avucunuza Sunuyoruz",
+  description: "Akıllı Yaşam Çözümleri",
   // other metadata
 };
 

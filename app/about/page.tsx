@@ -5,8 +5,8 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Solace | Yaşamı Avuçlarınıza Sunuyoruz",
-  description: "Akıllı Ev Sistemi Çözümleri",
+  title: "Solace | Yaşamı Avucunuza Sunuyoruz",
+  description: "Akıllı Yaşam Çözümleri",
   // other metadata
 };
 
@@ -14,8 +14,8 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Hakkında Sayfası"
+        description="Solace Akıllı Yaşam Çözümlerini yakından tanıyın."
       />
       <AboutSectionOne />
       <AboutSectionTwo />
