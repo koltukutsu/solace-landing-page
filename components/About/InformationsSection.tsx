@@ -9,7 +9,7 @@ const InformationsSection = () => {
         {/* Use flex and flex-wrap to create a flex container */}
         <SectionTitle
                 title="Solace Sizin Çözüm Ortağınız"
-                paragraph="Merak etmeyin, Solace hayatı avuçlarınıza sunuyor."
+                paragraph="Merak etmeyin, Solace hayatı avucunuza sunuyor."
                 mb="44px"
               />
         <div className="flex flex-wrap -mx-4">

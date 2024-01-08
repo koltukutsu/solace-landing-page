@@ -32,7 +32,7 @@ const FAQSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-full">
               <SectionTitle
-                title="Evet, hayatı avuçlarınıza sunuyoruz."
+                title="Evet, hayatı avucunuza sunuyoruz."
                 paragraph="Akıllı Ev ile satışlarınızdaki kazancınızı arttırın. Yüksek teknoloji ile evinize değer katın, değeriniz artsın."
                 mb="44px"
               />

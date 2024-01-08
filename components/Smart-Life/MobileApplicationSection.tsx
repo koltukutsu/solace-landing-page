@@ -210,7 +210,7 @@ const MobileApplicationSection = () => {
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Markası ne olursa olsun tüm akıllı cihazlarınız için harika
-                  bir arayüz! <br/> Akıllı evinizi avuçlarınıza sunuyoruz.
+                  bir arayüz! <br/> Akıllı evinizi avucunuza sunuyoruz.
                 </p>
               </div>
             </div>
@@ -233,7 +233,7 @@ const MobileApplicationSection = () => {
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Markası ne olursa olsun tüm akıllı cihazlarınız için harika
-                  bir arayüz! Akıllı evinizi avuçlarınıza sunuyoruz.
+                  bir arayüz! Akıllı evinizi avucnuza sunuyoruz.
                 </p>
               </div>
             </div>
