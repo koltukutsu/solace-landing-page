@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import {PinContainer} from "../New-Main-Base/3d-pin";
+import { PinContainer } from "../New-Main-Base/3d-pin";
 import teamData from "../Team/teamData";
 import Image from "next/image";
-import {FaLinkedin} from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 export function TeamCardsAnimatedPin() {
     const customWidth = "w-56";
@@ -18,20 +18,21 @@ export function TeamCardsAnimatedPin() {
                     <PinContainer
                         title="LinkedIn"
                         href={member.linkedin}
+                        key={member.name}
                     >
                         <div
                             className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] justify-center items-center">
                             <div className="flex items-center justify-center">
                                 <FaLinkedin
-                                    className="hover:text-primary-dark -ml-1 mr-2 text-3xl text-linkedin duration-300 lg:text-3xl"/>
+                                    className="hover:text-primary-dark -ml-1 mr-2 text-3xl text-linkedin duration-300 lg:text-3xl" />
                                 <h5 className="mb-1 text-xl font-medium text-gray-900 hover:text-primary dark:text-white">
                                     {member.name}
                                 </h5>
                             </div>
                             <div className="text-base !m-0 !p-0 font-normal justify-center items-center">
-            <span className="text-slate-500 ">
-                {member.position}
-            </span>
+                                <span className="text-slate-500 ">
+                                    {member.position}
+                                </span>
                             </div>
                             <Image
                                 width={400}
