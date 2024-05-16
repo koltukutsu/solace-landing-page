@@ -9,9 +9,10 @@ import { FeaturesAndBenefitsWobbleCard } from "@/components/New-Main/features-an
 import ProductsLampEffect from "@/components/New-Main/products-lamp-effect";
 import { ProductsMobileAppTabs } from "@/components/New-Main/products-mobile-app-tabs";
 import { CtaForm } from "@/components/New-Main/cta-signup-form";
-import { TeamCardsAnimatedPin } from "@/components/New-Main/team-cards-3d-pin";
+// import { TeamCardsAnimatedPin } from "@/components/New-Main/team-cards-3d-pin";
 import { BackgroundBeams } from "@/components/New-Main-Base/background-beams";
 import { HeroHighlight } from "@/components/New-Main-Base/hero-highlight";
+import TeamSection from '@/components/Team';
 
 const sections = [
     { id: 'hero-intro-background', label: 'Hero' },
@@ -69,11 +70,10 @@ export default function Home() {
                 {sections.map((section) => (
                     <div key={section.id} className="relative flex items-center justify-center group mr-2">
                         <a href={`#${section.id}`}
-                           className={`w-4 h-4 rounded-full hover:bg-blue-500 transition duration-200 ease-in-out ${activeSection === section.id ? 'bg-specialBlue scale-125' : 'bg-gray-400 scale-50 -my-4'}`}>
+                            className={`w-4 h-4 rounded-full hover:bg-blue-500 transition duration-200 ease-in-out ${activeSection === section.id ? 'bg-specialBlue scale-125' : 'bg-gray-400 scale-50 -my-4'}`}>
                             <span
-                                className={`absolute right-full mr-3 pt-2 -translate-y-1/2 px-2 py-1 rounded-md bg-black text-white text-xs transition-opacity duration-200 ease-in-out whitespace-nowrap z-10 ${
-                                    showLabelId === section.id ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'
-                                }`}>
+                                className={`absolute right-full mr-3 pt-2 -translate-y-1/2 px-2 py-1 rounded-md bg-black text-white text-xs transition-opacity duration-200 ease-in-out whitespace-nowrap z-10 ${showLabelId === section.id ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'
+                                    }`}>
                                 {section.label}
                             </span>
                         </a>
@@ -126,7 +126,9 @@ export default function Home() {
                     <ProductsMobileAppTabs />
                 </div>
                 <div className="snap-always snap-center" id="teams-cards">
-                    <TeamCardsAnimatedPin />
+                    {/* <TeamCardsAnimatedPin /> */}
+                    <TeamSection />
+
                 </div>
                 <div className="snap-always snap-center" id="cta-form">
                     <CtaForm />
