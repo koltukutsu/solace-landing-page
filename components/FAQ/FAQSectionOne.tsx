@@ -32,8 +32,8 @@ const FAQSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-full">
               <SectionTitle
-                title="Evet, hayatı avucunuza sunuyoruz."
-                paragraph="Akıllı Ev ile satışlarınızdaki kazancınızı arttırın. Yüksek teknoloji ile evinize değer katın, değeriniz artsın."
+                title="Sikca Sorulan Sorular"
+                paragraph=" "
                 mb="44px"
               />
               {/* FAQ Section */}

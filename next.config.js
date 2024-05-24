@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["localhost", "assets.aceternity.com", "flutter-example-webapp.vercel.app"],
+    domains: ["localhost", "assets.aceternity.com", "flutter-example-webapp.vercel.app", "pbs.twimg.com"],
     remotePatterns: [
       {
         protocol: "https",

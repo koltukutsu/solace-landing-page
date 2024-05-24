@@ -13,6 +13,7 @@ import { CtaForm } from "@/components/New-Main/cta-signup-form";
 import { BackgroundBeams } from "@/components/New-Main-Base/background-beams";
 import { HeroHighlight } from "@/components/New-Main-Base/hero-highlight";
 import TeamSection from '@/components/Team';
+import Footer from "@/components/Footer";
 
 const sections = [
     { id: 'hero-intro-background', label: 'Hero' },
@@ -132,6 +133,9 @@ export default function Home() {
                 </div>
                 <div className="snap-always snap-center" id="cta-form">
                     <CtaForm />
+                </div>
+                <div className="snap-always snap-center " id="footer">
+                    <Footer/>
                 </div>
             </div>
         </div>

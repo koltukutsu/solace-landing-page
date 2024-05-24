@@ -36,7 +36,7 @@ export default function RootLayout({
                 {/*<NewNavbarMenu/>*/}
                 <NewFloatingNav/>
                 {children}
-                <Footer/>
+                {/*<Footer/>*/}
                 <ScrollToTop/>
             </Providers>
         </MantineProvider>

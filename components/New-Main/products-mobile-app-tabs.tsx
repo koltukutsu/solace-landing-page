@@ -3,7 +3,7 @@
 import Image from "next/image";
 import {Tabs} from "../New-Main-Base/tabs";
 import React from "react";
-import CihazKontrolleriIframe from "@/components/Phone-Wrapper/cihaz-kontrolleri-iframe";
+import CihazIFrame from "@/components/Phone-Wrapper/cihaz-iframe";
 
 export function ProductsMobileAppTabs() {
     // const iframeRef = React.useRef(null);
@@ -18,6 +18,10 @@ export function ProductsMobileAppTabs() {
     //         console.log(data);
     //     }
     // }, []);
+    const deviceControlUrl = "https://flutter-example-webapp.vercel.app/#/device-control";
+    const deviceControlInDetailUrl = "https://flutter-example-webapp.vercel.app/#/device-controls-in-detail";
+    const automationUrl = "https://flutter-example-webapp.vercel.app/#/automation";
+    const userManagementUrl = "https://flutter-example-webapp.vercel.app/#/user-management";
 
     const tabs = [
         {
@@ -27,7 +31,7 @@ export function ProductsMobileAppTabs() {
                 <div
                     className="overflow-hidden relative h-full p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
                     <p>Product Tab</p>
-                    <CihazKontrolleriIframe/>
+                    <CihazIFrame url={deviceControlUrl}/>
                 </div>
             ),
         },

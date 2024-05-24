@@ -36,7 +36,7 @@ const teamData: Person[] = [
   },
   {
     id: 5,
-    name: "Erkam BABACAN",
+    name: "Erkam KAVAK",
     position: "Baş Mühendis",
     image: erkamImage, // Replace with the path to the member's image
     linkedin: "https://tr.linkedin.com/in/erkam-kavak-8b8667184",
