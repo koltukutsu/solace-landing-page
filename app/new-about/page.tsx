@@ -49,7 +49,7 @@ import {AboutBentoGridThird} from "@/components/New-About/about-bento-grid";
 import TeamSection from "@/components/Team";
 
 function useOnScreen(options) {
-    const ref = useRef();
+    const ref = useRef(null);
     const [isIntersecting, setIntersecting] = useState(false);
 
     useEffect(() => {
