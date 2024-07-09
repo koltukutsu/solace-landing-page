@@ -6,10 +6,10 @@ const words = `Misyon: Solace olarak misyonumuz tam kabiliyetli, verimli ve güv
 
 const words2 = `Vizyon: Piyasadaki cihazları potansiyellerine uygun kullanmak, eksik kalan donanımı kendimiz geliştirmektir.`;
 
-export function AboutTextGenerateEffect({ref}) {
+export function AboutTextGenerateEffect() {
 
     return (
-        <div ref={ref} className="min-h-screen container flex flex-col justify-center items-start">
+        <div className="min-h-screen container flex flex-col justify-center items-start">
             <TextGenerateEffect words={words}/>
             {/*<TextGenerateEffect words={words2} duration={4} isOnScreen={isOnScreen}/>*/}
         </div>
