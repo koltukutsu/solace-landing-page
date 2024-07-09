@@ -11,6 +11,7 @@ export function AboutTextGenerateEffect() {
     return (
         <div className="min-h-screen container flex flex-col justify-center items-start">
             <TextGenerateEffect words={words}/>
+            <TextGenerateEffect words={words2}/>
             {/*<TextGenerateEffect words={words2} duration={4} isOnScreen={isOnScreen}/>*/}
         </div>
     );
