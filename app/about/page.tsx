@@ -11,31 +11,42 @@ import {AboutTextGenerateEffect} from "@/components/New-About/about-text-generat
 // };
 
 const AboutPage = () => {
-    const [ref1, isOnScreen1] = useOnScreen({threshold: 0.1});
-    const [ref2, isOnScreen2] = useOnScreen({threshold: 0.1});
-    const [ref3, isOnScreen3] = useOnScreen({threshold: 0.1});
-    const [ref4, isOnScreen4] = useOnScreen({threshold: 0.1});
+    // const [ref1, isOnScreen1] = useOnScreen({threshold: 0.1});
+    // const [ref2, isOnScreen2] = useOnScreen({threshold: 0.1});
+    // const [ref3, isOnScreen3] = useOnScreen({threshold: 0.1});
+    // const [ref4, isOnScreen4] = useOnScreen({threshold: 0.1});
 
     return (
         <div className="no-scrollbar snap-y snap-mandatory overflow-y-scroll h-screen flex-grow z-0 scroll-smooth">
-            <div ref={ref1} className="snap-always snap-center" id="solace-motto">
-                <AboutSpotlight isOnScreen={isOnScreen1}/>
-            </div>
-            <div ref={ref2} className="snap-always snap-center" id="solace-short-description">
-                <AboutFlipWords isOnScreen={isOnScreen2}/>
-            </div>
-            <div ref={ref3} className="snap-always snap-center" id="solace-long-description">
-                <AboutTextGenerateEffect ref={ref3} isOnScreen={isOnScreen3}/>
-            </div>
-            <div
-                className="snap-always snap-center " id="values">
-                <AboutBentoGridThird/>
-            </div>
-            <div className="snap-always snap-center" id="teams-cards">
-                {/* <TeamCardsAnimatedPin /> */}
-                <TeamSection/>
+            <RevealOnScroll>
+                <div className="snap-always snap-center" id="solace-motto">
+                    <AboutSpotlight/>
+                </div>
+            </RevealOnScroll>
+            <RevealOnScroll>
+                <div className="snap-always snap-center" id="solace-short-description">
+                    <AboutFlipWords/>
+                </div>
+            </RevealOnScroll>
+            <RevealOnScroll>
 
-            </div>
+                <div className="snap-always snap-center" id="solace-long-description">
+                    <AboutTextGenerateEffect/>
+                </div>
+            </RevealOnScroll>
+            <RevealOnScroll>
+                <div
+                    className="snap-always snap-center " id="values">
+                    <AboutBentoGridThird/>
+                </div>
+            </RevealOnScroll>
+            <RevealOnScroll>
+                <div className="snap-always snap-center" id="teams-cards">
+                    {/* <TeamCardsAnimatedPin /> */}
+                    <TeamSection/>
+
+                </div>
+            </RevealOnScroll>
 
         </div>
     );
@@ -47,6 +58,7 @@ export default AboutPage;
 import React, {useEffect, useRef, useState} from 'react';
 import {AboutBentoGridThird} from "@/components/New-About/about-bento-grid";
 import TeamSection from "@/components/Team";
+import RevealOnScroll from "@/components/Common/RevealOnScroll";
 
 function useOnScreen(options) {
     const ref = useRef<HTMLDivElement>();
