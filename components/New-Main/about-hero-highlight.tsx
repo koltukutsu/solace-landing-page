@@ -5,20 +5,6 @@ import React from "react";
 import {cn} from "@/utils/cn";
 
 export function AboutHeroHighlight() {
-    let mouseX = useMotionValue(0);
-    let mouseY = useMotionValue(0);
-
-    function handleMouseMove({
-                                 currentTarget,
-                                 clientX,
-                                 clientY,
-                             }: React.MouseEvent<HTMLDivElement>) {
-        if (!currentTarget) return;
-        let {left, top} = currentTarget.getBoundingClientRect();
-
-        mouseX.set(clientX - left);
-        mouseY.set(clientY - top);
-    }
 
     return (
         <div className={`min-h-screen`}>

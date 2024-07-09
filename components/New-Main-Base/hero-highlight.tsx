@@ -1,7 +1,7 @@
 "use client";
 import { cn } from "@/utils/cn";
-import { useMotionValue, motion, useMotionTemplate } from "framer-motion";
-import React from "react";
+import { useMotionValue, motion, useMotionTemplate, useInView } from "framer-motion";
+import React, { useEffect, useRef } from "react";
 
 export const HeroHighlight = ({
                                   children,
@@ -12,8 +12,10 @@ export const HeroHighlight = ({
     className?: string;
     containerClassName?: string;
 }) => {
-    let mouseX = useMotionValue(0);
-    let mouseY = useMotionValue(0);
+    const mouseX = useMotionValue(0);
+    const mouseY = useMotionValue(0);
+    const containerRef = useRef<HTMLDivElement>(null);
+    const isInView = useInView(containerRef, { once: true, amount: 0.5 });
 
     function handleMouseMove({
                                  currentTarget,
@@ -26,8 +28,16 @@ export const HeroHighlight = ({
         mouseX.set(clientX - left);
         mouseY.set(clientY - top);
     }
+
+    useEffect(() => {
+        if (isInView) {
+            // Perform any animation or state updates needed when the component is in view
+        }
+    }, [isInView]);
+
     return (
         <div
+            ref={containerRef}
             className={cn(
                 "relative min-h-screen flex items-center bg-white dark:bg-black justify-center w-full group",
                 containerClassName
@@ -36,22 +46,22 @@ export const HeroHighlight = ({
         >
             <div className="absolute inset-0 bg-dot-thick-neutral-300 dark:bg-dot-thick-neutral-800  pointer-events-none" />
             <motion.div
-                className="pointer-events-none bg-dot-thick-indigo-500 dark:bg-dot-thick-indigo-500   absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100"
+                className="pointer-events-none bg-dot-thick-indigo-500 dark:bg-dot-thick-indigo-500 absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100"
                 style={{
                     WebkitMaskImage: useMotionTemplate`
-            radial-gradient(
-              200px circle at ${mouseX}px ${mouseY}px,
-              black 0%,
-              transparent 100%
-            )
-          `,
+                        radial-gradient(
+                          200px circle at ${mouseX}px ${mouseY}px,
+                          black 0%,
+                          transparent 100%
+                        )
+                      `,
                     maskImage: useMotionTemplate`
-            radial-gradient(
-              200px circle at ${mouseX}px ${mouseY}px,
-              black 0%,
-              transparent 100%
-            )
-          `,
+                        radial-gradient(
+                          200px circle at ${mouseX}px ${mouseY}px,
+                          black 0%,
+                          transparent 100%
+                        )
+                      `,
                 }}
             />
 
@@ -86,7 +96,7 @@ export const Highlight = ({
                 display: "inline",
             }}
             className={cn(
-                `relative inline-block pb-1   px-1 rounded-lg bg-gradient-to-r from-indigo-300 to-purple-300 dark:from-indigo-500 dark:to-purple-500`,
+                `relative inline-block pb-1 px-1 rounded-lg bg-gradient-to-r from-indigo-300 to-purple-300 dark:from-indigo-500 dark:to-purple-500`,
                 className
             )}
         >
