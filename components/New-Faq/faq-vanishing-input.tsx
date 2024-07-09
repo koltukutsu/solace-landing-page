@@ -1,6 +1,6 @@
 "use client";
 
-import { PlaceholdersAndVanishInput } from "../New-Faq-Base/vanishing-input";
+import { FaqVanishingInput } from "../New-Faq-Base/vanishing-input";
 
 export function PlaceholdersAndVanishInputDemo() {
     const placeholders = [
@@ -23,7 +23,7 @@ export function PlaceholdersAndVanishInputDemo() {
             <h2 className="mb-10 sm:mb-20 text-xl text-center sm:text-5xl dark:text-white text-black">
                 Ask Aceternity UI Anything
             </h2>
-            <PlaceholdersAndVanishInput
+            <FaqVanishingInput
                 placeholders={placeholders}
                 onChange={handleChange}
                 onSubmit={onSubmit}
