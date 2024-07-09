@@ -6,17 +6,24 @@ export function NewFloatingNav() {
     const navItems = [
         {
             name: "Ana Sayfa",
-            link: "/new-main",
+            link: "/",
             icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
         },
         {
             name: "Hakkımızda",
-            link: "/new-about",
+            link: "/about",
             icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
         },
         {
             name: "Bize Ulaşın",
-            link: "/new-faq",
+            link: "/contact",
+            icon: (
+                <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
+            ),
+        },
+        {
+            name: "SSS",
+            link: "/faq",
             icon: (
                 <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
             ),
