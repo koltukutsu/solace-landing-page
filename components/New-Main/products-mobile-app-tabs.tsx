@@ -86,7 +86,7 @@ export function ProductsMobileAppTabs() {
         <div className="min-h-screen container">
 
             <div
-                className="h-[30rem] md:h-[50rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-40 pt-20">
+                className="h-[30rem] md:h-[50rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-20">
                 <Tabs tabs={[tabs[0]]}/>
             </div>
         </div>

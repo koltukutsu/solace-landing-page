@@ -153,7 +153,7 @@ export default function Home() {
             </div>
 
             <div
-              className="min-h-screen w-full snap-center snap-always"
+              className="w-full snap-center snap-always"
               id="products-mobile-app"
             >
               <ProductsMobileAppTabs />
