@@ -19,7 +19,10 @@ const TeamSection = ({ customWidth = "w-56", customHeight = "h-56" }) => {
     );
     return (
         <div className="container flex flex-col justify-center items-center min-h-screen">
-            <SectionTitle title="Ekibimiz" paragraph="" center width="665px" />
+            {/* <SectionTitle title="Ekibimiz" paragraph="" center width="665px" /> */}
+            <h2 className={`mb-4 text-3xl font-bold !leading-tight text-black dark:text-white  sm:text-4xl md:text-[45px]`}>
+          Ekibimiz
+        </h2>
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full">
                 {teamData.map((member) => (
                     <div className="w-full max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800" key={member.id}>

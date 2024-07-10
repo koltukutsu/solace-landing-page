@@ -3,44 +3,61 @@
 import Contact from "@/components/Contact";
 import FAQSectionOne from "@/components/FAQ/FAQSectionOne";
 import FAQSectionTwo from "@/components/FAQ/FAQSectionTwo";
-import {FaqVanishingInput} from "@/components/New-Faq-Base/vanishing-input";
+import { FaqVanishingInput } from "@/components/New-Faq-Base/vanishing-input";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import { HeroHighlight } from "@/components/New-Main-Base/hero-highlight";
 
 const FAQPage = () => {
-    // onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-    // onSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
-    const placeholders = [
-        "What's the first rule of Fight Club?",
-        "Who is Tyler Durden?",
-        "Where is Andrew Laeddis Hiding?",
-        "Write a Javascript method to reverse a string",
-        "How to assemble your own PC?",
-    ];
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        console.log(e.target.value);
-    }
-    const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  // onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  // onSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
+  const placeholders = [
+    "Ensi Home enerji tasarrufu sağlar mı?",
+    "Güvenlik sistemleri nasıl çalışıyor?",
+    "Ensi Home evimi gerçekten koruyabilir mi?",
+    "Akıllı ev sistemlerini kurmak için ek donanım ihtiyacım olacak mı?",
+    "Ensi Home montajı ne kadar sürer ve maliyeti nedir?",
+    "Ensi Home ile aydınlatmamı nasıl kontrol edebilirim?",
+    "Isıtma ve soğutma sistemlerini uzaktan kontrol edebilir miyim?",
+    "Akıllı ev sistemleri evde olmadığımda evimi nasıl yönetir?",
+    "Akıllı ev sistemleri internet bağlantısı olmadan çalışabilir mi?",
+    "Akıllı ev sistemleri farklı markaların cihazları ile uyumlu mu?",
+    "Ensi Home sesli komutlarla çalışabilir mi?",
+    "Ensi Home ile güvenlik kameralarını nasıl izleyebilirim?",
+    "Ensi Home ile evdeki elektrikli cihazları otomatik olarak kapatabilir miyim?",
+    "Ensi Home ile su sızıntılarını veya yangınları tespit edebilir miyim?",
+    "Akıllı ev sistemleri kullanımı ne kadar karmaşık ve yaşlılar için uygun mu?",
+    "Ensi Home için düzenli olarak bakım veya güncelleme yapmak gerekir mi?",
+  ];
 
-    }
-    return <>
-        <section className="relative z-10 overflow-hidden pt-28 lg:pt-[150px]">
-            <div className="no-scrollbar snap-y snap-mandatory overflow-y-scroll h-screen flex-grow z-0 scroll-smooth">
-                <div className="min-h-screen snap-always snap-center" id="question-part">
-                    <FaqVanishingInput placeholders={placeholders} onChange={
-                        handleChange
-                    } onSubmit={
-                        onSubmit
-                    }/>
-                    <FAQSectionOne/>
-                </div>
-                {/*<FAQSectionTwo/>*/}
-                <div className={"snap-always snap-center"}>
-                    <Contact/>
-                </div>
-            </div>
-        </section>
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    console.log(e.target.value);
+  };
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {};
+  return (
+    <>
+      <div className="z-0 min-h-screen w-full flex-grow scroll-smooth">
+        {/* <HeroHighlight> */}
+        <div
+          className="flex min-h-screen flex-col items-center justify-center"
+          id="question-part"
+        >
+          <div className="w-full pb-8">
+            <FaqVanishingInput
+              placeholders={placeholders}
+              onChange={handleChange}
+              onSubmit={onSubmit}
+            />
+          </div>
 
+          <FAQSectionOne />
+        </div>
+        {/* <div className="min-h-screen snap-always snap-center flex flex-col items-center justify-center">
+      <Contact />
+    </div> */}
+        {/* </HeroHighlight> */}
+      </div>
     </>
-}
+  );
+};
 
 export default FAQPage;

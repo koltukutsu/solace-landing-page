@@ -9,7 +9,7 @@ import {
   IconBrandOnlyfans,
 } from "@tabler/icons-react";
 
-export function CtaForm() {
+export function NewContactForm() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form submitted");
