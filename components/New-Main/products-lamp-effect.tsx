@@ -18,7 +18,7 @@ export default function ProductsLampEffect() {
                     }}
                     className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
                 >
-                    Build lamps <br /> the right way
+                    Her bir urun <br /> dogru sekilde yapildi
                 </motion.h1>
             </LampContainer>
         </div>

@@ -25,10 +25,10 @@ export function AboutHeroHighlight() {
                         }}
                         className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
                     >
-                        With Solace, nothing&apos;s real. Everything is far away. Everything
-                        is {" "}
+                        Yüksek Teknolojileri tasarlayıp geliştirerek, Akıllı ve İnovatif çözümleri
+                        {"  "}
                         <Highlight className="text-black dark:text-white">
-                            life, of you, that we care.
+                            Hayata Geçiriyoruz!
                         </Highlight>
 
                     </motion.h1>

@@ -20,7 +20,7 @@ export function FaqVanishingInput({
         const startAnimation = () => {
             interval = setInterval(() => {
                 setCurrentPlaceholder((prev) => (prev + 1) % placeholders.length);
-            }, 1500);
+            }, 3000);
         };
         startAnimation();
         return () => clearInterval(interval);
