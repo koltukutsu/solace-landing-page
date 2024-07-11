@@ -1,6 +1,7 @@
-"use client";
+
+"use client"
 import React, { useEffect, useRef, useState } from "react";
-import { AnimatePresence, motion, LayoutGroup } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/utils/cn";
 let interval: any;
 
@@ -35,6 +36,10 @@ export const FlipWords = ({
         }, duration);
     };
 
+    const formatWord = (word: string) => {
+        return word.split(/(?=[A-Z])/).join(" ");
+    };
+
     return (
         <AnimatePresence>
             <motion.div
@@ -67,20 +72,26 @@ export const FlipWords = ({
                 )}
                 key={currentWord}
             >
-                {currentWord.split("").map((letter, index) => (
-                    <motion.span
-                        key={currentWord + index}
-                        initial={{ opacity: 0, y: 10, filter: "blur(8px)" }}
-                        animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                        transition={{
-                            delay: index * 0.08,
-                            duration: 0.4,
-                        }}
-                        className="inline-block"
-                    >
-                        {letter}
-                    </motion.span>
-                ))}
+                {formatWord(currentWord).split("").map((letter, index) => {
+                    if (letter === " ") {
+                        return <span key={currentWord + index} className="inline-block w-2" />;
+                    } else {
+                        return (
+                            <motion.span
+                                key={currentWord + index}
+                                initial={{ opacity: 0, y: 10, filter: "blur(8px)" }}
+                                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                                transition={{
+                                    delay: index * 0.08,
+                                    duration: 0.4,
+                                }}
+                                className="inline-block"
+                            >
+                                {letter}
+                            </motion.span>
+                        );
+                    }
+                })}
             </motion.div>
         </AnimatePresence>
     );

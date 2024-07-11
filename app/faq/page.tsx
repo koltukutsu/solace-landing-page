@@ -38,18 +38,21 @@ const FAQPage = () => {
       <div className="z-0 min-h-screen w-full flex-grow scroll-smooth">
         {/* <HeroHighlight> */}
         <div
-          className="flex min-h-screen flex-col items-center justify-center"
-          id="question-part"
+            className="flex min-h-screen flex-col items-center justify-center"
+            id="question-part"
         >
-          <div className="w-full pb-8">
+          <div className="text-center mt-8">
+            <h1 className="text-4xl md:text-7xl bg:text-7xl font-bold">Sıkça Sorulan Sorular</h1>
+          </div>
+          <div className="w-full pb-8 pt-20">
             <FaqVanishingInput
-              placeholders={placeholders}
-              onChange={handleChange}
-              onSubmit={onSubmit}
+                placeholders={placeholders}
+                onChange={handleChange}
+                onSubmit={onSubmit}
             />
           </div>
 
-          <FAQSectionOne />
+          <FAQSectionOne/>
         </div>
         {/* <div className="min-h-screen snap-always snap-center flex flex-col items-center justify-center">
       <Contact />

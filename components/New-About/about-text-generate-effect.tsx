@@ -1,10 +1,9 @@
 "use client";
 import {TextGenerateEffect} from "../New-About-Base/text-generate-effect";
 
-const words = `Misyon: Solace olarak misyonumuz tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirmek ve bunları yaygınlaştırmaktır
-`;
+const words = `Misyonumuz, tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları kullanıcılarımızla buluşturmak ve teknolojinin sunduğu tüm olanakları en üst düzeyde sunmaktır. Kullanıcılarımızın ihtiyaçlarını karşılamak için kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek herkesin kullanımına sunuyoruz.`;
 
-const words2 = `Vizyon: Piyasadaki cihazları potansiyellerine uygun kullanmak, eksik kalan donanımı kendimiz geliştirmektir.`;
+const words2 = `Vizyonumuz, çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri global pazara sunan lider bir teknoloji şirketi olmaktır. Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde güven ve kalite sembolü olmayı hedefliyoruz.`;
 
 export function AboutTextGenerateEffect() {
 

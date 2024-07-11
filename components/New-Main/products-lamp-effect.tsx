@@ -16,9 +16,9 @@ export default function ProductsLampEffect() {
                         duration: 0.8,
                         ease: "easeInOut",
                     }}
-                    className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+                    className="mt-0 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
                 >
-                    Her bir urun <br /> dogru sekilde yapildi
+                    Ensi Home <br /> Akıllı Ev Sistemi
                 </motion.h1>
             </LampContainer>
         </div>

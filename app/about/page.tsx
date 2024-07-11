@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const AboutPage = () => {
     return (
         <div className="no-scrollbar snap-y snap-mandatory overflow-y-scroll h-screen flex-grow z-0 scroll-smooth">
-                <div className="snap-always snap-center" id="solace-motto">
+                <div className="snap-always snap-center min-h-screen" id="solace-motto">
                     <AboutSpotlight/>
                 </div>
                 <div className="snap-always snap-center" id="solace-short-description">
@@ -31,7 +31,6 @@ const AboutPage = () => {
                 <div className="snap-always snap-center" id="teams-cards">
                     {/* <TeamCardsAnimatedPin /> */}
                     <TeamSection/>
-
                 </div>
         </div>
     );

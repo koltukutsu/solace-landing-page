@@ -16,7 +16,7 @@ export function NewContactForm() {
   };
   return (
     <div className="smin-h-screen container mx-auto w-full max-w-md rounded-none bg-white p-4 shadow-input dark:bg-black md:rounded-2xl md:p-8">
-      <h2 className="text-xl font-bold text-neutral-800 dark:text-neutral-200">
+      <h2 className="text-4xl font-bold text-neutral-800 dark:text-neutral-200">
         Bize Ulaşın
       </h2>
       <p className="mt-2 max-w-sm text-sm text-neutral-600 dark:text-neutral-300">

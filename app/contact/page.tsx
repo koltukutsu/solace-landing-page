@@ -1,102 +1,72 @@
 "use client";
+import {FaInstagram, FaTwitter, FaLinkedin} from "react-icons/fa";
 
-import React, { useEffect, useState, useRef } from "react";
-import Breadcrumb from "@/components/Common/Breadcrumb";
-import Contact from "@/components/Contact";
-import SocialMediaAccounts from "@/components/Contact/SocialMediaAccounts";
-import { HeroHighlight } from "@/components/New-Main-Base/hero-highlight";
-import { CtaForm } from "@/components/New-Main/cta-signup-form";
-import { NewContactForm } from "@/components/New-Contact/form";
-import { NewContactBulletin } from "@/components/New-Contact/bulletin";
-
-// Sections array defining the sections with their ids and labels
-const sections = [
-  { id: "form", label: "Form" },
-  // { id: "bulletin", label: "Bulletin" },
-  // { id: "social-media-accounts", label: "Social Media" },
-];
+import {NewContactForm} from "@/components/New-Contact/form";
+import {NewContactBulletin} from "@/components/New-Contact/bulletin";
+import {motion} from "framer-motion";
 
 const ContactPage = () => {
-  // State for the currently active section and label to show
-  const [activeSection, setActiveSection] = useState("");
-  const [showLabelId, setShowLabelId] = useState<string | null>(null);
-  // Ref for the intersection observer
-  const observerRef = useRef<IntersectionObserver | null>(null);
+    return (
+        <>
+            <div className="z-0 min-h-screen w-full  flex-grow scroll-smooth">
 
-  useEffect(() => {
-    // Initialize the intersection observer
-    observerRef.current = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
-            setShowLabelId(entry.target.id);
-            // Hide label after 2 seconds
-            setTimeout(() => {
-              setShowLabelId(null);
-            }, 2000);
-          }
-        });
-      },
-      {
-        root: null,
-        rootMargin: "0px",
-        threshold: 0.5,
-      },
+                <div
+                    className="flex min-h-screen flex-col items-center justify-center"
+                    id="question-part"
+                >
+                    <div className="flex flex-col items-center justify-center">
+                        <div className="text-center mt-8">
+                            <h1 className="text-4xl md:text-7xl bg:text-7xl font-bold pb-8">Bize Ulaşın
+                            </h1>
+
+                        </div>
+                        <SocialMediaIcons/>
+                    </div>
+                    <div className="pt-20 flex flex-col md:flex-row items-center justify-center">
+                        <NewContactForm/>
+                        <div className="w-24"></div>
+                        <NewContactBulletin/>
+                    </div>
+
+
+                </div>
+            </div>
+        </>
     );
-
-    // Observe each section element
-    sections.forEach((section) => {
-      const element = document.getElementById(section.id);
-      if (element) observerRef.current?.observe(element);
-    });
-
-    // Cleanup observer on component unmount
-    return () => {
-      sections.forEach((section) => {
-        const element = document.getElementById(section.id);
-        if (element) observerRef.current?.unobserve(element);
-      });
-    };
-  }, []);
-
-  return (
-    <>
-      <div className="fixed right-0 top-1/2 z-50 flex -translate-y-1/2 transform flex-col justify-center space-y-4 bg-transparent">
-        {sections.map((section) => (
-          <div
-            key={section.id}
-            className="group relative mr-2 flex items-center justify-center"
-          >
-            <a
-              href={`#${section.id}`}
-              className={`h-4 w-4 rounded-full transition duration-200 ease-in-out hover:bg-blue-500 ${
-                activeSection === section.id
-                  ? "scale-125 bg-specialBlue"
-                  : "-my-4 scale-50 bg-gray-400"
-              }`}
-            >
-              <span
-                className={`absolute right-full z-10 mr-3 -translate-y-1/2 whitespace-nowrap rounded-md bg-black px-2 py-1 pt-2 text-xs text-white transition-opacity duration-200 ease-in-out ${
-                  showLabelId === section.id
-                    ? "opacity-100"
-                    : "opacity-0 group-hover:opacity-100"
-                }`}
-              >
-                {section.label}
-              </span>
-            </a>
-          </div>
-        ))}
-      </div>
-      <div className="no-scrollbar z-0 h-screen flex-grow snap-y snap-mandatory overflow-y-scroll scroll-smooth flex-row">
-        <div className="snap-center snap-always flex flex-row" id="form">
-        <NewContactForm />
-        <NewContactBulletin />
-        </div>
-      </div>
-    </>
-  );
 };
 
 export default ContactPage;
+
+
+const SocialMediaIcons = () => {
+    return (
+        <div className="flex justify-center mt-4 space-x-4">
+            <a
+                href="https://www.instagram.com/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-800 hover:text-gray-500"
+            >
+                <FaInstagram size={64}/>
+            </a>
+            <a
+                href="https://www.twitter.com/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-800 hover:text-gray-500"
+            >
+                <FaTwitter size={64}/>
+            </a>
+            <a
+                href="https://www.linkedin.com/in/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-800 hover:text-gray-500"
+            >
+                <FaLinkedin size={64}/>
+            </a>
+        </div>
+    );
+};
+
+// export default SocialMediaIcons;

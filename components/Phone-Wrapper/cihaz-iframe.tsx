@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import PhoneWrapper from "../Phone-Wrapper/phone-wrapper";
 
 const FlutterIframe = ({ url }) => {
@@ -25,8 +25,9 @@ const FlutterIframe = ({ url }) => {
         <PhoneWrapper>
             <iframe
                 src={url}
-                style={{width: '100%', height: '500px', border: 'none'}}
-                title="Flutter App"
+                style={{ width: '100%', height: '100%', border: 'none' }}
+                title="Ensi Home Mobil Uygulama"
+                className="h-96 sm:h-112 md:h-128 lg:h-144 xl:h-160"
             />
         </PhoneWrapper>
     );

@@ -6,9 +6,9 @@ import Image from "next/image";
 
 const content = [
     {
-        title: "Collaborative Editing",
+        title: "İnsan Odaklı",
         description:
-            "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+            "Solace, kullanıcıların yaşamlarını kolaylaştırmak için insan odaklı akıllı sistemler geliştirir. Bu, güvenli ve verimli çözümler sunarak, kullanıcıların ihtiyaçlarına uygun kişiselleştirilmiş teknolojiler üretmek anlamına gelir. Kullanıcı verilerinin gizliliği ve güvenliği önceliklidir.",
         content: (
             <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
                 Collaborative Editing
@@ -16,9 +16,9 @@ const content = [
         ),
     },
     {
-        title: "Real time changes",
+        title: "Akıllı Sistemler",
         description:
-            "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+            "Yapay zeka ve yazılım entegrasyonu ile akıllı cihazları koordine eden sistemler geliştirir. Bu sistemler, kullanıcıların zihinsel yükünü azaltır ve günlük yaşamlarını daha rahat ve pratik hale getirir.",
         content: (
             <div className="h-full w-full  flex items-center justify-center text-white">
                 <Image
@@ -32,9 +32,9 @@ const content = [
         ),
     },
     {
-        title: "Version control",
+        title: "Yaşam Alanları",
         description:
-            "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+            " Solace, teknolojiyi kullanarak yaşam alanlarını daha konforlu ve kullanıcı dostu hale getirir. Bu, günlük yaşamda rahatlık ve pratiklik sağlayan çözümler sunar.",
         content: (
             <div className="h-full w-full  flex items-center justify-center text-white">
                 <Image
@@ -48,9 +48,9 @@ const content = [
         ),
     },
     {
-        title: "Running out of content",
+        title: "Ulaşılabilirlik",
         description:
-            "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+            "Solace, ileri teknolojileri herkesin kullanımına sunmak için uzmanlık gerektiren sistemleri basitleştirir. Bu, akıllı sistemlerin daha geniş kitlelere ulaşmasını ve teknolojinin faydalarından herkesin yararlanmasını sağlar.",
         content: (
             <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
                 Running out of content
