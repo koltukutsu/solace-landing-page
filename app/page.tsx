@@ -122,7 +122,7 @@ export default function Home() {
                 </div>
                 <div className="" id="product-beam-starting">
                     <div
-                        className="relative flex w-full flex-col items-center justify-center rounded-b-md bg-slate-950 antialiased">
+                        className="relative flex w-full flex-col items-center justify-center bg-slate-950 antialiased">
                         <BackgroundBeams/>
                         <div
                             id="product-ensi"
