@@ -68,7 +68,7 @@ export default function Home() {
     }, []);
 
     return (
-        <div className="no-scrollbar z-0 h-screen flex-grow snap-y snap-mandatory scroll-smooth">
+        <div className="no-scrollbar z-0 h-screen flex-grow snap-y snap-mandatory overflow-y-scroll  scroll-smooth">
             <div
                 className="fixed right-0 top-1/2 z-50 flex -translate-y-1/2 transform flex-col justify-center space-y-4 bg-transparent">
                 {sections.map((section) => (

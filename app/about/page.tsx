@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const AboutPage = () => {
     return (
-        <div className="no-scrollbar snap-y snap-mandatory h-screen flex-grow z-0 scroll-smooth">
+        <div className="no-scrollbar snap-y snap-mandatory overflow-y-scroll h-screen flex-grow z-0 scroll-smooth">
                 <div className="snap-always snap-center min-h-screen" id="solace-motto">
                     <AboutSpotlight/>
                 </div>
