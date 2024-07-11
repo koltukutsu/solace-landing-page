@@ -20,7 +20,7 @@ const sections = [
     // turkcelestir
     {id: "hero-intro-background", label: "Karşılama"},
     {id: "about-hero", label: "Solace Ne Yapıyor?"},
-    {id: "about-reveal", label: "Solace Prensipler "},
+    {id: "about-reveal", label: "Solace Prensipleri"},
     {id: "features-and-benefits", label: "Solace Özellikleri"},
     {id: "product-lamp", label: "Ensi Home"},
     {id: "product-beam-starting", label: "Box"},
