@@ -17,15 +17,16 @@ import Image from "next/image";
 import EnsiHomePageMobileAppSection from "@/components/New-Main/ensi-mobile-app";
 
 const sections = [
-    {id: "hero-intro-background", label: "Hero"},
-    {id: "about-hero", label: "About Hero"},
-    {id: "about-reveal", label: "About Reveal"},
-    {id: "features-and-benefits", label: "Features & Benefits"},
-    {id: "product-lamp", label: "Product Lamp"},
-    {id: "product-beam-starting", label: "Beam Starting"},
-    {id: "products-mobile-app", label: "Mobile App"},
-    {id: "teams-cards", label: "Teams Cards"},
-    {id: "cta-form", label: "CTA Form"},
+    // turkcelestir
+    {id: "hero-intro-background", label: "Karşılama"},
+    {id: "about-hero", label: "Solace Ne Yapıyor?"},
+    {id: "about-reveal", label: "Solace Prensipler "},
+    {id: "features-and-benefits", label: "Solace Özellikleri"},
+    {id: "product-lamp", label: "Ensi Home"},
+    {id: "product-beam-starting", label: "Box"},
+    {id: "products-mobile-app", label: "Mobil Uygulama"},
+    {id: "teams-cards", label: "Solace Ekibi"},
+    // {id: "cta-form", label: "CTA Form"},
 ];
 
 export default function Home() {
@@ -166,9 +167,9 @@ export default function Home() {
                 <div className="snap-center snap-always" id="teams-cards">
                     <TeamSection/>
                 </div>
-                <div className="snap-center snap-always" id="cta-form">
-                    <CtaForm/>
-                </div>
+                {/*<div className="snap-center snap-always" id="cta-form">*/}
+                {/*    <CtaForm/>*/}
+                {/*</div>*/}
                 <div className="snap-center snap-always" id="footer">
                     <Footer/>
                 </div>
