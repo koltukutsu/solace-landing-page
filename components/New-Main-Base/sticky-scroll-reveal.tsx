@@ -67,7 +67,7 @@ export const StickyScroll = ({
             {/* Motion Div with Scrollbar */}
             <motion.div
                 ref={ref}
-                className="custom-scrollbar h-[30rem] flex justify-center relative space-x-10 rounded-md p-10"
+                className="custom-scrollbar overflow-y-scroll h-[30rem] flex justify-center relative space-x-10 rounded-md p-10"
                 animate={{
                     backgroundColor: backgroundColors[activeCard % backgroundColors.length],
                 }}
