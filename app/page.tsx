@@ -126,24 +126,25 @@ export default function Home() {
                         <BackgroundBeams/>
                         <div
                             id="product-ensi"
-                            className="container mx-auto flex min-h-screen w-full snap-center snap-always flex-col items-center justify-between p-4 md:flex-row md:items-center"
+                            className="p-4 md:p-20 flex min-h-screen flex-col md:flex-row items-center justify-center bg-slate-950 snap-center snap-always"
                         >
-                            <div className="flex flex-col items-center md:mr-8 md:w-1/2 md:items-start pr-18 text-left">
+                            <div
+                                className="flex flex-col items-center md:mr-8 md:w-1/2 md:items-start md:pr-18 text-left">
                                 <h1
                                     className="
-                relative bg-gradient-to-b from-neutral-200 to-neutral-600 bg-clip-text text-center font-sans font-bold text-transparent md:text-left text-4xl md:text-7xl
-              "
+        relative bg-gradient-to-b from-neutral-200 to-neutral-600 bg-clip-text text-center font-sans font-bold text-transparent text-6xl md:text-left md:text-7xl
+      "
                                 >
                                     Ensi
                                 </h1>
                                 <h1
                                     className="
-                bg-gradient-to-br from-slate-300 to-slate-500 py-2 bg-clip-text text-left  font-medium tracking-tight text-transparent text-4xl md:text-7xl
-              "
+        bg-gradient-to-br from-slate-300 to-slate-500 py-2 bg-clip-text text-center md:text-left font-medium tracking-tight text-transparent text-4xl md:text-7xl
+      "
                                 >
                                     Home Box
                                 </h1>
-                                <p className="relative z-10 mx-auto my-2 text-xl max-w-lg text-center text-neutral-500 md:text-left">
+                                <p className="relative z-10 mx-auto my-2 text-xl max-w-lg text-center text-neutral-500 md:text-left md:mx-0">
                                     Ensi Home ile birlikte evinizdeki akıllı cihazları tek bir beyine toplayarak size
                                     eşsiz bir deneyim sunuyoruz. Tıpkı bir orkestra şefi gibi Ensi, evinizdeki akıllı
                                     cihazların tam bir harmoni ile birlikte çalışmasını sağlar.
@@ -152,9 +153,10 @@ export default function Home() {
                             <img
                                 src="/ensi/ensi_home_box.jpg"
                                 alt="Ensi Home Box"
-                                className="w-3/5 rounded-lg mt-4 md:mt-0"
+                                className="w-4/5 rounded-lg mt-4 md:mt-0 md:w-3/5"
                             />
                         </div>
+`
 
                         <div className="w-full snap-center snap-always" id="products-mobile-app">
                             <EnsiHomePageMobileAppSection/>

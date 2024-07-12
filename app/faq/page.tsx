@@ -1,12 +1,15 @@
 "use client";
 
-import Contact from "@/components/Contact";
 import FAQSectionOne from "@/components/FAQ/FAQSectionOne";
-import FAQSectionTwo from "@/components/FAQ/FAQSectionTwo";
 import { FaqVanishingInput } from "@/components/New-Faq-Base/vanishing-input";
-import Breadcrumb from "@/components/Common/Breadcrumb";
-import { HeroHighlight } from "@/components/New-Main-Base/hero-highlight";
+import faqList from "@/components/FAQ/faq";
+import React, {useEffect, useRef, useState} from "react";
 
+const sections = [
+  // turkcelestir
+  {id: "sss", label: "Sıkça Sorulan Sorular"},
+  // {id: "cta-form", label: "CTA Form"},
+];
 const FAQPage = () => {
   // onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   // onSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
@@ -29,20 +32,85 @@ const FAQPage = () => {
     "Ensi Home için düzenli olarak bakım veya güncelleme yapmak gerekir mi?",
   ];
 
+  const [activeSection, setActiveSection] = useState("");
+  const [showLabelId, setShowLabelId] = useState<string | null>(null);
+  const observerRef = useRef<IntersectionObserver | null>(null);
+
+  useEffect(() => {
+    observerRef.current = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              setActiveSection(entry.target.id);
+              setShowLabelId(entry.target.id);
+              setTimeout(() => {
+                setShowLabelId(null);
+              }, 2000);
+            }
+          });
+        },
+        {
+          root: null,
+          rootMargin: "0px",
+          threshold: 0.5,
+        },
+    );
+
+    sections.forEach((section) => {
+      const element = document.getElementById(section.id);
+      if (element) observerRef.current?.observe(element);
+    });
+
+    return () => {
+      sections.forEach((section) => {
+        const element = document.getElementById(section.id);
+        if (element) observerRef.current?.unobserve(element);
+      });
+    };
+  }, []);
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     console.log(e.target.value);
   };
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {};
   return (
     <>
-      <div className="z-0 min-h-screen w-full flex-grow scroll-smooth">
+      <div className="no-scrollbar snap-y snap-mandatory overflow-y-scroll h-screen flex-grow z-0 scroll-smooth">
         {/* <HeroHighlight> */}
         <div
-            className="flex min-h-screen flex-col items-center justify-center"
-            id="question-part"
+            className="fixed right-0 top-1/2 z-50 flex -translate-y-1/2 transform flex-col justify-center space-y-4 bg-transparent">
+          {sections.map((section) => (
+              <div
+                  key={section.id}
+                  className="group relative mr-2 flex items-center justify-center"
+              >
+                <a
+                    href={`#${section.id}`}
+                    className={`h-4 w-4 rounded-full transition duration-200 ease-in-out hover:bg-blue-500 ${
+                        activeSection === section.id
+                            ? "scale-125 bg-specialBlue"
+                            : "-my-4 scale-50 bg-gray-400"
+                    }`}
+                >
+              <span
+                  className={`absolute right-full z-10 mr-3 -translate-y-1/2 whitespace-nowrap rounded-md bg-black px-2 py-1 pt-2 text-xs text-white transition-opacity duration-200 ease-in-out ${
+                      showLabelId === section.id
+                          ? "opacity-100"
+                          : "opacity-0 group-hover:opacity-100"
+                  }`}
+              >
+                {section.label}
+              </span>
+                </a>
+              </div>
+          ))}
+        </div>
+        <div
+            className={faqList.length > 4 ? "flex min-h-screen flex-col items-center justify-center mt-20 md:2" : "flex min-h-screen flex-col items-center justify-center mt-20 md:mt-2"}
+            id="sss"
         >
           <div className="text-center mt-8">
-            <h1 className="text-4xl md:text-7xl bg:text-7xl font-bold">Sıkça Sorulan Sorular</h1>
+            <h1 className="text-6xl md:text-7xl bg:text-7xl font-bold">Sıkça Sorulan Sorular</h1>
           </div>
           <div className="w-full pb-8 pt-20">
             <FaqVanishingInput

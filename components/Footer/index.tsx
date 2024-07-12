@@ -193,9 +193,9 @@ const Footer = () => {
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
               Solace Akıllı Yaşam Sistemleri{" "}
-              <a href="https://nextjstemplates.com" rel="nofollow noopener">
+              <Link href="/contact" rel="nofollow noopener">
                 tarafından geliştirilmiştir.
-              </a>
+              </Link>
             </p>
           </div>
         </div>
