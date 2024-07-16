@@ -10,19 +10,22 @@ export function EnsiHoverFeaturesSection() {
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="h-[40rem] flex flex-col lg:flex-row overflow-hidden items-center justify-center bg-slate-950 w-full gap-4 mx-auto px-8 relative"
+      className="relative mx-auto flex h-[40rem] w-full flex-col items-center justify-center gap-4 overflow-hidden bg-slate-950 px-8 lg:flex-row"
     >
-      <p className="md:text-2xl text-2xl font-medium text-center text-white relative z-20 max-w-2xl mx-auto">
-        Ensi Home ile birlikte size gercek bir akilli ev sunuyoruz. Everything is far away. Everything
-        is a copy, of a copy, of a copy
+      <p className="relative z-20 mx-auto max-w-2xl text-center text-2xl font-medium text-white md:text-2xl">
+        Ensi Home ile size gerçek bir akıllı ev sunuyoruz. Tüm cihazlarınızı tek
+        bir platformda entegre eder, yapay zeka destekli otomasyonlarla
+        yaşamınızı kolaylaştırır. Güvenli ve kişiselleştirilmiş bir akıllı ev
+        deneyimi için Ensi Home'u keşfedin.
       </p>
+
       <AnimatePresence>
         {hovered && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="h-full w-full absolute inset-0"
+            className="absolute inset-0 h-full w-full"
           >
             <CanvasRevealEffect
               animationSpeed={5}
@@ -38,7 +41,7 @@ export function EnsiHoverFeaturesSection() {
         )}
       </AnimatePresence>
       {/* Radial gradient for the cute fade */}
-      <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
+      <div className="absolute inset-0 bg-black/50 [mask-image:radial-gradient(400px_at_center,white,transparent)] dark:bg-black/90" />
     </div>
   );
 }

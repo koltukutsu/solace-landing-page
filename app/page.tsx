@@ -15,7 +15,7 @@ import Footer from "@/components/Footer";
 
 import Image from "next/image";
 import EnsiHomePageMobileAppSection from "@/components/New-Main/ensi-mobile-app";
-import { EnsiHomePillars } from "@/components/New-Main/ensi-home-features";
+import { EnsiHomePillars } from "@/components/New-Main/ensi-home-pillars";
 import { EnsiHoverFeaturesSection } from "@/components/New-Main/ensi-features-hover-section";
 
 const sections = [
