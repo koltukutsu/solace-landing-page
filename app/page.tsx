@@ -161,18 +161,18 @@ export default function Home() {
                         </div>
 `
 
-                        <div className="w-full snap-center snap-always" id="products-mobile-app">
+                        <div className="w-full snap-center snap-always flex items-center justify-center" id="products-mobile-app">
                             <EnsiHomePageMobileAppSection/>
                         </div>
-                        <div className="w-full snap-center snap-always" id="ensi-home-features-section"
+                        <div className="w-full snap-center snap-always flex items-center justify-center" id="ensi-home-features-section"
                         >
                             <EnsiHoverFeaturesSection/>
                         </div>
-                        <div className="min-h-screen w-full snap-center snap-always" id="ensi-home-pillars"
+                        <div className="min-h-screen w-full snap-center snap-always flex items-center justify-center" id="ensi-home-pillars"
                         >
                             <EnsiHomePillars/>
                         </div>
-                        <div className="min-h-screen w-full snap-center snap-always" id="ensi-home-features"
+                        <div className="min-h-screen w-full snap-center snap-always flex items-center justify-center" id="ensi-home-features"
                         >
                             <EnsiHomeFeatures/>
                         </div>
