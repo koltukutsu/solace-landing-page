@@ -20,6 +20,7 @@
     "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-label": "^2.0.2",
     "@react-spring/web": "^9.7.3",
+    "@react-three/fiber": "^8.16.8",
     "@tabler/icons-react": "^2.47.0",
     "@vercel/analytics": "^1.3.1",
     "babel-plugin-macros": "^3.1.0",
@@ -30,7 +31,7 @@
     "embla-carousel-react": "^7.1.0",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
-    "framer-motion": "^11.2.6",
+    "framer-motion": "^11.3.4",
     "html5-device-mockups": "^3.2.1",
     "lucide-react": "^0.407.0",
     "mini-svg-data-uri": "^1.4.4",
@@ -43,8 +44,9 @@
     "react-modal-video": "^2.0.0",
     "react-responsive-carousel": "^3.2.23",
     "simplex-noise": "^4.0.1",
-    "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.166.1"
   },
   "devDependencies": {
     "@types/node": "^20.8.9",

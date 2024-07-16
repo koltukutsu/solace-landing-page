@@ -15,6 +15,8 @@ import Footer from "@/components/Footer";
 
 import Image from "next/image";
 import EnsiHomePageMobileAppSection from "@/components/New-Main/ensi-mobile-app";
+import { EnsiHomePillars } from "@/components/New-Main/ensi-home-features";
+import { EnsiHoverFeaturesSection } from "@/components/New-Main/ensi-features-hover-section";
 
 const sections = [
     // turkcelestir
@@ -23,7 +25,7 @@ const sections = [
     {id: "about-reveal", label: "Solace Prensipleri"},
     {id: "features-and-benefits", label: "Solace Özellikleri"},
     {id: "product-lamp", label: "Ensi Home"},
-    {id: "product-beam-starting", label: "Box"},
+    {id: "product-ensi", label: "Box"},
     {id: "products-mobile-app", label: "Mobil Uygulama"},
     {id: "teams-cards", label: "Solace Ekibi"},
     // {id: "cta-form", label: "CTA Form"},
@@ -160,6 +162,18 @@ export default function Home() {
 
                         <div className="w-full snap-center snap-always" id="products-mobile-app">
                             <EnsiHomePageMobileAppSection/>
+                        </div>
+                        <div className="w-full snap-center snap-always" id="ensi-home-features-section"
+                        >
+                            <EnsiHoverFeaturesSection/>
+                        </div>
+                        <div className="w-full snap-center snap-always" id="ensi-home-pillars"
+                        >
+                            <EnsiHomePillars/>
+                        </div>
+                        <div className="w-full snap-center snap-always" id="ensi-home-features"
+                        >
+                            <EnsiHomePillars/>
                         </div>
                     </div>
                 </div>
