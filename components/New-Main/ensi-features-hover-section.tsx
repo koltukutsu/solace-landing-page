@@ -16,7 +16,7 @@ export function EnsiHoverFeaturesSection() {
         Ensi Home ile size gerçek bir akıllı ev sunuyoruz. Tüm cihazlarınızı tek
         bir platformda entegre eder, yapay zeka destekli otomasyonlarla
         yaşamınızı kolaylaştırır. Güvenli ve kişiselleştirilmiş bir akıllı ev
-        deneyimi için Ensi Home'u keşfedin.
+        deneyimi için Ensi Home&apos;u keşfedin.
       </p>
 
       <AnimatePresence>
