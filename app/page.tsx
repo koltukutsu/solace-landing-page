@@ -17,6 +17,7 @@ import Image from "next/image";
 import EnsiHomePageMobileAppSection from "@/components/New-Main/ensi-mobile-app";
 import { EnsiHomePillars } from "@/components/New-Main/ensi-home-pillars";
 import { EnsiHoverFeaturesSection } from "@/components/New-Main/ensi-features-hover-section";
+import { EnsiHomeFeatures } from "@/components/New-Main/ensi-home-features";
 
 const sections = [
     // turkcelestir
@@ -167,13 +168,13 @@ export default function Home() {
                         >
                             <EnsiHoverFeaturesSection/>
                         </div>
-                        <div className="w-full snap-center snap-always" id="ensi-home-pillars"
+                        <div className="min-h-screen w-full snap-center snap-always" id="ensi-home-pillars"
                         >
                             <EnsiHomePillars/>
                         </div>
-                        <div className="w-full snap-center snap-always" id="ensi-home-features"
+                        <div className="min-h-screen w-full snap-center snap-always" id="ensi-home-features"
                         >
-                            <EnsiHomePillars/>
+                            <EnsiHomeFeatures/>
                         </div>
                     </div>
                 </div>

@@ -10,7 +10,7 @@ export function EnsiHoverFeaturesSection() {
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="relative mx-auto flex h-[40rem] w-full flex-col items-center justify-center gap-4 overflow-hidden bg-slate-950 px-8 lg:flex-row"
+      className="relative mx-auto flex min-h-screen w-full flex-col items-center justify-center gap-4 overflow-hidden bg-slate-950 px-8 lg:flex-row"
     >
       <p className="relative z-20 mx-auto max-w-2xl text-center text-2xl font-medium text-white md:text-2xl">
         Ensi Home ile size gerçek bir akıllı ev sunuyoruz. Tüm cihazlarınızı tek
