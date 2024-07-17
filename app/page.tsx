@@ -18,6 +18,7 @@ import EnsiHomePageMobileAppSection from "@/components/New-Main/ensi-mobile-app"
 import { EnsiHomePillars } from "@/components/New-Main/ensi-home-pillars";
 import { EnsiHoverFeaturesSection } from "@/components/New-Main/ensi-features-hover-section";
 import { EnsiHomeFeatures } from "@/components/New-Main/ensi-home-features";
+import { SolaceFeatures } from "@/components/New-Main/solace-features";
 
 const sections = [
     // turkcelestir
@@ -113,12 +114,12 @@ export default function Home() {
                     <AboutHeroHighlight/>
                 </div>
                 <div className="snap-center snap-always" id="about-reveal">
-                    <HeroHighlight>
-                        <AboutStickyScrollReveal/>
+                    <HeroHighlight >
+                        <SolaceFeatures/>
                     </HeroHighlight>
                 </div>
                 <div className="snap-center snap-always" id="features-and-benefits">
-                    <HeroHighlight>
+                    <HeroHighlight >
                         <FeaturesAndBenefitsWobbleCard/>
                     </HeroHighlight>
                 </div>
