@@ -26,11 +26,11 @@ const sections = [
     {id: "about-reveal", label: "Solace Prensipleri"},
     {id: "features-and-benefits", label: "Solace Özellikleri"},
     {id: "product-lamp", label: "Ensi Home"},
-    {id: "product-ensi", label: "Box"},
+    {id: "ensi-home-box", label: "Ensi Home Box"},
+    {id: "ensi-home-mobile-application", label: "Ensi Home Mobil Uygulama"},
     {id: "ensi-home-features-section", label: "Ensi Home Farkı"},
     {id: "ensi-home-pillars", label: "Ensi Home Temelleri"},
     {id: "ensi-home-features", label: "Ensi Home Özellikleri"},
-    {id: "products-mobile-app", label: "Mobil Uygulama"},
     {id: "teams-cards", label: "Solace Ekibi"},
     // {id: "cta-form", label: "CTA Form"},
 ];
@@ -131,7 +131,7 @@ export default function Home() {
                         className="relative flex w-full flex-col items-center justify-center bg-slate-950 antialiased">
                         <BackgroundBeams/>
                         <div
-                            id="product-ensi"
+                            id="ensi-home-box"
                             className="p-4 md:p-20 flex min-h-screen flex-col md:flex-row items-center justify-center bg-slate-950 snap-center snap-always"
                         >
                             <div
@@ -164,7 +164,7 @@ export default function Home() {
                         </div>
 `
 
-                        <div className="w-full snap-center snap-always flex items-center justify-center" id="products-mobile-app">
+                        <div className="w-full snap-center snap-always flex items-center justify-center" id="ensi-home-mobile-application">
                             <EnsiHomePageMobileAppSection/>
                         </div>
                         <div className="w-full snap-center snap-always flex items-center justify-center" id="ensi-home-features-section"
