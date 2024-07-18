@@ -4,10 +4,10 @@ import { MaskContainer } from "../New-About-Base/svg-mask-effect";
 
 export function WhoAreWeSVGMaskMission() {
   return (
-    <div className="min-h-screen w-full flex items-center justify-center  overflow-hidden">
+    <div className="min-h-screen w-full flex items-center justify-center sm:xl md:text-4xl  overflow-hidden">
       <MaskContainer
         revealText={
-          <p className="max-w-4xl mx-auto text-slate-800 text-center  text-4xl font-bold">
+          <p className="max-w-4xl mx-auto text-slate-800 text-center sm:xl md:text-4xl font-bold">
             Misyonumuz, tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları kullanıcılarımızla buluşturmak ve 
             teknolojinin sunduğu tüm olanakları en üst düzeyde sunmaktır. Kullanıcılarımızın ihtiyaçlarını karşılamak için 
             kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek herkesin kullanımına sunuyoruz.
@@ -26,10 +26,10 @@ export function WhoAreWeSVGMaskMission() {
 
 export function WhoAreWeSVGMaskVision() {
   return (
-    <div className="min-h-screen w-full flex items-center justify-center overflow-hidden">
+    <div className="min-h-screen w-full flex items-center sm:xl md:text-4xl justify-center overflow-hidden">
       <MaskContainer
         revealText={
-          <p className="max-w-4xl mx-auto text-slate-800 text-center text-4xl font-bold">
+          <p className="max-w-4xl mx-auto text-slate-800 text-center sm:xl md:text-4xl font-bold">
             Vizyonumuz, çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri global pazara sunan lider bir teknoloji şirketi olmaktır. Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde güven ve kalite sembolü olmayı hedefliyoruz.
           </p>
         }

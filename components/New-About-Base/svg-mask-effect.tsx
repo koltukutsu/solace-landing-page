@@ -46,7 +46,7 @@ export const MaskContainer = ({
       }}
     >
       <motion.div
-        className="w-full h-full flex items-center justify-center text-6xl absolute bg-black bg-grid-white/[0.2] text-white [mask-image:url(/mask.svg)] [mask-size:40px] [mask-repeat:no-repeat]"
+        className="w-full h-full flex items-center justify-center sm:xl md:text-4xl absolute bg-black bg-grid-white/[0.2] text-white [mask-image:url(/mask.svg)] [mask-size:40px] [mask-repeat:no-repeat]"
         animate={{
           WebkitMaskPosition: `${mousePosition.x - maskSize / 2}px ${
             mousePosition.y - maskSize / 2
@@ -63,15 +63,18 @@ export const MaskContainer = ({
           onMouseLeave={() => {
             setIsHovered(false);
           }}
-          className="max-w-4xl mx-auto text-center text-white  text-4xl font-bold relative z-20"
+          className="w-3/4 max-w-4xl mx-auto text-center text-white sm:xl md:text-4xl font-bold relative z-20"
         >
           {children}
         </div>
       </motion.div>
-
-      <div className="w-full h-full flex items-center justify-center  text-white">
+<div className="w-full h-full flex items-center justify-center">
+<div className="w-3/4 h-full flex items-center justify-center text-white">
         {revealText}
       </div>
+
+</div>
+      
     </motion.div>
   );
 };
