@@ -276,7 +276,7 @@ const SkeletonFive = () => {
             className="flex flex-row rounded-2xl border border-neutral-100 dark:border-white/[0.2] p-2 items-start space-x-2 bg-white dark:bg-black"
           >
             <Image
-              src="/public/images/logo/main_logo.svg"
+              src="/images/logo/main_logo.svg"
               alt="Solace"
               height="100"
               width="100"
