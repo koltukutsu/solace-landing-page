@@ -30,7 +30,7 @@ export const MaskContainer = ({
       if (containerRef.current) {
         containerRef.current.removeEventListener(
           "mousemove",
-          updateMousePosition
+          updateMousePosition,
         );
       }
     };
@@ -40,13 +40,13 @@ export const MaskContainer = ({
   return (
     <motion.div
       ref={containerRef}
-      className={cn("h-screen relative", className)}
+      className={cn("relative h-screen", className)}
       animate={{
         backgroundColor: isHovered ? "var(--slate-900)" : "var(--white)",
       }}
     >
       <motion.div
-        className="w-full h-full flex items-center justify-center sm:xl md:text-4xl absolute bg-black bg-grid-white/[0.2] text-white [mask-image:url(/mask.svg)] [mask-size:40px] [mask-repeat:no-repeat]"
+        className="sm:xl bg-grid-white/[0.2] absolute flex h-full w-full items-center justify-center bg-black text-white [mask-image:url(/mask.svg)] [mask-repeat:no-repeat] [mask-size:40px] md:text-4xl"
         animate={{
           WebkitMaskPosition: `${mousePosition.x - maskSize / 2}px ${
             mousePosition.y - maskSize / 2
@@ -55,7 +55,7 @@ export const MaskContainer = ({
         }}
         transition={{ type: "tween", ease: "backOut", duration: 0.1 }}
       >
-        <div className="absolute inset-0 bg-black h-full w-full z-0 opacity-50" />
+        <div className="absolute inset-0 z-0 h-full w-full bg-black opacity-50" />
         <div
           onMouseEnter={() => {
             setIsHovered(true);
@@ -63,18 +63,16 @@ export const MaskContainer = ({
           onMouseLeave={() => {
             setIsHovered(false);
           }}
-          className="w-3/4 max-w-4xl mx-auto text-center text-white sm:xl md:text-4xl font-bold relative z-20"
+          className="sm:xl relative z-20 mx-auto w-3/4 max-w-4xl text-center font-bold text-white md:text-4xl"
         >
           {children}
         </div>
       </motion.div>
-<div className="w-full h-full flex items-center justify-center">
-<div className="w-3/4 h-full flex items-center justify-center text-white">
-        {revealText}
+      <div className="flex h-full w-full items-center justify-center">
+        <div className="flex h-full w-3/4 items-center justify-center text-white">
+          {revealText}
+        </div>
       </div>
-
-</div>
-      
     </motion.div>
   );
 };

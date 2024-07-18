@@ -24,7 +24,7 @@ const TeamSection = ({ customWidth = "w-56", customHeight = "h-56" }) => {
             <h1 className="text-4xl md:text-7xl bg:text-7xl font-bold pb-8">
                 Ekibimiz
             </h1>
-            <div className="grid grid-cols-1 gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full">
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 w-full">
                 {teamData.map((member) => (
                     <div
                         className="w-full max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800" key={member.id}>

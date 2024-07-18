@@ -41,13 +41,13 @@ const teamData: Person[] = [
     image: erkamImage, // Replace with the path to the member's image
     linkedin: "https://tr.linkedin.com/in/erkam-kavak-8b8667184",
   },
-  {
-    id: 6,
-    name: "Ruşen ELÇİOĞLU",
-    position: "Endüstriyel Tasarım ve Grafik Tasarımı",
-    image: erkamImage, // Replace with the path to the member's image
-    linkedin: "https://tr.linkedin.com/in/erkam-kavak-8b8667184",
-  },
+  // {
+  //   id: 6,
+  //   name: "Ruşen ELÇİOĞLU",
+  //   position: "Endüstriyel Tasarım ve Grafik Tasarımı",
+  //   image: erkamImage, // Replace with the path to the member's image
+  //   linkedin: "https://tr.linkedin.com/in/erkam-kavak-8b8667184",
+  // },
   // Add more team members as needed
 ];
 export default teamData;
