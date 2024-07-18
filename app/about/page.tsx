@@ -4,9 +4,10 @@ import {AboutFlipWords} from "@/components/New-About/about-flip-words";
 import {AboutTextGenerateEffect} from "@/components/New-About/about-text-generate-effect";
 import {AboutBentoGridThird} from "@/components/New-About/about-bento-grid";
 import TeamSection from "@/components/Team";
+import { WhoAreWeSVGMaskVision,  WhoAreWeSVGMaskMission} from "@/components/New-About/about-who-are-we";
 
 export const metadata: Metadata = {
-    title: "Solace | Yaşamı Avucunuza Sunuyoruz",
+    title: "Solace Hakkımızda",
     description: "Akıllı Yaşam Çözümleri",
     // other metadata
 };
@@ -17,13 +18,15 @@ const AboutPage = () => {
                 <div className="snap-always snap-center min-h-screen" id="solace-motto">
                     <AboutSpotlight/>
                 </div>
-                <div className="snap-always snap-center" id="solace-short-description">
-                    <AboutFlipWords/>
+                <div className="snap-always snap-center" id="solace-mission">
+                    <WhoAreWeSVGMaskMission/>
                 </div>
-
-                <div className="snap-always snap-center" id="solace-long-description">
+                <div className="snap-always snap-center" id="solace-vision">
+                    <WhoAreWeSVGMaskVision/>
+                </div>
+                {/* <div className="snap-always snap-center" id="solace-long-description">
                     <AboutTextGenerateEffect/>
-                </div>
+                </div> */}
                 <div
                     className="snap-always snap-center " id="values">
                     <AboutBentoGridThird/>

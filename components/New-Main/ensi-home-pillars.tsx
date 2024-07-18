@@ -117,7 +117,7 @@ const SolaceGreyIcon = () => {
       <g clipPath="url(#clip0_2_17)">
         <mask
           id="mask0_2_17"
-          style={{ maskType: 'luminance' }}
+          style={{ maskType: "luminance" }}
           maskUnits="userSpaceOnUse"
           x="-182"
           y="-244"
@@ -137,7 +137,7 @@ const SolaceGreyIcon = () => {
         </g>
         <mask
           id="mask1_2_17"
-          style={{ maskType: 'luminance' }}
+          style={{ maskType: "luminance" }}
           maskUnits="userSpaceOnUse"
           x="-182"
           y="-244"
@@ -157,7 +157,7 @@ const SolaceGreyIcon = () => {
         </g>
         <mask
           id="mask2_2_17"
-          style={{ maskType: 'luminance' }}
+          style={{ maskType: "luminance" }}
           maskUnits="userSpaceOnUse"
           x="-182"
           y="-244"
@@ -197,7 +197,7 @@ const SolaceNormalIcon = () => {
       <g clipPath="url(#clip0_2_17)">
         <mask
           id="mask0_2_17"
-          style={{ maskType: 'luminance' }}
+          style={{ maskType: "luminance" }}
           maskUnits="userSpaceOnUse"
           x="-182"
           y="-244"
@@ -217,7 +217,7 @@ const SolaceNormalIcon = () => {
         </g>
         <mask
           id="mask1_2_17"
-          style={{ maskType: 'luminance' }}
+          style={{ maskType: "luminance" }}
           maskUnits="userSpaceOnUse"
           x="-182"
           y="-244"
@@ -237,7 +237,7 @@ const SolaceNormalIcon = () => {
         </g>
         <mask
           id="mask2_2_17"
-          style={{ maskType: 'luminance' }}
+          style={{ maskType: "luminance" }}
           maskUnits="userSpaceOnUse"
           x="-182"
           y="-244"
@@ -264,7 +264,6 @@ const SolaceNormalIcon = () => {
     </svg>
   );
 };
-
 
 export const Icon = ({ className, ...rest }: any) => {
   return (

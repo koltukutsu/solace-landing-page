@@ -14,7 +14,7 @@ export function AboutSpotlight() {
                     Solace <br /> Yaşamı Avucunuza Sunuyoruz
                 </h1>
                 <p className="mt-4 font-normal text-base md:text-2xl text-neutral-300 max-w-lg text-center mx-auto">
-                    Solace olarak, yüksek teknolojileri tasarlayıp geliştirerek akıllı ve inovatif çözümleri hayata geçiriyoruz
+                    Solace olarak, yüksek teknolojileri tasarlayıp geliştirerek akıllı ve inovatif çözümleri hayata geçiriyoruz.
                 </p>
             </div>
         </div>
