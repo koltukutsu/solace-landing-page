@@ -75,7 +75,7 @@ const FAQPage = () => {
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {};
   return (
     <>
-      <div className="no-scrollbar snap-y snap-mandatory overflow-y-scroll h-screen flex-grow z-0 scroll-smooth">
+      <div className="md:no-scrollbar md:snap-y md:snap-mandatory overflow-y-scroll h-screen flex-grow z-0 scroll-smooth">
         {/* <HeroHighlight> */}
         <div
             className="fixed right-0 top-1/2 z-50 flex -translate-y-1/2 transform flex-col justify-center space-y-4 bg-transparent">

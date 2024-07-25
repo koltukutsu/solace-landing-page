@@ -75,7 +75,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="no-scrollbar z-0 h-screen flex-grow snap-y snap-mandatory overflow-y-scroll  scroll-smooth">
+    <div className="md:no-scrollbar z-0 h-screen flex-grow md:snap-y md:snap-mandatory overflow-y-scroll  scroll-smooth">
       <div className="fixed right-0 top-1/2 z-50 flex -translate-y-1/2 transform flex-col justify-center space-y-4 bg-transparent">
         {sections.map((section) => (
           <div
@@ -106,24 +106,24 @@ export default function Home() {
 
       {/* Content Sections */}
       <div className="ml-0">
-        <div className="snap-center snap-always" id="hero-intro-background">
+        <div className="md:snap-center md:snap-always" id="hero-intro-background">
           <HeroAuroraBackground />
         </div>
-        <div className="snap-center snap-always" id="about-hero">
+        <div className="md:snap-center md:snap-always" id="about-hero">
           <AboutHeroHighlight />
         </div>
-        <div className="snap-center snap-always" id="about-reveal">
+        <div className="md:snap-center md:snap-always" id="about-reveal">
           <HeroHighlight>
             <SolaceFeatures />
           </HeroHighlight>
         </div>
-        <div className="snap-center snap-always" id="features-and-benefits">
+        <div className="md:snap-center md:snap-always" id="features-and-benefits">
           <HeroHighlight>
             <FeaturesAndBenefitsWobbleCard />
           </HeroHighlight>
         </div>
         <div className="h-72 bg-gradient-to-b from-white via-slate-700 to-slate-950" />
-        <div className="snap-center snap-always" id="product-lamp">
+        <div className="md:snap-center md:snap-always" id="product-lamp">
           <ProductsLampEffect />
         </div>
         <div className="" id="product-beam-starting">
@@ -131,7 +131,7 @@ export default function Home() {
             <BackgroundBeams />
             <div
               id="ensi-home-box"
-              className="flex min-h-screen snap-center snap-always flex-col items-center justify-center bg-slate-950 p-4 md:flex-row md:p-20"
+              className="flex min-h-screen md:snap-center md:snap-always flex-col items-center justify-center bg-slate-950 p-4 md:flex-row md:p-20"
             >
               <div className="md:pr-18 flex flex-col items-center text-left md:mr-8 md:w-1/2 md:items-start">
                 <h1
@@ -165,25 +165,25 @@ export default function Home() {
           </div>
         </div>
         <div
-          className="flex w-full snap-center snap-always items-center justify-center bg-slate-950"
+          className="flex w-full md:snap-center md:snap-always items-center justify-center bg-slate-950"
           id="ensi-home-mobile-application"
         >
           <EnsiHomePageMobileAppSection />
         </div>
         <div
-          className="flex w-full snap-center snap-always items-center justify-center bg-slate-950"
+          className="flex w-full md:snap-center md:snap-always items-center justify-center bg-slate-950"
           id="ensi-home-features-section"
         >
           <EnsiHoverFeaturesSection />
         </div>
         <div
-          className="flex min-h-screen w-full snap-center snap-always items-center justify-center bg-slate-950"
+          className="flex min-h-screen w-full md:snap-center md:snap-always items-center justify-center bg-slate-950"
           id="ensi-home-pillars"
         >
           <EnsiHomePillars />
         </div>
         <div
-          className="flex min-h-screen w-full snap-center snap-always items-center justify-center bg-slate-950"
+          className="flex min-h-screen w-full md:snap-center md:snap-always items-center justify-center bg-slate-950"
           id="ensi-home-features"
         >
           <EnsiHomeFeatures />
@@ -191,13 +191,13 @@ export default function Home() {
 
         {/* <ProductsMobileAppTabs /> */}
         <div className="h-72 bg-gradient-to-b from-slate-950 via-slate-700 to-white" />
-        <div className="snap-center snap-always" id="teams-cards">
+        <div className="md:snap-center md:snap-always" id="teams-cards">
           <TeamSection />
         </div>
         {/*<div className="snap-center snap-always" id="cta-form">*/}
         {/*    <CtaForm/>*/}
         {/*</div>*/}
-        <div className="snap-center snap-always" id="footer">
+        <div className="md:snap-center md:snap-always" id="footer">
           <Footer />
         </div>
       </div>
