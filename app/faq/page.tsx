@@ -1,10 +1,9 @@
-"use client";
-
 import FAQSectionOne from "@/components/FAQ/FAQSectionOne";
 import { FaqVanishingInput } from "@/components/New-Faq-Base/vanishing-input";
 import faqList from "@/components/FAQ/faq";
 import React, { useEffect, useRef, useState } from "react";
 import { FAQNavigation } from "@/components/Navigations/sections";
+import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
