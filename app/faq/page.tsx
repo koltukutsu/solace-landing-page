@@ -17,7 +17,7 @@ export const metadata: Metadata = {
       title: "Solace | SSS | Yaşamı Avucunuza Sunuyoruz",
       description: "Solace Yüksek Teknolojileri Derleyerek Akıllı Yaşam Çözümleri Sunar.",
       type: "website",
-      url: "https://solace.com.tr/",
+      url: "https://solace.com.tr/faq",
       images: [
           {
               url: "/images/logo/metadata.png",

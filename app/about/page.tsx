@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: "Solace Yüksek Teknolojileri Derleyerek Akıllı Yaşam Çözümleri Sunar.",
   keywords: "akıllı yaşam, teknoloji, ev çözümleri, Solace",
   authors: {name: "Solace",
-    url: "https://solace.com.tr/"
+    url: "https://solace.com.tr/about"
   },
   openGraph: {
       title: "Solace | Hakkımzıda | Yaşamı Avucunuza Sunuyoruz",
