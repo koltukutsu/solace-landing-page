@@ -1,5 +1,3 @@
-'use client';
-
 import {Metadata} from "next";
 import {AboutSpotlight} from "@/components/New-About/about-spotlight-hero";
 import {AboutFlipWords} from "@/components/New-About/about-flip-words";
@@ -8,91 +6,64 @@ import {AboutBentoGridThird} from "@/components/New-About/about-bento-grid";
 import TeamSection from "@/components/Team";
 import { WhoAreWeSVGMaskVision,  WhoAreWeSVGMaskMission} from "@/components/New-About/about-who-are-we";
 import { useEffect, useRef, useState } from "react";
-
-// export const metadata: Metadata = {
-//     title: "Solace Hakkımızda",
-//     description: "Akıllı Yaşam Çözümleri",
-//     // other metadata
-// };
+import { AboutNavigation } from "@/components/Navigations/sections";
 
 
-const sections = [
-    // turkcelestir
-    { id: "solace-hakkimizda", label: "Hakkımızda" },
-    { id: "solace-misyon", label: "Vizyonumuz" },
-    { id: "solace-vizyon", label: "Misyonumuz" },
-    { id: "degerler", label: "Değerlerimiz" },
-    { id: "ekibimiz", label: "Solace Ekibi" },
-    // {id: "cta-form", label: "CTA Form"},
-  ];
+export const metadata: Metadata = {
+  title: "Solace | Hakkımızda | Yaşamı Avucunuza Sunuyoruz",
+  description: "Solace Yüksek Teknolojileri Derleyerek Akıllı Yaşam Çözümleri Sunar.",
+  keywords: "akıllı yaşam, teknoloji, ev çözümleri, Solace",
+  authors: {name: "Solace",
+    url: "https://solace.com.tr/"
+  },
+  openGraph: {
+      title: "Solace | Hakkımzıda | Yaşamı Avucunuza Sunuyoruz",
+      description: "Solace Yüksek Teknolojileri Derleyerek Akıllı Yaşam Çözümleri Sunar.",
+      type: "website",
+      url: "https://solace.com.tr/",
+      images: [
+          {
+              url: "/images/logo/metadata.png",
+              width: 800,
+              height: 600,
+              alt: "Solace logo"
+          }
+      ],
+      siteName: "Solace",
+      locale: "tr_TR"
+  },
+  twitter: {
+      card: "summary_large_image",
+      title: "Solace | Hakkımızda | Yaşamı Avucunuza Sunuyoruz",
+      description: "Solace Yüksek Teknolojileri Derleyerek Akıllı Yaşam Çözümleri Sunar.",
+      images: [
+          {
+              url: "/images/logo/metadata.png",
+              alt: "Solace logo"
+          }
+      ],
+  },
+  viewport: "width=device-width, initial-scale=1.0",
+  robots: "index, follow",
+};
+
+
+// const sections = [
+//     // turkcelestir
+//     { id: "solace-hakkimizda", label: "Hakkımızda" },
+//     { id: "solace-misyon", label: "Vizyonumuz" },
+//     { id: "solace-vizyon", label: "Misyonumuz" },
+//     { id: "degerler", label: "Değerlerimiz" },
+//     { id: "ekibimiz", label: "Solace Ekibi" },
+//     // {id: "cta-form", label: "CTA Form"},
+//   ];
 
 const AboutPage = () => {
-    const [activeSection, setActiveSection] = useState("");
-  const [showLabelId, setShowLabelId] = useState<string | null>(null);
-  const observerRef = useRef<IntersectionObserver | null>(null);
-
-  useEffect(() => {
-    observerRef.current = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
-            setShowLabelId(entry.target.id);
-            setTimeout(() => {
-              setShowLabelId(null);
-            }, 2000);
-          }
-        });
-      },
-      {
-        root: null,
-        rootMargin: "0px",
-        threshold: 0.5,
-      },
-    );
-
-    sections.forEach((section) => {
-      const element = document.getElementById(section.id);
-      if (element) observerRef.current?.observe(element);
-    });
-
-    return () => {
-      sections.forEach((section) => {
-        const element = document.getElementById(section.id);
-        if (element) observerRef.current?.unobserve(element);
-      });
-    };
-  }, []);
+   
 
     return (
         <div className="md:no-scrollbar md:snap-y md:snap-mandatory overflow-y-scroll h-screen flex-grow z-0 scroll-smooth">
-                <div className="fixed right-0 top-1/2 z-50 flex -translate-y-1/2 transform flex-col justify-center space-y-4 bg-transparent">
-        {sections.map((section) => (
-          <div
-            key={section.id}
-            className="group relative mr-2 flex items-center justify-center"
-          >
-            <a
-              href={`#${section.id}`}
-              className={`h-4 w-4 rounded-full transition duration-200 ease-in-out hover:bg-blue-500 ${
-                activeSection === section.id
-                  ? "scale-125 bg-specialBlue"
-                  : "-my-4 scale-50 bg-gray-400"
-              }`}
-            >
-              <span
-                className={`absolute right-full z-10 mr-3 -translate-y-1/2 whitespace-nowrap rounded-md bg-black px-2 py-1 pt-2 text-xs text-white transition-opacity duration-200 ease-in-out ${
-                  showLabelId === section.id
-                    ? "opacity-100"
-                    : "opacity-0 group-hover:opacity-100"
-                }`}
-              >
-                {section.label}
-              </span>
-            </a>
-          </div>
-        ))}
-      </div>
+          <AboutNavigation/>
                 <div className="md:snap-center md:snap-always min-h-screen" id="solace-hakkimizda">
                     <AboutSpotlight/>
                 </div>

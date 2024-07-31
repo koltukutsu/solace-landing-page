@@ -22,15 +22,15 @@ import { PageNavigation } from "@/components/Navigations/sections";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Solace Hakkımızda",
-  description: "Akıllı Yaşam Çözümleri",
+  title: "Solace | Yaşamı Avucunuza Sunuyoruz",
+  description: "Solace Yüksek Teknolojileri Derleyerek Akıllı Yaşam Çözümleri Sunar.",
   keywords: "akıllı yaşam, teknoloji, ev çözümleri, Solace",
   authors: {name: "Solace",
     url: "https://solace.com.tr/"
   },
   openGraph: {
-      title: "Solace Hakkımızda",
-      description: "Akıllı Yaşam Çözümleri",
+      title: "Solace | Yaşamı Avucunuza Sunuyoruz",
+      description: "Solace Yüksek Teknolojileri Derleyerek Akıllı Yaşam Çözümleri Sunar.",
       type: "website",
       url: "https://solace.com.tr/",
       images: [
@@ -46,8 +46,8 @@ export const metadata: Metadata = {
   },
   twitter: {
       card: "summary_large_image",
-      title: "Solace Hakkımızda",
-      description: "Akıllı Yaşam Çözümleri",
+      title: "Solace | Yaşamı Avucunuza Sunuyoruz",
+      description: "Solace Yüksek Teknolojileri Derleyerek Akıllı Yaşam Çözümleri Sunar.",
       images: [
           {
               url: "/images/logo/metadata.png",
