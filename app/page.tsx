@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useEffect, useState, useRef } from "react";
 import { HeroAuroraBackground } from "@/components/New-Main/hero-aurora-background";
 import { AboutHeroHighlight } from "@/components/New-Main/about-hero-highlight";
@@ -20,124 +18,55 @@ import { EnsiHoverFeaturesSection } from "@/components/New-Main/ensi-features-ho
 import { EnsiHomeFeatures } from "@/components/New-Main/ensi-home-features";
 import { SolaceFeatures } from "@/components/New-Main/solace-features";
 import Head from "next/head";
+import { PageNavigation } from "@/components/Navigations/sections";
+import { Metadata } from "next";
 
-const sections = [
-  // turkcelestir
-  { id: "hero-intro-background", label: "Karşılama" },
-  { id: "about-hero", label: "Solace Ne Yapıyor?" },
-  { id: "about-reveal", label: "Solace Prensipleri" },
-  { id: "features-and-benefits", label: "Solace Özellikleri" },
-  { id: "product-lamp", label: "Ensi Home" },
-  { id: "ensi-home-box", label: "Ensi Home Box" },
-  { id: "ensi-home-mobile-application", label: "Ensi Home Mobil Uygulama" },
-  { id: "ensi-home-features-section", label: "Ensi Home Farkı" },
-  { id: "ensi-home-pillars", label: "Ensi Home Temelleri" },
-  { id: "ensi-home-features", label: "Ensi Home Özellikleri" },
-  { id: "teams-cards", label: "Solace Ekibi" },
-  // {id: "cta-form", label: "CTA Form"},
-];
+export const metadata: Metadata = {
+  title: "Solace Hakkımızda",
+  description: "Akıllı Yaşam Çözümleri",
+  keywords: "akıllı yaşam, teknoloji, ev çözümleri, Solace",
+  authors: {name: "Solace",
+    url: "https://solace.com.tr/"
+  },
+  openGraph: {
+      title: "Solace Hakkımızda",
+      description: "Akıllı Yaşam Çözümleri",
+      type: "website",
+      url: "https://solace.com.tr/",
+      images: [
+          {
+              url: "/images/logo/metadata.png",
+              width: 800,
+              height: 600,
+              alt: "Solace logo"
+          }
+      ],
+      siteName: "Solace",
+      locale: "tr_TR"
+  },
+  twitter: {
+      card: "summary_large_image",
+      title: "Solace Hakkımızda",
+      description: "Akıllı Yaşam Çözümleri",
+      images: [
+          {
+              url: "/images/logo/metadata.png",
+              alt: "Solace logo"
+          }
+      ],
+  },
+  viewport: "width=device-width, initial-scale=1.0",
+  robots: "index, follow",
+};
+
 
 export default function Home() {
-  const [activeSection, setActiveSection] = useState("");
-  const [showLabelId, setShowLabelId] = useState<string | null>(null);
-  const observerRef = useRef<IntersectionObserver | null>(null);
-
-  useEffect(() => {
-    observerRef.current = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
-            setShowLabelId(entry.target.id);
-            setTimeout(() => {
-              setShowLabelId(null);
-            }, 2000);
-          }
-        });
-      },
-      {
-        root: null,
-        rootMargin: "0px",
-        threshold: 0.5,
-      },
-    );
-
-    sections.forEach((section) => {
-      const element = document.getElementById(section.id);
-      if (element) observerRef.current?.observe(element);
-    });
-
-    return () => {
-      sections.forEach((section) => {
-        const element = document.getElementById(section.id);
-        if (element) observerRef.current?.unobserve(element);
-      });
-    };
-  }, []);
-
+  
   return (
     <div className="md:no-scrollbar z-0 h-screen flex-grow md:snap-y md:snap-mandatory overflow-y-scroll  scroll-smooth">
-      <Head>
-        <title>Your Page Title</title>
-        <meta name="description" content="Akıllı Yaşam Sunuyoruz" />
-        <meta name="keywords" content="akıllı, yüksek, teknoloji, ev" />
-        <meta name="author" content="Solace" />
-
-        {/* Open Graph Meta Tags */}
-        <meta property="og:title" content="Solace" />
-        <meta property="og:description" content="Akıllı Yaşam Sunuyoruz" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://solace.com.tr/" />
-        <meta property="og:image" content="/images/logo/metadata.png" />
-        <meta property="og:site_name" content="Solace" />
-        <meta property="og:locale" content="tr_TR" />
-        <meta property="og:image:alt" content="Solace logo" />
-
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Solace" />
-        <meta name="twitter:description" content="Akıllı Yaşam Sunuyoruz" />
-        <meta name="twitter:image" content="/images/logo/metadata.png" />
-        <meta name="twitter:image:alt" content="Solace logo" />
-        {/* <meta name="twitter:site" content="@yourtwitterhandle" />
-        <meta name="twitter:creator" content="@yourtwitterhandle" /> */}
-
-        {/* Additional Meta Tags */}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charSet="UTF-8" />
-        <meta name="robots" content="index, follow" />
-
-        {/* Canonical URL */}
-        <link rel="canonical" href="https://solace.com.tr/" />
-      </Head>
       
-      <div className="fixed right-0 top-1/2 z-50 flex -translate-y-1/2 transform flex-col justify-center space-y-4 bg-transparent">
-        {sections.map((section) => (
-          <div
-            key={section.id}
-            className="group relative mr-2 flex items-center justify-center"
-          >
-            <a
-              href={`#${section.id}`}
-              className={`h-4 w-4 rounded-full transition duration-200 ease-in-out hover:bg-blue-500 ${
-                activeSection === section.id
-                  ? "scale-125 bg-specialBlue"
-                  : "-my-4 scale-50 bg-gray-400"
-              }`}
-            >
-              <span
-                className={`absolute right-full z-10 mr-3 -translate-y-1/2 whitespace-nowrap rounded-md bg-black px-2 py-1 pt-2 text-xs text-white transition-opacity duration-200 ease-in-out ${
-                  showLabelId === section.id
-                    ? "opacity-100"
-                    : "opacity-0 group-hover:opacity-100"
-                }`}
-              >
-                {section.label}
-              </span>
-            </a>
-          </div>
-        ))}
-      </div>
+      
+      <PageNavigation/>
 
       {/* Content Sections */}
       <div className="ml-0">

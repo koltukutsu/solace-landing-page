@@ -1,3 +1,5 @@
+"use client";
+
 import { HoverEffect } from "../New-Main-Base/card-hover-effect";
 
 export function EnsiHomeFeatures() {

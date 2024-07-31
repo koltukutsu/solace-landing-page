@@ -1,3 +1,6 @@
+"use client";
+
+
 import CihazIFrame from "@/components/Phone-Wrapper/cihaz-iframe";
 import React from "react";
 

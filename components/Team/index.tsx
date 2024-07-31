@@ -1,3 +1,4 @@
+"use client";
 import { FaLinkedin } from "react-icons/fa";
 import SectionTitle from "../Common/SectionTitle";
 import teamData from "./teamData";
