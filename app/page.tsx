@@ -19,6 +19,7 @@ import { EnsiHomePillars } from "@/components/New-Main/ensi-home-pillars";
 import { EnsiHoverFeaturesSection } from "@/components/New-Main/ensi-features-hover-section";
 import { EnsiHomeFeatures } from "@/components/New-Main/ensi-home-features";
 import { SolaceFeatures } from "@/components/New-Main/solace-features";
+import Head from "next/head";
 
 const sections = [
   // turkcelestir
@@ -76,6 +77,40 @@ export default function Home() {
 
   return (
     <div className="no-scrollbar z-0 h-screen flex-grow snap-y snap-mandatory overflow-y-scroll  scroll-smooth">
+      <Head>
+        <title>Your Page Title</title>
+        <meta name="description" content="Akıllı Yaşam Sunuyoruz" />
+        <meta name="keywords" content="akıllı, yüksek, teknoloji, ev" />
+        <meta name="author" content="Solace" />
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="Solace" />
+        <meta property="og:description" content="Akıllı Yaşam Sunuyoruz" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://solace.com.tr/" />
+        <meta property="og:image" content="/images/logo/metadata.png" />
+        <meta property="og:site_name" content="Solace" />
+        <meta property="og:locale" content="tr_TR" />
+        <meta property="og:image:alt" content="Solace logo" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Solace" />
+        <meta name="twitter:description" content="Akıllı Yaşam Sunuyoruz" />
+        <meta name="twitter:image" content="/images/logo/metadata.png" />
+        <meta name="twitter:image:alt" content="Solace logo" />
+        {/* <meta name="twitter:site" content="@yourtwitterhandle" />
+        <meta name="twitter:creator" content="@yourtwitterhandle" /> */}
+
+        {/* Additional Meta Tags */}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charSet="UTF-8" />
+        <meta name="robots" content="index, follow" />
+
+        {/* Canonical URL */}
+        <link rel="canonical" href="https://solace.com.tr/" />
+      </Head>
+
       <div className="fixed right-0 top-1/2 z-50 flex -translate-y-1/2 transform flex-col justify-center space-y-4 bg-transparent">
         {sections.map((section) => (
           <div
