@@ -54,7 +54,7 @@ const ContactPage = () => {
 
     return (
         <>
-            <div className="no-scrollbar snap-y snap-mandatory overflow-y-scroll h-screen flex-grow z-0 scroll-smooth">
+            <div className="md:no-scrollbar md:snap-y md:snap-mandatory overflow-y-scroll h-screen flex-grow z-0 scroll-smooth">
                 <div
                     className="fixed right-0 top-1/2 z-50 flex -translate-y-1/2 transform flex-col justify-center space-y-4 bg-transparent">
                     {sections.map((section) => (
@@ -90,7 +90,7 @@ const ContactPage = () => {
                 >
                     <div
                         id="social-media-accounts"
-                        className="snap-always snap-center flex min-h-screen md:h-56 flex-col items-center justify-center">
+                        className="md:snap-always md:snap-center flex min-h-screen md:h-56 flex-col items-center justify-center">
                         <div className="text-center mt-8">
                             <h1 className="text-6xl md:text-7xl bg:text-7xl font-bold pb-8">Bize Ulaşın
                             </h1>
@@ -100,7 +100,7 @@ const ContactPage = () => {
                     </div>
                     <div
                         id="contact-and-bulletin"
-                        className="snap-always snap-center min-h-screen md:pt-20 flex flex-col md:flex-row items-center justify-center">
+                        className="md:snap-always md:snap-center min-h-screen md:pt-20 flex flex-col md:flex-row items-center justify-center">
                         <NewContactForm/>
                         <div className="w-12"></div>
                         <NewContactBulletin/>

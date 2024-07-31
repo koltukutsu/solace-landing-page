@@ -65,7 +65,7 @@ const AboutPage = () => {
   }, []);
 
     return (
-        <div className="no-scrollbar snap-y snap-mandatory overflow-y-scroll h-screen flex-grow z-0 scroll-smooth">
+        <div className="md:no-scrollbar md:snap-y md:snap-mandatory overflow-y-scroll h-screen flex-grow z-0 scroll-smooth">
                 <div className="fixed right-0 top-1/2 z-50 flex -translate-y-1/2 transform flex-col justify-center space-y-4 bg-transparent">
         {sections.map((section) => (
           <div
@@ -93,23 +93,23 @@ const AboutPage = () => {
           </div>
         ))}
       </div>
-                <div className="snap-always snap-center min-h-screen" id="solace-hakkimizda">
+                <div className="md:snap-center md:snap-always min-h-screen" id="solace-hakkimizda">
                     <AboutSpotlight/>
                 </div>
-                <div className="snap-always snap-center" id="solace-misyon">
+                <div className="md:snap-center md:snap-always" id="solace-misyon">
                     <WhoAreWeSVGMaskMission/>
                 </div>
-                <div className="snap-always snap-center" id="solace-vizyon">
+                <div className="md:snap-center md:snap-always" id="solace-vizyon">
                     <WhoAreWeSVGMaskVision/>
                 </div>
                 {/* <div className="snap-always snap-center" id="solace-long-description">
                     <AboutTextGenerateEffect/>
                 </div> */}
                 <div
-                    className="snap-always snap-center " id="degerler">
+                    className="md:snap-center md:snap-always " id="degerler">
                     <AboutBentoGridThird/>
                 </div>
-                <div className="snap-always snap-center" id="ekibimiz">
+                <div className="md:snap-center md:snap-always" id="ekibimiz">
                     {/* <TeamCardsAnimatedPin /> */}
                     <TeamSection/>
                 </div>
