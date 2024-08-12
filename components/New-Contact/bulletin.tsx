@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { Label } from "../New-Main-Base/label";
 import { Input } from "../New-Main-Base/input";
 import { cn } from "@/utils/cn";
@@ -10,9 +10,27 @@ import {
 } from "@tabler/icons-react";
 
 export function NewContactBulletin() {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const [email, setEmail] = useState('');
+  const [response, setResponse] = useState('');
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form gönderildi");
+
+    const res = await fetch('/api/bulletin', { // Adjusted to contact API
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ email }),
+    });
+
+    const data = await res.json();
+    if (data.success) {
+      setResponse('Your message has been sent successfully!');
+    } else {
+      setResponse('Failed to send your message. Please try again.');
+    }
   };
   return (
     <div className="smin-h-screen container mx-auto w-full max-w-md rounded-none bg-white p-4 shadow-input dark:bg-black md:rounded-2xl md:p-8">
@@ -26,7 +44,11 @@ export function NewContactBulletin() {
       <form className="my-8" onSubmit={handleSubmit}>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Adresi</Label>
-          <Input id="email" placeholder="email@ornek.com" type="email" />
+          <Input id="email" placeholder="email@ornek.com" type="email" 
+          value={email} 
+          onChange={(e) => setEmail(e.target.value)}
+          required 
+          />
         </LabelInputContainer>
 
         <button

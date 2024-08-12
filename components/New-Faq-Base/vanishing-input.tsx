@@ -32,11 +32,30 @@ export function FaqVanishingInput({
   // onSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
 }) {
   const [currentPlaceholder, setCurrentPlaceholder] = useState(0);
-
+  // const [question, setQuestion] = useState("");
+  const [response, setResponse] = useState("");
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     console.log(e.target.value);
   };
-  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {};
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    // send 
+    e.preventDefault();
+    console.log("Value: ", value);
+    const res = await fetch('/api/faq', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ value }),
+    });
+
+    const data = await res.json();
+    if (data.success) {
+      setResponse('Email sent successfully!');
+    } else {
+      setResponse('Failed to send email.');
+    }
+  };
 
   useEffect(() => {
     let interval: any;
@@ -207,6 +226,7 @@ export function FaqVanishingInput({
         ref={inputRef}
         value={value}
         type="text"
+        
         className={cn(
           "relative z-50 h-full w-full rounded-full border-none bg-transparent pl-4 pr-20 text-sm text-black focus:outline-none focus:ring-0 dark:text-white sm:pl-10 sm:text-base",
           animating && "text-transparent dark:text-transparent",

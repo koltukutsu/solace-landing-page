@@ -1,5 +1,5 @@
-"use client";
-import React from "react";
+'use client';
+import React, { useState } from "react";
 import { Label } from "../New-Main-Base/label";
 import { Input } from "../New-Main-Base/input";
 import { cn } from "@/utils/cn";
@@ -10,10 +10,31 @@ import {
 } from "@tabler/icons-react";
 
 export function NewContactForm() {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [response, setResponse] = useState('');
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form gönderildi");
+
+    const res = await fetch('/api/form', { // Adjusted to contact API
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name, email, message }),
+    });
+
+    const data = await res.json();
+    if (data.success) {
+      setResponse('Your message has been sent successfully!');
+    } else {
+      setResponse('Failed to send your message. Please try again.');
+    }
   };
+
   return (
     <div className="smin-h-screen container mx-auto w-full max-w-md rounded-none bg-white p-4 shadow-input dark:bg-black md:rounded-2xl md:p-8">
       <h2 className="text-4xl font-bold text-neutral-800 dark:text-neutral-200">
@@ -26,15 +47,36 @@ export function NewContactForm() {
       <form className="my-8" onSubmit={handleSubmit}>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="name">İsim</Label>
-          <Input id="name" placeholder="Adınız" type="text" />
+          <Input 
+            id="name" 
+            placeholder="Adınız" 
+            type="text" 
+            value={name} 
+            onChange={(e) => setName(e.target.value)}
+            required 
+          />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Adresi</Label>
-          <Input id="email" placeholder="email@ornek.com" type="email" />
+          <Input 
+            id="email" 
+            placeholder="email@ornek.com" 
+            type="email" 
+            value={email} 
+            onChange={(e) => setEmail(e.target.value)}
+            required 
+          />
         </LabelInputContainer>
         <LabelInputContainer className="mb-8">
           <Label htmlFor="message">Mesajınız</Label>
-          <Input id="message" placeholder="Mesajınızı buraya yazın" type="text" />
+          <Input 
+            id="message" 
+            placeholder="Mesajınızı buraya yazın" 
+            type="text" 
+            value={message} 
+            onChange={(e) => setMessage(e.target.value)}
+            required 
+          />
         </LabelInputContainer>
 
         <button
@@ -44,6 +86,12 @@ export function NewContactForm() {
           Gönder &rarr;
           <BottomGradient />
         </button>
+
+        {response && (
+          <p className="mt-4 text-center text-sm text-green-500">
+            {response}
+          </p>
+        )}
 
         <div className="my-8 h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-300 to-transparent dark:via-neutral-700" />
       </form>
