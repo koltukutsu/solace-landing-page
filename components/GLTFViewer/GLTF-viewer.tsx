@@ -14,6 +14,8 @@ const Model = React.memo(({ url }: { url: string }) => {
   return <primitive object={scene} />;
 });
 
+Model.displayName = 'Model';
+
 function Loader() {
   const { progress } = useProgress();
   return (
@@ -39,3 +41,4 @@ export default function GLTFViewer({ modelUrl }: GLTFViewerProps) {
     </div>
   );
 }
+GLTFViewer.displayName = 'GLTFViewer';
