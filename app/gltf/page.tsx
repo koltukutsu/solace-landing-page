@@ -5,7 +5,7 @@ import GLTFViewer from '@/components/GLTFViewer/GLTF-viewer';
 import Head from 'next/head';
 
 export default function Home() {
-  const modelUrl = '/models/cube.glb'; // Replace with your actual model path
+  const modelUrl = '/models/ensi-box.glb'; // Replace with your actual model path
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { Suspense, useState } from 'react';
+import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, useGLTF } from '@react-three/drei';
 import { Html, useProgress } from '@react-three/drei';
@@ -33,6 +33,7 @@ export default function GLTFViewer({ modelUrl }: GLTFViewerProps) {
       <Canvas camera={{ position: [0, 0, 5] }}>
         <ambientLight intensity={0.4} />
         <pointLight position={[10, 10, 10]} />
+        <pointLight position={[0, 5, 0]} intensity={1} />
         <Suspense fallback={<Loader />}>
           <Model url={modelUrl} />
         </Suspense>
@@ -41,4 +42,5 @@ export default function GLTFViewer({ modelUrl }: GLTFViewerProps) {
     </div>
   );
 }
+
 GLTFViewer.displayName = 'GLTFViewer';

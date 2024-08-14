@@ -120,7 +120,7 @@ export default function Home() {
                 </p>
               </div>
               <img
-                src="/ensi/ensi_home_box.jpg"
+                src="/images/ensi/ensi-kutu-50.jpg"
                 alt="Ensi Home Box"
                 className="mt-4 w-4/5 rounded-lg md:mt-0 md:w-3/5"
               />
