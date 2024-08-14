@@ -55,8 +55,9 @@ export default function GLTFViewer({ modelUrl }: GLTFViewerProps) {
           enableZoom={true} 
           maxPolarAngle={Math.PI / 2} 
           minPolarAngle={0}
-          minDistance={1.5}  // Set how close you can zoom in
-          maxDistance={3}    // Set a maximum zoom distance to prevent zooming out too much
+          minDistance={0.185}  // Set how close you can zoom in
+          
+          maxDistance={0.185}    // Set a maximum zoom distance to prevent zooming out too much
         />
       </Canvas>
     </div>
