@@ -4,7 +4,9 @@
     "details": [
       {
         "appID": "YOUR_TEAM_ID.com.yourapp",
-        "paths": [ "/invite/*" ]
+        "paths": [
+          "/invite/*"
+        ]
       }
     ]
   }
