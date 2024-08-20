@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.solace.solace_ace",
+      "package_name": "com.example.deeplink_cookbook",
       "sha256_cert_fingerprints": [
         "8:CF:01:0E:5E:9B:F6:AC:B9:ED:1F:7D:A2:C4:B5:F5:9E:2E:33:BF:A1:28:98:A4:C6:25:99:B9:81:3F:74:69"
       ]
