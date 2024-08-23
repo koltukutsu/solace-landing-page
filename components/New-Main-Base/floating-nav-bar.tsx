@@ -16,11 +16,9 @@ import { IconLanguage } from "@tabler/icons-react";
 import {setUserLocale} from '@/app/locale';
 import {useTransition} from 'react';
 import {Locale} from '@/config';
+import { useTranslations } from "next-intl";
 
-const languages = [
-    { code: 'en', name: 'English' },
-    { code: 'tr', name: 'Türkçe' },
-];
+
 
 interface LanguageButtonProps {
     languageCode: string;
@@ -29,6 +27,7 @@ interface LanguageButtonProps {
 }
 
 const LanguageButton: React.FC<LanguageButtonProps> = ({ languageCode, languageName, changeLanguage }) => {
+    
     return (
         <button
             onClick={() => {
@@ -52,6 +51,7 @@ export const FloatingNav = ({
     }[];
     className?: string;
 }) => {
+    const t = useTranslations();
     const { scrollYProgress } = useScroll();
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const [visible, setVisible] = useState(true);
@@ -80,6 +80,13 @@ export const FloatingNav = ({
     //         }
     //     }
     // });
+
+    const languages = [
+        { code: 'en', name: t('English') },
+        { code: 'tr', name: t('Turkish') },
+        { code: 'es', name: t('Spanish') },
+        { code: 'fr', name: t('French') },
+    ];
 
     return (
         <AnimatePresence mode="wait">

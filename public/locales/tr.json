@@ -1,206 +1,210 @@
 {
-  "Maalesef sayfa bulunamadı": "",
-  "Aradığınız sayfa mevcut değil ya da silinmiş olabilir": "",
-  "Anasayfaya Dön": "",
-  "Akıllı Ev nedir?": "",
+  "English": "İngilizce",
+  "Turkish": "Türkçe",
+  "Spanish": "İspanyolca",
+  "French": "Fransızca",
+  "Maalesef sayfa bulunamadı": "Maalesef sayfa bulunamadı",
+  "Aradığınız sayfa mevcut değil ya da silinmiş olabilir": "Aradığınız sayfa mevcut değil ya da silinmiş olabilir",
+  "Anasayfaya Dön": "Anasayfaya Dön",
+  "Akıllı Ev nedir?": "Akıllı Ev nedir?",
   "Akıllı Ev, çeşitli cihazların birbirleriyle iletişim kurabildiği, uzaktan kontrol edilebilen ve otomatikleştirilebilen bir ev sistemidir": {
-    " Bu sistem sayesinde evdeki aydınlatma, ısıtma, güvenlik gibi birçok özellik kolaylıkla kontrol edilebilir": ""
+    " Bu sistem sayesinde evdeki aydınlatma, ısıtma, güvenlik gibi birçok özellik kolaylıkla kontrol edilebilir": " Bu sistem sayesinde evdeki aydınlatma, ısıtma, güvenlik gibi birçok özellik kolaylıkla kontrol edilebilir"
   },
-  "Akıllı Ev'in avantajları nelerdir?": "",
+  "Akıllı Ev'in avantajları nelerdir?": "Akıllı Ev'in avantajları nelerdir?",
   "Akıllı Ev, enerji tasarrufu, güvenlik artışı, konfor ve kullanım kolaylığı gibi birçok avantaj sunar": {
-    " Ayrıca, cihazlar arasındaki iletişim sayesinde ev sahiplerine daha akıllı ve bağlantılı bir yaşam tarzı sunar": ""
+    " Ayrıca, cihazlar arasındaki iletişim sayesinde ev sahiplerine daha akıllı ve bağlantılı bir yaşam tarzı sunar": " Ayrıca, cihazlar arasındaki iletişim sayesinde ev sahiplerine daha akıllı ve bağlantılı bir yaşam tarzı sunar"
   },
-  "Hangi cihazlar Akıllı Ev sistemine entegre edilebilir?": "",
+  "Hangi cihazlar Akıllı Ev sistemine entegre edilebilir?": "Hangi cihazlar Akıllı Ev sistemine entegre edilebilir?",
   "Akıllı Ev sistemleri, aydınlatma, ısıtma ve soğutma sistemleri, güvenlik kameraları, kapı kilidi sistemleri, ev sinema sistemleri ve birçok ev aletini içerebilir": {
-    " Genellikle Wi-Fi veya Bluetooth gibi teknolojilerle entegre edilirler": ""
+    " Genellikle Wi-Fi veya Bluetooth gibi teknolojilerle entegre edilirler": " Genellikle Wi-Fi veya Bluetooth gibi teknolojilerle entegre edilirler"
   },
-  "Akıllı Ev sistemleri nasıl enerji tasarrufu sağlar?": "",
+  "Akıllı Ev sistemleri nasıl enerji tasarrufu sağlar?": "Akıllı Ev sistemleri nasıl enerji tasarrufu sağlar?",
   "Akıllı Ev sistemleri, ev sahiplerine enerji kullanımını daha etkili bir şekilde yönetme imkanı tanır": {
-    " Örneğin, otomatik ısıtma ve soğutma sistemleri, evdeki sensörler aracılığıyla ortamın kullanılmadığı zamanlarda enerji tasarrufu yapabilir": ""
+    " Örneğin, otomatik ısıtma ve soğutma sistemleri, evdeki sensörler aracılığıyla ortamın kullanılmadığı zamanlarda enerji tasarrufu yapabilir": " Örneğin, otomatik ısıtma ve soğutma sistemleri, evdeki sensörler aracılığıyla ortamın kullanılmadığı zamanlarda enerji tasarrufu yapabilir"
   },
-  "Akıllı Ev sistemlerinin kurulumu zor mudur?": "",
+  "Akıllı Ev sistemlerinin kurulumu zor mudur?": "Akıllı Ev sistemlerinin kurulumu zor mudur?",
   "Akıllı Ev sistemlerinin kurulumu genellikle karmaşık değildir ve birçok cihaz kolayca kurulabilir": {
-    " Ancak, daha karmaşık sistemler için profesyonel yardım almak faydalı olabilir": ""
+    " Ancak, daha karmaşık sistemler için profesyonel yardım almak faydalı olabilir": " Ancak, daha karmaşık sistemler için profesyonel yardım almak faydalı olabilir"
   },
-  "Akıllı Ev sistemleri güvenli midir?": "",
+  "Akıllı Ev sistemleri güvenli midir?": "Akıllı Ev sistemleri güvenli midir?",
   "Akıllı Ev sistemleri, güvenlik açısından sürekli gelişmektedir": {
     " Güçlü şifreleme yöntemleri ve düzenli güncellemelerle güvenlik sağlanır": {
-      " Ancak, kullanıcıların güçlü parolalar kullanması ve düzenli güncellemeler yapması önemlidir": ""
+      " Ancak, kullanıcıların güçlü parolalar kullanması ve düzenli güncellemeler yapması önemlidir": " Ancak, kullanıcıların güçlü parolalar kullanması ve düzenli güncellemeler yapması önemlidir"
     }
   },
-  "Akıllı Ev sistemleri pahalı mıdır?": "",
+  "Akıllı Ev sistemleri pahalı mıdır?": "Akıllı Ev sistemleri pahalı mıdır?",
   "Akıllı Ev sistemlerinin maliyeti, seçilen cihazlar ve sistemin kapsamına bağlı olarak değişir": {
-    " Temel bir sistem uygun fiyatlı olabilirken, daha karmaşık ve entegre sistemler daha pahalı olabilir": ""
+    " Temel bir sistem uygun fiyatlı olabilirken, daha karmaşık ve entegre sistemler daha pahalı olabilir": " Temel bir sistem uygun fiyatlı olabilirken, daha karmaşık ve entegre sistemler daha pahalı olabilir"
   },
-  "Akıllı Ev sistemi ile hangi işlemler uzaktan kontrol edilebilir?": "",
-  "Akıllı Ev sistemi ile aydınlatma, ısıtma-soğutma, güvenlik kameraları, kapı kilitleri, elektronik cihazlar ve daha birçok ev fonksiyonu uzaktan kontrol edilebilir": "",
-  "Akıllı Ev sistemi kurulurken nelere dikkat edilmelidir?": "",
-  "Akıllı Ev sistemi kurulurken cihazların uyumluluğuna, güvenlik ayarlarına, ağ altyapısının yeterliliğine ve kullanıcı ihtiyaçlarına dikkat edilmelidir": "",
-  "Akıllı Ev sistemleri ile uyumlu uygulamalar nelerdir?": "",
+  "Akıllı Ev sistemi ile hangi işlemler uzaktan kontrol edilebilir?": "Akıllı Ev sistemi ile hangi işlemler uzaktan kontrol edilebilir?",
+  "Akıllı Ev sistemi ile aydınlatma, ısıtma-soğutma, güvenlik kameraları, kapı kilitleri, elektronik cihazlar ve daha birçok ev fonksiyonu uzaktan kontrol edilebilir": "Akıllı Ev sistemi ile aydınlatma, ısıtma-soğutma, güvenlik kameraları, kapı kilitleri, elektronik cihazlar ve daha birçok ev fonksiyonu uzaktan kontrol edilebilir",
+  "Akıllı Ev sistemi kurulurken nelere dikkat edilmelidir?": "Akıllı Ev sistemi kurulurken nelere dikkat edilmelidir?",
+  "Akıllı Ev sistemi kurulurken cihazların uyumluluğuna, güvenlik ayarlarına, ağ altyapısının yeterliliğine ve kullanıcı ihtiyaçlarına dikkat edilmelidir": "Akıllı Ev sistemi kurulurken cihazların uyumluluğuna, güvenlik ayarlarına, ağ altyapısının yeterliliğine ve kullanıcı ihtiyaçlarına dikkat edilmelidir",
+  "Akıllı Ev sistemleri ile uyumlu uygulamalar nelerdir?": "Akıllı Ev sistemleri ile uyumlu uygulamalar nelerdir?",
   "Akıllı Ev sistemleri genellikle üreticilerin sağladığı mobil uygulamalarla uyumludur": {
-    " Örneğin, Google Home, Amazon Alexa ve Apple HomeKit gibi uygulamalar yaygın olarak kullanılır": ""
+    " Örneğin, Google Home, Amazon Alexa ve Apple HomeKit gibi uygulamalar yaygın olarak kullanılır": " Örneğin, Google Home, Amazon Alexa ve Apple HomeKit gibi uygulamalar yaygın olarak kullanılır"
   },
-  "Akıllı Ev sistemleri ile hangi rutinler otomatikleştirilebilir?": "",
+  "Akıllı Ev sistemleri ile hangi rutinler otomatikleştirilebilir?": "Akıllı Ev sistemleri ile hangi rutinler otomatikleştirilebilir?",
   "Akıllı Ev sistemleri ile aydınlatma zamanlaması, ısıtma-soğutma programları, güvenlik sistemi devreye alma gibi birçok rutin otomatikleştirilebilir": {
-    " Kullanıcılar kişisel rutinlerini oluşturabilirler": ""
+    " Kullanıcılar kişisel rutinlerini oluşturabilirler": " Kullanıcılar kişisel rutinlerini oluşturabilirler"
   },
-  "Akıllı Ev sistemlerinin internet bağlantısı kesildiğinde ne olur?": "",
+  "Akıllı Ev sistemlerinin internet bağlantısı kesildiğinde ne olur?": "Akıllı Ev sistemlerinin internet bağlantısı kesildiğinde ne olur?",
   "İnternet bağlantısı kesildiğinde, yerel ağ üzerinden çalışan akıllı cihazlar genellikle çalışmaya devam eder": {
-    " Ancak, uzaktan kontrol ve bulut tabanlı hizmetler devre dışı kalabilir": ""
+    " Ancak, uzaktan kontrol ve bulut tabanlı hizmetler devre dışı kalabilir": " Ancak, uzaktan kontrol ve bulut tabanlı hizmetler devre dışı kalabilir"
   },
-  "Akıllı Ev sistemleri çocuklar için güvenli midir?": "",
+  "Akıllı Ev sistemleri çocuklar için güvenli midir?": "Akıllı Ev sistemleri çocuklar için güvenli midir?",
   "Akıllı Ev sistemleri, doğru kurulum ve ayarlarla çocuklar için güvenlidir": {
-    " Ebeveyn kontrolleri ve güvenlik ayarları ile çocukların erişimi sınırlandırılabilir": ""
+    " Ebeveyn kontrolleri ve güvenlik ayarları ile çocukların erişimi sınırlandırılabilir": " Ebeveyn kontrolleri ve güvenlik ayarları ile çocukların erişimi sınırlandırılabilir"
   },
-  "Akıllı Ev sistemleri yaşlılar için nasıl faydalıdır?": "",
+  "Akıllı Ev sistemleri yaşlılar için nasıl faydalıdır?": "Akıllı Ev sistemleri yaşlılar için nasıl faydalıdır?",
   "Akıllı Ev sistemleri, yaşlılar için konfor ve güvenlik sağlar": {
-    " Acil durum çağrı sistemleri, otomatik aydınlatma ve uzaktan erişim gibi özellikler yaşlıların yaşam kalitesini artırabilir": ""
+    " Acil durum çağrı sistemleri, otomatik aydınlatma ve uzaktan erişim gibi özellikler yaşlıların yaşam kalitesini artırabilir": " Acil durum çağrı sistemleri, otomatik aydınlatma ve uzaktan erişim gibi özellikler yaşlıların yaşam kalitesini artırabilir"
   },
-  "Akıllı Ev sistemleri evcil hayvan sahipleri için nasıl faydalıdır?": "",
+  "Akıllı Ev sistemleri evcil hayvan sahipleri için nasıl faydalıdır?": "Akıllı Ev sistemleri evcil hayvan sahipleri için nasıl faydalıdır?",
   "Akıllı Ev sistemleri, evcil hayvan sahiplerine büyük kolaylıklar sunar": {
-    " Örneğin, evcil hayvan kameraları, otomatik mama dağıtıcıları ve akıllı kapılar sayesinde evcil hayvanların durumu kolayca takip edilebilir": ""
+    " Örneğin, evcil hayvan kameraları, otomatik mama dağıtıcıları ve akıllı kapılar sayesinde evcil hayvanların durumu kolayca takip edilebilir": " Örneğin, evcil hayvan kameraları, otomatik mama dağıtıcıları ve akıllı kapılar sayesinde evcil hayvanların durumu kolayca takip edilebilir"
   },
-  "Solace": "",
-  "Solace Akıllı Yaşam Sistemleri her daim yanınızda": "",
-  "Solace Akıllı Yaşam Sistemleri": "",
-  "tarafından geliştirilmiştir": "",
-  "Karşılama": "",
-  "Solace Ne Yapıyor?": "",
-  "Solace Prensipleri": "",
-  "Solace Özellikleri": "",
-  "Ensi Home": "",
-  "Ensi Home Box": "",
-  "Ensi Home Mobil Uygulama": "",
-  "Ensi Home Farkı": "",
-  "Ensi Home Temelleri": "",
-  "Ensi Home Özellikleri": "",
-  "Solace Ekibi": "",
-  "Sıkça Sorulan Sorular": "",
-  "Sosyal Medya Hesapları": "",
-  "İletişim ve Bülten": "",
-  "Hakkımızda": "",
-  "Vizyonumuz": "",
-  "Misyonumuz": "",
-  "Değerlerimiz": "",
-  "Ensi Home, tüm akıllı ev cihazlarını tek bir platformda entegre eder": "",
-  "Yapay zeka ile cihazların en verimli şekilde çalışmasını sağlar": "",
-  "Kullanıcı tercihleri ve rutinlerine dayalı otomasyonlar oluşturur": "",
-  "Şifrelenmiş ağ altyapısı ile veri mahremiyetini sağlar": "",
-  "Sesli asistan ile uygulamayı açmadan otomasyon ekleyin": "",
-  "Ethernet, Wi-Fi, Zigbee, Bluetooth ve Z-Wave destekler": "",
-  "Enerji tüketimini optimize ederek maliyetleri düşürür": "",
-  "Kullanıcı dostu arayüz ve basit kurulum süreci sunar": "",
+  "Solace": "Solace",
+  "Solace Akıllı Yaşam Sistemleri her daim yanınızda": "Solace Akıllı Yaşam Sistemleri her daim yanınızda",
+  "Solace Akıllı Yaşam Sistemleri": "Solace Akıllı Yaşam Sistemleri",
+  "tarafından geliştirilmiştir": "tarafından geliştirilmiştir",
+  "Karşılama": "Karşılama",
+  "Solace Ne Yapıyor?": "Solace Ne Yapıyor?",
+  "Solace Prensipleri": "Solace Prensipleri",
+  "Solace Özellikleri": "Solace Özellikleri",
+  "Ensi Home": "Ensi Home",
+  "Ensi Home Box": "Ensi Home Box",
+  "Ensi Home Mobil Uygulama": "Ensi Home Mobil Uygulama",
+  "Ensi Home Farkı": "Ensi Home Farkı",
+  "Ensi Home Temelleri": "Ensi Home Temelleri",
+  "Ensi Home Özellikleri": "Ensi Home Özellikleri",
+  "Solace Ekibi": "Solace Ekibi",
+  "Sıkça Sorulan Sorular": "Sıkça Sorulan Sorular",
+  "Sosyal Medya Hesapları": "Sosyal Medya Hesapları",
+  "İletişim ve Bülten": "İletişim ve Bülten",
+  "Hakkımızda": "Hakkımızda",
+  "Vizyonumuz": "Vizyonumuz",
+  "Misyonumuz": "Misyonumuz",
+  "Değerlerimiz": "Değerlerimiz",
+  "Ensi Home, tüm akıllı ev cihazlarını tek bir platformda entegre eder": "Ensi Home, tüm akıllı ev cihazlarını tek bir platformda entegre eder",
+  "Yapay zeka ile cihazların en verimli şekilde çalışmasını sağlar": "Yapay zeka ile cihazların en verimli şekilde çalışmasını sağlar",
+  "Kullanıcı tercihleri ve rutinlerine dayalı otomasyonlar oluşturur": "Kullanıcı tercihleri ve rutinlerine dayalı otomasyonlar oluşturur",
+  "Şifrelenmiş ağ altyapısı ile veri mahremiyetini sağlar": "Şifrelenmiş ağ altyapısı ile veri mahremiyetini sağlar",
+  "Sesli asistan ile uygulamayı açmadan otomasyon ekleyin": "Sesli asistan ile uygulamayı açmadan otomasyon ekleyin",
+  "Ethernet, Wi-Fi, Zigbee, Bluetooth ve Z-Wave destekler": "Ethernet, Wi-Fi, Zigbee, Bluetooth ve Z-Wave destekler",
+  "Enerji tüketimini optimize ederek maliyetleri düşürür": "Enerji tüketimini optimize ederek maliyetleri düşürür",
+  "Kullanıcı dostu arayüz ve basit kurulum süreci sunar": "Kullanıcı dostu arayüz ve basit kurulum süreci sunar",
   "Solace, teknolojiye bağımlı hale getirmeden verimliliği ve konforu artıran akıllı sistemler geliştirir": {
     " Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler": {
-      " Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar": ""
+      " Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar": " Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar"
     }
   },
-  "Yenilikçi": "",
-  "Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler": "",
-  "Güvenilir": "",
-  "Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar": "",
-  "Çok Yönlü": "",
-  "Akıllı sistemler ile yaşamı kolaylaştırıyoruz": "",
-  "Yaşamı Avucunuza Sunuyoruz": "",
-  "Solace olarak, yüksek teknolojileri tasarlayıp geliştirerek akıllı ve inovatif çözümleri hayata geçiriyoruz": "",
+  "Yenilikçi": "Yenilikçi",
+  "Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler": "Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler",
+  "Güvenilir": "Güvenilir",
+  "Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar": "Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar",
+  "Çok Yönlü": "Çok Yönlü",
+  "Akıllı sistemler ile yaşamı kolaylaştırıyoruz": "Akıllı sistemler ile yaşamı kolaylaştırıyoruz",
+  "Yaşamı Avucunuza Sunuyoruz": "Yaşamı Avucunuza Sunuyoruz",
+  "Solace olarak, yüksek teknolojileri tasarlayıp geliştirerek akıllı ve inovatif çözümleri hayata geçiriyoruz": "Solace olarak, yüksek teknolojileri tasarlayıp geliştirerek akıllı ve inovatif çözümleri hayata geçiriyoruz",
   "Misyonumuz, tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları kullanıcılarımızla buluşturmak ve \n            teknolojinin sunduğu tüm olanakları en üst düzeyde sunmaktır": {
-    " Kullanıcılarımızın ihtiyaçlarını karşılamak için \n            kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek herkesin kullanımına sunuyoruz": ""
+    " Kullanıcılarımızın ihtiyaçlarını karşılamak için \n            kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek herkesin kullanımına sunuyoruz": " Kullanıcılarımızın ihtiyaçlarını karşılamak için \n            kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek herkesin kullanımına sunuyoruz"
   },
-  "tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları": "",
-  "kullanıcılarımızla": "",
-  "buluşturmak ve": "",
-  "teknolojinin": "",
+  "tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları": "tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları",
+  "kullanıcılarımızla": "kullanıcılarımızla",
+  "buluşturmak ve": "buluşturmak ve",
+  "teknolojinin": "teknolojinin",
   "sunduğu tüm olanakları en üst düzeyde sunmaktır": {
-    " Kullanıcılarımızın ihtiyaçlarını karşılamak için": ""
+    " Kullanıcılarımızın ihtiyaçlarını karşılamak için": " Kullanıcılarımızın ihtiyaçlarını karşılamak için"
   },
-  "kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek": "",
-  "herkesin": "",
-  "kullanımına sunuyoruz": "",
+  "kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek": "kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek",
+  "herkesin": "herkesin",
+  "kullanımına sunuyoruz": "kullanımına sunuyoruz",
   "Vizyonumuz, çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri global pazara sunan lider bir teknoloji şirketi olmaktır": {
-    " Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde güven ve kalite sembolü olmayı hedefliyoruz": ""
+    " Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde güven ve kalite sembolü olmayı hedefliyoruz": " Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde güven ve kalite sembolü olmayı hedefliyoruz"
   },
-  "çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri": "",
-  "global pazara": "",
+  "çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri": "çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri",
+  "global pazara": "global pazara",
   "sunan lider bir teknoloji şirketi olmaktır": {
-    " Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde": ""
+    " Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde": " Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde"
   },
-  "güven": "",
-  "ve": "",
-  "kalite": "",
-  "sembolü olmayı hedefliyoruz": "",
-  "Bültenimize Kaydolun": "",
-  "Akıllı yaşam bültenimize kaydolun, günceli takip edin": "",
-  "Email Adresi": "",
+  "güven": "güven",
+  "ve": "ve",
+  "kalite": "kalite",
+  "sembolü olmayı hedefliyoruz": "sembolü olmayı hedefliyoruz",
+  "Bültenimize Kaydolun": "Bültenimize Kaydolun",
+  "Akıllı yaşam bültenimize kaydolun, günceli takip edin": "Akıllı yaşam bültenimize kaydolun, günceli takip edin",
+  "Email Adresi": "Email Adresi",
   "email@ornek": {
-    "com": ""
+    "com": "com"
   },
-  " Abone Ol &rarr;": "",
-  "Bize Ulaşın": "",
-  "Solace ile iletişime geçin, ekiplerimiz en kısa sürede sizinle iletişime geçecektir": "",
-  "İsim": "",
-  "Adınız": "",
-  "Mesajınız": "",
-  "Mesajınızı buraya yazın": "",
-  "Gönder &rarr;": "",
-  "Ensi Home enerji tasarrufu sağlar mı?": "",
-  "Güvenlik sistemleri nasıl çalışıyor?": "",
-  "Ensi Home evimi gerçekten koruyabilir mi?": "",
-  "Akıllı ev sistemlerini kurmak için ek donanım ihtiyacım olacak mı?": "",
-  "Ensi Home montajı ne kadar sürer ve maliyeti nedir?": "",
-  "Ensi Home ile aydınlatmamı nasıl kontrol edebilirim?": "",
-  "Isıtma ve soğutma sistemlerini uzaktan kontrol edebilir miyim?": "",
-  "Akıllı ev sistemleri evde olmadığımda evimi nasıl yönetir?": "",
-  "Akıllı ev sistemleri internet bağlantısı olmadan çalışabilir mi?": "",
-  "Akıllı ev sistemleri farklı markaların cihazları ile uyumlu mu?": "",
-  "Ensi Home sesli komutlarla çalışabilir mi?": "",
-  "Ensi Home ile güvenlik kameralarını nasıl izleyebilirim?": "",
-  "Ensi Home ile evdeki elektrikli cihazları otomatik olarak kapatabilir miyim?": "",
-  "Ensi Home ile su sızıntılarını veya yangınları tespit edebilir miyim?": "",
-  "Akıllı ev sistemleri kullanımı ne kadar karmaşık ve yaşlılar için uygun mu?": "",
-  "Ensi Home için düzenli olarak bakım veya güncelleme yapmak gerekir mi?": "",
-  "Yüksek Teknolojileri tasarlayıp geliştirerek, Akıllı ve İnovatif çözümleri": "",
-  "Hayata Geçiriyoruz!": "",
+  " Abone Ol &rarr;": " Abone Ol &rarr;",
+  "Bize Ulaşın": "Bize Ulaşın",
+  "Solace ile iletişime geçin, ekiplerimiz en kısa sürede sizinle iletişime geçecektir": "Solace ile iletişime geçin, ekiplerimiz en kısa sürede sizinle iletişime geçecektir",
+  "İsim": "İsim",
+  "Adınız": "Adınız",
+  "Mesajınız": "Mesajınız",
+  "Mesajınızı buraya yazın": "Mesajınızı buraya yazın",
+  "Gönder &rarr;": "Gönder &rarr;",
+  "Ensi Home enerji tasarrufu sağlar mı?": "Ensi Home enerji tasarrufu sağlar mı?",
+  "Güvenlik sistemleri nasıl çalışıyor?": "Güvenlik sistemleri nasıl çalışıyor?",
+  "Ensi Home evimi gerçekten koruyabilir mi?": "Ensi Home evimi gerçekten koruyabilir mi?",
+  "Akıllı ev sistemlerini kurmak için ek donanım ihtiyacım olacak mı?": "Akıllı ev sistemlerini kurmak için ek donanım ihtiyacım olacak mı?",
+  "Ensi Home montajı ne kadar sürer ve maliyeti nedir?": "Ensi Home montajı ne kadar sürer ve maliyeti nedir?",
+  "Ensi Home ile aydınlatmamı nasıl kontrol edebilirim?": "Ensi Home ile aydınlatmamı nasıl kontrol edebilirim?",
+  "Isıtma ve soğutma sistemlerini uzaktan kontrol edebilir miyim?": "Isıtma ve soğutma sistemlerini uzaktan kontrol edebilir miyim?",
+  "Akıllı ev sistemleri evde olmadığımda evimi nasıl yönetir?": "Akıllı ev sistemleri evde olmadığımda evimi nasıl yönetir?",
+  "Akıllı ev sistemleri internet bağlantısı olmadan çalışabilir mi?": "Akıllı ev sistemleri internet bağlantısı olmadan çalışabilir mi?",
+  "Akıllı ev sistemleri farklı markaların cihazları ile uyumlu mu?": "Akıllı ev sistemleri farklı markaların cihazları ile uyumlu mu?",
+  "Ensi Home sesli komutlarla çalışabilir mi?": "Ensi Home sesli komutlarla çalışabilir mi?",
+  "Ensi Home ile güvenlik kameralarını nasıl izleyebilirim?": "Ensi Home ile güvenlik kameralarını nasıl izleyebilirim?",
+  "Ensi Home ile evdeki elektrikli cihazları otomatik olarak kapatabilir miyim?": "Ensi Home ile evdeki elektrikli cihazları otomatik olarak kapatabilir miyim?",
+  "Ensi Home ile su sızıntılarını veya yangınları tespit edebilir miyim?": "Ensi Home ile su sızıntılarını veya yangınları tespit edebilir miyim?",
+  "Akıllı ev sistemleri kullanımı ne kadar karmaşık ve yaşlılar için uygun mu?": "Akıllı ev sistemleri kullanımı ne kadar karmaşık ve yaşlılar için uygun mu?",
+  "Ensi Home için düzenli olarak bakım veya güncelleme yapmak gerekir mi?": "Ensi Home için düzenli olarak bakım veya güncelleme yapmak gerekir mi?",
+  "Yüksek Teknolojileri tasarlayıp geliştirerek, Akıllı ve İnovatif çözümleri": "Yüksek Teknolojileri tasarlayıp geliştirerek, Akıllı ve İnovatif çözümleri",
+  "Hayata Geçiriyoruz!": "Hayata Geçiriyoruz!",
   "Ensi Home ile size gerçek bir akıllı ev sunuyoruz": {
     " Tüm cihazlarınızı tek\n        bir platformda entegre eder, yapay zeka destekli otomasyonlarla\n        yaşamınızı kolaylaştırır": {
-      " Güvenli ve kişiselleştirilmiş bir akıllı ev\n        deneyimi için Ensi Home&apos;u keşfedin": ""
+      " Güvenli ve kişiselleştirilmiş bir akıllı ev\n        deneyimi için Ensi Home&apos;u keşfedin": " Güvenli ve kişiselleştirilmiş bir akıllı ev\n        deneyimi için Ensi Home&apos;u keşfedin"
     }
   },
-  "Uzaktan Kontroller": "",
-  "Otomasyonlar": "",
-  "Yapay Zekalar": "",
-  "Mobil Uygulama": "",
-  "Parçaların Toplamından Daha Fazlası": "",
+  "Uzaktan Kontroller": "Uzaktan Kontroller",
+  "Otomasyonlar": "Otomasyonlar",
+  "Yapay Zekalar": "Yapay Zekalar",
+  "Mobil Uygulama": "Mobil Uygulama",
+  "Parçaların Toplamından Daha Fazlası": "Parçaların Toplamından Daha Fazlası",
   "Solace, parçaların toplamından daha fazlasını değer olarak ortaya koyar": {
-    " Bütün, bireysel parçaların ötesinde bir sinerji ile değer oluşturur": ""
+    " Bütün, bireysel parçaların ötesinde bir sinerji ile değer oluşturur": " Bütün, bireysel parçaların ötesinde bir sinerji ile değer oluşturur"
   },
   "Teknolojiyi insanlaştırma": {
-    " Sade ve yalın, insan odaklı": ""
+    " Sade ve yalın, insan odaklı": " Sade ve yalın, insan odaklı"
   },
   "Solace, tasarımlarında insan odaklı olarak sade ve yalın çözümler sunar": {
-    " Karmaşıklığı basitleştirir ve kullanıcı deneyimini ön planda tutar": ""
+    " Karmaşıklığı basitleştirir ve kullanıcı deneyimini ön planda tutar": " Karmaşıklığı basitleştirir ve kullanıcı deneyimini ön planda tutar"
   },
-  "Akıllı yaşam çözümleri": "",
+  "Akıllı yaşam çözümleri": "Akıllı yaşam çözümleri",
   "Solace, yüksek teknolojiyi kullanarak akıllı ve yenilikçi yaşam çözümleri geliştirir": {
-    " Teknoloji, yaşam alanlarını daha konforlu ve verimli hale getirir": ""
+    " Teknoloji, yaşam alanlarını daha konforlu ve verimli hale getirir": " Teknoloji, yaşam alanlarını daha konforlu ve verimli hale getirir"
   },
-  "Güvenli ve verimli sistemler": "",
+  "Güvenli ve verimli sistemler": "Güvenli ve verimli sistemler",
   "Solace, tam donanımlı, güvenli ve verimli akıllı sistemler geliştirir": {
-    " Veri gizliliği ve kullanıcı güvenliği her zaman önceliklidir": ""
+    " Veri gizliliği ve kullanıcı güvenliği her zaman önceliklidir": " Veri gizliliği ve kullanıcı güvenliği her zaman önceliklidir"
   },
-  "Yenilikçi ve sürdürülebilir": "",
+  "Yenilikçi ve sürdürülebilir": "Yenilikçi ve sürdürülebilir",
   "Solace, yenilikçi yaklaşımlarla sürdürülebilir yaşam alanları yaratır": {
-    " Enerji verimliliği ve kaynak yönetimi ile çevresel etkileri minimize eder": ""
+    " Enerji verimliliği ve kaynak yönetimi ile çevresel etkileri minimize eder": " Enerji verimliliği ve kaynak yönetimi ile çevresel etkileri minimize eder"
   },
-  "Keşfet": "",
-  "Ana Sayfa": "",
-  "SSS": "",
-  "Akıllı Ev Sistemi": "",
-  "Teknolojiyi İnsanlaştırma": "",
-  "Akıllı Yaşam Çözümleri": "",
-  "Güvenli ve Verimli Sistemler": "",
-  "Şirket Lideri": "",
-  "Strateji ve Finans Lideri": "",
-  "Robotik ve IOT Lideri": "",
-  "Yazılım Mimarisi ve Sistem Lideri": "",
-  "Baş Mühendis": ""
+  "Keşfet": "Keşfet",
+  "Ana Sayfa": "Ana Sayfa",
+  "SSS": "SSS",
+  "Akıllı Ev Sistemi": "Akıllı Ev Sistemi",
+  "Teknolojiyi İnsanlaştırma": "Teknolojiyi İnsanlaştırma",
+  "Akıllı Yaşam Çözümleri": "Akıllı Yaşam Çözümleri",
+  "Güvenli ve Verimli Sistemler": "Güvenli ve Verimli Sistemler",
+  "Şirket Lideri": "Şirket Lideri",
+  "Strateji ve Finans Lideri": "Strateji ve Finans Lideri",
+  "Robotik ve IOT Lideri": "Robotik ve IOT Lideri",
+  "Yazılım Mimarisi ve Sistem Lideri": "Yazılım Mimarisi ve Sistem Lideri",
+  "Baş Mühendis": "Baş Mühendis"
 }
