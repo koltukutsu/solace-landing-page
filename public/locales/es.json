@@ -1,0 +1,207 @@
+{
+    "Maalesef sayfa bulunamadı": "Lamentablemente, no se pudo encontrar la página",
+    "Aradığınız sayfa mevcut değil ya da silinmiş olabilir": "La página que buscas no está disponible o puede haber sido eliminada",
+    "Anasayfaya Dön": "Volver a la página principal",
+    "Akıllı Ev nedir?": "¿Qué es una Casa Inteligente?",
+    "Akıllı Ev, çeşitli cihazların birbirleriyle iletişim kurabildiği, uzaktan kontrol edilebilen ve otomatikleştirilebilen bir ev sistemidir": {
+      " Bu sistem sayesinde evdeki aydınlatma, ısıtma, güvenlik gibi birçok özellik kolaylıkla kontrol edilebilir": "Gracias a este sistema, se pueden controlar fácilmente muchas características como la iluminación, calefacción, seguridad, etc., en el hogar"
+    },
+    "Akıllı Ev'in avantajları nelerdir?": "¿Cuáles son las ventajas de una Casa Inteligente?",
+    "Akıllı Ev, enerji tasarrufu, güvenlik artışı, konfor ve kullanım kolaylığı gibi birçok avantaj sunar": {
+      " Ayrıca, cihazlar arasındaki iletişim sayesinde ev sahiplerine daha akıllı ve bağlantılı bir yaşam tarzı sunar": "Además, la comunicación entre dispositivos ofrece a los propietarios un estilo de vida más inteligente y conectado"
+    },
+    "Hangi cihazlar Akıllı Ev sistemine entegre edilebilir?": "¿Qué dispositivos se pueden integrar en el sistema de Casa Inteligente?",
+    "Akıllı Ev sistemleri, aydınlatma, ısıtma ve soğutma sistemleri, güvenlik kameraları, kapı kilidi sistemleri, ev sinema sistemleri ve birçok ev aletini içerebilir": {
+      " Genellikle Wi-Fi veya Bluetooth gibi teknolojilerle entegre edilirler": "Generalmente se integran mediante tecnologías como Wi-Fi o Bluetooth"
+    },
+    "Akıllı Ev sistemleri nasıl enerji tasarrufu sağlar?": "¿Cómo ahorran energía los sistemas de Casa Inteligente?",
+    "Akıllı Ev sistemleri, ev sahiplerine enerji kullanımını daha etkili bir şekilde yönetme imkanı tanır": {
+      " Örneğin, otomatik ısıtma ve soğutma sistemleri, evdeki sensörler aracılığıyla ortamın kullanılmadığı zamanlarda enerji tasarrufu yapabilir": "Por ejemplo, los sistemas automáticos de calefacción y refrigeración pueden ahorrar energía cuando los sensores detectan que el entorno no está en uso"
+    },
+    "Akıllı Ev sistemlerinin kurulumu zor mudur?": "¿Es difícil instalar sistemas de Casa Inteligente?",
+    "Akıllı Ev sistemlerinin kurulumu genellikle karmaşık değildir ve birçok cihaz kolayca kurulabilir": {
+      " Ancak, daha karmaşık sistemler için profesyonel yardım almak faydalı olabilir": "Sin embargo, puede ser útil obtener ayuda profesional para sistemas más complejos"
+    },
+    "Akıllı Ev sistemleri güvenli midir?": "¿Son seguros los sistemas de Casa Inteligente?",
+    "Akıllı Ev sistemleri, güvenlik açısından sürekli gelişmektedir": {
+      " Güçlü şifreleme yöntemleri ve düzenli güncellemelerle güvenlik sağlanır": {
+        " Ancak, kullanıcıların güçlü parolalar kullanması ve düzenli güncellemeler yapması önemlidir": "No obstante, es importante que los usuarios usen contraseñas fuertes y realicen actualizaciones periódicas"
+      }
+    },
+    "Akıllı Ev sistemleri pahalı mıdır?": "¿Son costosos los sistemas de Casa Inteligente?",
+    "Akıllı Ev sistemlerinin maliyeti, seçilen cihazlar ve sistemin kapsamına bağlı olarak değişir": {
+      " Temel bir sistem uygun fiyatlı olabilirken, daha karmaşık ve entegre sistemler daha pahalı olabilir": "Un sistema básico puede ser asequible, mientras que sistemas más complejos e integrados pueden ser más costosos"
+    },
+    "Akıllı Ev sistemi ile hangi işlemler uzaktan kontrol edilebilir?": "¿Qué operaciones se pueden controlar de forma remota con un sistema de Casa Inteligente?",
+    "Akıllı Ev sistemi ile aydınlatma, ısıtma-soğutma, güvenlik kameraları, kapı kilitleri, elektronik cihazlar ve daha birçok ev fonksiyonu uzaktan kontrol edilebilir": "Con un sistema de Casa Inteligente se pueden controlar de forma remota funciones como iluminación, calefacción-refrigeración, cámaras de seguridad, cerraduras, dispositivos electrónicos y mucho más",
+    "Akıllı Ev sistemi kurulurken nelere dikkat edilmelidir?": "¿Qué se debe tener en cuenta al instalar un sistema de Casa Inteligente?",
+    "Akıllı Ev sistemi kurulurken cihazların uyumluluğuna, güvenlik ayarlarına, ağ altyapısının yeterliliğine ve kullanıcı ihtiyaçlarına dikkat edilmelidir": "Al instalar un sistema de Casa Inteligente, se debe prestar atención a la compatibilidad de los dispositivos, la configuración de seguridad, la suficiencia de la infraestructura de red y las necesidades del usuario",
+    "Akıllı Ev sistemleri ile uyumlu uygulamalar nelerdir?": "¿Qué aplicaciones son compatibles con los sistemas de Casa Inteligente?",
+    "Akıllı Ev sistemleri genellikle üreticilerin sağladığı mobil uygulamalarla uyumludur": {
+      " Örneğin, Google Home, Amazon Alexa ve Apple HomeKit gibi uygulamalar yaygın olarak kullanılır": "Por ejemplo, aplicaciones como Google Home, Amazon Alexa y Apple HomeKit se utilizan comúnmente"
+    },
+    "Akıllı Ev sistemleri ile hangi rutinler otomatikleştirilebilir?": "¿Qué rutinas se pueden automatizar con los sistemas de Casa Inteligente?",
+    "Akıllı Ev sistemleri ile aydınlatma zamanlaması, ısıtma-soğutma programları, güvenlik sistemi devreye alma gibi birçok rutin otomatikleştirilebilir": {
+      " Kullanıcılar kişisel rutinlerini oluşturabilirler": "Los usuarios pueden crear sus rutinas personales"
+    },
+    "Akıllı Ev sistemlerinin internet bağlantısı kesildiğinde ne olur?": "¿Qué sucede si se corta la conexión a Internet en los sistemas de Casa Inteligente?",
+    "İnternet bağlantısı kesildiğinde, yerel ağ üzerinden çalışan akıllı cihazlar genellikle çalışmaya devam eder": {
+      " Ancak, uzaktan kontrol ve bulut tabanlı hizmetler devre dışı kalabilir": "Sin embargo, el control remoto y los servicios basados en la nube pueden quedar inactivos"
+    },
+    "Akıllı Ev sistemleri çocuklar için güvenli midir?": "¿Son seguros los sistemas de Casa Inteligente para los niños?",
+    "Akıllı Ev sistemleri, doğru kurulum ve ayarlarla çocuklar için güvenlidir": {
+      " Ebeveyn kontrolleri ve güvenlik ayarları ile çocukların erişimi sınırlandırılabilir": "Los controles parentales y la configuración de seguridad pueden restringir el acceso de los niños"
+    },
+    "Akıllı Ev sistemleri yaşlılar için nasıl faydalıdır?": "¿Cómo benefician los sistemas de Casa Inteligente a los ancianos?",
+    "Akıllı Ev sistemleri, yaşlılar için konfor ve güvenlik sağlar": {
+      " Acil durum çağrı sistemleri, otomatik aydınlatma ve uzaktan erişim gibi özellikler yaşlıların yaşam kalitesini artırabilir": "Los sistemas de llamada de emergencia, la iluminación automática y el acceso remoto pueden mejorar la calidad de vida de los ancianos"
+    },
+    "Akıllı Ev sistemleri evcil hayvan sahipleri için nasıl faydalıdır?": "¿Cómo benefician los sistemas de Casa Inteligente a los propietarios de mascotas?",
+    "Akıllı Ev sistemleri, evcil hayvan sahiplerine büyük kolaylıklar sunar": {
+      " Örneğin, evcil hayvan kameraları, otomatik mama dağıtıcıları ve akıllı kapılar sayesinde evcil hayvanların durumu kolayca takip edilebilir": "Por ejemplo, se pueden monitorear fácilmente las mascotas a través de cámaras para mascotas, dispensadores automáticos de comida y puertas inteligentes"
+    },
+    "Solace": "Solace",
+    "Solace Akıllı Yaşam Sistemleri her daim yanınızda": "Solace Sistemas de Vida Inteligente siempre a tu lado",
+    "Solace Akıllı Yaşam Sistemleri": "Sistemas de Vida Inteligente Solace",
+    "tarafından geliştirilmiştir": "desarrollado por",
+    "Karşılama": "Bienvenida",
+    "Solace Ne Yapıyor?": "¿Qué hace Solace?",
+    "Solace Prensipleri": "Principios de Solace",
+    "Solace Özellikleri": "Características de Solace",
+    "Ensi Home": "Ensi Home",
+    "Ensi Home Box": "Ensi Home Box",
+    "Ensi Home Mobil Uygulama": "Aplicación Móvil Ensi Home",
+    "Ensi Home Farkı": "La Diferencia de Ensi Home",
+    "Ensi Home Temelleri": "Fundamentos de Ensi Home",
+    "Ensi Home Özellikleri": "Características de Ensi Home",
+    "Solace Ekibi": "Equipo Solace",
+    "Sıkça Sorulan Sorular": "Preguntas Frecuentes",
+    "Sosyal Medya Hesapları": "Cuentas de Redes Sociales",
+    "İletişim ve Bülten": "Contacto y Boletín",
+    "Hakkımızda": "Sobre Nosotros",
+    "Vizyonumuz": "Nuestra Visión",
+    "Misyonumuz": "Nuestra Misión",
+    "Değerlerimiz": "Nuestros Valores",
+    "Ensi Home, tüm akıllı ev cihazlarını tek bir platformda entegre eder": "Ensi Home integra todos los dispositivos de casa inteligente en una sola plataforma",
+    "Yapay zeka ile cihazların en verimli şekilde çalışmasını sağlar": "Garantiza el funcionamiento más eficiente de los dispositivos mediante inteligencia artificial",
+    "Kullanıcı tercihleri ve rutinlerine dayalı otomasyonlar oluşturur": "Crea automatizaciones basadas en las preferencias y rutinas del usuario",
+    "Şifrelenmiş ağ altyapısı ile veri mahremiyetini sağlar": "Proporciona privacidad de datos mediante una infraestructura de red encriptada",
+    "Sesli asistan ile uygulamayı açmadan otomasyon ekleyin": "Añade automatizaciones sin abrir la aplicación mediante asistente de voz",
+    "Ethernet, Wi-Fi, Zigbee, Bluetooth ve Z-Wave destekler": "Soporta Ethernet, Wi-Fi, Zigbee, Bluetooth y Z-Wave",
+    "Enerji tüketimini optimize ederek maliyetleri düşürür": "Optimiza el consumo de energía y reduce los costos",
+    "Kullanıcı dostu arayüz ve basit kurulum süreci sunar": "Ofrece una interfaz amigable y un proceso de instalación sencillo",
+    "Solace, teknolojiye bağımlı hale getirmeden verimliliği ve konforu artıran akıllı sistemler geliştirir": {
+      " Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler": {
+        " Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar": "Ofrece soluciones tanto para clientes individuales como corporativos"
+      }
+    },
+    "Yenilikçi": "Innovador",
+    "Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler": "Apunta a establecer un nuevo estándar de mercado garantizando la seguridad de los datos del usuario",
+    "Güvenilir": "Confiable",
+    "Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar": "Ofrece soluciones para clientes individuales y corporativos",
+    "Çok Yönlü": "Versátil",
+    "Akıllı sistemler ile yaşamı kolaylaştırıyoruz": "Facilitamos la vida con sistemas inteligentes",
+    "Yaşamı Avucunuza Sunuyoruz": "Ponemos la vida en la palma de tu mano",
+    "Solace olarak, yüksek teknolojileri tasarlayıp geliştirerek akıllı ve inovatif çözümleri hayata geçiriyoruz": "En Solace, diseñamos y desarrollamos tecnologías avanzadas para implementar soluciones inteligentes e innovadoras",
+    "Misyonumuz, tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları kullanıcılarımızla buluşturmak ve \n            teknolojinin sunduğu tüm olanakları en üst düzeyde sunmaktır": {
+      " Kullanıcılarımızın ihtiyaçlarını karşılamak için \n            kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek herkesin kullanımına sunuyoruz": "Ofrecemos soluciones personalizadas y simplificamos la complejidad tecnológica para satisfacer las necesidades de nuestros usuarios"
+    },
+    "tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları": "desarrollando sistemas inteligentes completamente funcionales, eficientes y seguros, y",
+    "kullanıcılarımızla": "conectándolos con nuestros usuarios",
+    "buluşturmak ve": "para ofrecerles",
+    "teknolojinin": "todas las ventajas que",
+    "sunduğu tüm olanakları en üst düzeyde sunmaktır": {
+      " Kullanıcılarımızın ihtiyaçlarını karşılamak için": "Proporcionar las máximas facilidades tecnológicas"
+    },
+    "kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek": "Creamos soluciones personalizadas y simplificamos la complejidad tecnológica",
+    "herkesin": "para todos",
+    "kullanımına sunuyoruz": "puedan utilizarlas",
+    "Vizyonumuz, çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri global pazara sunan lider bir teknoloji şirketi olmaktır": {
+      " Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde güven ve kalite sembolü olmayı hedefliyoruz": "Nuestro objetivo es convertirnos en una empresa líder en tecnología que desarrolla una variedad de productos de alta tecnología y los introduce en el mercado global"
+    },
+    "çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri": "desarrollando una variedad de productos de alta tecnología y",
+    "global pazara": "introduciéndolos en el mercado global",
+    "sunan lider bir teknoloji şirketi olmaktır": {
+      " Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde": "Aprovechamos el potencial de los dispositivos en el mercado para mejorar los componentes faltantes y convertirnos en un símbolo de confianza y calidad en el sector con nuestras soluciones innovadoras"
+    },
+    "güven": "confianza",
+    "ve": "y",
+    "kalite": "calidad",
+    "sembolü olmayı hedefliyoruz": "en el sector",
+    "Bültenimize Kaydolun": "Suscríbete a nuestro Boletín",
+    "Akıllı yaşam bültenimize kaydolun, günceli takip edin": "Suscríbete a nuestro boletín de vida inteligente y mantente al día",
+    "Email Adresi": "Dirección de Email",
+    "email@ornek": {
+      "com": "com"
+    },
+    " Abone Ol &rarr;": " Suscribirse &rarr;",
+    "Bize Ulaşın": "Contáctanos",
+    "Solace ile iletişime geçin, ekiplerimiz en kısa sürede sizinle iletişime geçecektir": "Contacta con Solace, nuestro equipo se pondrá en contacto contigo lo antes posible",
+    "İsim": "Nombre",
+    "Adınız": "Tu Nombre",
+    "Mesajınız": "Tu Mensaje",
+    "Mesajınızı buraya yazın": "Escribe tu mensaje aquí",
+    "Gönder &rarr;": "Enviar &rarr;",
+    "Ensi Home enerji tasarrufu sağlar mı?": "¿Ensi Home ahorra energía?",
+    "Güvenlik sistemleri nasıl çalışıyor?": "¿Cómo funcionan los sistemas de seguridad?",
+    "Ensi Home evimi gerçekten koruyabilir mi?": "¿Puede Ensi Home proteger realmente mi hogar?",
+    "Akıllı ev sistemlerini kurmak için ek donanım ihtiyacım olacak mı?": "¿Necesitaré hardware adicional para instalar los sistemas de casa inteligente?",
+    "Ensi Home montajı ne kadar sürer ve maliyeti nedir?": "¿Cuánto tiempo lleva instalar Ensi Home y cuál es su costo?",
+    "Ensi Home ile aydınlatmamı nasıl kontrol edebilirim?": "¿Cómo puedo controlar mi iluminación con Ensi Home?",
+    "Isıtma ve soğutma sistemlerini uzaktan kontrol edebilir miyim?": "¿Puedo controlar de forma remota los sistemas de calefacción y refrigeración?",
+    "Akıllı ev sistemleri evde olmadığımda evimi nasıl yönetir?": "¿Cómo gestiona mi hogar un sistema de casa inteligente cuando no estoy en casa?",
+    "Akıllı ev sistemleri internet bağlantısı olmadan çalışabilir mi?": "¿Pueden funcionar los sistemas de casa inteligente sin conexión a Internet?",
+    "Akıllı ev sistemleri farklı markaların cihazları ile uyumlu mu?": "¿Son compatibles los sistemas de casa inteligente con dispositivos de diferentes marcas?",
+    "Ensi Home sesli komutlarla çalışabilir mi?": "¿Funciona Ensi Home con comandos de voz?",
+    "Ensi Home ile güvenlik kameralarını nasıl izleyebilirim?": "¿Cómo puedo ver las cámaras de seguridad con Ensi Home?",
+    "Ensi Home ile evdeki elektrikli cihazları otomatik olarak kapatabilir miyim?": "¿Puedo apagar automáticamente los dispositivos eléctricos con Ensi Home?",
+    "Ensi Home ile su sızıntılarını veya yangınları tespit edebilir miyim?": "¿Puedo detectar fugas de agua o incendios con Ensi Home?",
+    "Akıllı ev sistemleri kullanımı ne kadar karmaşık ve yaşlılar için uygun mu?": "¿Qué tan complicados son los sistemas de casa inteligente y son adecuados para los ancianos?",
+    "Ensi Home için düzenli olarak bakım veya güncelleme yapmak gerekir mi?": "¿Es necesario realizar mantenimiento o actualizaciones regulares en Ensi Home?",
+    "Yüksek Teknolojileri tasarlayıp geliştirerek, Akıllı ve İnovatif çözümleri": "Diseñamos y desarrollamos tecnologías avanzadas para implementar soluciones inteligentes e innovadoras",
+    "Hayata Geçiriyoruz!": "¡Hacemos Realidad!",
+    "Ensi Home ile size gerçek bir akıllı ev sunuyoruz": {
+      " Tüm cihazlarınızı tek\n        bir platformda entegre eder, yapay zeka destekli otomasyonlarla\n        yaşamınızı kolaylaştırır": {
+        " Güvenli ve kişiselleştirilmiş bir akıllı ev\n        deneyimi için Ensi Home&apos;u keşfedin": "Descubre Ensi Home para una experiencia de casa inteligente segura y personalizada"
+      }
+    },
+    "Uzaktan Kontroller": "Controles Remotos",
+    "Otomasyonlar": "Automatizaciones",
+    "Yapay Zekalar": "Inteligencias Artificiales",
+    "Mobil Uygulama": "Aplicación Móvil",
+    "Parçaların Toplamından Daha Fazlası": "Más que la Suma de sus Partes",
+    "Solace, parçaların toplamından daha fazlasını değer olarak ortaya koyar": {
+      " Bütün, bireysel parçaların ötesinde bir sinerji ile değer oluşturur": "El todo crea un valor más allá de las partes individuales mediante una sinergia"
+    },
+    "Teknolojiyi insanlaştırma": {
+      " Sade ve yalın, insan odaklı": "Sencillo y directo, centrado en las personas"
+    },
+    "Solace, tasarımlarında insan odaklı olarak sade ve yalın çözümler sunar": {
+      " Karmaşıklığı basitleştirir ve kullanıcı deneyimini ön planda tutar": "Simplifica la complejidad y prioriza la experiencia del usuario"
+    },
+    "Akıllı yaşam çözümleri": "Soluciones de Vida Inteligente",
+    "Solace, yüksek teknolojiyi kullanarak akıllı ve yenilikçi yaşam çözümleri geliştirir": {
+      " Teknoloji, yaşam alanlarını daha konforlu ve verimli hale getirir": "La tecnología convierte los espacios vitales en lugares más confortables y eficientes"
+    },
+    "Güvenli ve verimli sistemler": "Sistemas Seguros y Eficientes",
+    "Solace, tam donanımlı, güvenli ve verimli akıllı sistemler geliştirir": {
+      " Veri gizliliği ve kullanıcı güvenliği her zaman önceliklidir": "La privacidad de los datos y la seguridad del usuario siempre son prioritarias"
+    },
+    "Yenilikçi ve sürdürülebilir": "Innovador y Sostenible",
+    "Solace, yenilikçi yaklaşımlarla sürdürülebilir yaşam alanları yaratır": {
+      " Enerji verimliliği ve kaynak yönetimi ile çevresel etkileri minimize eder": "Minimiza los impactos ambientales mediante la eficiencia energética y la gestión de recursos"
+    },
+    "Keşfet": "Descubre",
+    "Ana Sayfa": "Página Principal",
+    "SSS": "Preguntas Frecuentes",
+    "Akıllı Ev Sistemi": "Sistema de Casa Inteligente",
+    "Teknolojiyi İnsanlaştırma": "Humanizando la Tecnología",
+    "Akıllı Yaşam Çözümleri": "Soluciones de Vida Inteligente",
+    "Güvenli ve Verimli Sistemler": "Sistemas Seguros y Eficientes",
+    "Şirket Lideri": "Líder de la Empresa",
+    "Strateji ve Finans Lideri": "Líder de Estrategia y Finanzas",
+    "Robotik ve IOT Lideri": "Líder de Robótica e IoT",
+    "Yazılım Mimarisi ve Sistem Lideri": "Líder de Arquitectura de Software y Sistemas",
+    "Baş Mühendis": "Ingeniero Jefe"
+  }
+  

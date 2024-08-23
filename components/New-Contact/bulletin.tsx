@@ -8,8 +8,10 @@ import {
   IconBrandGoogle,
   IconBrandOnlyfans,
 } from "@tabler/icons-react";
+import { useTranslations } from "next-intl";
 
 export function NewContactBulletin() {
+  const t = useTranslations();
   const [email, setEmail] = useState('');
   const [response, setResponse] = useState('');
 
@@ -35,16 +37,16 @@ export function NewContactBulletin() {
   return (
     <div className="smin-h-screen container mx-auto w-full max-w-md rounded-none bg-white p-4 shadow-input dark:bg-black md:rounded-2xl md:p-8">
       <h2 className="text-4xl font-bold text-neutral-800 dark:text-neutral-200">
-        Bültenimize Kaydolun
+        {t("Bültenimize Kaydolun")}
       </h2>
       <p className="mt-2 max-w-sm text-sm text-neutral-600 dark:text-neutral-300">
-        Akıllı yaşam bültenimize kaydolun, günceli takip edin.
+        {t("Akıllı yaşam bültenimize kaydolun, günceli takip edin.")}
       </p>
 
       <form className="my-8" onSubmit={handleSubmit}>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="email">Email Adresi</Label>
-          <Input id="email" placeholder="email@ornek.com" type="email" 
+          <Label htmlFor="email">{t("Email Adresi")}</Label>
+          <Input id="email" placeholder={t("email@ornek.com")} type="email" 
           value={email} 
           onChange={(e) => setEmail(e.target.value)}
           required 
@@ -55,7 +57,7 @@ export function NewContactBulletin() {
           className="group/btn relative block h-10 w-full rounded-md bg-gradient-to-br from-black to-neutral-600 font-medium text-white shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:bg-zinc-800 dark:from-zinc-900 dark:to-zinc-900 dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
           type="submit"
         >
-          Abone Ol &rarr;
+         {t(" Abone Ol &rarr;")}
           <BottomGradient />
         </button>
 

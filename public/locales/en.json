@@ -1,8 +1,206 @@
 {
-  "Yaşamı Avucunuza Sunuyoruz": "Bringing Life to Your Fingertips",
-  "Keşfet": "Discover",
-  "Ana Sayfa": "Home",
+  "Maalesef sayfa bulunamadı": "Unfortunately, the page was not found",
+  "Aradığınız sayfa mevcut değil ya da silinmiş olabilir": "The page you are looking for does not exist or may have been deleted",
+  "Anasayfaya Dön": "Return to Homepage",
+  "Akıllı Ev nedir?": "What is a Smart Home?",
+  "Akıllı Ev, çeşitli cihazların birbirleriyle iletişim kurabildiği, uzaktan kontrol edilebilen ve otomatikleştirilebilen bir ev sistemidir": {
+    " Bu sistem sayesinde evdeki aydınlatma, ısıtma, güvenlik gibi birçok özellik kolaylıkla kontrol edilebilir": " This system allows easy control of lighting, heating, security, and many other features in the home"
+  },
+  "Akıllı Ev'in avantajları nelerdir?": "What are the advantages of a Smart Home?",
+  "Akıllı Ev, enerji tasarrufu, güvenlik artışı, konfor ve kullanım kolaylığı gibi birçok avantaj sunar": {
+    " Ayrıca, cihazlar arasındaki iletişim sayesinde ev sahiplerine daha akıllı ve bağlantılı bir yaşam tarzı sunar": " In addition, communication between devices offers homeowners a smarter and more connected lifestyle"
+  },
+  "Hangi cihazlar Akıllı Ev sistemine entegre edilebilir?": "Which devices can be integrated into the Smart Home system?",
+  "Akıllı Ev sistemleri, aydınlatma, ısıtma ve soğutma sistemleri, güvenlik kameraları, kapı kilidi sistemleri, ev sinema sistemleri ve birçok ev aletini içerebilir": {
+    " Genellikle Wi-Fi veya Bluetooth gibi teknolojilerle entegre edilirler": " They are generally integrated with technologies such as Wi-Fi or Bluetooth"
+  },
+  "Akıllı Ev sistemleri nasıl enerji tasarrufu sağlar?": "How do Smart Home systems save energy?",
+  "Akıllı Ev sistemleri, ev sahiplerine enerji kullanımını daha etkili bir şekilde yönetme imkanı tanır": {
+    " Örneğin, otomatik ısıtma ve soğutma sistemleri, evdeki sensörler aracılığıyla ortamın kullanılmadığı zamanlarda enerji tasarrufu yapabilir": " For example, automatic heating and cooling systems can save energy when the environment is not in use, thanks to sensors in the home"
+  },
+  "Akıllı Ev sistemlerinin kurulumu zor mudur?": "Is the installation of Smart Home systems difficult?",
+  "Akıllı Ev sistemlerinin kurulumu genellikle karmaşık değildir ve birçok cihaz kolayca kurulabilir": {
+    " Ancak, daha karmaşık sistemler için profesyonel yardım almak faydalı olabilir": " However, for more complex systems, it may be beneficial to seek professional help"
+  },
+  "Akıllı Ev sistemleri güvenli midir?": "Are Smart Home systems secure?",
+  "Akıllı Ev sistemleri, güvenlik açısından sürekli gelişmektedir": {
+    " Güçlü şifreleme yöntemleri ve düzenli güncellemelerle güvenlik sağlanır": {
+      " Ancak, kullanıcıların güçlü parolalar kullanması ve düzenli güncellemeler yapması önemlidir": " Security is provided with strong encryption methods and regular updates. However, it is important for users to use strong passwords and perform regular updates"
+    }
+  },
+  "Akıllı Ev sistemleri pahalı mıdır?": "Are Smart Home systems expensive?",
+  "Akıllı Ev sistemlerinin maliyeti, seçilen cihazlar ve sistemin kapsamına bağlı olarak değişir": {
+    " Temel bir sistem uygun fiyatlı olabilirken, daha karmaşık ve entegre sistemler daha pahalı olabilir": " The cost of Smart Home systems varies depending on the chosen devices and the scope of the system. A basic system may be affordable, while more complex and integrated systems can be more expensive"
+  },
+  "Akıllı Ev sistemi ile hangi işlemler uzaktan kontrol edilebilir?": "Which operations can be controlled remotely with a Smart Home system?",
+  "Akıllı Ev sistemi ile aydınlatma, ısıtma-soğutma, güvenlik kameraları, kapı kilitleri, elektronik cihazlar ve daha birçok ev fonksiyonu uzaktan kontrol edilebilir": "Lighting, heating-cooling, security cameras, door locks, electronic devices, and many other home functions can be controlled remotely with a Smart Home system",
+  "Akıllı Ev sistemi kurulurken nelere dikkat edilmelidir?": "What should be considered when setting up a Smart Home system?",
+  "Akıllı Ev sistemi kurulurken cihazların uyumluluğuna, güvenlik ayarlarına, ağ altyapısının yeterliliğine ve kullanıcı ihtiyaçlarına dikkat edilmelidir": "When setting up a Smart Home system, attention should be paid to device compatibility, security settings, network infrastructure adequacy, and user needs",
+  "Akıllı Ev sistemleri ile uyumlu uygulamalar nelerdir?": "What applications are compatible with Smart Home systems?",
+  "Akıllı Ev sistemleri genellikle üreticilerin sağladığı mobil uygulamalarla uyumludur": {
+    " Örneğin, Google Home, Amazon Alexa ve Apple HomeKit gibi uygulamalar yaygın olarak kullanılır": "Smart Home systems are usually compatible with mobile applications provided by manufacturers. For example, Google Home, Amazon Alexa, and Apple HomeKit are widely used"
+  },
+  "Akıllı Ev sistemleri ile hangi rutinler otomatikleştirilebilir?": "Which routines can be automated with Smart Home systems?",
+  "Akıllı Ev sistemleri ile aydınlatma zamanlaması, ısıtma-soğutma programları, güvenlik sistemi devreye alma gibi birçok rutin otomatikleştirilebilir": {
+    " Kullanıcılar kişisel rutinlerini oluşturabilirler": "Lighting schedules, heating-cooling programs, and security system activation can be automated with Smart Home systems. Users can create their personal routines"
+  },
+  "Akıllı Ev sistemlerinin internet bağlantısı kesildiğinde ne olur?": "What happens when the internet connection of Smart Home systems is lost?",
+  "İnternet bağlantısı kesildiğinde, yerel ağ üzerinden çalışan akıllı cihazlar genellikle çalışmaya devam eder": {
+    " Ancak, uzaktan kontrol ve bulut tabanlı hizmetler devre dışı kalabilir": "When the internet connection is lost, smart devices operating over the local network usually continue to work. However, remote control and cloud-based services may be disabled"
+  },
+  "Akıllı Ev sistemleri çocuklar için güvenli midir?": "Are Smart Home systems safe for children?",
+  "Akıllı Ev sistemleri, doğru kurulum ve ayarlarla çocuklar için güvenlidir": {
+    " Ebeveyn kontrolleri ve güvenlik ayarları ile çocukların erişimi sınırlandırılabilir": "Smart Home systems are safe for children with proper installation and settings. Parental controls and security settings can restrict children's access"
+  },
+  "Akıllı Ev sistemleri yaşlılar için nasıl faydalıdır?": "How do Smart Home systems benefit the elderly?",
+  "Akıllı Ev sistemleri, yaşlılar için konfor ve güvenlik sağlar": {
+    " Acil durum çağrı sistemleri, otomatik aydınlatma ve uzaktan erişim gibi özellikler yaşlıların yaşam kalitesini artırabilir": "Smart Home systems provide comfort and security for the elderly. Emergency call systems, automatic lighting, and remote access features can enhance the quality of life for the elderly"
+  },
+  "Akıllı Ev sistemleri evcil hayvan sahipleri için nasıl faydalıdır?": "How do Smart Home systems benefit pet owners?",
+  "Akıllı Ev sistemleri, evcil hayvan sahiplerine büyük kolaylıklar sunar": {
+    " Örneğin, evcil hayvan kameraları, otomatik mama dağıtıcıları ve akıllı kapılar sayesinde evcil hayvanların durumu kolayca takip edilebilir": "Smart Home systems offer great convenience to pet owners. For example, pet cameras, automatic feeders, and smart doors make it easy to monitor the status of pets"
+  },
+  "Solace": "Solace",
+  "Solace Akıllı Yaşam Sistemleri her daim yanınızda": "Solace Smart Living Systems are always by your side",
+  "Solace Akıllı Yaşam Sistemleri": "Solace Smart Living Systems",
+  "tarafından geliştirilmiştir": "developed by",
+  "Karşılama": "Welcome",
+  "Solace Ne Yapıyor?": "What Does Solace Do?",
+  "Solace Prensipleri": "Solace Principles",
+  "Solace Özellikleri": "Solace Features",
+  "Ensi Home": "Ensi Home",
+  "Ensi Home Box": "Ensi Home Box",
+  "Ensi Home Mobil Uygulama": "Ensi Home Mobile Application",
+  "Ensi Home Farkı": "Ensi Home Difference",
+  "Ensi Home Temelleri": "Ensi Home Fundamentals",
+  "Ensi Home Özellikleri": "Ensi Home Features",
+  "Solace Ekibi": "Solace Team",
+  "Sıkça Sorulan Sorular": "Frequently Asked Questions",
+  "Sosyal Medya Hesapları": "Social Media Accounts",
+  "İletişim ve Bülten": "Contact and Newsletter",
   "Hakkımızda": "About Us",
+  "Vizyonumuz": "Our Vision",
+  "Misyonumuz": "Our Mission",
+  "Değerlerimiz": "Our Values",
+  "Ensi Home, tüm akıllı ev cihazlarını tek bir platformda entegre eder": "Ensi Home integrates all smart home devices on a single platform",
+  "Yapay zeka ile cihazların en verimli şekilde çalışmasını sağlar": "Ensures the most efficient operation of devices with artificial intelligence",
+  "Kullanıcı tercihleri ve rutinlerine dayalı otomasyonlar oluşturur": "Creates automations based on user preferences and routines",
+  "Şifrelenmiş ağ altyapısı ile veri mahremiyetini sağlar": "Ensures data privacy with encrypted network infrastructure",
+  "Sesli asistan ile uygulamayı açmadan otomasyon ekleyin": "Add automation without opening the app via voice assistant",
+  "Ethernet, Wi-Fi, Zigbee, Bluetooth ve Z-Wave destekler": "Supports Ethernet, Wi-Fi, Zigbee, Bluetooth, and Z-Wave",
+  "Enerji tüketimini optimize ederek maliyetleri düşürür": "Optimizes energy consumption to reduce costs",
+  "Kullanıcı dostu arayüz ve basit kurulum süreci sunar": "Offers a user-friendly interface and simple installation process",
+  "Solace, teknolojiye bağımlı hale getirmeden verimliliği ve konforu artıran akıllı sistemler geliştirir": {
+    " Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler": {
+      " Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar": " Provides solutions for both individual and corporate customers"
+    }
+  },
+  "Yenilikçi": "Innovative",
+  "Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler": "Aims to establish a new market standard by ensuring user data security",
+  "Güvenilir": "Reliable",
+  "Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar": "Provides solutions for both individual and corporate customers",
+  "Çok Yönlü": "Versatile",
+  "Akıllı sistemler ile yaşamı kolaylaştırıyoruz": "We make life easier with smart systems",
+  "Yaşamı Avucunuza Sunuyoruz": "We Bring Life to Your Fingertips",
+  "Solace olarak, yüksek teknolojileri tasarlayıp geliştirerek akıllı ve inovatif çözümleri hayata geçiriyoruz": "As Solace, we design and develop high technologies to bring smart and innovative solutions to life",
+  "Misyonumuz, tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları kullanıcılarımızla buluşturmak ve \n            teknolojinin sunduğu tüm olanakları en üst düzeyde sunmaktır": {
+    " Kullanıcılarımızın ihtiyaçlarını karşılamak için \n            kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek herkesin kullanımına sunuyoruz": " We create personalized solutions to meet the needs of our users and simplify the complexity of technology to make it accessible to everyone"
+  },
+  "tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları": "developing fully capable, efficient, and secure smart systems and",
+  "kullanıcılarımızla": "bringing them together with our users",
+  "buluşturmak ve": "and",
+  "teknolojinin": "maximizing",
+  "sunduğu tüm olanakları en üst düzeyde sunmaktır": {
+    " Kullanıcılarımızın ihtiyaçlarını karşılamak için": " all the possibilities offered by technology"
+  },
+  "kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek": "We produce personalized solutions and simplify the complexity of technology",
+  "herkesin": "making it accessible to everyone",
+  "kullanımına sunuyoruz": "We offer",
+  "Vizyonumuz, çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri global pazara sunan lider bir teknoloji şirketi olmaktır": {
+    " Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde güven ve kalite sembolü olmayı hedefliyoruz": "We aim to be a leading technology company that develops various high-tech products and offers them to the global market. We strive to develop missing hardware by using devices in the market according to their potential and to become a symbol of trust and quality in the industry with our innovative solutions"
+  },
+  "çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri": "developing various high-tech products and",
+  "global pazara": "offering them to the global market",
+  "sunan lider bir teknoloji şirketi olmaktır": {
+    " Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde": "becoming a leading technology company that"
+  },
+  "güven": "trust",
+  "ve": "and",
+  "kalite": "quality",
+  "sembolü olmayı hedefliyoruz": "We aim to become a symbol",
+  "Bültenimize Kaydolun": "Subscribe to Our Newsletter",
+  "Akıllı yaşam bültenimize kaydolun, günceli takip edin": "Subscribe to our smart living newsletter and stay updated",
+  "Email Adresi": "Email Address",
+  "email@ornek": {
+    "com": "com"
+  },
+  " Abone Ol &rarr;": "Subscribe &rarr;",
   "Bize Ulaşın": "Contact Us",
-  "SSS": "FAQ"
+  "Solace ile iletişime geçin, ekiplerimiz en kısa sürede sizinle iletişime geçecektir": "Contact Solace, our teams will get back to you as soon as possible",
+  "İsim": "Name",
+  "Adınız": "Your Name",
+  "Mesajınız": "Your Message",
+  "Mesajınızı buraya yazın": "Write your message here",
+  "Gönder &rarr;": "Send &rarr;",
+  "Ensi Home enerji tasarrufu sağlar mı?": "Does Ensi Home save energy?",
+  "Güvenlik sistemleri nasıl çalışıyor?": "How do security systems work?",
+  "Ensi Home evimi gerçekten koruyabilir mi?": "Can Ensi Home really protect my home?",
+  "Akıllı ev sistemlerini kurmak için ek donanım ihtiyacım olacak mı?": "Will I need additional hardware to set up smart home systems?",
+  "Ensi Home montajı ne kadar sürer ve maliyeti nedir?": "How long does Ensi Home installation take and what is the cost?",
+  "Ensi Home ile aydınlatmamı nasıl kontrol edebilirim?": "How can I control my lighting with Ensi Home?",
+  "Isıtma ve soğutma sistemlerini uzaktan kontrol edebilir miyim?": "Can I control heating and cooling systems remotely?",
+  "Akıllı ev sistemleri evde olmadığımda evimi nasıl yönetir?": "How do smart home systems manage my home when I'm not there?",
+  "Akıllı ev sistemleri internet bağlantısı olmadan çalışabilir mi?": "Can smart home systems work without an internet connection?",
+  "Akıllı ev sistemleri farklı markaların cihazları ile uyumlu mu?": "Are smart home systems compatible with devices from different brands?",
+  "Ensi Home sesli komutlarla çalışabilir mi?": "Can Ensi Home work with voice commands?",
+  "Ensi Home ile güvenlik kameralarını nasıl izleyebilirim?": "How can I view security cameras with Ensi Home?",
+  "Ensi Home ile evdeki elektrikli cihazları otomatik olarak kapatabilir miyim?": "Can I automatically turn off electrical devices at home with Ensi Home?",
+  "Ensi Home ile su sızıntılarını veya yangınları tespit edebilir miyim?": "Can I detect water leaks or fires with Ensi Home?",
+  "Akıllı ev sistemleri kullanımı ne kadar karmaşık ve yaşlılar için uygun mu?": "How complex is the use of smart home systems and is it suitable for the elderly?",
+  "Ensi Home için düzenli olarak bakım veya güncelleme yapmak gerekir mi?": "Do I need to regularly maintain or update Ensi Home?",
+  "Yüksek Teknolojileri tasarlayıp geliştirerek, Akıllı ve İnovatif çözümleri": "Designing and developing high technologies, smart and innovative solutions",
+  "Hayata Geçiriyoruz!": "We bring to life!",
+  "Ensi Home ile size gerçek bir akıllı ev sunuyoruz": {
+    " Tüm cihazlarınızı tek\n        bir platformda entegre eder, yapay zeka destekli otomasyonlarla\n        yaşamınızı kolaylaştırır": {
+      " Güvenli ve kişiselleştirilmiş bir akıllı ev\n        deneyimi için Ensi Home&apos;u keşfedin": "We offer you a real smart home with Ensi Home. It integrates all your devices on a single platform, making your life easier with AI-supported automations. Discover Ensi Home for a secure and personalized smart home experience"
+    }
+  },
+  "Uzaktan Kontroller": "Remote Controls",
+  "Otomasyonlar": "Automations",
+  "Yapay Zekalar": "Artificial Intelligences",
+  "Mobil Uygulama": "Mobile Application",
+  "Parçaların Toplamından Daha Fazlası": "More than the Sum of its Parts",
+  "Solace, parçaların toplamından daha fazlasını değer olarak ortaya koyar": {
+    " Bütün, bireysel parçaların ötesinde bir sinerji ile değer oluşturur": "Solace values more than the sum of its parts. The whole creates value with a synergy beyond individual parts"
+  },
+  "Teknolojiyi insanlaştırma": {
+    " Sade ve yalın, insan odaklı": "Humanizing technology: simple and plain, human-oriented"
+  },
+  "Solace, tasarımlarında insan odaklı olarak sade ve yalın çözümler sunar": {
+    " Karmaşıklığı basitleştirir ve kullanıcı deneyimini ön planda tutar": "Solace offers simple and plain solutions with a human-oriented design. It simplifies complexity and prioritizes user experience"
+  },
+  "Akıllı yaşam çözümleri": "Smart living solutions",
+  "Solace, yüksek teknolojiyi kullanarak akıllı ve yenilikçi yaşam çözümleri geliştirir": {
+    " Teknoloji, yaşam alanlarını daha konforlu ve verimli hale getirir": "Solace develops smart and innovative living solutions using high technology. Technology makes living spaces more comfortable and efficient"
+  },
+  "Güvenli ve verimli sistemler": "Secure and efficient systems",
+  "Solace, tam donanımlı, güvenli ve verimli akıllı sistemler geliştirir": {
+    " Veri gizliliği ve kullanıcı güvenliği her zaman önceliklidir": "Solace develops fully equipped, secure, and efficient smart systems. Data privacy and user security are always prioritized"
+  },
+  "Yenilikçi ve sürdürülebilir": "Innovative and sustainable",
+  "Solace, yenilikçi yaklaşımlarla sürdürülebilir yaşam alanları yaratır": {
+    " Enerji verimliliği ve kaynak yönetimi ile çevresel etkileri minimize eder": "Solace creates sustainable living spaces with innovative approaches. It minimizes environmental impacts through energy efficiency and resource management"
+  },
+  "Keşfet": "Discover",
+  "Ana Sayfa": "Home Page",
+  "SSS": "FAQ",
+  "Akıllı Ev Sistemi": "Smart Home System",
+  "Teknolojiyi İnsanlaştırma": "Humanizing Technology",
+  "Akıllı Yaşam Çözümleri": "Smart Living Solutions",
+  "Güvenli ve Verimli Sistemler": "Secure and Efficient Systems",
+  "Şirket Lideri": "Company Leader",
+  "Strateji ve Finans Lideri": "Strategy and Finance Leader",
+  "Robotik ve IOT Lideri": "Robotics and IoT Leader",
+  "Yazılım Mimarisi ve Sistem Lideri": "Software Architecture and System Leader",
+  "Baş Mühendis": "Chief Engineer"
 }

@@ -3,8 +3,11 @@ import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "../New-Main-Base/canvas-reveal-effect";
+import { useTranslations } from "next-intl";
 
 export function EnsiHoverFeaturesSection() {
+  const t = useTranslations();
+
   const [hovered, setHovered] = React.useState(false);
   return (
     <div
@@ -13,10 +16,10 @@ export function EnsiHoverFeaturesSection() {
       className="relative mx-auto flex min-h-screen w-full flex-col items-center justify-center gap-4 overflow-hidden bg-slate-950 px-8 lg:flex-row"
     >
       <p className="relative z-20 mx-auto max-w-2xl text-center text-2xl font-medium text-white md:text-2xl">
-        Ensi Home ile size gerçek bir akıllı ev sunuyoruz. Tüm cihazlarınızı tek
+        {t(`Ensi Home ile size gerçek bir akıllı ev sunuyoruz. Tüm cihazlarınızı tek
         bir platformda entegre eder, yapay zeka destekli otomasyonlarla
         yaşamınızı kolaylaştırır. Güvenli ve kişiselleştirilmiş bir akıllı ev
-        deneyimi için Ensi Home&apos;u keşfedin.
+        deneyimi için Ensi Home&apos;u keşfedin.`)}
       </p>
 
       <AnimatePresence>

@@ -11,8 +11,101 @@ import {
 } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export function AboutBentoGridThird() {
+  const t = useTranslations();
+  const items = [
+    {
+      title: "Merkezi Kontrol",
+      description: (
+        <span className="text-sm">
+          {t("Ensi Home, tüm akıllı ev cihazlarını tek bir platformda entegre eder.")}
+        </span>
+      ),
+      header: <SkeletonOne />,
+      className: "md:col-span-1",
+      icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    },
+    {
+      title: "Yapay Zeka Destekli Yönetim",
+      description: (
+        <span className="text-sm">
+          {t("Yapay zeka ile cihazların en verimli şekilde çalışmasını sağlar.")}
+        </span>
+      ),
+      header: <SkeletonTwo />,
+      className: "md:col-span-1",
+      icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+    },
+    {
+      title: "Kişiselleştirilmiş Otomasyon",
+      description: (
+        <span className="text-sm">
+          {t("Kullanıcı tercihleri ve rutinlerine dayalı otomasyonlar oluşturur.")}
+        </span>
+      ),
+      header: <SkeletonThree />,
+      className: "md:col-span-1",
+      icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+    },
+    {
+      title: "Güvenli Veri Yönetimi",
+      description: (
+        <span className="text-sm">
+          {t("Şifrelenmiş ağ altyapısı ile veri mahremiyetini sağlar.")}
+        </span>
+      ),
+      header: <SkeletonFour />,
+      className: "md:col-span-2",
+      icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    },
+    {
+      title: "Sesli Asistan Entegrasyonu",
+      description: (
+        <span className="text-sm">
+          {t("Sesli asistan ile uygulamayı açmadan otomasyon ekleyin.")}
+        </span>
+      ),
+      header: <SkeletonFive />,
+      className: "md:col-span-1",
+      icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+    },
+    {
+      title: "Geniş Cihaz Uyumluluğu",
+      description: (
+        <span className="text-sm">
+          {t("Ethernet, Wi-Fi, Zigbee, Bluetooth ve Z-Wave destekler.")}
+        </span>
+      ),
+      header: <Skeleton />,
+      className: "md:col-span-1",
+      icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+    },
+    {
+        title: "Enerji Verimliliği",
+        description: (
+          <span className="text-sm">
+            {t("Enerji tüketimini optimize ederek maliyetleri düşürür.")}
+          </span>
+        ),
+        header: <Skeleton />,
+        className: "md:col-span-1",
+        icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+      },
+      {
+        title: "Kolay Kurulum ve Kullanım",
+        description: (
+          <span className="text-sm">
+            {t("Kullanıcı dostu arayüz ve basit kurulum süreci sunar.")}
+          </span>
+        ),
+        header: <Skeleton />,
+        className: "md:col-span-1",
+        icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+      },
+  ];
+  
     return (
         <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
             {items.map((item, i) => (
@@ -158,6 +251,7 @@ const SkeletonThree = () => {
     );
 };
 const SkeletonFour = () => {
+  const t = useTranslations();
     const first = {
         initial: {
             x: 20,
@@ -197,10 +291,10 @@ const SkeletonFour = () => {
               className="rounded-full h-10 w-10"
             />
             <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-              Solace, teknolojiye bağımlı hale getirmeden verimliliği ve konforu artıran akıllı sistemler geliştirir.
+             { t("Solace, teknolojiye bağımlı hale getirmeden verimliliği ve konforu artıran akıllı sistemler geliştirir.")}
             </p>
             <p className="border border-blue-500 bg-blue-100 dark:bg-blue-900/20 text-blue-600 text-xs rounded-full px-2 py-0.5 mt-4">
-              Yenilikçi
+              {t("Yenilikçi")}
             </p>
           </motion.div>
           <motion.div className="h-full relative z-20 w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center">
@@ -212,10 +306,10 @@ const SkeletonFour = () => {
               className="rounded-full h-10 w-10"
             />
             <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-              Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler.
+              {t("Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler.")}
             </p>
             <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
-              Güvenilir
+              {t("Güvenilir")}
             </p>
           </motion.div>
           <motion.div
@@ -230,16 +324,17 @@ const SkeletonFour = () => {
               className="rounded-full h-10 w-10"
             />
             <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-              Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar.
+              {t("Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar.")}
             </p>
             <p className="border border-orange-500 bg-orange-100 dark:bg-orange-900/20 text-orange-600 text-xs rounded-full px-2 py-0.5 mt-4">
-              Çok Yönlü
+              {t("Çok Yönlü")}
             </p>
           </motion.div>
         </motion.div>
       );      
 };
 const SkeletonFive = () => {
+  const t = useTranslations();
     const variants = {
         initial: {
             x: 0,
@@ -283,107 +378,16 @@ const SkeletonFive = () => {
               className="rounded-full h-10 w-10"
             />
             <p className="text-xs text-neutral-500">
-              Solace, teknolojiye bağımlı hale getirmeden verimliliği ve konforu artıran akıllı sistemler geliştirir. Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler. Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar.
+              {t("Solace, teknolojiye bağımlı hale getirmeden verimliliği ve konforu artıran akıllı sistemler geliştirir. Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler. Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar.")}
             </p>
           </motion.div>
           <motion.div
             variants={variantsSecond}
             className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center justify-end space-x-2 w-3/4 ml-auto bg-white dark:bg-black"
           >
-            <p className="text-xs text-neutral-500">Akıllı sistemler ile yaşamı kolaylaştırıyoruz.</p>
+            <p className="text-xs text-neutral-500">{t("Akıllı sistemler ile yaşamı kolaylaştırıyoruz.")}</p>
             <div className="h-6 w-6 rounded-full bg-gradient-to-r from-pink-500 to-violet-500 flex-shrink-0" />
           </motion.div>
         </motion.div>
       );      
 };
-const items = [
-    {
-      title: "Merkezi Kontrol",
-      description: (
-        <span className="text-sm">
-          Ensi Home, tüm akıllı ev cihazlarını tek bir platformda entegre eder.
-        </span>
-      ),
-      header: <SkeletonOne />,
-      className: "md:col-span-1",
-      icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
-    },
-    {
-      title: "Yapay Zeka Destekli Yönetim",
-      description: (
-        <span className="text-sm">
-          Yapay zeka ile cihazların en verimli şekilde çalışmasını sağlar.
-        </span>
-      ),
-      header: <SkeletonTwo />,
-      className: "md:col-span-1",
-      icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
-    },
-    {
-      title: "Kişiselleştirilmiş Otomasyon",
-      description: (
-        <span className="text-sm">
-          Kullanıcı tercihleri ve rutinlerine dayalı otomasyonlar oluşturur.
-        </span>
-      ),
-      header: <SkeletonThree />,
-      className: "md:col-span-1",
-      icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-    },
-    {
-      title: "Güvenli Veri Yönetimi",
-      description: (
-        <span className="text-sm">
-          Şifrelenmiş ağ altyapısı ile veri mahremiyetini sağlar.
-        </span>
-      ),
-      header: <SkeletonFour />,
-      className: "md:col-span-2",
-      icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
-    },
-    {
-      title: "Sesli Asistan Entegrasyonu",
-      description: (
-        <span className="text-sm">
-          Sesli asistan ile uygulamayı açmadan otomasyon ekleyin.
-        </span>
-      ),
-      header: <SkeletonFive />,
-      className: "md:col-span-1",
-      icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
-    },
-    {
-      title: "Geniş Cihaz Uyumluluğu",
-      description: (
-        <span className="text-sm">
-          Ethernet, Wi-Fi, Zigbee, Bluetooth ve Z-Wave destekler.
-        </span>
-      ),
-      header: <Skeleton />,
-      className: "md:col-span-1",
-      icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
-    },
-    {
-        title: "Enerji Verimliliği",
-        description: (
-          <span className="text-sm">
-            Enerji tüketimini optimize ederek maliyetleri düşürür.
-          </span>
-        ),
-        header: <Skeleton />,
-        className: "md:col-span-1",
-        icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
-      },
-      {
-        title: "Kolay Kurulum ve Kullanım",
-        description: (
-          <span className="text-sm">
-            Kullanıcı dostu arayüz ve basit kurulum süreci sunar.
-          </span>
-        ),
-        header: <Skeleton />,
-        className: "md:col-span-1",
-        icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
-      },
-  ];
-  

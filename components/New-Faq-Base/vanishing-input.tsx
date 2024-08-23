@@ -3,24 +3,8 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { cn } from "@/utils/cn";
-const placeholders = [
-    "Ensi Home enerji tasarrufu sağlar mı?",
-    "Güvenlik sistemleri nasıl çalışıyor?",
-    "Ensi Home evimi gerçekten koruyabilir mi?",
-    "Akıllı ev sistemlerini kurmak için ek donanım ihtiyacım olacak mı?",
-    "Ensi Home montajı ne kadar sürer ve maliyeti nedir?",
-    "Ensi Home ile aydınlatmamı nasıl kontrol edebilirim?",
-    "Isıtma ve soğutma sistemlerini uzaktan kontrol edebilir miyim?",
-    "Akıllı ev sistemleri evde olmadığımda evimi nasıl yönetir?",
-    "Akıllı ev sistemleri internet bağlantısı olmadan çalışabilir mi?",
-    "Akıllı ev sistemleri farklı markaların cihazları ile uyumlu mu?",
-    "Ensi Home sesli komutlarla çalışabilir mi?",
-    "Ensi Home ile güvenlik kameralarını nasıl izleyebilirim?",
-    "Ensi Home ile evdeki elektrikli cihazları otomatik olarak kapatabilir miyim?",
-    "Ensi Home ile su sızıntılarını veya yangınları tespit edebilir miyim?",
-    "Akıllı ev sistemleri kullanımı ne kadar karmaşık ve yaşlılar için uygun mu?",
-    "Ensi Home için düzenli olarak bakım veya güncelleme yapmak gerekir mi?",
-  ];
+import { useTranslations } from "next-intl";
+
 
 export function FaqVanishingInput({
 //   placeholders,
@@ -37,6 +21,27 @@ export function FaqVanishingInput({
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     console.log(e.target.value);
   };
+  const t = useTranslations();
+  const placeholders = [
+    t("Ensi Home enerji tasarrufu sağlar mı?"),
+    t("Güvenlik sistemleri nasıl çalışıyor?"),
+    t("Ensi Home evimi gerçekten koruyabilir mi?"),
+    t("Akıllı ev sistemlerini kurmak için ek donanım ihtiyacım olacak mı?"),
+    t("Ensi Home montajı ne kadar sürer ve maliyeti nedir?"),
+    t("Ensi Home ile aydınlatmamı nasıl kontrol edebilirim?"),
+    t("Isıtma ve soğutma sistemlerini uzaktan kontrol edebilir miyim?"),
+    t("Akıllı ev sistemleri evde olmadığımda evimi nasıl yönetir?"),
+    t("Akıllı ev sistemleri internet bağlantısı olmadan çalışabilir mi?"),
+    t("Akıllı ev sistemleri farklı markaların cihazları ile uyumlu mu?"),
+    t("Ensi Home sesli komutlarla çalışabilir mi?"),
+    t("Ensi Home ile güvenlik kameralarını nasıl izleyebilirim?"),
+    t("Ensi Home ile evdeki elektrikli cihazları otomatik olarak kapatabilir miyim?"),
+    t("Ensi Home ile su sızıntılarını veya yangınları tespit edebilir miyim?"),
+    t("Akıllı ev sistemleri kullanımı ne kadar karmaşık ve yaşlılar için uygun mu?"),
+    t("Ensi Home için düzenli olarak bakım veya güncelleme yapmak gerekir mi?"),
+  ];
+  
+
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     // send 
     e.preventDefault();

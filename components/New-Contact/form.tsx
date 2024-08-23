@@ -8,8 +8,10 @@ import {
   IconBrandGoogle,
   IconBrandOnlyfans,
 } from "@tabler/icons-react";
+import { useTranslations } from "next-intl";
 
 export function NewContactForm() {
+  const t = useTranslations();
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -34,22 +36,21 @@ export function NewContactForm() {
       setResponse('Failed to send your message. Please try again.');
     }
   };
-
   return (
     <div className="smin-h-screen container mx-auto w-full max-w-md rounded-none bg-white p-4 shadow-input dark:bg-black md:rounded-2xl md:p-8">
       <h2 className="text-4xl font-bold text-neutral-800 dark:text-neutral-200">
-        Bize Ulaşın
+        {t("Bize Ulaşın")}
       </h2>
       <p className="mt-2 max-w-sm text-sm text-neutral-600 dark:text-neutral-300">
-        Solace ile iletişime geçin, ekiplerimiz en kısa sürede sizinle iletişime geçecektir.
+        {t("Solace ile iletişime geçin, ekiplerimiz en kısa sürede sizinle iletişime geçecektir.")}
       </p>
 
       <form className="my-8" onSubmit={handleSubmit}>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="name">İsim</Label>
+          <Label htmlFor="name">{t("İsim")}</Label>
           <Input 
             id="name" 
-            placeholder="Adınız" 
+            placeholder={t("Adınız")} 
             type="text" 
             value={name} 
             onChange={(e) => setName(e.target.value)}
@@ -57,10 +58,10 @@ export function NewContactForm() {
           />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="email">Email Adresi</Label>
+          <Label htmlFor="email">{t("Email Adresi")}</Label>
           <Input 
             id="email" 
-            placeholder="email@ornek.com" 
+            placeholder={t("email@ornek.com")} 
             type="email" 
             value={email} 
             onChange={(e) => setEmail(e.target.value)}
@@ -68,10 +69,10 @@ export function NewContactForm() {
           />
         </LabelInputContainer>
         <LabelInputContainer className="mb-8">
-          <Label htmlFor="message">Mesajınız</Label>
+          <Label htmlFor="message">{t("Mesajınız")}</Label>
           <Input 
             id="message" 
-            placeholder="Mesajınızı buraya yazın" 
+            placeholder={t("Mesajınızı buraya yazın")} 
             type="text" 
             value={message} 
             onChange={(e) => setMessage(e.target.value)}
@@ -83,7 +84,7 @@ export function NewContactForm() {
           className="group/btn relative block h-10 w-full rounded-md bg-gradient-to-br from-black to-neutral-600 font-medium text-white shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:bg-zinc-800 dark:from-zinc-900 dark:to-zinc-900 dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
           type="submit"
         >
-          Gönder &rarr;
+          {t("Gönder &rarr;")}
           <BottomGradient />
         </button>
 

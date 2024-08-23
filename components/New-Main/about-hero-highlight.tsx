@@ -3,8 +3,10 @@ import {motion, useMotionTemplate, useMotionValue} from "framer-motion";
 import {HeroHighlight, Highlight} from "../New-Main-Base/hero-highlight";
 import React from "react";
 import {cn} from "@/utils/cn";
+import { useTranslations } from "next-intl";
 
 export function AboutHeroHighlight() {
+    const t = useTranslations();
 
     return (
         <div className={`min-h-screen`}>
@@ -25,10 +27,10 @@ export function AboutHeroHighlight() {
                         }}
                         className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
                     >
-                        Yüksek Teknolojileri tasarlayıp geliştirerek, Akıllı ve İnovatif çözümleri
+                        {t("Yüksek Teknolojileri tasarlayıp geliştirerek, Akıllı ve İnovatif çözümleri")}
                         {"  "}
                         <Highlight className="text-black dark:text-white">
-                            Hayata Geçiriyoruz!
+                            {t("Hayata Geçiriyoruz!")}
                         </Highlight>
 
                     </motion.h1>

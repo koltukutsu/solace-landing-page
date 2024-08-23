@@ -1,13 +1,15 @@
+"use client";
 import Link from "next/link";
 
 import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Solace | Yaşamı Avucunuza Sunuyoruz",
-  description: "Akıllı Yaşam Çözümleri",
-  // other metadata
-};
+import { useTranslations } from "next-intl";
+// export const metadata: Metadata = {
+//   title: "Solace | Yaşamı Avucunuza Sunuyoruz",
+//   description: "Akıllı Yaşam Çözümleri",
+//   // other metadata
+// };
 const GlobalError = () => {
+  const t = useTranslations();
   return (
     <>
       <section className="relative z-10 pb-16 pt-36 md:pb-20 lg:pb-28 lg:pt-[180px]">
@@ -141,16 +143,16 @@ const GlobalError = () => {
                   </svg>
                 </div>
                 <h3 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl">
-                  Maalesef sayfa bulunamadı
+                  {t("Maalesef sayfa bulunamadı")}
                 </h3>
                 <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    Aradığınız sayfa mevcut değil ya da silinmiş olabilir.
+                    {t("Aradığınız sayfa mevcut değil ya da silinmiş olabilir.")}
                 </p>
                 <Link
                   href="/"
                   className="px-8 py-3 text-base font-bold text-white duration-300 rounded-md bg-primary shadow-signUp hover:bg-white hover:text-primary md:px-9 lg:px-8 xl:px-9"
                 >
-                  Anasayfaya Dön
+                  {t("Anasayfaya Dön")}
                 </Link>
               </div>
             </div>

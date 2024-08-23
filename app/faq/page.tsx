@@ -4,6 +4,7 @@ import faqList from "@/components/FAQ/faq";
 import React, { useEffect, useRef, useState } from "react";
 import { FAQNavigation } from "@/components/Navigations/sections";
 import { Metadata } from "next";
+import { FaqHeader } from "@/components/New-Faq/faq-h1";
 
 
 export const metadata: Metadata = {
@@ -63,11 +64,7 @@ const FAQPage = () => {
           }
           id="sss"
         >
-          <div className="mt-8 text-center">
-            <h1 className="bg:text-7xl text-6xl font-bold md:text-7xl">
-              Sıkça Sorulan Sorular
-            </h1>
-          </div>
+          <FaqHeader/>
           <div className="w-full pb-8 pt-20">
             <FaqVanishingInput
               // placeholders={placeholders}

@@ -3,7 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import socialMediaAccounts from "./socialMediaAccounts";
+import { useTranslations } from "next-intl";
 const Footer = () => {
+  const t = useTranslations();
   return (
     <>
       <footer
@@ -16,11 +18,11 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <h2 className="w-full text-3xl font-bold text-logo-text-color dark:hidden">
-                    Solace
+                    {t("Solace")}
                   </h2>
 
                   <h2 className="hidden w-full text-3xl font-bold dark:block text-white">
-                    Solace
+                    {t("Solace")}
                   </h2>
                   {/* <Image
                     src="/images/logo/logo-2.svg"
@@ -38,7 +40,7 @@ const Footer = () => {
                   /> */}
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Solace Akıllı Yaşam Sistemleri her daim yanınızda.
+                  {t("Solace Akıllı Yaşam Sistemleri her daim yanınızda.")}
                 </p>
                 <div className="flex items-center">
                   {/* <a
@@ -192,9 +194,9 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Solace Akıllı Yaşam Sistemleri{" "}
+              {t("Solace Akıllı Yaşam Sistemleri")}{" "}
               <Link href="/contact" rel="nofollow noopener">
-                tarafından geliştirilmiştir.
+                {t("tarafından geliştirilmiştir.")}
               </Link>
             </p>
           </div>
