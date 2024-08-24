@@ -69,7 +69,7 @@ export const FloatingNav = ({
     console.log("Language changed to: ", locale);
     startTransition(async() => {
       setChangingLanguage(true); // Start the animation
-      await setTimeout(() => setChangingLanguage(false), 1500);
+      await setTimeout(() => setChangingLanguage(false), 500);
       setUserLocale(locale);
     });
   }
