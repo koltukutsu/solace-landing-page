@@ -15,10 +15,10 @@ export function AboutSpotlight() {
             />
             <div className="p-4 max-w-7xl mx-auto relative z-10 w-full pt-20 md:pt-0">
                 <h1 className="text-6xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-                    {t("about.spotlight.title")} <br /> {t("about.spotlight.description")}
+                    {t("about_spotlight_title")} <br /> {t("about_spotlight_description")}
                 </h1>
                 <p className="mt-4 font-normal text-base md:text-2xl text-neutral-300 max-w-lg text-center mx-auto">
-                    {t("about.spotlight.description2")}
+                    {t("about_spotlight_description2")}
                 </p>
             </div>
         </div>

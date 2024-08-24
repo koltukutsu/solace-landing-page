@@ -27,10 +27,10 @@ export function AboutHeroHighlight() {
                         }}
                         className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
                     >
-                        {t("main.aboutHeroHighlight.tagline")}
+                        {t("main_aboutHeroHighlight_tagline")}
                         {"  "}
                         <Highlight className="text-black dark:text-white">
-                            {t("main.aboutHeroHighlight.highlight")}
+                            {t("main_aboutHeroHighlight_highlight")}
                         </Highlight>
                     </motion.h1>
                 </HeroHighlight>

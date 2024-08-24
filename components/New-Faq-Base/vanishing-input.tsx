@@ -10,22 +10,22 @@ export function FaqVanishingInput() {
   const [currentPlaceholder, setCurrentPlaceholder] = useState(0);
   const [response, setResponse] = useState('');
   const placeholders = [
-    t('faq.vanishingInput.placeholder0'),
-    t('faq.vanishingInput.placeholder1'),
-    t('faq.vanishingInput.placeholder2'),
-    t('faq.vanishingInput.placeholder3'),
-    t('faq.vanishingInput.placeholder4'),
-    t('faq.vanishingInput.placeholder5'),
-    t('faq.vanishingInput.placeholder6'),
-    t('faq.vanishingInput.placeholder7'),
-    t('faq.vanishingInput.placeholder8'),
-    t('faq.vanishingInput.placeholder9'),
-    t('faq.vanishingInput.placeholder10'),
-    t('faq.vanishingInput.placeholder11'),
-    t('faq.vanishingInput.placeholder12'),
-    t('faq.vanishingInput.placeholder13'),
-    t('faq.vanishingInput.placeholder14'),
-    t('faq.vanishingInput.placeholder15')
+    t('faq_vanishingInput_placeholder0'),
+    t('faq_vanishingInput_placeholder1'),
+    t('faq_vanishingInput_placeholder2'),
+    t('faq_vanishingInput_placeholder3'),
+    t('faq_vanishingInput_placeholder4'),
+    t('faq_vanishingInput_placeholder5'),
+    t('faq_vanishingInput_placeholder6'),
+    t('faq_vanishingInput_placeholder7'),
+    t('faq_vanishingInput_placeholder8'),
+    t('faq_vanishingInput_placeholder9'),
+    t('faq_vanishingInput_placeholder10'),
+    t('faq_vanishingInput_placeholder11'),
+    t('faq_vanishingInput_placeholder12'),
+    t('faq_vanishingInput_placeholder13'),
+    t('faq_vanishingInput_placeholder14'),
+    t('faq_vanishingInput_placeholder15'),
   ];
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {

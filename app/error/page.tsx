@@ -139,16 +139,16 @@ const GlobalError = () => {
                   </svg>
                 </div>
                 <h3 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl">
-                  {t('error.pageNotFound')}
+                  {t('error_pageNotFound')}
                 </h3>
                 <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  {t('error.pageNotFoundDescription')}
+                  {t('error_pageNotFoundDescription')}
                 </p>
                 <Link
                   href="/"
                   className="px-8 py-3 text-base font-bold text-white duration-300 rounded-md bg-primary shadow-signUp hover:bg-white hover:text-primary md:px-9 lg:px-8 xl:px-9"
                 >
-                  {t('error.goToHomepage')}
+                  {t('error_goToHomepage')}
                 </Link>
               </div>
             </div>

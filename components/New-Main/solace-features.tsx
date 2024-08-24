@@ -8,23 +8,23 @@ export function SolaceFeatures() {
   
   const projects = [
     {
-      title: t("main.solaceFeatures.moreThanSum"),
-      description: t("main.solaceFeatures.moreThanSumDescription"),
+      title: t("main_solaceFeatures_moreThanSum"),
+      description: t("main_solaceFeatures_moreThanSumDescription"),
       link: "https://ensihome.com",
     },
     {
-      title: t("main.solaceFeatures.humanizingTechnology"),
-      description: t("main.solaceFeatures.humanizingTechnologyDescription"),
+      title: t("main_solaceFeatures_humanizingTechnology"),
+      description: t("main_solaceFeatures_humanizingTechnologyDescription"),
       link: "https://ensihome.com",
     },
     {
-      title: t("main.solaceFeatures.smartLivingSolutions"),
-      description: t("main.solaceFeatures.smartLivingSolutionsDescription"),
+      title: t("main_solaceFeatures_smartLivingSolutions"),
+      description: t("main_solaceFeatures_smartLivingSolutionsDescription"),
       link: "https://ensihome.com",
     },
     {
-      title: t("main.solaceFeatures.safeAndEfficientSystems"),
-      description: t("main.solaceFeatures.safeAndEfficientSystemsDescription"),
+      title: t("main_solaceFeatures_safeAndEfficientSystems"),
+      description: t("main_solaceFeatures_safeAndEfficientSystemsDescription"),
       link: "https://ensihome.com",
     },
   ];

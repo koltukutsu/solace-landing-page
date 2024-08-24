@@ -17,10 +17,10 @@ export function AboutBentoGridThird() {
   const t = useTranslations();
   const items = [
     {
-      title: t("about.bentoGrid.centralControl.title"),
+      title: t("about_bentoGrid_centralControl_title"),
       description: (
         <span className="text-sm">
-          {t("about.bentoGrid.centralControl.description")}
+          {t("about_bentoGrid_centralControl_description")}
         </span>
       ),
       header: <SkeletonOne />,
@@ -28,10 +28,10 @@ export function AboutBentoGridThird() {
       icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: t("about.bentoGrid.aiManagement.title"),
+      title: t("about_bentoGrid_aiManagement_title"),
       description: (
         <span className="text-sm">
-          {t("about.bentoGrid.aiManagement.description")}
+          {t("about_bentoGrid_aiManagement_description")}
         </span>
       ),
       header: <SkeletonTwo />,
@@ -39,10 +39,10 @@ export function AboutBentoGridThird() {
       icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: t("about.bentoGrid.personalizedAutomation.title"),
+      title: t("about_bentoGrid_personalizedAutomation_title"),
       description: (
         <span className="text-sm">
-          {t("about.bentoGrid.personalizedAutomation.description")}
+          {t("about_bentoGrid_personalizedAutomation_description")}
         </span>
       ),
       header: <SkeletonThree />,
@@ -50,10 +50,10 @@ export function AboutBentoGridThird() {
       icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: t("about.bentoGrid.secureDataManagement.title"),
+      title: t("about_bentoGrid_secureDataManagement_title"),
       description: (
         <span className="text-sm">
-          {t("about.bentoGrid.secureDataManagement.description")}
+          {t("about_bentoGrid_secureDataManagement_description")}
         </span>
       ),
       header: <SkeletonFour />,
@@ -61,10 +61,10 @@ export function AboutBentoGridThird() {
       icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: t("about.bentoGrid.voiceAssistantIntegration.title"),
+      title: t("about_bentoGrid_voiceAssistantIntegration_title"),
       description: (
         <span className="text-sm">
-          {t("about.bentoGrid.voiceAssistantIntegration.description")}
+          {t("about_bentoGrid_voiceAssistantIntegration_description")}
         </span>
       ),
       header: <SkeletonFive />,
@@ -72,10 +72,10 @@ export function AboutBentoGridThird() {
       icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: t("about.bentoGrid.deviceCompatibility.title"),
+      title: t("about_bentoGrid_deviceCompatibility_title"),
       description: (
         <span className="text-sm">
-          {t("about.bentoGrid.deviceCompatibility.description")}
+          {t("about_bentoGrid_deviceCompatibility_description")}
         </span>
       ),
       header: <Skeleton />,
@@ -83,10 +83,10 @@ export function AboutBentoGridThird() {
       icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: t("about.bentoGrid.energyEfficiency.title"),
+      title: t("about_bentoGrid_energyEfficiency_title"),
       description: (
         <span className="text-sm">
-          {t("about.bentoGrid.energyEfficiency.description")}
+          {t("about_bentoGrid_energyEfficiency_description")}
         </span>
       ),
       header: <Skeleton />,
@@ -94,10 +94,10 @@ export function AboutBentoGridThird() {
       icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: t("about.bentoGrid.easySetupAndUse.title"),
+      title: t("about_bentoGrid_easySetupAndUse_title"),
       description: (
         <span className="text-sm">
-          {t("about.bentoGrid.easySetupAndUse.description")}
+          {t("about_bentoGrid_easySetupAndUse_description")}
         </span>
       ),
       header: <Skeleton />,
@@ -295,10 +295,10 @@ const SkeletonFour = () => {
               className="rounded-full h-10 w-10"
             />
             <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-             { t("about.bentoGrid.skeletonFour.first.description")}
+             { t("about_bentoGrid_skeletonFour_first_description")}
             </p>
             <p className="border border-blue-500 bg-blue-100 dark:bg-blue-900/20 text-blue-600 text-xs rounded-full px-2 py-0.5 mt-4">
-              {t("about.bentoGrid.skeletonFour.first.tag")}
+              {t("about_bentoGrid_skeletonFour_first_tag")}
             </p>
           </motion.div>
           <motion.div className="h-full relative z-20 w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center">
@@ -310,10 +310,10 @@ const SkeletonFour = () => {
               className="rounded-full h-10 w-10"
             />
             <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-              {t("about.bentoGrid.skeletonFour.second.description")}
+              {t("about_bentoGrid_skeletonFour_second_description")}
             </p>
             <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
-              {t("about.bentoGrid.skeletonFour.second.tag")}
+              {t("about_bentoGrid_skeletonFour_second_tag")}
             </p>
           </motion.div>
           <motion.div
@@ -328,10 +328,10 @@ const SkeletonFour = () => {
               className="rounded-full h-10 w-10"
             />
             <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-              {t("about.bentoGrid.skeletonFour.third.description")}
+              {t("about_bentoGrid_skeletonFour_third_description")}
             </p>
             <p className="border border-orange-500 bg-orange-100 dark:bg-orange-900/20 text-orange-600 text-xs rounded-full px-2 py-0.5 mt-4">
-              {t("about.bentoGrid.skeletonFour.third.tag")}
+              {t("about_bentoGrid_skeletonFour_third_tag")}
             </p>
           </motion.div>
         </motion.div>
@@ -383,14 +383,14 @@ const SkeletonFive = () => {
               className="rounded-full h-10 w-10"
             />
             <p className="text-xs text-neutral-500">
-              {t("about.bentoGrid.skeletonFive.fullDescription")}
+              {t("about_bentoGrid_skeletonFive_fullDescription")}
             </p>
           </motion.div>
           <motion.div
             variants={variantsSecond}
             className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center justify-end space-x-2 w-3/4 ml-auto bg-white dark:bg-black"
           >
-            <p className="text-xs text-neutral-500">{t("about.bentoGrid.skeletonFive.footerDescription")}</p>
+            <p className="text-xs text-neutral-500">{t("about_bentoGrid_skeletonFive_footerDescription")}</p>
             <div className="h-6 w-6 rounded-full bg-gradient-to-r from-pink-500 to-violet-500 flex-shrink-0" />
           </motion.div>
         </motion.div>

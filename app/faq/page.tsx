@@ -5,6 +5,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { FAQNavigation } from "@/components/Navigations/sections";
 import { Metadata } from "next";
 import { FaqHeader } from "@/components/New-Faq/faq-h1";
+import Footer from "@/components/Footer";
 
 
 export const metadata: Metadata = {
@@ -70,6 +71,7 @@ const FAQPage = () => {
 
           <FAQSectionOne />
         </div>
+        <Footer/>
       </div>
     </>
   );

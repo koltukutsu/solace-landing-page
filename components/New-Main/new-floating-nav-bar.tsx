@@ -8,22 +8,22 @@ export function NewFloatingNav() {
   const t = useTranslations(); 
   const navItems = [
     {
-      name: t('newFloatingNavBar.main.home'),
+      name: t('newFloatingNavBar_main_home'),
       link: '/',
       icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
-      name: t('newFloatingNavBar.main.about'),
+      name: t('newFloatingNavBar_main_about'),
       link: '/about',
       icon: <IconBuilding className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
-      name: t('newFloatingNavBar.main.contact'),
+      name: t('newFloatingNavBar_main_contact'),
       link: '/contact',
       icon: <IconMail className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
-      name: t('newFloatingNavBar.main.faq'),
+      name: t('newFloatingNavBar_main_faq'),
       link: '/faq',
       icon: <IconQuestionMark className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },

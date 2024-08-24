@@ -15,6 +15,9 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
+  env: {
+    _next_intl_trailing_slash: "", // Add this to resolve the warning
+  },
 };
 
 module.exports = withNextIntl(nextConfig);

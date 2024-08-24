@@ -34,13 +34,13 @@ export function HeroAuroraBackground() {
                         />
                     </div>
                     <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
-                        {t("main.heroAuroraBackground.tagline")}
+                        {t("main_heroAuroraBackground_tagline")}
                     </div>
                     <Link href="#about-hero" className="pt-6">
                         <Button
                             borderRadius="1.75rem"
                             className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-400 dark:border-slate-800 font-light text-2xl sm:text-xl md:text-xl">
-                            {t("main.heroAuroraBackground.exploreButton")}
+                            {t("main_heroAuroraBackground_exploreButton")}
                         </Button>
                     </Link>
                 </motion.div>

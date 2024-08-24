@@ -32,18 +32,18 @@ export function NewContactBulletin() {
   return (
     <div className="smin-h-screen container mx-auto w-full max-w-md rounded-none bg-white p-4 shadow-input dark:bg-black md:rounded-2xl md:p-8">
       <h2 className="text-4xl font-bold text-neutral-800 dark:text-neutral-200">
-        {t('contact.bulletin.title')}
+        {t('contact_bulletin_title')}
       </h2>
       <p className="mt-2 max-w-sm text-sm text-neutral-600 dark:text-neutral-300">
-        {t('contact.bulletin.description')}
+        {t('contact_bulletin_description')}
       </p>
 
       <form className="my-8" onSubmit={handleSubmit}>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="email">{t('contact.bulletin.emailLabel')}</Label>
+          <Label htmlFor="email">{t('contact_bulletin_emailLabel')}</Label>
           <Input 
             id="email" 
-            placeholder={t('contact.bulletin.emailPlaceholder')} 
+            placeholder={t('contact_bulletin_emailPlaceholder')} 
             type="email" 
             value={email} 
             onChange={(e) => setEmail(e.target.value)}
@@ -55,7 +55,7 @@ export function NewContactBulletin() {
           className="group/btn relative block h-10 w-full rounded-md bg-gradient-to-br from-black to-neutral-600 font-medium text-white shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:bg-zinc-800 dark:from-zinc-900 dark:to-zinc-900 dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
           type="submit"
         >
-         {t('contact.bulletin.submitButton')}
+         {t('contact_bulletin_submitButton')}
           <BottomGradient />
         </button>
 

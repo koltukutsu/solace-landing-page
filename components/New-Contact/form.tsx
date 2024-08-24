@@ -34,18 +34,18 @@ export function NewContactForm() {
   return (
     <div className="smin-h-screen container mx-auto w-full max-w-md rounded-none bg-white p-4 shadow-input dark:bg-black md:rounded-2xl md:p-8">
       <h2 className="text-4xl font-bold text-neutral-800 dark:text-neutral-200">
-        {t('contact.form.title')}
+        {t('contact_form_title')}
       </h2>
       <p className="mt-2 max-w-sm text-sm text-neutral-600 dark:text-neutral-300">
-        {t('contact.form.description')}
+        {t('contact_form_description')}
       </p>
 
       <form className="my-8" onSubmit={handleSubmit}>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="name">{t('contact.form.nameLabel')}</Label>
+          <Label htmlFor="name">{t('contact_form_nameLabel')}</Label>
           <Input 
             id="name" 
-            placeholder={t('contact.form.namePlaceholder')} 
+            placeholder={t('contact_form_namePlaceholder')} 
             type="text" 
             value={name} 
             onChange={(e) => setName(e.target.value)}
@@ -53,10 +53,10 @@ export function NewContactForm() {
           />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="email">{t('contact.form.emailLabel')}</Label>
+          <Label htmlFor="email">{t('contact_form_emailLabel')}</Label>
           <Input 
             id="email" 
-            placeholder={t('contact.form.emailPlaceholder')} 
+            placeholder={t('contact_form_emailPlaceholder')} 
             type="email" 
             value={email} 
             onChange={(e) => setEmail(e.target.value)}
@@ -64,10 +64,10 @@ export function NewContactForm() {
           />
         </LabelInputContainer>
         <LabelInputContainer className="mb-8">
-          <Label htmlFor="message">{t('contact.form.messageLabel')}</Label>
+          <Label htmlFor="message">{t('contact_form_messageLabel')}</Label>
           <Input 
             id="message" 
-            placeholder={t('contact.form.messagePlaceholder')} 
+            placeholder={t('contact_form_messagePlaceholder')} 
             type="text" 
             value={message} 
             onChange={(e) => setMessage(e.target.value)}
@@ -79,7 +79,7 @@ export function NewContactForm() {
           className="group/btn relative block h-10 w-full rounded-md bg-gradient-to-br from-black to-neutral-600 font-medium text-white shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:bg-zinc-800 dark:from-zinc-900 dark:to-zinc-900 dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
           type="submit"
         >
-          {t('contact.form.submitButton')}
+          {t('contact_form_submitButton')}
           <BottomGradient />
         </button>
 

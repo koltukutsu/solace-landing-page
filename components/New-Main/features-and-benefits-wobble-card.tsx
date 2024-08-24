@@ -16,37 +16,37 @@ export function FeaturesAndBenefitsWobbleCard() {
             >
                 <div className="max-w-xs">
                     <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-                        {t("main.featuresAndBenefitsWobbleCard.moreThanSum")}
+                        {t("main_featuresAndBenefitsWobbleCard_moreThanSum")}
                     </h2>
                     <p className="mt-4 text-left  text-base/6 text-neutral-200">
-                        {t("main.featuresAndBenefitsWobbleCard.moreThanSumDescription")}
+                        {t("main_featuresAndBenefitsWobbleCard_moreThanSumDescription")}
                     </p>
                 </div>
             </WobbleCard>
             <WobbleCard containerClassName="col-span-1 min-h-[300px]">
                 <h2 className="max-w-80 text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-                    {t("main.featuresAndBenefitsWobbleCard.humanizingTechnology")}
+                    {t("main_featuresAndBenefitsWobbleCard_humanizingTechnology")}
                 </h2>
                 <p className="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
-                    {t("main.featuresAndBenefitsWobbleCard.humanizingTechnologyDescription")}
+                    {t("main_featuresAndBenefitsWobbleCard_humanizingTechnologyDescription")}
                 </p>
             </WobbleCard>
             <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
                 <div className="max-w-sm">
                     <h2 className="max-w-sm md:max-w-lg text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-                        {t("main.featuresAndBenefitsWobbleCard.smartLivingSolutions")}
+                        {t("main_featuresAndBenefitsWobbleCard_smartLivingSolutions")}
                     </h2>
                     <p className="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
-                        {t("main.featuresAndBenefitsWobbleCard.smartLivingSolutionsDescription")}
+                        {t("main_featuresAndBenefitsWobbleCard_smartLivingSolutionsDescription")}
                     </p>
                 </div>
             </WobbleCard>
             <WobbleCard containerClassName="col-span-1 min-h-[300px]">
                 <h2 className="max-w-80 text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-                    {t("main.featuresAndBenefitsWobbleCard.safeAndEfficientSystems")}
+                    {t("main_featuresAndBenefitsWobbleCard_safeAndEfficientSystems")}
                 </h2>
                 <p className="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
-                    {t("main.featuresAndBenefitsWobbleCard.safeAndEfficientSystemsDescription")}
+                    {t("main_featuresAndBenefitsWobbleCard_safeAndEfficientSystemsDescription")}
                 </p>
             </WobbleCard>
             <WobbleCard
@@ -55,10 +55,10 @@ export function FeaturesAndBenefitsWobbleCard() {
             >
                 <div className="max-w-xs">
                     <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-                        {t("main.featuresAndBenefitsWobbleCard.innovativeAndSustainable")}
+                        {t("main_featuresAndBenefitsWobbleCard_innovativeAndSustainable")}
                     </h2>
                     <p className="mt-4 text-left text-base/6 text-neutral-200">
-                        {t("main.featuresAndBenefitsWobbleCard.innovativeAndSustainableDescription")}
+                        {t("main_featuresAndBenefitsWobbleCard_innovativeAndSustainableDescription")}
                     </p>
                 </div>
             </WobbleCard>

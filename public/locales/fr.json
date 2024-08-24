@@ -1,212 +1,246 @@
 {
-"Language": "Langue",
-  "English": "Anglais",
-  "Turkish": "Turc",
-  "Spanish": "Espagnol",
-  "French": "Français",
-    "Maalesef sayfa bulunamadı": "Malheureusement, la page est introuvable",
-    "Aradığınız sayfa mevcut değil ya da silinmiş olabilir": "La page que vous cherchez n'existe pas ou a peut-être été supprimée",
-    "Anasayfaya Dön": "Retourner à la page d'accueil",
-    "Akıllı Ev nedir?": "Qu'est-ce qu'une maison intelligente?",
-    "Akıllı Ev, çeşitli cihazların birbirleriyle iletişim kurabildiği, uzaktan kontrol edilebilen ve otomatikleştirilebilen bir ev sistemidir": {
-      " Bu sistem sayesinde evdeki aydınlatma, ısıtma, güvenlik gibi birçok özellik kolaylıkla kontrol edilebilir": "Ce système permet de contrôler facilement l'éclairage, le chauffage, la sécurité, et bien d'autres fonctionnalités de la maison"
-    },
-    "Akıllı Ev'in avantajları nelerdir?": "Quels sont les avantages d'une maison intelligente?",
-    "Akıllı Ev, enerji tasarrufu, güvenlik artışı, konfor ve kullanım kolaylığı gibi birçok avantaj sunar": {
-      " Ayrıca, cihazlar arasındaki iletişim sayesinde ev sahiplerine daha akıllı ve bağlantılı bir yaşam tarzı sunar": "De plus, la communication entre les appareils offre aux propriétaires un mode de vie plus intelligent et connecté"
-    },
-    "Hangi cihazlar Akıllı Ev sistemine entegre edilebilir?": "Quels appareils peuvent être intégrés au système de maison intelligente?",
-    "Akıllı Ev sistemleri, aydınlatma, ısıtma ve soğutma sistemleri, güvenlik kameraları, kapı kilidi sistemleri, ev sinema sistemleri ve birçok ev aletini içerebilir": {
-      " Genellikle Wi-Fi veya Bluetooth gibi teknolojilerle entegre edilirler": "Ils sont généralement intégrés via des technologies comme le Wi-Fi ou le Bluetooth"
-    },
-    "Akıllı Ev sistemleri nasıl enerji tasarrufu sağlar?": "Comment les systèmes de maison intelligente économisent-ils de l'énergie?",
-    "Akıllı Ev sistemleri, ev sahiplerine enerji kullanımını daha etkili bir şekilde yönetme imkanı tanır": {
-      " Örneğin, otomatik ısıtma ve soğutma sistemleri, evdeki sensörler aracılığıyla ortamın kullanılmadığı zamanlarda enerji tasarrufu yapabilir": "Par exemple, les systèmes de chauffage et de refroidissement automatiques peuvent économiser de l'énergie lorsque les capteurs détectent que la maison est inoccupée"
-    },
-    "Akıllı Ev sistemlerinin kurulumu zor mudur?": "L'installation des systèmes de maison intelligente est-elle difficile?",
-    "Akıllı Ev sistemlerinin kurulumu genellikle karmaşık değildir ve birçok cihaz kolayca kurulabilir": {
-      " Ancak, daha karmaşık sistemler için profesyonel yardım almak faydalı olabilir": "Cependant, pour des systèmes plus complexes, il peut être utile de faire appel à une aide professionnelle"
-    },
-    "Akıllı Ev sistemleri güvenli midir?": "Les systèmes de maison intelligente sont-ils sécurisés?",
-    "Akıllı Ev sistemleri, güvenlik açısından sürekli gelişmektedir": {
-      " Güçlü şifreleme yöntemleri ve düzenli güncellemelerle güvenlik sağlanır": {
-        " Ancak, kullanıcıların güçlü parolalar kullanması ve düzenli güncellemeler yapması önemlidir": "La sécurité est assurée par des méthodes de cryptage robustes et des mises à jour régulières, mais il est important que les utilisateurs utilisent des mots de passe forts et effectuent des mises à jour régulières"
-      }
-    },
-    "Akıllı Ev sistemleri pahalı mıdır?": "Les systèmes de maison intelligente sont-ils coûteux?",
-    "Akıllı Ev sistemlerinin maliyeti, seçilen cihazlar ve sistemin kapsamına bağlı olarak değişir": {
-      " Temel bir sistem uygun fiyatlı olabilirken, daha karmaşık ve entegre sistemler daha pahalı olabilir": "Le coût des systèmes de maison intelligente varie en fonction des appareils choisis et de l'étendue du système. Un système de base peut être abordable, tandis que les systèmes plus complexes et intégrés peuvent être plus coûteux"
-    },
-    "Akıllı Ev sistemi ile hangi işlemler uzaktan kontrol edilebilir?": "Quelles opérations peuvent être contrôlées à distance avec un système de maison intelligente?",
-    "Akıllı Ev sistemi ile aydınlatma, ısıtma-soğutma, güvenlik kameraları, kapı kilitleri, elektronik cihazlar ve daha birçok ev fonksiyonu uzaktan kontrol edilebilir": "L'éclairage, le chauffage-refroidissement, les caméras de sécurité, les serrures de porte, les appareils électroniques et bien d'autres fonctions de la maison peuvent être contrôlés à distance avec un système de maison intelligente",
-    "Akıllı Ev sistemi kurulurken nelere dikkat edilmelidir?": "À quoi faut-il faire attention lors de l'installation d'un système de maison intelligente?",
-    "Akıllı Ev sistemi kurulurken cihazların uyumluluğuna, güvenlik ayarlarına, ağ altyapısının yeterliliğine ve kullanıcı ihtiyaçlarına dikkat edilmelidir": "Lors de l'installation d'un système de maison intelligente, il est important de prêter attention à la compatibilité des appareils, aux paramètres de sécurité, à l'adéquation de l'infrastructure réseau et aux besoins des utilisateurs",
-    "Akıllı Ev sistemleri ile uyumlu uygulamalar nelerdir?": "Quelles applications sont compatibles avec les systèmes de maison intelligente?",
-    "Akıllı Ev sistemleri genellikle üreticilerin sağladığı mobil uygulamalarla uyumludur": {
-      " Örneğin, Google Home, Amazon Alexa ve Apple HomeKit gibi uygulamalar yaygın olarak kullanılır": "Par exemple, les applications telles que Google Home, Amazon Alexa et Apple HomeKit sont couramment utilisées"
-    },
-    "Akıllı Ev sistemleri ile hangi rutinler otomatikleştirilebilir?": "Quelles routines peuvent être automatisées avec les systèmes de maison intelligente?",
-    "Akıllı Ev sistemleri ile aydınlatma zamanlaması, ısıtma-soğutma programları, güvenlik sistemi devreye alma gibi birçok rutin otomatikleştirilebilir": {
-      " Kullanıcılar kişisel rutinlerini oluşturabilirler": "Les utilisateurs peuvent créer leurs propres routines personnalisées"
-    },
-    "Akıllı Ev sistemlerinin internet bağlantısı kesildiğinde ne olur?": "Que se passe-t-il si la connexion Internet est coupée pour les systèmes de maison intelligente?",
-    "İnternet bağlantısı kesildiğinde, yerel ağ üzerinden çalışan akıllı cihazlar genellikle çalışmaya devam eder": {
-      " Ancak, uzaktan kontrol ve bulut tabanlı hizmetler devre dışı kalabilir": "Toutefois, le contrôle à distance et les services basés sur le cloud peuvent être désactivés"
-    },
-    "Akıllı Ev sistemleri çocuklar için güvenli midir?": "Les systèmes de maison intelligente sont-ils sûrs pour les enfants?",
-    "Akıllı Ev sistemleri, doğru kurulum ve ayarlarla çocuklar için güvenlidir": {
-      " Ebeveyn kontrolleri ve güvenlik ayarları ile çocukların erişimi sınırlandırılabilir": "Les systèmes de maison intelligente sont sûrs pour les enfants lorsqu'ils sont correctement installés et configurés. Les contrôles parentaux et les paramètres de sécurité peuvent limiter l'accès des enfants"
-    },
-    "Akıllı Ev sistemleri yaşlılar için nasıl faydalıdır?": "Comment les systèmes de maison intelligente sont-ils bénéfiques pour les personnes âgées?",
-    "Akıllı Ev sistemleri, yaşlılar için konfor ve güvenlik sağlar": {
-      " Acil durum çağrı sistemleri, otomatik aydınlatma ve uzaktan erişim gibi özellikler yaşlıların yaşam kalitesini artırabilir": "Les systèmes d'appel d'urgence, l'éclairage automatique et l'accès à distance sont des fonctionnalités qui peuvent améliorer la qualité de vie des personnes âgées"
-    },
-    "Akıllı Ev sistemleri evcil hayvan sahipleri için nasıl faydalıdır?": "Comment les systèmes de maison intelligente sont-ils utiles pour les propriétaires d'animaux domestiques?",
-    "Akıllı Ev sistemleri, evcil hayvan sahiplerine büyük kolaylıklar sunar": {
-      " Örneğin, evcil hayvan kameraları, otomatik mama dağıtıcıları ve akıllı kapılar sayesinde evcil hayvanların durumu kolayca takip edilebilir": "Par exemple, les caméras pour animaux de compagnie, les distributeurs automatiques de nourriture et les portes intelligentes permettent de surveiller facilement l'état des animaux domestiques"
-    },
-    "Solace": "Solace",
-    "Solace Akıllı Yaşam Sistemleri her daim yanınızda": "Les systèmes de vie intelligents Solace sont toujours à vos côtés",
-    "Solace Akıllı Yaşam Sistemleri": "Systèmes de vie intelligents Solace",
-    "tarafından geliştirilmiştir": "développé par",
-    "Karşılama": "Accueil",
-    "Solace Ne Yapıyor?": "Que fait Solace?",
-    "Solace Prensipleri": "Principes de Solace",
-    "Solace Özellikleri": "Caractéristiques de Solace",
-    "Ensi Home": "Ensi Home",
-    "Ensi Home Box": "Boîte Ensi Home",
-    "Ensi Home Mobil Uygulama": "Application mobile Ensi Home",
-    "Ensi Home Farkı": "La différence Ensi Home",
-    "Ensi Home Temelleri": "Fondamentaux d'Ensi Home",
-    "Ensi Home Özellikleri": "Caractéristiques d'Ensi Home",
-    "Solace Ekibi": "Équipe Solace",
-    "Sıkça Sorulan Sorular": "Questions fréquentes",
-    "Sosyal Medya Hesapları": "Comptes de médias sociaux",
-    "İletişim ve Bülten": "Contact et bulletin",
-    "Hakkımızda": "À propos de nous",
-    "Vizyonumuz": "Notre vision",
-    "Misyonumuz": "Notre mission",
-    "Değerlerimiz": "Nos valeurs",
-    "Ensi Home, tüm akıllı ev cihazlarını tek bir platformda entegre eder": "Ensi Home intègre tous les appareils de la maison intelligente sur une seule plateforme",
-    "Yapay zeka ile cihazların en verimli şekilde çalışmasını sağlar": "Il assure le fonctionnement optimal des appareils grâce à l'intelligence artificielle",
-    "Kullanıcı tercihleri ve rutinlerine dayalı otomasyonlar oluşturur": "Il crée des automatisations basées sur les préférences et les routines des utilisateurs",
-    "Şifrelenmiş ağ altyapısı ile veri mahremiyetini sağlar": "Il assure la confidentialité des données avec une infrastructure réseau cryptée",
-    "Sesli asistan ile uygulamayı açmadan otomasyon ekleyin": "Ajoutez des automatisations sans ouvrir l'application grâce à l'assistant vocal",
-    "Ethernet, Wi-Fi, Zigbee, Bluetooth ve Z-Wave destekler": "Il prend en charge Ethernet, Wi-Fi, Zigbee, Bluetooth et Z-Wave",
-    "Enerji tüketimini optimize ederek maliyetleri düşürür": "Il réduit les coûts en optimisant la consommation d'énergie",
-    "Kullanıcı dostu arayüz ve basit kurulum süreci sunar": "Il offre une interface conviviale et un processus d'installation simple",
-    "Solace, teknolojiye bağımlı hale getirmeden verimliliği ve konforu artıran akıllı sistemler geliştirir": {
-      " Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler": {
-        " Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar": "Il vise à créer une nouvelle norme de marché en garantissant la sécurité des données des utilisateurs et offre des solutions adaptées aux clients individuels et professionnels"
-      }
-    },
-    "Yenilikçi": "Innovant",
-    "Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler": "Il vise à créer une nouvelle norme de marché en garantissant la sécurité des données des utilisateurs",
-    "Güvenilir": "Fiable",
-    "Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar": "Il offre des solutions adaptées aux clients individuels et professionnels",
-    "Çok Yönlü": "Polyvalent",
-    "Akıllı sistemler ile yaşamı kolaylaştırıyoruz": "Nous simplifions la vie avec des systèmes intelligents",
-    "Yaşamı Avucunuza Sunuyoruz": "Nous vous apportons la vie dans votre main",
-    "Solace olarak, yüksek teknolojileri tasarlayıp geliştirerek akıllı ve inovatif çözümleri hayata geçiriyoruz": "Chez Solace, nous concevons et développons des technologies de pointe pour créer des solutions intelligentes et innovantes",
-    "Misyonumuz, tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları kullanıcılarımızla buluşturmak ve \n            teknolojinin sunduğu tüm olanakları en üst düzeyde sunmaktır": {
-      " Kullanıcılarımızın ihtiyaçlarını karşılamak için \n            kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek herkesin kullanımına sunuyoruz": "Notre mission est de développer des systèmes intelligents, efficaces et sécurisés, et de les mettre à la disposition de nos utilisateurs pour leur offrir toutes les possibilités qu'offre la technologie. Nous créons des solutions personnalisées pour répondre aux besoins de nos utilisateurs, simplifiant ainsi la complexité technologique pour rendre ces solutions accessibles à tous"
-    },
-    "tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları": "développer des systèmes intelligents, efficaces et sécurisés, et les",
-    "kullanıcılarımızla": "utilisateurs",
-    "buluşturmak ve": "mettre à disposition",
-    "teknolojinin": "de la technologie",
-    "sunduğu tüm olanakları en üst düzeyde sunmaktır": {
-      " Kullanıcılarımızın ihtiyaçlarını karşılamak için": "Pour répondre aux besoins de nos utilisateurs"
-    },
-    "kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek": "Nous créons des solutions personnalisées et simplifions la complexité technologique",
-    "herkesin": "pour que chacun puisse",
-    "kullanımına sunuyoruz": "les utiliser",
-    "Vizyonumuz, çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri global pazara sunan lider bir teknoloji şirketi olmaktır": {
-      " Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde güven ve kalite sembolü olmayı hedefliyoruz": "Notre vision est de devenir une entreprise leader dans le développement de produits de haute technologie et de les introduire sur le marché mondial. Nous visons à exploiter le potentiel des appareils existants, à combler les lacunes matérielles et à devenir un symbole de confiance et de qualité dans le secteur grâce à nos solutions innovantes"
-    },
-    "çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri": "développer divers produits de haute technologie et les",
-    "global pazara": "sur le marché mondial",
-    "sunan lider bir teknoloji şirketi olmaktır": {
-      " Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde": "utiliser le potentiel des appareils existants pour développer les éléments matériels manquants et avec nos solutions innovantes dans le secteur"
-    },
-    "güven": "confiance",
-    "ve": "et",
-    "kalite": "qualité",
-    "sembolü olmayı hedefliyoruz": "nous visons à devenir un symbole",
-    "Bültenimize Kaydolun": "Inscrivez-vous à notre bulletin",
-    "Akıllı yaşam bültenimize kaydolun, günceli takip edin": "Inscrivez-vous à notre bulletin de vie intelligente et restez à jour",
-    "Email Adresi": "Adresse e-mail",
-    "email@ornek": {
-      "com": "email@example.com"
-    },
-    " Abone Ol &rarr;": " S'abonner &rarr;",
-    "Bize Ulaşın": "Contactez-nous",
-    "Solace ile iletişime geçin, ekiplerimiz en kısa sürede sizinle iletişime geçecektir": "Contactez Solace, nos équipes vous répondront dans les plus brefs délais",
-    "İsim": "Nom",
-    "Adınız": "Votre nom",
-    "Mesajınız": "Votre message",
-    "Mesajınızı buraya yazın": "Écrivez votre message ici",
-    "Gönder &rarr;": "Envoyer &rarr;",
-    "Ensi Home enerji tasarrufu sağlar mı?": "Ensi Home permet-il de réaliser des économies d'énergie?",
-    "Güvenlik sistemleri nasıl çalışıyor?": "Comment fonctionnent les systèmes de sécurité?",
-    "Ensi Home evimi gerçekten koruyabilir mi?": "Ensi Home peut-il vraiment protéger ma maison?",
-    "Akıllı ev sistemlerini kurmak için ek donanım ihtiyacım olacak mı?": "Aurais-je besoin de matériel supplémentaire pour installer des systèmes de maison intelligente?",
-    "Ensi Home montajı ne kadar sürer ve maliyeti nedir?": "Combien de temps faut-il pour installer Ensi Home et quel est le coût?",
-    "Ensi Home ile aydınlatmamı nasıl kontrol edebilirim?": "Comment puis-je contrôler mon éclairage avec Ensi Home?",
-    "Isıtma ve soğutma sistemlerini uzaktan kontrol edebilir miyim?": "Puis-je contrôler à distance les systèmes de chauffage et de refroidissement?",
-    "Akıllı ev sistemleri evde olmadığımda evimi nasıl yönetir?": "Comment les systèmes de maison intelligente gèrent-ils ma maison lorsque je ne suis pas là?",
-    "Akıllı ev sistemleri internet bağlantısı olmadan çalışabilir mi?": "Les systèmes de maison intelligente peuvent-ils fonctionner sans connexion Internet?",
-    "Akıllı ev sistemleri farklı markaların cihazları ile uyumlu mu?": "Les systèmes de maison intelligente sont-ils compatibles avec des appareils de différentes marques?",
-    "Ensi Home sesli komutlarla çalışabilir mi?": "Ensi Home peut-il fonctionner avec des commandes vocales?",
-    "Ensi Home ile güvenlik kameralarını nasıl izleyebilirim?": "Comment puis-je surveiller les caméras de sécurité avec Ensi Home?",
-    "Ensi Home ile evdeki elektrikli cihazları otomatik olarak kapatabilir miyim?": "Puis-je éteindre automatiquement les appareils électriques de la maison avec Ensi Home?",
-    "Ensi Home ile su sızıntılarını veya yangınları tespit edebilir miyim?": "Puis-je détecter les fuites d'eau ou les incendies avec Ensi Home?",
-    "Akıllı ev sistemleri kullanımı ne kadar karmaşık ve yaşlılar için uygun mu?": "Quelle est la complexité des systèmes de maison intelligente et sont-ils adaptés aux personnes âgées?",
-    "Ensi Home için düzenli olarak bakım veya güncelleme yapmak gerekir mi?": "Est-il nécessaire de faire régulièrement de la maintenance ou des mises à jour pour Ensi Home?",
-    "Yüksek Teknolojileri tasarlayıp geliştirerek, Akıllı ve İnovatif çözümleri": "En concevant et développant des technologies de pointe, des solutions intelligentes et innovantes",
-    "Hayata Geçiriyoruz!": "Nous les réalisons!",
-    "Ensi Home ile size gerçek bir akıllı ev sunuyoruz": {
-      " Tüm cihazlarınızı tek\n        bir platformda entegre eder, yapay zeka destekli otomasyonlarla\n        yaşamınızı kolaylaştırır": {
-        " Güvenli ve kişiselleştirilmiş bir akıllı ev\n        deneyimi için Ensi Home&apos;u keşfedin": "Nous vous offrons une véritable maison intelligente avec Ensi Home. Intégrez tous vos appareils sur une seule plateforme, facilitez votre vie avec des automatisations assistées par l'intelligence artificielle. Découvrez Ensi Home pour une expérience de maison intelligente sécurisée et personnalisée"
-      }
-    },
-    "Uzaktan Kontroller": "Contrôles à distance",
-    "Otomasyonlar": "Automatisations",
-    "Yapay Zekalar": "Intelligences artificielles",
-    "Mobil Uygulama": "Application mobile",
-    "Parçaların Toplamından Daha Fazlası": "Plus que la somme de ses parties",
-    "Solace, parçaların toplamından daha fazlasını değer olarak ortaya koyar": {
-      " Bütün, bireysel parçaların ötesinde bir sinerji ile değer oluşturur": "Solace crée une valeur qui dépasse la somme de ses parties individuelles grâce à une synergie"
-    },
-    "Teknolojiyi insanlaştırma": {
-      " Sade ve yalın, insan odaklı": "Humaniser la technologie: simple, épuré et centré sur l'humain"
-    },
-    "Solace, tasarımlarında insan odaklı olarak sade ve yalın çözümler sunar": {
-      " Karmaşıklığı basitleştirir ve kullanıcı deneyimini ön planda tutar": "Solace propose des solutions simples et épurées centrées sur l'humain dans ses conceptions. Elle simplifie la complexité et met l'accent sur l'expérience utilisateur"
-    },
-    "Akıllı yaşam çözümleri": "Solutions de vie intelligente",
-    "Solace, yüksek teknolojiyi kullanarak akıllı ve yenilikçi yaşam çözümleri geliştirir": {
-      " Teknoloji, yaşam alanlarını daha konforlu ve verimli hale getirir": "Solace développe des solutions de vie intelligente et innovante en utilisant des technologies de pointe. La technologie rend les espaces de vie plus confortables et efficaces"
-    },
-    "Güvenli ve verimli sistemler": "Systèmes sûrs et efficaces",
-    "Solace, tam donanımlı, güvenli ve verimli akıllı sistemler geliştirir": {
-      " Veri gizliliği ve kullanıcı güvenliği her zaman önceliklidir": "Solace développe des systèmes intelligents, complets, sûrs et efficaces. La confidentialité des données et la sécurité des utilisateurs sont toujours prioritaires"
-    },
-    "Yenilikçi ve sürdürülebilir": "Innovant et durable",
-    "Solace, yenilikçi yaklaşımlarla sürdürülebilir yaşam alanları yaratır": {
-      " Enerji verimliliği ve kaynak yönetimi ile çevresel etkileri minimize eder": "Solace crée des espaces de vie durables avec des approches innovantes, minimisant les impacts environnementaux grâce à l'efficacité énergétique et à la gestion des ressources"
-    },
-    "Keşfet": "Découvrir",
-    "Ana Sayfa": "Page d'accueil",
-    "SSS": "FAQ",
-    "Akıllı Ev Sistemi": "Système de maison intelligente",
-    "Teknolojiyi İnsanlaştırma": "Humaniser la technologie",
-    "Akıllı Yaşam Çözümleri": "Solutions de vie intelligente",
-    "Güvenli ve Verimli Sistemler": "Systèmes sûrs et efficaces",
-    "Şirket Lideri": "Leader de l'entreprise",
-    "Strateji ve Finans Lideri": "Leader stratégie et finance",
-    "Robotik ve IOT Lideri": "Leader robotique et IOT",
-    "Yazılım Mimarisi ve Sistem Lideri": "Leader architecture logicielle et systèmes",
-    "Baş Mühendis": "Ingénieur en chef"
-  }
-  
+  "newFloatingNavBar_main_home": "Accueil",
+  "newFloatingNavBar_main_about": "À Propos",
+  "newFloatingNavBar_main_contact": "Contactez-nous",
+  "newFloatingNavBar_main_faq": "FAQ",
+
+  "newFloatingNavBar_floatingNavBar_english": "Anglais",
+  "newFloatingNavBar_floatingNavBar_turkish": "Turc",
+  "newFloatingNavBar_floatingNavBar_spanish": "Espagnol",
+  "newFloatingNavBar_floatingNavBar_french": "Français",
+  "newFloatingNavBar_floatingNavBar_language": "Changer de Langue",
+
+  "navigationSection_pageNavigation_welcome": "Bienvenue",
+  "navigationSection_pageNavigation_whatSolaceDoes": "Que Fait Solace?",
+  "navigationSection_pageNavigation_solacePrinciples": "Principes de Solace",
+  "navigationSection_pageNavigation_solaceFeatures": "Fonctionnalités de Solace",
+  "navigationSection_pageNavigation_ensiHome": "Ensi Home",
+  "navigationSection_pageNavigation_ensiHomeBox": "Ensi Home Box",
+  "navigationSection_pageNavigation_ensiHomeMobileApp": "Application Mobile Ensi Home",
+  "navigationSection_pageNavigation_ensiHomeDifference": "La Différence Ensi Home",
+  "navigationSection_pageNavigation_ensiHomePillars": "Les Piliers d'Ensi Home",
+  "navigationSection_pageNavigation_ensiHomeFeatures": "Fonctionnalités d'Ensi Home",
+  "navigationSection_pageNavigation_solaceTeam": "Équipe Solace",
+
+  "navigationSection_faqNavigation_faq": "Foire Aux Questions",
+
+  "navigationSection_aboutNavigation_aboutUs": "À Propos de Nous",
+  "navigationSection_aboutNavigation_vision": "Notre Vision",
+  "navigationSection_aboutNavigation_mission": "Notre Mission",
+  "navigationSection_aboutNavigation_values": "Nos Valeurs",
+  "navigationSection_aboutNavigation_solaceTeam": "Équipe Solace",
+
+  "navigationSection_contactNavigation_socialMedia": "Réseaux Sociaux",
+  "navigationSection_contactNavigation_contactAndBulletin": "Contact et Bulletin",
+
+  "about_spotlight_title": "Solace",
+  "about_spotlight_description": "Nous Apportons la Vie dans Votre Main",
+  "about_spotlight_description2": "Chez Solace, nous concevons et développons des technologies de pointe pour donner vie à des solutions intelligentes et innovantes.",
+
+  "about_whoAreWeMission_wholeMissionText": "Notre mission est de développer des systèmes intelligents complets, efficaces et sécurisés, et de les mettre à la disposition de nos utilisateurs en offrant toutes les possibilités de la technologie au plus haut niveau. Nous créons des solutions personnalisées pour répondre aux besoins de nos utilisateurs et simplifions la complexité technologique pour la rendre accessible à tous.",
+  "about_whoAreWeMission_missionTitle": "Notre Mission",
+  "about_whoAreWeMission_part1": "développer des systèmes intelligents complets, efficaces et sécurisés, et les",
+  "about_whoAreWeMission_part2": "mettre à disposition de nos utilisateurs",
+  "about_whoAreWeMission_part3": "et",
+  "about_whoAreWeMission_part4": "offrir toutes les possibilités de la technologie",
+  "about_whoAreWeMission_part5": "au plus haut niveau. Nous créons des solutions personnalisées pour répondre aux besoins de nos utilisateurs et",
+  "about_whoAreWeMission_part6": "simplifions la complexité technologique",
+  "about_whoAreWeMission_part7": "pour la rendre accessible à",
+  "about_whoAreWeMission_part8": "tous.",
+  "about_whoAreWeMission_wholeVisionText": "Notre vision est de devenir une entreprise technologique leader qui développe divers produits de haute technologie et les commercialise à l'échelle mondiale. Nous visons à utiliser les dispositifs existants de manière à en maximiser le potentiel, à développer les équipements manquants, et à devenir un symbole de confiance et de qualité dans le secteur grâce à nos solutions innovantes.",
+
+  "about_whoAreWeVision_visionTitle": "Notre Vision",
+  "about_whoAreWeVision_part1": "devenir une entreprise technologique leader qui développe divers produits de haute technologie et les",
+  "about_whoAreWeVision_part2": "commercialise à l'échelle mondiale",
+  "about_whoAreWeVision_part3": ". Nous visons à utiliser les dispositifs existants de manière à en maximiser le potentiel, à développer les équipements manquants, et à devenir un symbole de",
+  "about_whoAreWeVision_part4": "confiance",
+  "about_whoAreWeVision_part5": "et de",
+  "about_whoAreWeVision_part6": "qualité",
+  "about_whoAreWeVision_part7": "dans le secteur grâce à nos solutions innovantes.",
+
+  "about_bentoGrid_centralControl_title": "Contrôle Centralisé",
+  "about_bentoGrid_centralControl_description": "Ensi Home intègre tous les appareils domestiques intelligents sur une seule plateforme.",
+
+  "about_bentoGrid_aiManagement_title": "Gestion Assistée par Intelligence Artificielle",
+  "about_bentoGrid_aiManagement_description": "L'intelligence artificielle assure un fonctionnement optimal des appareils.",
+
+  "about_bentoGrid_personalizedAutomation_title": "Automatisation Personnalisée",
+  "about_bentoGrid_personalizedAutomation_description": "Crée des automatisations basées sur les préférences et les routines des utilisateurs.",
+
+  "about_bentoGrid_secureDataManagement_title": "Gestion Sécurisée des Données",
+  "about_bentoGrid_secureDataManagement_description": "Assure la confidentialité des données avec une infrastructure réseau cryptée.",
+
+  "about_bentoGrid_voiceAssistantIntegration_title": "Intégration de l'Assistant Vocal",
+  "about_bentoGrid_voiceAssistantIntegration_description": "Ajoutez des automatisations sans ouvrir l'application avec l'assistant vocal.",
+
+  "about_bentoGrid_deviceCompatibility_title": "Compatibilité Étendue des Appareils",
+  "about_bentoGrid_deviceCompatibility_description": "Prend en charge Ethernet, Wi-Fi, Zigbee, Bluetooth et Z-Wave.",
+
+  "about_bentoGrid_energyEfficiency_title": "Efficacité Énergétique",
+  "about_bentoGrid_energyEfficiency_description": "Optimise la consommation d'énergie pour réduire les coûts.",
+
+  "about_bentoGrid_easySetupAndUse_title": "Installation et Utilisation Faciles",
+  "about_bentoGrid_easySetupAndUse_description": "Offre une interface conviviale et un processus d'installation simple.",
+
+  "about_bentoGrid_skeletonFour_first_description": "Solace développe des systèmes intelligents qui augmentent l'efficacité et le confort sans créer de dépendance à la technologie.",
+  "about_bentoGrid_skeletonFour_first_tag": "Innovant",
+
+  "about_bentoGrid_skeletonFour_second_description": "Il vise à établir une nouvelle norme du marché en garantissant la sécurité des données des utilisateurs.",
+  "about_bentoGrid_skeletonFour_second_tag": "Fiable",
+
+  "about_bentoGrid_skeletonFour_third_description": "Propose des solutions adaptées aux clients individuels et professionnels.",
+  "about_bentoGrid_skeletonFour_third_tag": "Polyvalent",
+
+  "about_bentoGrid_skeletonFive_fullDescription": "Solace développe des systèmes intelligents qui augmentent l'efficacité et le confort sans créer de dépendance à la technologie. Il vise à établir une nouvelle norme du marché en garantissant la sécurité des données des utilisateurs. Propose des solutions adaptées aux clients individuels et professionnels.",
+  "about_bentoGrid_skeletonFive_footerDescription": "Nous facilitons la vie avec des systèmes intelligents.",
+
+  "about_teamSection_title": "Notre Équipe",
+  "about_teamSection_kenan_position": "Chef de l'Entreprise",
+  "about_teamSection_faris_position": "Responsable Stratégie et Finances",
+  "about_teamSection_furkan_position": "Responsable Robotique et IoT",
+  "about_teamSection_semih_position": "Responsable Architecture Logicielle et Systèmes",
+  "about_teamSection_erkam_position": "Ingénieur en Chef",
+
+  "faq_header_title": "Foire Aux Questions",
+
+  "faq_vanishingInput_placeholder0": "Ensi Home permet-il d'économiser de l'énergie?",
+  "faq_vanishingInput_placeholder1": "Comment fonctionnent les systèmes de sécurité?",
+  "faq_vanishingInput_placeholder2": "Ensi Home peut-il vraiment protéger ma maison?",
+  "faq_vanishingInput_placeholder3": "Ai-je besoin d'équipements supplémentaires pour installer des systèmes domotiques?",
+  "faq_vanishingInput_placeholder4": "Combien de temps faut-il pour installer Ensi Home et quel en est le coût?",
+  "faq_vanishingInput_placeholder5": "Comment puis-je contrôler l'éclairage avec Ensi Home?",
+  "faq_vanishingInput_placeholder6": "Puis-je contrôler les systèmes de chauffage et de refroidissement à distance?",
+  "faq_vanishingInput_placeholder7": "Comment les systèmes domotiques gèrent-ils ma maison lorsque je ne suis pas là?",
+  "faq_vanishingInput_placeholder8": "Les systèmes domotiques peuvent-ils fonctionner sans connexion Internet?",
+  "faq_vanishingInput_placeholder9": "Les systèmes domotiques sont-ils compatibles avec les appareils de différentes marques?",
+  "faq_vanishingInput_placeholder10": "Ensi Home peut-il fonctionner avec des commandes vocales?",
+  "faq_vanishingInput_placeholder11": "Comment puis-je surveiller les caméras de sécurité avec Ensi Home?",
+  "faq_vanishingInput_placeholder12": "Puis-je éteindre automatiquement les appareils électriques avec Ensi Home?",
+  "faq_vanishingInput_placeholder13": "Ensi Home peut-il détecter les fuites d'eau ou les incendies?",
+  "faq_vanishingInput_placeholder14": "L'utilisation des systèmes domotiques est-elle complexe et adaptée aux personnes âgées?",
+  "faq_vanishingInput_placeholder15": "Est-il nécessaire d'effectuer un entretien régulier ou des mises à jour pour Ensi Home?",
+
+  "faq_faqSectionOne_question0": "Qu'est-ce qu'une Maison Intelligente?",
+  "faq_faqSectionOne_answer0": "Une Maison Intelligente est un système domestique dans lequel divers appareils peuvent communiquer entre eux, être contrôlés à distance et automatisés. Ce système permet de gérer facilement de nombreuses fonctionnalités de la maison, telles que l'éclairage, le chauffage et la sécurité.",
+
+  "faq_faqSectionOne_question1": "Quels sont les avantages d'une Maison Intelligente?",
+  "faq_faqSectionOne_answer1": "Une Maison Intelligente offre de nombreux avantages tels que des économies d'énergie, une sécurité accrue, du confort et une facilité d'utilisation. De plus, la communication entre les appareils permet aux propriétaires de vivre un style de vie plus intelligent et connecté.",
+
+  "faq_faqSectionOne_question2": "Quels appareils peuvent être intégrés dans un système de Maison Intelligente?",
+  "faq_faqSectionOne_answer2": "Les systèmes de Maison Intelligente peuvent inclure l'éclairage, les systèmes de chauffage et de refroidissement, les caméras de sécurité, les systèmes de verrouillage des portes, les systèmes de cinéma maison et de nombreux appareils ménagers. Ils sont généralement intégrés via des technologies comme le Wi-Fi ou le Bluetooth.",
+
+  "faq_faqSectionOne_question3": "Comment les systèmes de Maison Intelligente permettent-ils d'économiser de l'énergie?",
+  "faq_faqSectionOne_answer3": "Les systèmes de Maison Intelligente permettent aux propriétaires de gérer plus efficacement leur consommation d'énergie. Par exemple, les systèmes de chauffage et de refroidissement automatiques peuvent économiser de l'énergie lorsque les capteurs de la maison détectent que la pièce n'est pas utilisée.",
+
+  "faq_faqSectionOne_question4": "L'installation des systèmes de Maison Intelligente est-elle difficile?",
+  "faq_faqSectionOne_answer4": "L'installation des systèmes de Maison Intelligente n'est généralement pas compliquée et de nombreux appareils peuvent être installés facilement. Cependant, pour des systèmes plus complexes, il peut être utile de faire appel à un professionnel.",
+
+  "faq_faqSectionOne_question5": "Les systèmes de Maison Intelligente sont-ils sécurisés?",
+  "faq_faqSectionOne_answer5": "Les systèmes de Maison Intelligente sont en constante évolution en matière de sécurité. Des méthodes de cryptage puissantes et des mises à jour régulières assurent la sécurité. Cependant, il est important que les utilisateurs utilisent des mots de passe forts et effectuent régulièrement des mises à jour.",
+
+  "faq_faqSectionOne_question6": "Les systèmes de Maison Intelligente sont-ils coûteux?",
+  "faq_faqSectionOne_answer6": "Le coût des systèmes de Maison Intelligente varie en fonction des appareils choisis et de l'étendue du système. Un système de base peut être abordable, tandis que des systèmes plus complexes et intégrés peuvent être plus coûteux.",
+
+  "faq_faqSectionOne_question7": "Quelles fonctions peuvent être contrôlées à distance avec un système de Maison Intelligente?",
+  "faq_faqSectionOne_answer7": "Avec un système de Maison Intelligente, vous pouvez contrôler à distance l'éclairage, le chauffage et le refroidissement, les caméras de sécurité, les serrures de portes, les appareils électroniques et bien d'autres fonctions de la maison.",
+
+  "faq_faqSectionOne_question8": "À quoi faut-il faire attention lors de l'installation d'un système de Maison Intelligente?",
+  "faq_faqSectionOne_answer8": "Lors de l'installation d'un système de Maison Intelligente, il est important de vérifier la compatibilité des appareils, les paramètres de sécurité, la suffisance de l'infrastructure réseau et les besoins des utilisateurs.",
+
+  "faq_faqSectionOne_question9": "Quelles applications sont compatibles avec les systèmes de Maison Intelligente?",
+  "faq_faqSectionOne_answer9": "Les systèmes de Maison Intelligente sont généralement compatibles avec les applications mobiles fournies par les fabricants. Par exemple, Google Home, Amazon Alexa et Apple HomeKit sont largement utilisés.",
+
+  "faq_faqSectionOne_question10": "Quelles routines peuvent être automatisées avec les systèmes de Maison Intelligente?",
+  "faq_faqSectionOne_answer10": "Avec les systèmes de Maison Intelligente, vous pouvez automatiser de nombreuses routines telles que la programmation de l'éclairage, la gestion des programmes de chauffage et de refroidissement, l'activation des systèmes de sécurité. Les utilisateurs peuvent créer leurs propres routines personnalisées.",
+
+  "faq_faqSectionOne_question11": "Que se passe-t-il si la connexion Internet est interrompue pour les systèmes de Maison Intelligente?",
+  "faq_faqSectionOne_answer11": "En cas de coupure de la connexion Internet, les appareils intelligents fonctionnant sur le réseau local continuent généralement de fonctionner. Cependant, le contrôle à distance et les services basés sur le cloud peuvent être désactivés.",
+
+  "faq_faqSectionOne_question12": "Les systèmes de Maison Intelligente sont-ils sûrs pour les enfants?",
+  "faq_faqSectionOne_answer12": "Les systèmes de Maison Intelligente sont sûrs pour les enfants avec une installation et des réglages appropriés. Des contrôles parentaux et des paramètres de sécurité peuvent être mis en place pour limiter l'accès des enfants.",
+
+  "faq_faqSectionOne_question13": "Comment les systèmes de Maison Intelligente sont-ils bénéfiques pour les personnes âgées?",
+  "faq_faqSectionOne_answer13": "Les systèmes de Maison Intelligente offrent confort et sécurité aux personnes âgées. Des systèmes d'appel d'urgence, un éclairage automatique et un accès à distance peuvent améliorer la qualité de vie des personnes âgées.",
+
+  "faq_faqSectionOne_question14": "Comment les systèmes de Maison Intelligente sont-ils bénéfiques pour les propriétaires d'animaux de compagnie?",
+  "faq_faqSectionOne_answer14": "Les systèmes de Maison Intelligente offrent de nombreux avantages aux propriétaires d'animaux. Par exemple, les caméras pour animaux de compagnie, les distributeurs automatiques de nourriture et les portes intelligentes permettent de suivre facilement la situation des animaux de compagnie.",
+
+  "contact_header_title": "Contactez-nous",
+  "contact_form_title": "Contactez-nous",
+  "contact_form_description": "Contactez Solace, nos équipes vous répondront dans les plus brefs délais.",
+  "contact_form_nameLabel": "Nom",
+  "contact_form_namePlaceholder": "Votre nom",
+  "contact_form_emailLabel": "Adresse Email",
+  "contact_form_emailPlaceholder": "email@exemple.com",
+  "contact_form_messageLabel": "Votre Message",
+  "contact_form_messagePlaceholder": "Écrivez votre message ici",
+  "contact_form_submitButton": "Envoyer",
+
+  "contact_bulletin_title": "Inscrivez-vous à notre Bulletin",
+  "contact_bulletin_description": "Inscrivez-vous à notre bulletin de vie intelligente pour rester à jour.",
+  "contact_bulletin_emailLabel": "Adresse Email",
+  "contact_bulletin_emailPlaceholder": "email@exemple.com",
+  "contact_bulletin_submitButton": "S'abonner",
+
+  "error_pageNotFound": "Page introuvable",
+  "error_pageNotFoundDescription": "La page que vous recherchez n'existe pas ou a été supprimée.",
+  "error_goToHomepage": "Retourner à la page d'accueil",
+
+  "main_heroAuroraBackground_tagline": "Nous Apportons la Vie dans Votre Main",
+  "main_heroAuroraBackground_exploreButton": "Explorer",
+
+  "main_aboutHeroHighlight_tagline": "Concevoir et développer des technologies de pointe pour créer des solutions intelligentes et innovantes",
+  "main_aboutHeroHighlight_highlight": "Nous Réalisons!",
+
+  "main_solaceFeatures_moreThanSum": "Plus que la somme des parties",
+  "main_solaceFeatures_moreThanSumDescription": "Solace offre une valeur supérieure à la somme des parties. L'ensemble crée une synergie qui dépasse les composants individuels.",
+  "main_solaceFeatures_humanizingTechnology": "Humaniser la Technologie",
+  "main_solaceFeatures_humanizingTechnologyDescription": "Solace offre des solutions simples et centrées sur l'humain dans ses conceptions. Il simplifie la complexité et privilégie l'expérience utilisateur.",
+  "main_solaceFeatures_smartLivingSolutions": "Solutions de Vie Intelligente",
+  "main_solaceFeatures_smartLivingSolutionsDescription": "Solace développe des solutions de vie intelligentes et innovantes en utilisant des technologies de pointe. La technologie rend les espaces de vie plus confortables et efficaces.",
+  "main_solaceFeatures_safeAndEfficientSystems": "Systèmes Sécurisés et Efficaces",
+  "main_solaceFeatures_safeAndEfficientSystemsDescription": "Solace développe des systèmes intelligents complets, sécurisés et efficaces. La confidentialité des données et la sécurité des utilisateurs sont toujours prioritaires.",
+
+  "main_featuresAndBenefitsWobbleCard_moreThanSum": "Plus que la somme des parties",
+  "main_featuresAndBenefitsWobbleCard_moreThanSumDescription": "Solace offre une valeur supérieure à la somme des parties. L'ensemble crée une synergie qui dépasse les composants individuels.",
+  "main_featuresAndBenefitsWobbleCard_humanizingTechnology": "Humaniser la technologie. Simple et épuré, centré sur l'humain",
+  "main_featuresAndBenefitsWobbleCard_humanizingTechnologyDescription": "Solace offre des solutions simples et centrées sur l'humain dans ses conceptions. Il simplifie la complexité et privilégie l'expérience utilisateur.",
+  "main_featuresAndBenefitsWobbleCard_smartLivingSolutions": "Solutions de vie intelligente",
+  "main_featuresAndBenefitsWobbleCard_smartLivingSolutionsDescription": "Solace développe des solutions de vie intelligentes et innovantes en utilisant des technologies de pointe. La technologie rend les espaces de vie plus confortables et efficaces.",
+  "main_featuresAndBenefitsWobbleCard_safeAndEfficientSystems": "Systèmes sécurisés et efficaces",
+  "main_featuresAndBenefitsWobbleCard_safeAndEfficientSystemsDescription": "Solace développe des systèmes intelligents complets, sécurisés et efficaces. La confidentialité des données et la sécurité des utilisateurs sont toujours prioritaires.",
+  "main_featuresAndBenefitsWobbleCard_innovativeAndSustainable": "Innovant et durable",
+  "main_featuresAndBenefitsWobbleCard_innovativeAndSustainableDescription": "Solace crée des espaces de vie durables grâce à des approches innovantes. Il minimise les impacts environnementaux grâce à l'efficacité énergétique et à la gestion des ressources.",
+
+  "main_productsLampEffect_ensiHome": "Ensi Home",
+  "main_productsLampEffect_smartHomeSystem": "Système de Maison Intelligente",
+
+  "home_ensiHomeBoxSection_ensi": "Ensi",
+  "home_ensiHomeBoxSection_homeBox": "Home Box",
+  "home_ensiHomeBoxSection_description": "Avec Ensi Home, nous vous offrons une expérience unique en réunissant tous les appareils intelligents de votre maison dans un seul cerveau. Comme un chef d'orchestre, Ensi veille à ce que tous les appareils intelligents de votre maison fonctionnent en parfaite harmonie.",
+
+  "main_EnsiHomePageMobileAppSection_ensiHome": "Ensi Home",
+  "main_EnsiHomePageMobileAppSection_mobileApp": "Application Mobile",
+
+  "main_ensiHoverFeaturesSection_description": "Avec Ensi Home, nous vous offrons une véritable maison intelligente. Intégrez tous vos appareils sur une seule plateforme, facilitez votre vie avec des automatisations assistées par l'intelligence artificielle. Découvrez Ensi Home pour une expérience de maison intelligente sécurisée et personnalisée.",
+  "main_ensiHomePillars_uzaktanKontroller": "Contrôles à Distance",
+  "main_ensiHomePillars_otomasyonlar": "Automatisations",
+  "main_ensiHomePillars_yapayZekalar": "Intelligences Artificielles",
+
+  "main_EnsiHomeFeatures_merkeziKontrol": "Contrôle Centralisé",
+  "main_EnsiHomeFeatures_merkeziKontrolDescription": "Ensi Home intègre tous les appareils intelligents de la maison sur une seule plateforme, éliminant ainsi le besoin de gérer plusieurs applications.",
+  "main_EnsiHomeFeatures_yapayZekaDestekliYonetim": "Gestion Assistée par Intelligence Artificielle",
+  "main_EnsiHomeFeatures_yapayZekaDestekliYonetimDescription": "Le système de gestion assistée par intelligence artificielle d'Ensi Home assure un fonctionnement optimal des appareils tout en minimisant l'intervention de l'utilisateur.",
+  "main_EnsiHomeFeatures_kisisellestirilmisOtomasyon": "Automatisation Personnalisée",
+  "main_EnsiHomeFeatures_kisisellestirilmisOtomasyonDescription": "Crée des automatisations personnalisées basées sur les préférences et les routines des utilisateurs pour rendre les espaces de vie plus confortables et efficaces.",
+  "main_EnsiHomeFeatures_guvenliVeriYonetimi": "Gestion Sécurisée des Données",
+  "main_EnsiHomeFeatures_guvenliVeriYonetimiDescription": "Les données des utilisateurs sont gérées en toute sécurité avec une infrastructure réseau cryptée, assurant ainsi la confidentialité et la sécurité des données.",
+  "main_EnsiHomeFeatures_sesliAsistanEntegrasyonu": "Intégration de l'Assistant Vocal",
+  "main_EnsiHomeFeatures_sesliAsistanEntegrasyonuDescription": "Avec l'assistant vocal assisté par intelligence artificielle, les utilisateurs peuvent facilement ajouter des automatisations et contrôler les appareils sans ouvrir l'application.",
+  "main_EnsiHomeFeatures_genisCihazUyumlulugu": "Compatibilité Étendue des Appareils",
+  "main_EnsiHomeFeatures_genisCihazUyumluluguDescription": "Ensi Home prend en charge de nombreux protocoles de communication IoT tels que Ethernet, Wi-Fi, Zigbee, Bluetooth et Z-Wave, offrant ainsi une compatibilité étendue des appareils.",
+  "footer_solace": "Solace",
+  "footer_solaceDescription": "Les systèmes de vie intelligente Solace sont toujours à vos côtés.",
+  "footer_developedBy": "Développé par",
+  "footer_solaceSystems": "Solace Systèmes de Vie Intelligente"
+}

@@ -16,14 +16,14 @@ const TeamSection = ({ customWidth = "w-56", customHeight = "h-56" }) => {
     {
       id: 1,
       name: "Kenan KOÇAK",
-      position: t("about.teamSection.kenan.position"),
+      position: t("about_teamSection_kenan_position"),
       image: kenanImage,
       linkedin: "https://www.linkedin.com/in/kenan-ko%C3%A7ak-b19b66194/",
     },
     {
       id: 2,
       name: "A. Faris BALOĞLU",
-      position: t("about.teamSection.faris.position"),
+      position: t("about_teamSection_faris_position"),
       image: farisImage,
       linkedin:
         "https://www.linkedin.com/in/ahmed-faris-balo%C4%9Flu-7459332a2/",
@@ -31,21 +31,21 @@ const TeamSection = ({ customWidth = "w-56", customHeight = "h-56" }) => {
     {
       id: 3,
       name: "A. Furkan AKINCI",
-      position: t("about.teamSection.furkan.position"),
+      position: t("about_teamSection_furkan_position"),
       image: furkanImage,
       linkedin: "https://www.linkedin.com/in/ahmet-furkan-akinci/",
     },
     {
       id: 4,
       name: "M. Semih BABACAN",
-      position: t("about.teamSection.semih.position"),
+      position: t("about_teamSection_semih_position"),
       image: semihImage,
       linkedin: "https://www.linkedin.com/in/mehmetsemihbabacan/",
     },
     {
       id: 5,
       name: "Erkam KAVAK",
-      position: t("about.teamSection.erkam.position"),
+      position: t("about_teamSection_erkam_position"),
       image: erkamImage,
       linkedin: "https://tr.linkedin.com/in/erkam-kavak-8b8667184",
     },
@@ -54,7 +54,7 @@ const TeamSection = ({ customWidth = "w-56", customHeight = "h-56" }) => {
   return (
     <div className="container flex min-h-screen flex-col items-center justify-center">
       <h1 className="bg:text-7xl pb-8 text-4xl font-bold md:text-7xl">
-        {t("about.teamSection.title")}
+        {t("about_teamSection_title")}
       </h1>
       <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
         {teamData.map((member) => (
