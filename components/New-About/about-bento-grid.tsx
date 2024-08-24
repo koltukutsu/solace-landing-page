@@ -17,10 +17,10 @@ export function AboutBentoGridThird() {
   const t = useTranslations();
   const items = [
     {
-      title: "Merkezi Kontrol",
+      title: t("about.bentoGrid.centralControl.title"),
       description: (
         <span className="text-sm">
-          {t("Ensi Home, tüm akıllı ev cihazlarını tek bir platformda entegre eder.")}
+          {t("about.bentoGrid.centralControl.description")}
         </span>
       ),
       header: <SkeletonOne />,
@@ -28,10 +28,10 @@ export function AboutBentoGridThird() {
       icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: "Yapay Zeka Destekli Yönetim",
+      title: t("about.bentoGrid.aiManagement.title"),
       description: (
         <span className="text-sm">
-          {t("Yapay zeka ile cihazların en verimli şekilde çalışmasını sağlar.")}
+          {t("about.bentoGrid.aiManagement.description")}
         </span>
       ),
       header: <SkeletonTwo />,
@@ -39,10 +39,10 @@ export function AboutBentoGridThird() {
       icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: "Kişiselleştirilmiş Otomasyon",
+      title: t("about.bentoGrid.personalizedAutomation.title"),
       description: (
         <span className="text-sm">
-          {t("Kullanıcı tercihleri ve rutinlerine dayalı otomasyonlar oluşturur.")}
+          {t("about.bentoGrid.personalizedAutomation.description")}
         </span>
       ),
       header: <SkeletonThree />,
@@ -50,10 +50,10 @@ export function AboutBentoGridThird() {
       icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: "Güvenli Veri Yönetimi",
+      title: t("about.bentoGrid.secureDataManagement.title"),
       description: (
         <span className="text-sm">
-          {t("Şifrelenmiş ağ altyapısı ile veri mahremiyetini sağlar.")}
+          {t("about.bentoGrid.secureDataManagement.description")}
         </span>
       ),
       header: <SkeletonFour />,
@@ -61,10 +61,10 @@ export function AboutBentoGridThird() {
       icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: "Sesli Asistan Entegrasyonu",
+      title: t("about.bentoGrid.voiceAssistantIntegration.title"),
       description: (
         <span className="text-sm">
-          {t("Sesli asistan ile uygulamayı açmadan otomasyon ekleyin.")}
+          {t("about.bentoGrid.voiceAssistantIntegration.description")}
         </span>
       ),
       header: <SkeletonFive />,
@@ -72,10 +72,10 @@ export function AboutBentoGridThird() {
       icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     },
     {
-      title: "Geniş Cihaz Uyumluluğu",
+      title: t("about.bentoGrid.deviceCompatibility.title"),
       description: (
         <span className="text-sm">
-          {t("Ethernet, Wi-Fi, Zigbee, Bluetooth ve Z-Wave destekler.")}
+          {t("about.bentoGrid.deviceCompatibility.description")}
         </span>
       ),
       header: <Skeleton />,
@@ -83,27 +83,27 @@ export function AboutBentoGridThird() {
       icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     },
     {
-        title: "Enerji Verimliliği",
-        description: (
-          <span className="text-sm">
-            {t("Enerji tüketimini optimize ederek maliyetleri düşürür.")}
-          </span>
-        ),
-        header: <Skeleton />,
-        className: "md:col-span-1",
-        icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
-      },
-      {
-        title: "Kolay Kurulum ve Kullanım",
-        description: (
-          <span className="text-sm">
-            {t("Kullanıcı dostu arayüz ve basit kurulum süreci sunar.")}
-          </span>
-        ),
-        header: <Skeleton />,
-        className: "md:col-span-1",
-        icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
-      },
+      title: t("about.bentoGrid.energyEfficiency.title"),
+      description: (
+        <span className="text-sm">
+          {t("about.bentoGrid.energyEfficiency.description")}
+        </span>
+      ),
+      header: <Skeleton />,
+      className: "md:col-span-1",
+      icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+    },
+    {
+      title: t("about.bentoGrid.easySetupAndUse.title"),
+      description: (
+        <span className="text-sm">
+          {t("about.bentoGrid.easySetupAndUse.description")}
+        </span>
+      ),
+      header: <Skeleton />,
+      className: "md:col-span-1",
+      icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+    },
   ];
   
     return (
@@ -121,6 +121,7 @@ export function AboutBentoGridThird() {
         </BentoGrid>
     );
 }
+
 const Skeleton = () => (
     <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl   dark:bg-dot-white/[0.2] bg-dot-black/[0.2] [mask-image:radial-gradient(ellipse_at_center,white,transparent)]  border border-transparent dark:border-white/[0.2] bg-neutral-100 dark:bg-black"></div>
 );
@@ -181,6 +182,7 @@ const SkeletonOne = () => {
         </motion.div>
     );
 };
+
 const SkeletonTwo = () => {
     const variants = {
         initial: {
@@ -220,6 +222,7 @@ const SkeletonTwo = () => {
         </motion.div>
     );
 };
+
 const SkeletonThree = () => {
     const variants = {
         initial: {
@@ -250,6 +253,7 @@ const SkeletonThree = () => {
         </motion.div>
     );
 };
+
 const SkeletonFour = () => {
   const t = useTranslations();
     const first = {
@@ -291,10 +295,10 @@ const SkeletonFour = () => {
               className="rounded-full h-10 w-10"
             />
             <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-             { t("Solace, teknolojiye bağımlı hale getirmeden verimliliği ve konforu artıran akıllı sistemler geliştirir.")}
+             { t("about.bentoGrid.skeletonFour.first.description")}
             </p>
             <p className="border border-blue-500 bg-blue-100 dark:bg-blue-900/20 text-blue-600 text-xs rounded-full px-2 py-0.5 mt-4">
-              {t("Yenilikçi")}
+              {t("about.bentoGrid.skeletonFour.first.tag")}
             </p>
           </motion.div>
           <motion.div className="h-full relative z-20 w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center">
@@ -306,10 +310,10 @@ const SkeletonFour = () => {
               className="rounded-full h-10 w-10"
             />
             <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-              {t("Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler.")}
+              {t("about.bentoGrid.skeletonFour.second.description")}
             </p>
             <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
-              {t("Güvenilir")}
+              {t("about.bentoGrid.skeletonFour.second.tag")}
             </p>
           </motion.div>
           <motion.div
@@ -324,15 +328,16 @@ const SkeletonFour = () => {
               className="rounded-full h-10 w-10"
             />
             <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-              {t("Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar.")}
+              {t("about.bentoGrid.skeletonFour.third.description")}
             </p>
             <p className="border border-orange-500 bg-orange-100 dark:bg-orange-900/20 text-orange-600 text-xs rounded-full px-2 py-0.5 mt-4">
-              {t("Çok Yönlü")}
+              {t("about.bentoGrid.skeletonFour.third.tag")}
             </p>
           </motion.div>
         </motion.div>
       );      
 };
+
 const SkeletonFive = () => {
   const t = useTranslations();
     const variants = {
@@ -378,14 +383,14 @@ const SkeletonFive = () => {
               className="rounded-full h-10 w-10"
             />
             <p className="text-xs text-neutral-500">
-              {t("Solace, teknolojiye bağımlı hale getirmeden verimliliği ve konforu artıran akıllı sistemler geliştirir. Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler. Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar.")}
+              {t("about.bentoGrid.skeletonFive.fullDescription")}
             </p>
           </motion.div>
           <motion.div
             variants={variantsSecond}
             className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center justify-end space-x-2 w-3/4 ml-auto bg-white dark:bg-black"
           >
-            <p className="text-xs text-neutral-500">{t("Akıllı sistemler ile yaşamı kolaylaştırıyoruz.")}</p>
+            <p className="text-xs text-neutral-500">{t("about.bentoGrid.skeletonFive.footerDescription")}</p>
             <div className="h-6 w-6 rounded-full bg-gradient-to-r from-pink-500 to-violet-500 flex-shrink-0" />
           </motion.div>
         </motion.div>

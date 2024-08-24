@@ -1,14 +1,9 @@
-"use client";
-import React, { useState } from "react";
-import { Label } from "../New-Main-Base/label";
-import { Input } from "../New-Main-Base/input";
-import { cn } from "@/utils/cn";
-import {
-  IconBrandGithub,
-  IconBrandGoogle,
-  IconBrandOnlyfans,
-} from "@tabler/icons-react";
-import { useTranslations } from "next-intl";
+'use client';
+import React, { useState } from 'react';
+import { Label } from '../New-Main-Base/label';
+import { Input } from '../New-Main-Base/input';
+import { cn } from '@/utils/cn';
+import { useTranslations } from 'next-intl';
 
 export function NewContactBulletin() {
   const t = useTranslations();
@@ -17,9 +12,9 @@ export function NewContactBulletin() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("Form gönderildi");
+    console.log('Form gönderildi');
 
-    const res = await fetch('/api/bulletin', { // Adjusted to contact API
+    const res = await fetch('/api/bulletin', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -37,19 +32,22 @@ export function NewContactBulletin() {
   return (
     <div className="smin-h-screen container mx-auto w-full max-w-md rounded-none bg-white p-4 shadow-input dark:bg-black md:rounded-2xl md:p-8">
       <h2 className="text-4xl font-bold text-neutral-800 dark:text-neutral-200">
-        {t("Bültenimize Kaydolun")}
+        {t('contact.bulletin.title')}
       </h2>
       <p className="mt-2 max-w-sm text-sm text-neutral-600 dark:text-neutral-300">
-        {t("Akıllı yaşam bültenimize kaydolun, günceli takip edin.")}
+        {t('contact.bulletin.description')}
       </p>
 
       <form className="my-8" onSubmit={handleSubmit}>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="email">{t("Email Adresi")}</Label>
-          <Input id="email" placeholder={t("email@ornek.com")} type="email" 
-          value={email} 
-          onChange={(e) => setEmail(e.target.value)}
-          required 
+          <Label htmlFor="email">{t('contact.bulletin.emailLabel')}</Label>
+          <Input 
+            id="email" 
+            placeholder={t('contact.bulletin.emailPlaceholder')} 
+            type="email" 
+            value={email} 
+            onChange={(e) => setEmail(e.target.value)}
+            required 
           />
         </LabelInputContainer>
 
@@ -57,7 +55,7 @@ export function NewContactBulletin() {
           className="group/btn relative block h-10 w-full rounded-md bg-gradient-to-br from-black to-neutral-600 font-medium text-white shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:bg-zinc-800 dark:from-zinc-900 dark:to-zinc-900 dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
           type="submit"
         >
-         {t(" Abone Ol &rarr;")}
+         {t('contact.bulletin.submitButton')}
           <BottomGradient />
         </button>
 
@@ -84,7 +82,7 @@ const LabelInputContainer = ({
   className?: string;
 }) => {
   return (
-    <div className={cn("flex w-full flex-col space-y-2", className)}>
+    <div className={cn('flex w-full flex-col space-y-2', className)}>
       {children}
     </div>
   );

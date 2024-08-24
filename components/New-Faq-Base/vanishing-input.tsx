@@ -1,51 +1,40 @@
-"use client";
+'use client';
 
-import { AnimatePresence, motion } from "framer-motion";
-import { useCallback, useEffect, useRef, useState } from "react";
-import { cn } from "@/utils/cn";
-import { useTranslations } from "next-intl";
+import { AnimatePresence, motion } from 'framer-motion';
+import { useCallback, useEffect, useRef, useState } from 'react';
+import { cn } from '@/utils/cn';
+import { useTranslations } from 'next-intl';
 
-
-export function FaqVanishingInput({
-//   placeholders,
-} //    onChange,
-//    onSubmit,
-: {
-//   placeholders: string[];
-  // onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  // onSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
-}) {
+export function FaqVanishingInput() {
+  const t = useTranslations();
   const [currentPlaceholder, setCurrentPlaceholder] = useState(0);
-  // const [question, setQuestion] = useState("");
-  const [response, setResponse] = useState("");
+  const [response, setResponse] = useState('');
+  const placeholders = [
+    t('faq.vanishingInput.placeholder0'),
+    t('faq.vanishingInput.placeholder1'),
+    t('faq.vanishingInput.placeholder2'),
+    t('faq.vanishingInput.placeholder3'),
+    t('faq.vanishingInput.placeholder4'),
+    t('faq.vanishingInput.placeholder5'),
+    t('faq.vanishingInput.placeholder6'),
+    t('faq.vanishingInput.placeholder7'),
+    t('faq.vanishingInput.placeholder8'),
+    t('faq.vanishingInput.placeholder9'),
+    t('faq.vanishingInput.placeholder10'),
+    t('faq.vanishingInput.placeholder11'),
+    t('faq.vanishingInput.placeholder12'),
+    t('faq.vanishingInput.placeholder13'),
+    t('faq.vanishingInput.placeholder14'),
+    t('faq.vanishingInput.placeholder15')
+  ];
+
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     console.log(e.target.value);
   };
-  const t = useTranslations();
-  const placeholders = [
-    t("Ensi Home enerji tasarrufu sağlar mı?"),
-    t("Güvenlik sistemleri nasıl çalışıyor?"),
-    t("Ensi Home evimi gerçekten koruyabilir mi?"),
-    t("Akıllı ev sistemlerini kurmak için ek donanım ihtiyacım olacak mı?"),
-    t("Ensi Home montajı ne kadar sürer ve maliyeti nedir?"),
-    t("Ensi Home ile aydınlatmamı nasıl kontrol edebilirim?"),
-    t("Isıtma ve soğutma sistemlerini uzaktan kontrol edebilir miyim?"),
-    t("Akıllı ev sistemleri evde olmadığımda evimi nasıl yönetir?"),
-    t("Akıllı ev sistemleri internet bağlantısı olmadan çalışabilir mi?"),
-    t("Akıllı ev sistemleri farklı markaların cihazları ile uyumlu mu?"),
-    t("Ensi Home sesli komutlarla çalışabilir mi?"),
-    t("Ensi Home ile güvenlik kameralarını nasıl izleyebilirim?"),
-    t("Ensi Home ile evdeki elektrikli cihazları otomatik olarak kapatabilir miyim?"),
-    t("Ensi Home ile su sızıntılarını veya yangınları tespit edebilir miyim?"),
-    t("Akıllı ev sistemleri kullanımı ne kadar karmaşık ve yaşlılar için uygun mu?"),
-    t("Ensi Home için düzenli olarak bakım veya güncelleme yapmak gerekir mi?"),
-  ];
-  
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    // send 
     e.preventDefault();
-    console.log("Value: ", value);
+    console.log('Value: ', value);
     const res = await fetch('/api/faq', {
       method: 'POST',
       headers: {
@@ -76,14 +65,14 @@ export function FaqVanishingInput({
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const newDataRef = useRef<any[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState('');
   const [animating, setAnimating] = useState(false);
 
   const draw = useCallback(() => {
     if (!inputRef.current) return;
     const canvas = canvasRef.current;
     if (!canvas) return;
-    const ctx = canvas.getContext("2d");
+    const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
     canvas.width = 800;
@@ -91,9 +80,9 @@ export function FaqVanishingInput({
     ctx.clearRect(0, 0, 800, 800);
     const computedStyles = getComputedStyle(inputRef.current);
 
-    const fontSize = parseFloat(computedStyles.getPropertyValue("font-size"));
+    const fontSize = parseFloat(computedStyles.getPropertyValue('font-size'));
     ctx.font = `${fontSize * 2}px ${computedStyles.fontFamily}`;
-    ctx.fillStyle = "#FFF";
+    ctx.fillStyle = '#FFF';
     ctx.fillText(value, 16, 40);
 
     const imageData = ctx.getImageData(0, 0, 800, 800);
@@ -155,7 +144,7 @@ export function FaqVanishingInput({
           }
         }
         newDataRef.current = newArr;
-        const ctx = canvasRef.current?.getContext("2d");
+        const ctx = canvasRef.current?.getContext('2d');
         if (ctx) {
           ctx.clearRect(pos, 0, 800, 800);
           newDataRef.current.forEach((t) => {
@@ -172,7 +161,7 @@ export function FaqVanishingInput({
         if (newDataRef.current.length > 0) {
           animateFrame(pos - 8);
         } else {
-          setValue("");
+          setValue('');
           setAnimating(false);
         }
       });
@@ -181,7 +170,7 @@ export function FaqVanishingInput({
   };
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter" && !animating) {
+    if (e.key === 'Enter' && !animating) {
       vanishAndSubmit();
     }
   };
@@ -190,11 +179,11 @@ export function FaqVanishingInput({
     setAnimating(true);
     draw();
 
-    const value = inputRef.current?.value || "";
+    const value = inputRef.current?.value || '';
     if (value && inputRef.current) {
       const maxX = newDataRef.current.reduce(
         (prev, current) => (current.x > prev ? current.x : prev),
-        0,
+        0
       );
       animate(maxX);
     }
@@ -208,15 +197,15 @@ export function FaqVanishingInput({
   return (
     <form
       className={cn(
-        "relative mx-auto h-12 w-full max-w-xl overflow-hidden rounded-full bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),_0px_1px_0px_0px_rgba(25,28,33,0.02),_0px_0px_0px_1px_rgba(25,28,33,0.08)] transition duration-200 dark:bg-zinc-800",
-        value && "bg-gray-50",
+        'relative mx-auto h-12 w-full max-w-xl overflow-hidden rounded-full bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),_0px_1px_0px_0px_rgba(25,28,33,0.02),_0px_0px_0px_1px_rgba(25,28,33,0.08)] transition duration-200 dark:bg-zinc-800',
+        value && 'bg-gray-50'
       )}
       onSubmit={handleSubmit}
     >
       <canvas
         className={cn(
-          "pointer-events-none absolute  left-2 top-[20%] origin-top-left scale-50 transform pr-20 text-base invert filter dark:invert-0 sm:left-8",
-          !animating ? "opacity-0" : "opacity-100",
+          'pointer-events-none absolute  left-2 top-[20%] origin-top-left scale-50 transform pr-20 text-base invert filter dark:invert-0 sm:left-8',
+          !animating ? 'opacity-0' : 'opacity-100'
         )}
         ref={canvasRef}
       />
@@ -230,53 +219,52 @@ export function FaqVanishingInput({
         onKeyDown={handleKeyDown}
         ref={inputRef}
         value={value}
-        type="text"
-        
+        type='text'
         className={cn(
-          "relative z-50 h-full w-full rounded-full border-none bg-transparent pl-4 pr-20 text-sm text-black focus:outline-none focus:ring-0 dark:text-white sm:pl-10 sm:text-base",
-          animating && "text-transparent dark:text-transparent",
+          'relative z-50 h-full w-full rounded-full border-none bg-transparent pl-4 pr-20 text-sm text-black focus:outline-none focus:ring-0 dark:text-white sm:pl-10 sm:text-base',
+          animating && 'text-transparent dark:text-transparent'
         )}
       />
 
       <button
         disabled={!value}
-        type="submit"
-        className="absolute right-2 top-1/2 z-50 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-black transition duration-200 disabled:bg-gray-100 dark:bg-zinc-900 dark:disabled:bg-zinc-800"
+        type='submit'
+        className='absolute right-2 top-1/2 z-50 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-black transition duration-200 disabled:bg-gray-100 dark:bg-zinc-900 dark:disabled:bg-zinc-800'
       >
         <motion.svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="h-4 w-4 text-gray-300"
+          xmlns='http://www.w3.org/2000/svg'
+          width='24'
+          height='24'
+          viewBox='0 0 24 24'
+          fill='none'
+          stroke='currentColor'
+          strokeWidth='2'
+          strokeLinecap='round'
+          strokeLinejoin='round'
+          className='h-4 w-4 text-gray-300'
         >
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path stroke='none' d='M0 0h24v24H0z' fill='none' />
           <motion.path
-            d="M5 12l14 0"
+            d='M5 12l14 0'
             initial={{
-              strokeDasharray: "50%",
-              strokeDashoffset: "50%",
+              strokeDasharray: '50%',
+              strokeDashoffset: '50%',
             }}
             animate={{
-              strokeDashoffset: value ? 0 : "50%",
+              strokeDashoffset: value ? 0 : '50%',
             }}
             transition={{
               duration: 0.3,
-              ease: "linear",
+              ease: 'linear',
             }}
           />
-          <path d="M13 18l6 -6" />
-          <path d="M13 6l6 6" />
+          <path d='M13 18l6 -6' />
+          <path d='M13 6l6 6' />
         </motion.svg>
       </button>
 
-      <div className="pointer-events-none absolute inset-0 flex items-center rounded-full">
-        <AnimatePresence mode="wait">
+      <div className='pointer-events-none absolute inset-0 flex items-center rounded-full'>
+        <AnimatePresence mode='wait'>
           {!value && (
             <motion.p
               initial={{
@@ -294,9 +282,9 @@ export function FaqVanishingInput({
               }}
               transition={{
                 duration: 0.3,
-                ease: "linear",
+                ease: 'linear',
               }}
-              className="w-[calc(100%-2rem)] truncate pl-4 text-left text-sm font-normal text-neutral-500 dark:text-zinc-500 sm:pl-12 sm:text-base"
+              className='w-[calc(100%-2rem)] truncate pl-4 text-left text-sm font-normal text-neutral-500 dark:text-zinc-500 sm:pl-12 sm:text-base'
             >
               {placeholders[currentPlaceholder]}
             </motion.p>
@@ -307,261 +295,257 @@ export function FaqVanishingInput({
   );
 }
 
-
 export function FaqVanishingInputWithParams({
-      placeholders,
-      onChange,
-      onSubmit
-    } //    onChange,
-    //    onSubmit,
-    : {
-      placeholders: string[];
-      onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-      onSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
-    }) {
-      const [currentPlaceholder, setCurrentPlaceholder] = useState(0);
-    
-      useEffect(() => {
-        let interval: any;
-        const startAnimation = () => {
-          interval = setInterval(() => {
-            setCurrentPlaceholder((prev) => (prev + 1) % placeholders.length);
-          }, 3000);
-        };
-        startAnimation();
-        return () => clearInterval(interval);
-      }, [placeholders.length]);
-    
-      const canvasRef = useRef<HTMLCanvasElement>(null);
-      const newDataRef = useRef<any[]>([]);
-      const inputRef = useRef<HTMLInputElement>(null);
-      const [value, setValue] = useState("");
-      const [animating, setAnimating] = useState(false);
-    
-      const draw = useCallback(() => {
-        if (!inputRef.current) return;
-        const canvas = canvasRef.current;
-        if (!canvas) return;
-        const ctx = canvas.getContext("2d");
-        if (!ctx) return;
-    
-        canvas.width = 800;
-        canvas.height = 800;
-        ctx.clearRect(0, 0, 800, 800);
-        const computedStyles = getComputedStyle(inputRef.current);
-    
-        const fontSize = parseFloat(computedStyles.getPropertyValue("font-size"));
-        ctx.font = `${fontSize * 2}px ${computedStyles.fontFamily}`;
-        ctx.fillStyle = "#FFF";
-        ctx.fillText(value, 16, 40);
-    
-        const imageData = ctx.getImageData(0, 0, 800, 800);
-        const pixelData = imageData.data;
-        const newData: any[] = [];
-    
-        for (let t = 0; t < 800; t++) {
-          let i = 4 * t * 800;
-          for (let n = 0; n < 800; n++) {
-            let e = i + 4 * n;
-            if (
-              pixelData[e] !== 0 &&
-              pixelData[e + 1] !== 0 &&
-              pixelData[e + 2] !== 0
-            ) {
-              newData.push({
-                x: n,
-                y: t,
-                color: [
-                  pixelData[e],
-                  pixelData[e + 1],
-                  pixelData[e + 2],
-                  pixelData[e + 3],
-                ],
-              });
+  placeholders,
+  onChange,
+  onSubmit,
+}: {
+  placeholders: string[];
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  onSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
+}) {
+  const [currentPlaceholder, setCurrentPlaceholder] = useState(0);
+
+  useEffect(() => {
+    let interval: any;
+    const startAnimation = () => {
+      interval = setInterval(() => {
+        setCurrentPlaceholder((prev) => (prev + 1) % placeholders.length);
+      }, 3000);
+    };
+    startAnimation();
+    return () => clearInterval(interval);
+  }, [placeholders.length]);
+
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const newDataRef = useRef<any[]>([]);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const [value, setValue] = useState('');
+  const [animating, setAnimating] = useState(false);
+
+  const draw = useCallback(() => {
+    if (!inputRef.current) return;
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    canvas.width = 800;
+    canvas.height = 800;
+    ctx.clearRect(0, 0, 800, 800);
+    const computedStyles = getComputedStyle(inputRef.current);
+
+    const fontSize = parseFloat(computedStyles.getPropertyValue('font-size'));
+    ctx.font = `${fontSize * 2}px ${computedStyles.fontFamily}`;
+    ctx.fillStyle = '#FFF';
+    ctx.fillText(value, 16, 40);
+
+    const imageData = ctx.getImageData(0, 0, 800, 800);
+    const pixelData = imageData.data;
+    const newData: any[] = [];
+
+    for (let t = 0; t < 800; t++) {
+      let i = 4 * t * 800;
+      for (let n = 0; n < 800; n++) {
+        let e = i + 4 * n;
+        if (
+          pixelData[e] !== 0 &&
+          pixelData[e + 1] !== 0 &&
+          pixelData[e + 2] !== 0
+        ) {
+          newData.push({
+            x: n,
+            y: t,
+            color: [
+              pixelData[e],
+              pixelData[e + 1],
+              pixelData[e + 2],
+              pixelData[e + 3],
+            ],
+          });
+        }
+      }
+    }
+
+    newDataRef.current = newData.map(({ x, y, color }) => ({
+      x,
+      y,
+      r: 1,
+      color: `rgba(${color[0]}, ${color[1]}, ${color[2]}, ${color[3]})`,
+    }));
+  }, [value]);
+
+  useEffect(() => {
+    draw();
+  }, [value, draw]);
+
+  const animate = (start: number) => {
+    const animateFrame = (pos: number = 0) => {
+      requestAnimationFrame(() => {
+        const newArr = [];
+        for (let i = 0; i < newDataRef.current.length; i++) {
+          const current = newDataRef.current[i];
+          if (current.x < pos) {
+            newArr.push(current);
+          } else {
+            if (current.r <= 0) {
+              current.r = 0;
+              continue;
             }
+            current.x += Math.random() > 0.5 ? 1 : -1;
+            current.y += Math.random() > 0.5 ? 1 : -1;
+            current.r -= 0.05 * Math.random();
+            newArr.push(current);
           }
         }
-    
-        newDataRef.current = newData.map(({ x, y, color }) => ({
-          x,
-          y,
-          r: 1,
-          color: `rgba(${color[0]}, ${color[1]}, ${color[2]}, ${color[3]})`,
-        }));
-      }, [value]);
-    
-      useEffect(() => {
-        draw();
-      }, [value, draw]);
-    
-      const animate = (start: number) => {
-        const animateFrame = (pos: number = 0) => {
-          requestAnimationFrame(() => {
-            const newArr = [];
-            for (let i = 0; i < newDataRef.current.length; i++) {
-              const current = newDataRef.current[i];
-              if (current.x < pos) {
-                newArr.push(current);
-              } else {
-                if (current.r <= 0) {
-                  current.r = 0;
-                  continue;
-                }
-                current.x += Math.random() > 0.5 ? 1 : -1;
-                current.y += Math.random() > 0.5 ? 1 : -1;
-                current.r -= 0.05 * Math.random();
-                newArr.push(current);
-              }
-            }
-            newDataRef.current = newArr;
-            const ctx = canvasRef.current?.getContext("2d");
-            if (ctx) {
-              ctx.clearRect(pos, 0, 800, 800);
-              newDataRef.current.forEach((t) => {
-                const { x: n, y: i, r: s, color: color } = t;
-                if (n > pos) {
-                  ctx.beginPath();
-                  ctx.rect(n, i, s, s);
-                  ctx.fillStyle = color;
-                  ctx.strokeStyle = color;
-                  ctx.stroke();
-                }
-              });
-            }
-            if (newDataRef.current.length > 0) {
-              animateFrame(pos - 8);
-            } else {
-              setValue("");
-              setAnimating(false);
+        newDataRef.current = newArr;
+        const ctx = canvasRef.current?.getContext('2d');
+        if (ctx) {
+          ctx.clearRect(pos, 0, 800, 800);
+          newDataRef.current.forEach((t) => {
+            const { x: n, y: i, r: s, color: color } = t;
+            if (n > pos) {
+              ctx.beginPath();
+              ctx.rect(n, i, s, s);
+              ctx.fillStyle = color;
+              ctx.strokeStyle = color;
+              ctx.stroke();
             }
           });
-        };
-        animateFrame(start);
-      };
-    
-      const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-        if (e.key === "Enter" && !animating) {
-          vanishAndSubmit();
         }
-      };
-    
-      const vanishAndSubmit = () => {
-        setAnimating(true);
-        draw();
-    
-        const value = inputRef.current?.value || "";
-        if (value && inputRef.current) {
-          const maxX = newDataRef.current.reduce(
-            (prev, current) => (current.x > prev ? current.x : prev),
-            0,
-          );
-          animate(maxX);
+        if (newDataRef.current.length > 0) {
+          animateFrame(pos - 8);
+        } else {
+          setValue('');
+          setAnimating(false);
         }
-      };
-    
-      const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault();
-        vanishAndSubmit();
-        onSubmit && onSubmit(e);
-      };
-      return (
-        <form
-          className={cn(
-            "relative mx-auto h-12 w-full max-w-xl overflow-hidden rounded-full bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),_0px_1px_0px_0px_rgba(25,28,33,0.02),_0px_0px_0px_1px_rgba(25,28,33,0.08)] transition duration-200 dark:bg-zinc-800",
-            value && "bg-gray-50",
-          )}
-          onSubmit={handleSubmit}
-        >
-          <canvas
-            className={cn(
-              "pointer-events-none absolute  left-2 top-[20%] origin-top-left scale-50 transform pr-20 text-base invert filter dark:invert-0 sm:left-8",
-              !animating ? "opacity-0" : "opacity-100",
-            )}
-            ref={canvasRef}
-          />
-          <input
-            onChange={(e) => {
-              if (!animating) {
-                setValue(e.target.value);
-                onChange && onChange(e);
-              }
-            }}
-            onKeyDown={handleKeyDown}
-            ref={inputRef}
-            value={value}
-            type="text"
-            className={cn(
-              "relative z-50 h-full w-full rounded-full border-none bg-transparent pl-4 pr-20 text-sm text-black focus:outline-none focus:ring-0 dark:text-white sm:pl-10 sm:text-base",
-              animating && "text-transparent dark:text-transparent",
-            )}
-          />
-    
-          <button
-            disabled={!value}
-            type="submit"
-            className="absolute right-2 top-1/2 z-50 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-black transition duration-200 disabled:bg-gray-100 dark:bg-zinc-900 dark:disabled:bg-zinc-800"
-          >
-            <motion.svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="h-4 w-4 text-gray-300"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <motion.path
-                d="M5 12l14 0"
-                initial={{
-                  strokeDasharray: "50%",
-                  strokeDashoffset: "50%",
-                }}
-                animate={{
-                  strokeDashoffset: value ? 0 : "50%",
-                }}
-                transition={{
-                  duration: 0.3,
-                  ease: "linear",
-                }}
-              />
-              <path d="M13 18l6 -6" />
-              <path d="M13 6l6 6" />
-            </motion.svg>
-          </button>
-    
-          <div className="pointer-events-none absolute inset-0 flex items-center rounded-full">
-            <AnimatePresence mode="wait">
-              {!value && (
-                <motion.p
-                  initial={{
-                    y: 5,
-                    opacity: 0,
-                  }}
-                  key={`current-placeholder-${currentPlaceholder}`}
-                  animate={{
-                    y: 0,
-                    opacity: 1,
-                  }}
-                  exit={{
-                    y: -15,
-                    opacity: 0,
-                  }}
-                  transition={{
-                    duration: 0.3,
-                    ease: "linear",
-                  }}
-                  className="w-[calc(100%-2rem)] truncate pl-4 text-left text-sm font-normal text-neutral-500 dark:text-zinc-500 sm:pl-12 sm:text-base"
-                >
-                  {placeholders[currentPlaceholder]}
-                </motion.p>
-              )}
-            </AnimatePresence>
-          </div>
-        </form>
-      );
+      });
+    };
+    animateFrame(start);
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter' && !animating) {
+      vanishAndSubmit();
     }
-    
+  };
+
+  const vanishAndSubmit = () => {
+    setAnimating(true);
+    draw();
+
+    const value = inputRef.current?.value || '';
+    if (value && inputRef.current) {
+      const maxX = newDataRef.current.reduce(
+        (prev, current) => (current.x > prev ? current.x : prev),
+        0
+      );
+      animate(maxX);
+    }
+  };
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    vanishAndSubmit();
+    onSubmit && onSubmit(e);
+  };
+  return (
+    <form
+      className={cn(
+        'relative mx-auto h-12 w-full max-w-xl overflow-hidden rounded-full bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),_0px_1px_0px_0px_rgba(25,28,33,0.02),_0px_0px_0px_1px_rgba(25,28,33,0.08)] transition duration-200 dark:bg-zinc-800',
+        value && 'bg-gray-50'
+      )}
+      onSubmit={handleSubmit}
+    >
+      <canvas
+        className={cn(
+          'pointer-events-none absolute  left-2 top-[20%] origin-top-left scale-50 transform pr-20 text-base invert filter dark:invert-0 sm:left-8',
+          !animating ? 'opacity-0' : 'opacity-100'
+        )}
+        ref={canvasRef}
+      />
+      <input
+        onChange={(e) => {
+          if (!animating) {
+            setValue(e.target.value);
+            onChange && onChange(e);
+          }
+        }}
+        onKeyDown={handleKeyDown}
+        ref={inputRef}
+        value={value}
+        type='text'
+        className={cn(
+          'relative z-50 h-full w-full rounded-full border-none bg-transparent pl-4 pr-20 text-sm text-black focus:outline-none focus:ring-0 dark:text-white sm:pl-10 sm:text-base',
+          animating && 'text-transparent dark:text-transparent'
+        )}
+      />
+
+      <button
+        disabled={!value}
+        type='submit'
+        className='absolute right-2 top-1/2 z-50 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-black transition duration-200 disabled:bg-gray-100 dark:bg-zinc-900 dark:disabled:bg-zinc-800'
+      >
+        <motion.svg
+          xmlns='http://www.w3.org/2000/svg'
+          width='24'
+          height='24'
+          viewBox='0 0 24 24'
+          fill='none'
+          stroke='currentColor'
+          strokeWidth='2'
+          strokeLinecap='round'
+          strokeLinejoin='round'
+          className='h-4 w-4 text-gray-300'
+        >
+          <path stroke='none' d='M0 0h24v24H0z' fill='none' />
+          <motion.path
+            d='M5 12l14 0'
+            initial={{
+              strokeDasharray: '50%',
+              strokeDashoffset: '50%',
+            }}
+            animate={{
+              strokeDashoffset: value ? 0 : '50%',
+            }}
+            transition={{
+              duration: 0.3,
+              ease: 'linear',
+            }}
+          />
+          <path d='M13 18l6 -6' />
+          <path d='M13 6l6 6' />
+        </motion.svg>
+      </button>
+
+      <div className='pointer-events-none absolute inset-0 flex items-center rounded-full'>
+        <AnimatePresence mode='wait'>
+          {!value && (
+            <motion.p
+              initial={{
+                y: 5,
+                opacity: 0,
+              }}
+              key={`current-placeholder-${currentPlaceholder}`}
+              animate={{
+                y: 0,
+                opacity: 1,
+              }}
+              exit={{
+                y: -15,
+                opacity: 0,
+              }}
+              transition={{
+                duration: 0.3,
+                ease: 'linear',
+              }}
+              className='w-[calc(100%-2rem)] truncate pl-4 text-left text-sm font-normal text-neutral-500 dark:text-zinc-500 sm:pl-12 sm:text-base'
+            >
+              {placeholders[currentPlaceholder]}
+            </motion.p>
+          )}
+        </AnimatePresence>
+      </div>
+    </form>
+  );
+}

@@ -1,14 +1,9 @@
 'use client';
-import React, { useState } from "react";
-import { Label } from "../New-Main-Base/label";
-import { Input } from "../New-Main-Base/input";
-import { cn } from "@/utils/cn";
-import {
-  IconBrandGithub,
-  IconBrandGoogle,
-  IconBrandOnlyfans,
-} from "@tabler/icons-react";
-import { useTranslations } from "next-intl";
+import React, { useState } from 'react';
+import { Label } from '../New-Main-Base/label';
+import { Input } from '../New-Main-Base/input';
+import { cn } from '@/utils/cn';
+import { useTranslations } from 'next-intl';
 
 export function NewContactForm() {
   const t = useTranslations();
@@ -19,9 +14,9 @@ export function NewContactForm() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("Form gönderildi");
+    console.log('Form gönderildi');
 
-    const res = await fetch('/api/form', { // Adjusted to contact API
+    const res = await fetch('/api/form', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -39,18 +34,18 @@ export function NewContactForm() {
   return (
     <div className="smin-h-screen container mx-auto w-full max-w-md rounded-none bg-white p-4 shadow-input dark:bg-black md:rounded-2xl md:p-8">
       <h2 className="text-4xl font-bold text-neutral-800 dark:text-neutral-200">
-        {t("Bize Ulaşın")}
+        {t('contact.form.title')}
       </h2>
       <p className="mt-2 max-w-sm text-sm text-neutral-600 dark:text-neutral-300">
-        {t("Solace ile iletişime geçin, ekiplerimiz en kısa sürede sizinle iletişime geçecektir.")}
+        {t('contact.form.description')}
       </p>
 
       <form className="my-8" onSubmit={handleSubmit}>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="name">{t("İsim")}</Label>
+          <Label htmlFor="name">{t('contact.form.nameLabel')}</Label>
           <Input 
             id="name" 
-            placeholder={t("Adınız")} 
+            placeholder={t('contact.form.namePlaceholder')} 
             type="text" 
             value={name} 
             onChange={(e) => setName(e.target.value)}
@@ -58,10 +53,10 @@ export function NewContactForm() {
           />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="email">{t("Email Adresi")}</Label>
+          <Label htmlFor="email">{t('contact.form.emailLabel')}</Label>
           <Input 
             id="email" 
-            placeholder={t("email@ornek.com")} 
+            placeholder={t('contact.form.emailPlaceholder')} 
             type="email" 
             value={email} 
             onChange={(e) => setEmail(e.target.value)}
@@ -69,10 +64,10 @@ export function NewContactForm() {
           />
         </LabelInputContainer>
         <LabelInputContainer className="mb-8">
-          <Label htmlFor="message">{t("Mesajınız")}</Label>
+          <Label htmlFor="message">{t('contact.form.messageLabel')}</Label>
           <Input 
             id="message" 
-            placeholder={t("Mesajınızı buraya yazın")} 
+            placeholder={t('contact.form.messagePlaceholder')} 
             type="text" 
             value={message} 
             onChange={(e) => setMessage(e.target.value)}
@@ -84,7 +79,7 @@ export function NewContactForm() {
           className="group/btn relative block h-10 w-full rounded-md bg-gradient-to-br from-black to-neutral-600 font-medium text-white shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:bg-zinc-800 dark:from-zinc-900 dark:to-zinc-900 dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
           type="submit"
         >
-          {t("Gönder &rarr;")}
+          {t('contact.form.submitButton')}
           <BottomGradient />
         </button>
 
@@ -117,7 +112,7 @@ const LabelInputContainer = ({
   className?: string;
 }) => {
   return (
-    <div className={cn("flex w-full flex-col space-y-2", className)}>
+    <div className={cn('flex w-full flex-col space-y-2', className)}>
       {children}
     </div>
   );

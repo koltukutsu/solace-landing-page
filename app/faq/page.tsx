@@ -47,14 +47,9 @@ export const metadata: Metadata = {
 
 
 const FAQPage = () => {
-  // onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  // onSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
-  
-
   return (
     <>
       <div className="md:no-scrollbar z-0 h-screen flex-grow overflow-y-scroll scroll-smooth md:snap-y md:snap-mandatory">
-        {/* <HeroHighlight> */}
         <FAQNavigation />
         <div
           className={
@@ -75,10 +70,6 @@ const FAQPage = () => {
 
           <FAQSectionOne />
         </div>
-        {/* <div className="min-h-screen snap-always snap-center flex flex-col items-center justify-center">
-      <Contact />
-    </div> */}
-        {/* </HeroHighlight> */}
       </div>
     </>
   );

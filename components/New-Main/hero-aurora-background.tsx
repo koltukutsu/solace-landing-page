@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { motion } from "framer-motion";
 import React from "react";
@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl';
 import { AuroraBackground } from "../New-Main-Base/aurora-background";
 import Link from "next/link";
 import Image from "next/image";
-import {Button} from "@/components/New-Main-Base/moving-border";
+import { Button } from "@/components/New-Main-Base/moving-border";
 
 export function HeroAuroraBackground() {
     const t = useTranslations();
@@ -15,8 +15,8 @@ export function HeroAuroraBackground() {
         <div className={`min-h-screen`}>
             <AuroraBackground>
                 <motion.div
-                    initial={{opacity: 0.0, y: 40}}
-                    whileInView={{opacity: 1, y: 0}}
+                    initial={{ opacity: 0.0, y: 40 }}
+                    whileInView={{ opacity: 1, y: 0 }}
                     transition={{
                         delay: 0.3,
                         duration: 0.8,
@@ -34,19 +34,15 @@ export function HeroAuroraBackground() {
                         />
                     </div>
                     <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
-                        {t("Yaşamı Avucunuza Sunuyoruz")}
+                        {t("main.heroAuroraBackground.tagline")}
                     </div>
-                    {/*<div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">*/}
-                    {/*    Size akıllı yaşam alanları sunar.*/}
-                    {/*</div>*/}
                     <Link href="#about-hero" className="pt-6">
                         <Button
                             borderRadius="1.75rem"
                             className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-400 dark:border-slate-800 font-light text-2xl sm:text-xl md:text-xl">
-                            {t("Keşfet")}
+                            {t("main.heroAuroraBackground.exploreButton")}
                         </Button>
                     </Link>
-
                 </motion.div>
             </AuroraBackground>
         </div>

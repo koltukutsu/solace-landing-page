@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 import { ContactNavigation } from "@/components/Navigations/sections";
 import { Metadata } from "next";
+import { ContactHeader } from "@/components/New-Contact/header";
 
 // const sections = [
 //     // turkcelestir
@@ -68,11 +69,7 @@ const ContactPage = () => {
             id="social-media-accounts"
             className="flex min-h-screen flex-col items-center justify-center md:h-56 md:snap-center md:snap-always"
           >
-            <div className="mt-8 text-center">
-              <h1 className="bg:text-7xl pb-8 text-6xl font-bold md:text-7xl">
-                Bize Ulaşın
-              </h1>
-            </div>
+            <ContactHeader/>
             <SocialMediaIcons />
           </div>
           <div

@@ -11,17 +11,15 @@ export function WhoAreWeSVGMaskMission() {
       <MaskContainer
         revealText={
           <p className="max-w-4xl mx-auto text-slate-800 text-center sm:xl md:text-4xl font-bold">
-            {t(`Misyonumuz, tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları kullanıcılarımızla buluşturmak ve 
-            teknolojinin sunduğu tüm olanakları en üst düzeyde sunmaktır. Kullanıcılarımızın ihtiyaçlarını karşılamak için 
-            kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek herkesin kullanımına sunuyoruz.`)}
+            {t("about.whoAreWeMission.wholeMissionText")}
           </p>
         }
         className="min-h-screen w-full border rounded-md"
       >
-        <span className="text-red-500">{t("Misyonumuz")}</span>, {t("tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları")}
-        <span className="text-red-500">{t("kullanıcılarımızla")}</span> {t("buluşturmak ve")}
-        <span className="text-red-500">{t("teknolojinin")}</span> {t("sunduğu tüm olanakları en üst düzeyde sunmaktır. Kullanıcılarımızın ihtiyaçlarını karşılamak için")}
-        {t("kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek")} <span className="text-red-500">{t("herkesin")}</span> {t("kullanımına sunuyoruz.")}
+        <span className="text-red-500">{t("about.whoAreWeMission.missionTitle")}</span>, {t("about.whoAreWeMission.part1")}
+        <span className="text-red-500">{t("about.whoAreWeMission.part2")}</span> {t("about.whoAreWeMission.part3")}
+        <span className="text-red-500">{t("about.whoAreWeMission.part4")}</span> {t("about.whoAreWeMission.part5")}
+        {t("about.whoAreWeMission.part6")} <span className="text-red-500">{t("about.whoAreWeMission.part7")}</span> {t("about.whoAreWeMission.part8")}
       </MaskContainer>
     </div>
   );
@@ -35,14 +33,14 @@ export function WhoAreWeSVGMaskVision() {
       <MaskContainer
         revealText={
           <p className="max-w-4xl mx-auto text-slate-800 text-center sm:xl md:text-4xl font-bold">
-            {t("Vizyonumuz, çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri global pazara sunan lider bir teknoloji şirketi olmaktır. Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde güven ve kalite sembolü olmayı hedefliyoruz.")}
+            {t("about.whoAreWeMission.wholeVisionText")}
           </p>
         }
         className="min-h-screen w-full border rounded-md"
       >
-        <span className="text-green-500">{t("Vizyonumuz")}</span>, {t("çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri")}
-        <span className="text-green-500">{t("global pazara")}</span> {t("sunan lider bir teknoloji şirketi olmaktır. Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde")}
-        <span className="text-green-500">{t("güven")}</span> {t("ve")} <span className="text-green-500">{t("kalite")}</span> {t("sembolü olmayı hedefliyoruz.")}
+        <span className="text-green-500">{t("about.whoAreWeVision.visionTitle")}</span>, {t("about.whoAreWeVision.part1")}
+        <span className="text-green-500">{t("about.whoAreWeVision.part2")}</span> {t("about.whoAreWeVision.part3")}
+        <span className="text-green-500">{t("about.whoAreWeVision.part4")}</span> {t("about.whoAreWeVision.part5")} <span className="text-green-500">{t("about.whoAreWeVision.part6")}</span> {t("about.whoAreWeVision.part7")}
       </MaskContainer>
     </div>
   );

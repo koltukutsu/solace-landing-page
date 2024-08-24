@@ -1,15 +1,11 @@
-"use client";
-import Link from "next/link";
+'use client';
 
-import { Metadata } from "next";
-import { useTranslations } from "next-intl";
-// export const metadata: Metadata = {
-//   title: "Solace | Yaşamı Avucunuza Sunuyoruz",
-//   description: "Akıllı Yaşam Çözümleri",
-//   // other metadata
-// };
+import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+
 const GlobalError = () => {
   const t = useTranslations();
+
   return (
     <>
       <section className="relative z-10 pb-16 pt-36 md:pb-20 lg:pb-28 lg:pt-[180px]">
@@ -46,7 +42,7 @@ const GlobalError = () => {
                     />
                     <mask
                       id="mask0_116:1137"
-                      style={{ maskType: "alpha" }}
+                      style={{ maskType: 'alpha' }}
                       maskUnits="userSpaceOnUse"
                       x="159"
                       y="13"
@@ -143,16 +139,16 @@ const GlobalError = () => {
                   </svg>
                 </div>
                 <h3 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl">
-                  {t("Maalesef sayfa bulunamadı")}
+                  {t('error.pageNotFound')}
                 </h3>
                 <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    {t("Aradığınız sayfa mevcut değil ya da silinmiş olabilir.")}
+                  {t('error.pageNotFoundDescription')}
                 </p>
                 <Link
                   href="/"
                   className="px-8 py-3 text-base font-bold text-white duration-300 rounded-md bg-primary shadow-signUp hover:bg-white hover:text-primary md:px-9 lg:px-8 xl:px-9"
                 >
-                  {t("Anasayfaya Dön")}
+                  {t('error.goToHomepage')}
                 </Link>
               </div>
             </div>

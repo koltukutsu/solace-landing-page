@@ -1,23 +1,23 @@
-"use client";
+'use client';
 
-import { useTranslations } from "next-intl";
-import NavigationCustom from "./navigation";
+import { useTranslations } from 'next-intl';
+import NavigationCustom from './navigation';
 
 export const PageNavigation = () => {
   const t = useTranslations();
 
   const pageSections = [
-    { id: "hero-intro-background", label: t("Karşılama") },
-    { id: "about-hero", label: t("Solace Ne Yapıyor?") },
-    { id: "about-reveal", label: t("Solace Prensipleri") },
-    { id: "features-and-benefits", label: t("Solace Özellikleri") },
-    { id: "product-lamp", label: t("Ensi Home") },
-    { id: "ensi-home-box", label: t("Ensi Home Box") },
-    { id: "ensi-home-mobile-application", label: t("Ensi Home Mobil Uygulama") },
-    { id: "ensi-home-features-section", label: t("Ensi Home Farkı") },
-    { id: "ensi-home-pillars", label: t("Ensi Home Temelleri") },
-    { id: "ensi-home-features", label: t("Ensi Home Özellikleri") },
-    { id: "teams-cards", label: t("Solace Ekibi") },
+    { id: 'hero-intro-background', label: t('navigationSection.pageNavigation.welcome') },
+    { id: 'about-hero', label: t('navigationSection.pageNavigation.whatSolaceDoes') },
+    { id: 'about-reveal', label: t('navigationSection.pageNavigation.solacePrinciples') },
+    { id: 'features-and-benefits', label: t('navigationSection.pageNavigation.solaceFeatures') },
+    { id: 'product-lamp', label: t('navigationSection.pageNavigation.ensiHome') },
+    { id: 'ensi-home-box', label: t('navigationSection.pageNavigation.ensiHomeBox') },
+    { id: 'ensi-home-mobile-application', label: t('navigationSection.pageNavigation.ensiHomeMobileApp') },
+    { id: 'ensi-home-features-section', label: t('navigationSection.pageNavigation.ensiHomeDifference') },
+    { id: 'ensi-home-pillars', label: t('navigationSection.pageNavigation.ensiHomePillars') },
+    { id: 'ensi-home-features', label: t('navigationSection.pageNavigation.ensiHomeFeatures') },
+    { id: 'teams-cards', label: t('navigationSection.pageNavigation.solaceTeam') },
   ];
 
   return <NavigationCustom sections={pageSections} />;
@@ -27,7 +27,7 @@ export const FAQNavigation = () => {
   const t = useTranslations();
 
   const faqSections = [
-    { id: "sss", label: t("Sıkça Sorulan Sorular") },
+    { id: 'sss', label: t('navigationSection.faqNavigation.faq') },
   ];
 
   return <NavigationCustom sections={faqSections} />;
@@ -37,11 +37,11 @@ export const AboutNavigation = () => {
   const t = useTranslations();
 
   const aboutSections = [
-    { id: "solace-hakkimizda", label: t("Hakkımızda") },
-    { id: "solace-misyon", label: t("Vizyonumuz") },
-    { id: "solace-vizyon", label: t("Misyonumuz") },
-    { id: "degerler", label: t("Değerlerimiz") },
-    { id: "ekibimiz", label: t("Solace Ekibi") },
+    { id: 'solace-hakkimizda', label: t('navigationSection.aboutNavigation.aboutUs') },
+    { id: 'solace-misyon', label: t('navigationSection.aboutNavigation.vision') },
+    { id: 'solace-vizyon', label: t('navigationSection.aboutNavigation.mission') },
+    { id: 'degerler', label: t('navigationSection.aboutNavigation.values') },
+    { id: 'ekibimiz', label: t('navigationSection.aboutNavigation.solaceTeam') },
   ];
 
   return <NavigationCustom sections={aboutSections} />;
@@ -51,8 +51,8 @@ export const ContactNavigation = () => {
   const t = useTranslations();
 
   const contactSections = [
-    { id: "social-media-accounts", label: t("Sosyal Medya Hesapları") },
-    { id: "contact-and-bulletin", label: t("İletişim ve Bülten") },
+    { id: 'social-media-accounts', label: t('navigationSection.contactNavigation.socialMedia') },
+    { id: 'contact-and-bulletin', label: t('navigationSection.contactNavigation.contactAndBulletin') },
   ];
 
   return <NavigationCustom sections={contactSections} />;
