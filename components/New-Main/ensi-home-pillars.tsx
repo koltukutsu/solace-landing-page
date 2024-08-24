@@ -3,18 +3,21 @@ import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "../New-Main-Base/canvas-reveal-effect";
+import { useTranslations } from "next-intl";
 
 export function EnsiHomePillars() {
+  const t = useTranslations();
+
   return (
     <>
-      <div className="mx-auto flex w-full flex-col items-center justify-center gap-4 bg-slate-950 px-8 py-20 lg:flex-row">
-        <Card title="Uzaktan Kontroller" icon={<SolaceGreyIcon />}>
+      <div className="mx-auto flex w-full flex-col items-center justify-center gap-4 bg-slate-950 px-8 py-20 md:flex-row">
+        <Card title={t("main_ensiHomePillars_uzaktanKontroller")} icon={<SolaceGreyIcon />}>
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Otomasyonlar" icon={<SolaceNormalIcon />}>
+        <Card title={t("main_ensiHomePillars_otomasyonlar")} icon={<SolaceNormalIcon />}>
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -27,7 +30,7 @@ export function EnsiHomePillars() {
           {/* Radial gradient for the cute fade */}
           <div className="absolute inset-0 bg-black/50 [mask-image:radial-gradient(400px_at_center,white,transparent)] dark:bg-black/90" />
         </Card>
-        <Card title="Yapay Zekalar" icon={<SolaceGreyIcon />}>
+        <Card title={t("main_ensiHomePillars_yapayZekalar")} icon={<SolaceGreyIcon />}>
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"

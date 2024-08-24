@@ -1,15 +1,12 @@
 'use client';
-import React, { useState } from "react";
-import { Label } from "../New-Main-Base/label";
-import { Input } from "../New-Main-Base/input";
-import { cn } from "@/utils/cn";
-import {
-  IconBrandGithub,
-  IconBrandGoogle,
-  IconBrandOnlyfans,
-} from "@tabler/icons-react";
+import React, { useState } from 'react';
+import { Label } from '../New-Main-Base/label';
+import { Input } from '../New-Main-Base/input';
+import { cn } from '@/utils/cn';
+import { useTranslations } from 'next-intl';
 
 export function NewContactForm() {
+  const t = useTranslations();
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -17,9 +14,9 @@ export function NewContactForm() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("Form gönderildi");
+    console.log('Form gönderildi');
 
-    const res = await fetch('/api/form', { // Adjusted to contact API
+    const res = await fetch('/api/form', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -34,22 +31,21 @@ export function NewContactForm() {
       setResponse('Failed to send your message. Please try again.');
     }
   };
-
   return (
     <div className="smin-h-screen container mx-auto w-full max-w-md rounded-none bg-white p-4 shadow-input dark:bg-black md:rounded-2xl md:p-8">
       <h2 className="text-4xl font-bold text-neutral-800 dark:text-neutral-200">
-        Bize Ulaşın
+        {t('contact_form_title')}
       </h2>
       <p className="mt-2 max-w-sm text-sm text-neutral-600 dark:text-neutral-300">
-        Solace ile iletişime geçin, ekiplerimiz en kısa sürede sizinle iletişime geçecektir.
+        {t('contact_form_description')}
       </p>
 
       <form className="my-8" onSubmit={handleSubmit}>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="name">İsim</Label>
+          <Label htmlFor="name">{t('contact_form_nameLabel')}</Label>
           <Input 
             id="name" 
-            placeholder="Adınız" 
+            placeholder={t('contact_form_namePlaceholder')} 
             type="text" 
             value={name} 
             onChange={(e) => setName(e.target.value)}
@@ -57,10 +53,10 @@ export function NewContactForm() {
           />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="email">Email Adresi</Label>
+          <Label htmlFor="email">{t('contact_form_emailLabel')}</Label>
           <Input 
             id="email" 
-            placeholder="email@ornek.com" 
+            placeholder={t('contact_form_emailPlaceholder')} 
             type="email" 
             value={email} 
             onChange={(e) => setEmail(e.target.value)}
@@ -68,10 +64,10 @@ export function NewContactForm() {
           />
         </LabelInputContainer>
         <LabelInputContainer className="mb-8">
-          <Label htmlFor="message">Mesajınız</Label>
+          <Label htmlFor="message">{t('contact_form_messageLabel')}</Label>
           <Input 
             id="message" 
-            placeholder="Mesajınızı buraya yazın" 
+            placeholder={t('contact_form_messagePlaceholder')} 
             type="text" 
             value={message} 
             onChange={(e) => setMessage(e.target.value)}
@@ -83,7 +79,7 @@ export function NewContactForm() {
           className="group/btn relative block h-10 w-full rounded-md bg-gradient-to-br from-black to-neutral-600 font-medium text-white shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:bg-zinc-800 dark:from-zinc-900 dark:to-zinc-900 dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
           type="submit"
         >
-          Gönder &rarr;
+          {t('contact_form_submitButton')}
           <BottomGradient />
         </button>
 
@@ -116,7 +112,7 @@ const LabelInputContainer = ({
   className?: string;
 }) => {
   return (
-    <div className={cn("flex w-full flex-col space-y-2", className)}>
+    <div className={cn('flex w-full flex-col space-y-2', className)}>
       {children}
     </div>
   );

@@ -4,6 +4,8 @@ import faqList from "@/components/FAQ/faq";
 import React, { useEffect, useRef, useState } from "react";
 import { FAQNavigation } from "@/components/Navigations/sections";
 import { Metadata } from "next";
+import { FaqHeader } from "@/components/New-Faq/faq-h1";
+import Footer from "@/components/Footer";
 
 
 export const metadata: Metadata = {
@@ -46,14 +48,9 @@ export const metadata: Metadata = {
 
 
 const FAQPage = () => {
-  // onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  // onSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
-  
-
   return (
     <>
       <div className="md:no-scrollbar z-0 h-screen flex-grow overflow-y-scroll scroll-smooth md:snap-y md:snap-mandatory">
-        {/* <HeroHighlight> */}
         <FAQNavigation />
         <div
           className={
@@ -63,11 +60,7 @@ const FAQPage = () => {
           }
           id="sss"
         >
-          <div className="mt-8 text-center">
-            <h1 className="bg:text-7xl text-6xl font-bold md:text-7xl">
-              Sıkça Sorulan Sorular
-            </h1>
-          </div>
+          <FaqHeader/>
           <div className="w-full pb-8 pt-20">
             <FaqVanishingInput
               // placeholders={placeholders}
@@ -78,10 +71,7 @@ const FAQPage = () => {
 
           <FAQSectionOne />
         </div>
-        {/* <div className="min-h-screen snap-always snap-center flex flex-col items-center justify-center">
-      <Contact />
-    </div> */}
-        {/* </HeroHighlight> */}
+        <Footer/>
       </div>
     </>
   );

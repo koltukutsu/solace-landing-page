@@ -1,3 +1,5 @@
+const createNextIntlPlugin = require('next-intl/plugin');
+const withNextIntl = createNextIntlPlugin();
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -10,6 +12,12 @@ const nextConfig = {
       },
     ],
   },
+  experimental: {
+    serverActions: true,
+  },
+  env: {
+    _next_intl_trailing_slash: "", // Add this to resolve the warning
+  },
 };
 
-module.exports = nextConfig;
+module.exports = withNextIntl(nextConfig);

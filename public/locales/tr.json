@@ -1,0 +1,246 @@
+{
+  "newFloatingNavBar_main_home": "Ana Sayfa",
+  "newFloatingNavBar_main_about": "Hakkımızda",
+  "newFloatingNavBar_main_contact": "Bize Ulaşın",
+  "newFloatingNavBar_main_faq": "SSS",
+
+  "newFloatingNavBar_floatingNavBar_english": "English",
+  "newFloatingNavBar_floatingNavBar_turkish": "Turkish",
+  "newFloatingNavBar_floatingNavBar_spanish": "Spanish",
+  "newFloatingNavBar_floatingNavBar_french": "French",
+  "newFloatingNavBar_floatingNavBar_language": "Dili Değiştir",
+
+  "navigationSection_pageNavigation_welcome": "Karşılama",
+  "navigationSection_pageNavigation_whatSolaceDoes": "Solace Ne Yapıyor?",
+  "navigationSection_pageNavigation_solacePrinciples": "Solace Prensipleri",
+  "navigationSection_pageNavigation_solaceFeatures": "Solace Özellikleri",
+  "navigationSection_pageNavigation_ensiHome": "Ensi Home",
+  "navigationSection_pageNavigation_ensiHomeBox": "Ensi Home Box",
+  "navigationSection_pageNavigation_ensiHomeMobileApp": "Ensi Home Mobil Uygulama",
+  "navigationSection_pageNavigation_ensiHomeDifference": "Ensi Home Farkı",
+  "navigationSection_pageNavigation_ensiHomePillars": "Ensi Home Temelleri",
+  "navigationSection_pageNavigation_ensiHomeFeatures": "Ensi Home Özellikleri",
+  "navigationSection_pageNavigation_solaceTeam": "Solace Ekibi",
+
+  "navigationSection_faqNavigation_faq": "Sıkça Sorulan Sorular",
+
+  "navigationSection_aboutNavigation_aboutUs": "Hakkımızda",
+  "navigationSection_aboutNavigation_vision": "Vizyonumuz",
+  "navigationSection_aboutNavigation_mission": "Misyonumuz",
+  "navigationSection_aboutNavigation_values": "Değerlerimiz",
+  "navigationSection_aboutNavigation_solaceTeam": "Solace Ekibi",
+
+  "navigationSection_contactNavigation_socialMedia": "Sosyal Medya Hesapları",
+  "navigationSection_contactNavigation_contactAndBulletin": "İletişim ve Bülten",
+
+  "about_spotlight_title": "Solace",
+  "about_spotlight_description": "Yaşamı Avucunuza Sunuyoruz",
+  "about_spotlight_description2": "Solace olarak, yüksek teknolojileri tasarlayıp geliştirerek akıllı ve inovatif çözümleri hayata geçiriyoruz.",
+
+  "about_whoAreWeMission_wholeMissionText": "Misyonumuz, tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları kullanıcılarımızla buluşturmak ve teknolojinin sunduğu tüm olanakları en üst düzeyde sunmaktır. Kullanıcılarımızın ihtiyaçlarını karşılamak için kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek herkesin kullanımına sunuyoruz.",
+  "about_whoAreWeMission_missionTitle": "Misyonumuz",
+  "about_whoAreWeMission_part1": "tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları",
+  "about_whoAreWeMission_part2": "kullanıcılarımızla",
+  "about_whoAreWeMission_part3": "buluşturmak ve",
+  "about_whoAreWeMission_part4": "teknolojinin",
+  "about_whoAreWeMission_part5": "sunduğu tüm olanakları en üst düzeyde sunmaktır. Kullanıcılarımızın ihtiyaçlarını karşılamak için",
+  "about_whoAreWeMission_part6": "kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek",
+  "about_whoAreWeMission_part7": "herkesin",
+  "about_whoAreWeMission_part8": "kullanımına sunuyoruz.",
+  "about_whoAreWeMission_wholeVisionText": "Vizyonumuz, çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri global pazara sunan lider bir teknoloji şirketi olmaktır. Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde güven ve kalite sembolü olmayı hedefliyoruz.",
+
+  "about_whoAreWeVision_visionTitle": "Vizyonumuz",
+  "about_whoAreWeVision_part1": "çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri",
+  "about_whoAreWeVision_part2": "global pazara",
+  "about_whoAreWeVision_part3": "sunan lider bir teknoloji şirketi olmaktır. Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde",
+  "about_whoAreWeVision_part4": "güven",
+  "about_whoAreWeVision_part5": "ve",
+  "about_whoAreWeVision_part6": "kalite",
+  "about_whoAreWeVision_part7": "sembolü olmayı hedefliyoruz.",
+
+  "about_bentoGrid_centralControl_title": "Merkezi Kontrol",
+  "about_bentoGrid_centralControl_description": "Ensi Home, tüm akıllı ev cihazlarını tek bir platformda entegre eder.",
+
+  "about_bentoGrid_aiManagement_title": "Yapay Zeka Destekli Yönetim",
+  "about_bentoGrid_aiManagement_description": "Yapay zeka ile cihazların en verimli şekilde çalışmasını sağlar.",
+
+  "about_bentoGrid_personalizedAutomation_title": "Kişiselleştirilmiş Otomasyon",
+  "about_bentoGrid_personalizedAutomation_description": "Kullanıcı tercihleri ve rutinlerine dayalı otomasyonlar oluşturur.",
+
+  "about_bentoGrid_secureDataManagement_title": "Güvenli Veri Yönetimi",
+  "about_bentoGrid_secureDataManagement_description": "Şifrelenmiş ağ altyapısı ile veri mahremiyetini sağlar.",
+
+  "about_bentoGrid_voiceAssistantIntegration_title": "Sesli Asistan Entegrasyonu",
+  "about_bentoGrid_voiceAssistantIntegration_description": "Sesli asistan ile uygulamayı açmadan otomasyon ekleyin.",
+
+  "about_bentoGrid_deviceCompatibility_title": "Geniş Cihaz Uyumluluğu",
+  "about_bentoGrid_deviceCompatibility_description": "Ethernet, Wi-Fi, Zigbee, Bluetooth ve Z-Wave destekler.",
+
+  "about_bentoGrid_energyEfficiency_title": "Enerji Verimliliği",
+  "about_bentoGrid_energyEfficiency_description": "Enerji tüketimini optimize ederek maliyetleri düşürür.",
+
+  "about_bentoGrid_easySetupAndUse_title": "Kolay Kurulum ve Kullanım",
+  "about_bentoGrid_easySetupAndUse_description": "Kullanıcı dostu arayüz ve basit kurulum süreci sunar.",
+
+  "about_bentoGrid_skeletonFour_first_description": "Solace, teknolojiye bağımlı hale getirmeden verimliliği ve konforu artıran akıllı sistemler geliştirir.",
+  "about_bentoGrid_skeletonFour_first_tag": "Yenilikçi",
+
+  "about_bentoGrid_skeletonFour_second_description": "Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler.",
+  "about_bentoGrid_skeletonFour_second_tag": "Güvenilir",
+
+  "about_bentoGrid_skeletonFour_third_description": "Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar.",
+  "about_bentoGrid_skeletonFour_third_tag": "Çok Yönlü",
+
+  "about_bentoGrid_skeletonFive_fullDescription": "Solace, teknolojiye bağımlı hale getirmeden verimliliği ve konforu artıran akıllı sistemler geliştirir. Kullanıcı verilerinin güvenliğini sağlayarak yeni bir pazar standardı oluşturmayı hedefler. Hem bireysel hem de kurumsal müşterilere hitap eden çözümler sunar.",
+  "about_bentoGrid_skeletonFive_footerDescription": "Akıllı sistemler ile yaşamı kolaylaştırıyoruz.",
+
+  "about_teamSection_title": "Ebimiz",
+  "about_teamSection_kenan_position": "Şirket Lideri",
+  "about_teamSection_faris_position": "Strateji ve Finans Lideri",
+  "about_teamSection_furkan_position": "Robotik ve IOT Lideri",
+  "about_teamSection_semih_position": "Yazılım Mimarisi ve Sistem Lideri",
+  "about_teamSection_erkam_position": "Baş Mühendis",
+
+  "faq_header_title": "Sıkça Sorulan Sorular",
+
+  "faq_vanishingInput_placeholder0": "Ensi Home enerji tasarrufu sağlar mı?",
+  "faq_vanishingInput_placeholder1": "Güvenlik sistemleri nasıl çalışıyor?",
+  "faq_vanishingInput_placeholder2": "Ensi Home evimi gerçekten koruyabilir mi?",
+  "faq_vanishingInput_placeholder3": "Akıllı ev sistemlerini kurmak için ek donanım ihtiyacım olacak mı?",
+  "faq_vanishingInput_placeholder4": "Ensi Home montajı ne kadar sürer ve maliyeti nedir?",
+  "faq_vanishingInput_placeholder5": "Ensi Home ile aydınlatmamı nasıl kontrol edebilirim?",
+  "faq_vanishingInput_placeholder6": "Isıtma ve soğutma sistemlerini uzaktan kontrol edebilir miyim?",
+  "faq_vanishingInput_placeholder7": "Akıllı ev sistemleri evde olmadığımda evimi nasıl yönetir?",
+  "faq_vanishingInput_placeholder8": "Akıllı ev sistemleri internet bağlantısı olmadan çalışabilir mi?",
+  "faq_vanishingInput_placeholder9": "Akıllı ev sistemleri farklı markaların cihazları ile uyumlu mu?",
+  "faq_vanishingInput_placeholder10": "Ensi Home sesli komutlarla çalışabilir mi?",
+  "faq_vanishingInput_placeholder11": "Ensi Home ile güvenlik kameralarını nasıl izleyebilirim?",
+  "faq_vanishingInput_placeholder12": "Ensi Home ile evdeki elektrikli cihazları otomatik olarak kapatabilir miyim?",
+  "faq_vanishingInput_placeholder13": "Ensi Home ile su sızıntılarını veya yangınları tespit edebilir miyim?",
+  "faq_vanishingInput_placeholder14": "Akıllı ev sistemleri kullanımı ne kadar karmaşık ve yaşlılar için uygun mu?",
+  "faq_vanishingInput_placeholder15": "Ensi Home için düzenli olarak bakım veya güncelleme yapmak gerekir mi?",
+
+  "faq_faqSectionOne_question0": "Akıllı Ev nedir?",
+  "faq_faqSectionOne_answer0": "Akıllı Ev, çeşitli cihazların birbirleriyle iletişim kurabildiği, uzaktan kontrol edilebilen ve otomatikleştirilebilen bir ev sistemidir. Bu sistem sayesinde evdeki aydınlatma, ısıtma, güvenlik gibi birçok özellik kolaylıkla kontrol edilebilir.",
+
+  "faq_faqSectionOne_question1": "Akıllı Ev'in avantajları nelerdir?",
+  "faq_faqSectionOne_answer1": "Akıllı Ev, enerji tasarrufu, güvenlik artışı, konfor ve kullanım kolaylığı gibi birçok avantaj sunar. Ayrıca, cihazlar arasındaki iletişim sayesinde ev sahiplerine daha akıllı ve bağlantılı bir yaşam tarzı sunar.",
+
+  "faq_faqSectionOne_question2": "Hangi cihazlar Akıllı Ev sistemine entegre edilebilir?",
+  "faq_faqSectionOne_answer2": "Akıllı Ev sistemleri, aydınlatma, ısıtma ve soğutma sistemleri, güvenlik kameraları, kapı kilidi sistemleri, ev sinema sistemleri ve birçok ev aletini içerebilir. Genellikle Wi-Fi veya Bluetooth gibi teknolojilerle entegre edilirler.",
+
+  "faq_faqSectionOne_question3": "Akıllı Ev sistemleri nasıl enerji tasarrufu sağlar?",
+  "faq_faqSectionOne_answer3": "Akıllı Ev sistemleri, ev sahiplerine enerji kullanımını daha etkili bir şekilde yönetme imkanı tanır. Örneğin, otomatik ısıtma ve soğutma sistemleri, evdeki sensörler aracılığıyla ortamın kullanılmadığı zamanlarda enerji tasarrufu yapabilir.",
+
+  "faq_faqSectionOne_question4": "Akıllı Ev sistemlerinin kurulumu zor mudur?",
+  "faq_faqSectionOne_answer4": "Akıllı Ev sistemlerinin kurulumu genellikle karmaşık değildir ve birçok cihaz kolayca kurulabilir. Ancak, daha karmaşık sistemler için profesyonel yardım almak faydalı olabilir.",
+
+  "faq_faqSectionOne_question5": "Akıllı Ev sistemleri güvenli midir?",
+  "faq_faqSectionOne_answer5": "Akıllı Ev sistemleri, güvenlik açısından sürekli gelişmektedir. Güçlü şifreleme yöntemleri ve düzenli güncellemelerle güvenlik sağlanır. Ancak, kullanıcıların güçlü parolalar kullanması ve düzenli güncellemeler yapması önemlidir.",
+
+  "faq_faqSectionOne_question6": "Akıllı Ev sistemleri pahalı mıdır?",
+  "faq_faqSectionOne_answer6": "Akıllı Ev sistemlerinin maliyeti, seçilen cihazlar ve sistemin kapsamına bağlı olarak değişir. Temel bir sistem uygun fiyatlı olabilirken, daha karmaşık ve entegre sistemler daha pahalı olabilir.",
+
+  "faq_faqSectionOne_question7": "Akıllı Ev sistemi ile hangi işlemler uzaktan kontrol edilebilir?",
+  "faq_faqSectionOne_answer7": "Akıllı Ev sistemi ile aydınlatma, ısıtma-soğutma, güvenlik kameraları, kapı kilitleri, elektronik cihazlar ve daha birçok ev fonksiyonu uzaktan kontrol edilebilir.",
+
+  "faq_faqSectionOne_question8": "Akıllı Ev sistemi kurulurken nelere dikkat edilmelidir?",
+  "faq_faqSectionOne_answer8": "Akıllı Ev sistemi kurulurken cihazların uyumluluğuna, güvenlik ayarlarına, ağ altyapısının yeterliliğine ve kullanıcı ihtiyaçlarına dikkat edilmelidir.",
+
+  "faq_faqSectionOne_question9": "Akıllı Ev sistemleri ile uyumlu uygulamalar nelerdir?",
+  "faq_faqSectionOne_answer9": "Akıllı Ev sistemleri genellikle üreticilerin sağladığı mobil uygulamalarla uyumludur. Örneğin, Google Home, Amazon Alexa ve Apple HomeKit gibi uygulamalar yaygın olarak kullanılır.",
+
+  "faq_faqSectionOne_question10": "Akıllı Ev sistemleri ile hangi rutinler otomatikleştirilebilir?",
+  "faq_faqSectionOne_answer10": "Akıllı Ev sistemleri ile aydınlatma zamanlaması, ısıtma-soğutma programları, güvenlik sistemi devreye alma gibi birçok rutin otomatikleştirilebilir. Kullanıcılar kişisel rutinlerini oluşturabilirler.",
+
+  "faq_faqSectionOne_question11": "Akıllı Ev sistemlerinin internet bağlantısı kesildiğinde ne olur?",
+  "faq_faqSectionOne_answer11": "İnternet bağlantısı kesildiğinde, yerel ağ üzerinden çalışan akıllı cihazlar genellikle çalışmaya devam eder. Ancak, uzaktan kontrol ve bulut tabanlı hizmetler devre dışı kalabilir.",
+
+  "faq_faqSectionOne_question12": "Akıllı Ev sistemleri çocuklar için güvenli midir?",
+  "faq_faqSectionOne_answer12": "Akıllı Ev sistemleri, doğru kurulum ve ayarlarla çocuklar için güvenlidir. Ebeveyn kontrolleri ve güvenlik ayarları ile çocukların erişimi sınırlandırılabilir.",
+
+  "faq_faqSectionOne_question13": "Akıllı Ev sistemleri yaşlılar için nasıl faydalıdır?",
+  "faq_faqSectionOne_answer13": "Akıllı Ev sistemleri, yaşlılar için konfor ve güvenlik sağlar. Acil durum çağrı sistemleri, otomatik aydınlatma ve uzaktan erişim gibi özellikler yaşlıların yaşam kalitesini artırabilir.",
+
+  "faq_faqSectionOne_question14": "Akıllı Ev sistemleri evcil hayvan sahipleri için nasıl faydalıdır?",
+  "faq_faqSectionOne_answer14": "Akıllı Ev sistemleri, evcil hayvan sahiplerine büyük kolaylıklar sunar. Örneğin, evcil hayvan kameraları, otomatik mama dağıtıcıları ve akıllı kapılar sayesinde evcil hayvanların durumu kolayca takip edilebilir.",
+
+  "contact_header_title": "Bize Ulaşın",
+  "contact_form_title": "Bize Ulaşın",
+  "contact_form_description": "Solace ile iletişime geçin, ekiplerimiz en kısa sürede sizinle iletişime geçecektir.",
+  "contact_form_nameLabel": "İsim",
+  "contact_form_namePlaceholder": "Adınız",
+  "contact_form_emailLabel": "Email Adresi",
+  "contact_form_emailPlaceholder": "email@ornek.com",
+  "contact_form_messageLabel": "Mesajınız",
+  "contact_form_messagePlaceholder": "Mesajınızı buraya yazın",
+  "contact_form_submitButton": "Gönder",
+
+  "contact_bulletin_title": "Bültenimize Kaydolun",
+  "contact_bulletin_description": "Akıllı yaşam bültenimize kaydolun, günceli takip edin.",
+  "contact_bulletin_emailLabel": "Email Adresi",
+  "contact_bulletin_emailPlaceholder": "email@ornek.com",
+  "contact_bulletin_submitButton": "Abone Ol",
+
+  "error_pageNotFound": "Maalesef sayfa bulunamadı",
+  "error_pageNotFoundDescription": "Aradığınız sayfa mevcut değil ya da silinmiş olabilir.",
+  "error_goToHomepage": "Anasayfaya Dön",
+
+ "main_heroAuroraBackground_tagline": "Yaşamı Avucunuza Sunuyoruz",
+  "main_heroAuroraBackground_exploreButton": "Keşfet",
+
+  "main_aboutHeroHighlight_tagline": "Yüksek Teknolojileri tasarlayıp geliştirerek, Akıllı ve İnovatif çözümleri",
+  "main_aboutHeroHighlight_highlight": "Hayata Geçiriyoruz!",
+  
+  "main_solaceFeatures_moreThanSum": "Parçaların Toplamından Daha Fazlası",
+  "main_solaceFeatures_moreThanSumDescription": "Solace, parçaların toplamından daha fazlasını değer olarak ortaya koyar. Bütün, bireysel parçaların ötesinde bir sinerji ile değer oluşturur.",
+  "main_solaceFeatures_humanizingTechnology": "Teknolojiyi İnsanlaştırma",
+  "main_solaceFeatures_humanizingTechnologyDescription": "Solace, tasarımlarında insan odaklı olarak sade ve yalın çözümler sunar. Karmaşıklığı basitleştirir ve kullanıcı deneyimini ön planda tutar.",
+  "main_solaceFeatures_smartLivingSolutions": "Akıllı Yaşam Çözümleri",
+  "main_solaceFeatures_smartLivingSolutionsDescription": "Solace, yüksek teknolojiyi kullanarak akıllı ve yenilikçi yaşam çözümleri geliştirir. Teknoloji, yaşam alanlarını daha konforlu ve verimli hale getirir.",
+  "main_solaceFeatures_safeAndEfficientSystems": "Güvenli ve Verimli Sistemler",
+  "main_solaceFeatures_safeAndEfficientSystemsDescription": "Solace, tam donanımlı, güvenli ve verimli akıllı sistemler geliştirir. Veri gizliliği ve kullanıcı güvenliği her zaman önceliklidir.",
+
+  "main_featuresAndBenefitsWobbleCard_moreThanSum": "Parçaların Toplamından Daha Fazlası",
+  "main_featuresAndBenefitsWobbleCard_moreThanSumDescription": "Solace, parçaların toplamından daha fazlasını değer olarak ortaya koyar. Bütün, bireysel parçaların ötesinde bir sinerji ile değer oluşturur.",
+  "main_featuresAndBenefitsWobbleCard_humanizingTechnology": "Teknolojiyi insanlaştırma. Sade ve yalın, insan odaklı",
+  "main_featuresAndBenefitsWobbleCard_humanizingTechnologyDescription": "Solace, tasarımlarında insan odaklı olarak sade ve yalın çözümler sunar. Karmaşıklığı basitleştirir ve kullanıcı deneyimini ön planda tutar.",
+  "main_featuresAndBenefitsWobbleCard_smartLivingSolutions": "Akıllı yaşam çözümleri",
+  "main_featuresAndBenefitsWobbleCard_smartLivingSolutionsDescription": "Solace, yüksek teknolojiyi kullanarak akıllı ve yenilikçi yaşam çözümleri geliştirir. Teknoloji, yaşam alanlarını daha konforlu ve verimli hale getirir.",
+  "main_featuresAndBenefitsWobbleCard_safeAndEfficientSystems": "Güvenli ve verimli sistemler",
+  "main_featuresAndBenefitsWobbleCard_safeAndEfficientSystemsDescription": "Solace, tam donanımlı, güvenli ve verimli akıllı sistemler geliştirir. Veri gizliliği ve kullanıcı güvenliği her zaman önceliklidir.",
+  "main_featuresAndBenefitsWobbleCard_innovativeAndSustainable": "Yenilikçi ve sürdürülebilir",
+  "main_featuresAndBenefitsWobbleCard_innovativeAndSustainableDescription": "Solace, yenilikçi yaklaşımlarla sürdürülebilir yaşam alanları yaratır. Enerji verimliliği ve kaynak yönetimi ile çevresel etkileri minimize eder.",
+
+ "main_productsLampEffect_ensiHome": "Ensi Home",
+  "main_productsLampEffect_smartHomeSystem": "Akıllı Ev Sistemi",
+
+  "home_ensiHomeBoxSection_ensi": "Ensi",
+  "home_ensiHomeBoxSection_homeBox": "Home Box",
+  "home_ensiHomeBoxSection_description": "Ensi Home ile birlikte evinizdeki akıllı cihazları tek bir beyine toplayarak size eşsiz bir deneyim sunuyoruz. Tıpkı bir orkestra şefi gibi Ensi, evinizdeki akıllı cihazların tam bir harmoni ile birlikte çalışmasını sağlar.",
+
+  "main_EnsiHomePageMobileAppSection_ensiHome": "Ensi Home",
+  "main_EnsiHomePageMobileAppSection_mobileApp": "Mobil Uygulama",
+
+ "main_ensiHoverFeaturesSection_description": "Ensi Home ile size gerçek bir akıllı ev sunuyoruz. Tüm cihazlarınızı tek bir platformda entegre eder, yapay zeka destekli otomasyonlarla yaşamınızı kolaylaştırır. Güvenli ve kişiselleştirilmiş bir akıllı ev deneyimi için Ensi Home'u keşfedin.",
+ "main_ensiHomePillars_uzaktanKontroller": "Uzaktan Kontroller",
+ "main_ensiHomePillars_otomasyonlar": "Otomasyonlar",
+ "main_ensiHomePillars_yapayZekalar": "Yapay Zekalar",
+  
+  "main_EnsiHomeFeatures_merkeziKontrol": "Merkezi Kontrol",
+  "main_EnsiHomeFeatures_merkeziKontrolDescription": "Ensi Home, tüm akıllı ev cihazlarını tek bir platformda entegre ederek kullanıcıların birden fazla uygulama ile uğraşma gereksinimini ortadan kaldırır.",
+  "main_EnsiHomeFeatures_yapayZekaDestekliYonetim": "Yapay Zeka Destekli Yönetim",
+  "main_EnsiHomeFeatures_yapayZekaDestekliYonetimDescription": "Ensi Home'un yapay zeka destekli yönetim sistemi, cihazların en verimli şekilde çalışmasını sağlar ve kullanıcı müdahalesini minimize eder.",
+  "main_EnsiHomeFeatures_kisisellestirilmisOtomasyon": "Kişiselleştirilmiş Otomasyon",
+  "main_EnsiHomeFeatures_kisisellestirilmisOtomasyonDescription": "Kullanıcı tercihleri ve rutinlerine dayalı kişiselleştirilmiş otomasyonlar oluşturarak yaşam alanlarını daha konforlu ve verimli hale getirir.",
+  "main_EnsiHomeFeatures_guvenliVeriYonetimi": "Güvenli Veri Yönetimi",
+  "main_EnsiHomeFeatures_guvenliVeriYonetimiDescription": "Kullanıcı verileri şifrelenmiş ağ altyapısı ile güvenli bir şekilde yönetilir, böylece veri mahremiyeti ve güvenliği sağlanır.",
+  "main_EnsiHomeFeatures_sesliAsistanEntegrasyonu": "Sesli Asistan Entegrasyonu",
+  "main_EnsiHomeFeatures_sesliAsistanEntegrasyonuDescription": "Yapay zeka destekli sesli asistan ile kullanıcılar, uygulamayı açmadan kolaylıkla otomasyon ekleyebilir ve cihazları kontrol edebilir.",
+  "main_EnsiHomeFeatures_genisCihazUyumlulugu": "Geniş Cihaz Uyumluluğu",
+  "main_EnsiHomeFeatures_genisCihazUyumluluguDescription": "Ensi Home, Ethernet, Wi-Fi, Zigbee, Bluetooth ve Z-Wave gibi birçok IoT haberleşme protokolünü destekleyerek geniş cihaz uyumluluğu sunar.",
+  "footer_solace": "Solace",
+  "footer_solaceDescription": "Solace Akıllı Yaşam Sistemleri her daim yanınızda.",
+  "footer_developedBy": "Solace Akıllı Yaşam Sistemleri",
+  "footer_solaceSystems": "tarafından geliştirilmiştir."
+}

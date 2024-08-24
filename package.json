@@ -57,6 +57,8 @@
     "@types/node": "^20.8.9",
     "@types/react": "^18.2.33",
     "autoprefixer": "^10.4.16",
+    "i18next-parser": "^9.0.2",
+    "next-intl": "^3.17.3",
     "postcss": "^8.4.31",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.6",

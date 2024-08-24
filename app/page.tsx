@@ -22,6 +22,7 @@ import { PageNavigation } from "@/components/Navigations/sections";
 import { Metadata } from "next";
 import { EnsiAnimatedModal } from "@/components/New-Main/modal";
 import GLTFViewer from "@/components/GLTFViewer/GLTF-viewer";
+import { EnsiHomeBoxSection } from "@/components/New-Main/ensi-home-box-section";
 
 export const metadata: Metadata = {
   title: "Solace | Yaşamı Avucunuza Sunuyoruz",
@@ -63,7 +64,6 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const modelUrl = "/models/ensi-box.glb"; // Replace with your actual model path
 
   return (
     <div className="md:no-scrollbar z-0 h-screen flex-grow overflow-y-scroll scroll-smooth md:snap-y  md:snap-mandatory">
@@ -101,40 +101,8 @@ export default function Home() {
           <div className="relative flex w-full flex-col items-center justify-center bg-slate-950 antialiased">
             <BackgroundBeams />
             <div className="flex min-h-screen flex-col">
-              <div
-                id="ensi-home-box"
-                className="flex min-h-screen flex-col items-center justify-center bg-slate-950 p-4 md:snap-center md:snap-always md:flex-row md:p-20"
-              >
-                <div className="md:pr-18 flex flex-col items-center text-left md:mr-8 md:w-1/2 md:items-start">
-                  <h1
-                    className="
-          relative bg-gradient-to-b from-neutral-200 to-neutral-600 bg-clip-text text-center font-sans text-6xl font-bold text-transparent md:text-left md:text-7xl
-        "
-                  >
-                    Ensi
-                  </h1>
-                  <h1
-                    className="
-          bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text py-2 text-center text-4xl font-medium tracking-tight text-transparent md:text-left md:text-7xl
-        "
-                  >
-                    Home Box
-                  </h1>
-                  <p className="relative z-10 mx-auto my-2 max-w-lg text-center text-xl text-neutral-500 md:mx-0 md:text-left">
-                    Ensi Home ile birlikte evinizdeki akıllı cihazları tek bir
-                    beyine toplayarak size eşsiz bir deneyim sunuyoruz. Tıpkı
-                    bir orkestra şefi gibi Ensi, evinizdeki akıllı cihazların
-                    tam bir harmoni ile birlikte çalışmasını sağlar.
-                  </p>
-                </div>
-                {/* <img
-      src="/images/ensi/ensi-kutu-50.jpg"
-      alt="Ensi Home Box"
-      className="mt-4 w-4/5 rounded-lg md:mt-0 md:w-3/5"
-    /> */}
-                <GLTFViewer modelUrl={modelUrl} />
-              </div>
-              <div className="flex-grow">{/* <EnsiAnimatedModal /> */}</div>
+            <EnsiHomeBoxSection/>
+              {/* <div className="flex-grow"><EnsiAnimatedModal /></div> */}
             </div>
           </div>
         </div>

@@ -1,41 +1,46 @@
 "use client";
 
 import { MaskContainer } from "../New-About-Base/svg-mask-effect";
+import { useTranslations } from 'next-intl';
 
 export function WhoAreWeSVGMaskMission() {
+  const t = useTranslations();
+
   return (
-    <div className="min-h-screen w-full flex items-center justify-center sm:xl md:text-4xl  overflow-hidden">
+    <div className="min-h-screen w-full flex items-center justify-center sm:xl md:text-4xl overflow-hidden">
       <MaskContainer
         revealText={
           <p className="max-w-4xl mx-auto text-slate-800 text-center sm:xl md:text-4xl font-bold">
-            Misyonumuz, tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları kullanıcılarımızla buluşturmak ve 
-            teknolojinin sunduğu tüm olanakları en üst düzeyde sunmaktır. Kullanıcılarımızın ihtiyaçlarını karşılamak için 
-            kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek herkesin kullanımına sunuyoruz.
+            {t("about_whoAreWeMission_wholeMissionText")}
           </p>
         }
         className="min-h-screen w-full border rounded-md"
       >
-        <span className="text-red-500">Misyonumuz</span>, tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları <span className="text-red-500">kullanıcılarımızla</span> buluşturmak ve 
-        <span className="text-red-500">teknolojinin</span> sunduğu tüm olanakları en üst düzeyde sunmaktır. Kullanıcılarımızın ihtiyaçlarını karşılamak için 
-            kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek <span className="text-red-500">herkesin</span> kullanımına sunuyoruz.
+        <span className="text-red-500">{t("about_whoAreWeMission_missionTitle")}</span>, {t("about_whoAreWeMission_part1")}
+        <span className="text-red-500">{t("about_whoAreWeMission_part2")}</span> {t("about_whoAreWeMission_part3")}
+        <span className="text-red-500">{t("about_whoAreWeMission_part4")}</span> {t("about_whoAreWeMission_part5")}
+        {t("about_whoAreWeMission_part6")} <span className="text-red-500">{t("about_whoAreWeMission_part7")}</span> {t("about_whoAreWeMission_part8")}
       </MaskContainer>
     </div>
   );
 }
 
-
 export function WhoAreWeSVGMaskVision() {
+  const t = useTranslations();
+
   return (
     <div className="min-h-screen w-full flex items-center sm:xl md:text-4xl justify-center overflow-hidden">
       <MaskContainer
         revealText={
           <p className="max-w-4xl mx-auto text-slate-800 text-center sm:xl md:text-4xl font-bold">
-            Vizyonumuz, çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri global pazara sunan lider bir teknoloji şirketi olmaktır. Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde güven ve kalite sembolü olmayı hedefliyoruz.
+            {t("about_whoAreWeMission_wholeVisionText")}
           </p>
         }
         className="min-h-screen w-full border rounded-md"
       >
-        <span className="text-green-500">Vizyonumuz</span>, çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri <span className="text-green-500">global pazara</span> sunan lider bir teknoloji şirketi olmaktır. Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde <span className="text-green-500">güven</span> ve <span className="text-green-500">kalite</span> sembolü olmayı hedefliyoruz.
+        <span className="text-green-500">{t("about_whoAreWeVision_visionTitle")}</span>, {t("about_whoAreWeVision_part1")}
+        <span className="text-green-500">{t("about_whoAreWeVision_part2")}</span> {t("about_whoAreWeVision_part3")}
+        <span className="text-green-500">{t("about_whoAreWeVision_part4")}</span> {t("about_whoAreWeVision_part5")} <span className="text-green-500">{t("about_whoAreWeVision_part6")}</span> {t("about_whoAreWeVision_part7")}
       </MaskContainer>
     </div>
   );
