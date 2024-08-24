@@ -1,0 +1,247 @@
+{
+  "newFloatingNavBar_main_home": "Početna",
+  "newFloatingNavBar_main_about": "O Nama",
+  "newFloatingNavBar_main_contact": "Kontaktirajte Nas",
+  "newFloatingNavBar_main_faq": "Česta Pitanja",
+
+  "newFloatingNavBar_floatingNavBar_english": "Engleski",
+  "newFloatingNavBar_floatingNavBar_bosnian": "Bosanski",
+  "newFloatingNavBar_floatingNavBar_turkish": "Turski",
+  "newFloatingNavBar_floatingNavBar_spanish": "Španski",
+  "newFloatingNavBar_floatingNavBar_french": "Francuski",
+  "newFloatingNavBar_floatingNavBar_language": "Promijeni Jezik",
+
+  "navigationSection_pageNavigation_welcome": "Dobrodošli",
+  "navigationSection_pageNavigation_whatSolaceDoes": "Šta Solace Radi?",
+  "navigationSection_pageNavigation_solacePrinciples": "Principi Solace-a",
+  "navigationSection_pageNavigation_solaceFeatures": "Karakteristike Solace-a",
+  "navigationSection_pageNavigation_ensiHome": "Ensi Home",
+  "navigationSection_pageNavigation_ensiHomeBox": "Ensi Home Box",
+  "navigationSection_pageNavigation_ensiHomeMobileApp": "Mobilna Aplikacija Ensi Home",
+  "navigationSection_pageNavigation_ensiHomeDifference": "Razlika Ensi Home-a",
+  "navigationSection_pageNavigation_ensiHomePillars": "Stubovi Ensi Home-a",
+  "navigationSection_pageNavigation_ensiHomeFeatures": "Karakteristike Ensi Home-a",
+  "navigationSection_pageNavigation_solaceTeam": "Tim Solace-a",
+
+  "navigationSection_faqNavigation_faq": "Često Postavljana Pitanja",
+
+  "navigationSection_aboutNavigation_aboutUs": "O Nama",
+  "navigationSection_aboutNavigation_vision": "Naša Vizija",
+  "navigationSection_aboutNavigation_mission": "Naša Misija",
+  "navigationSection_aboutNavigation_values": "Naše Vrijednosti",
+  "navigationSection_aboutNavigation_solaceTeam": "Tim Solace-a",
+
+  "navigationSection_contactNavigation_socialMedia": "Društvene Mreže",
+  "navigationSection_contactNavigation_contactAndBulletin": "Kontakt i Bilten",
+
+  "about_spotlight_title": "Solace",
+  "about_spotlight_description": "Donosimo Život U Vaše Ruke",
+  "about_spotlight_description2": "U Solace-u, dizajniramo i razvijamo napredne tehnologije kako bismo donijeli pametna i inovativna rješenja.",
+
+  "about_whoAreWeMission_wholeMissionText": "Naša misija je razviti potpuno sposobne, efikasne i sigurne pametne sisteme i donijeti ih našim korisnicima, nudeći sve mogućnosti tehnologije na najvišem nivou. Proizvodimo personalizirana rješenja kako bismo zadovoljili potrebe naših korisnika, pojednostavljujući složenost tehnologije kako bismo je učinili dostupnom svima.",
+  "about_whoAreWeMission_missionTitle": "Naša Misija",
+  "about_whoAreWeMission_part1": "razvijanje potpuno sposobnih, efikasnih i sigurnih pametnih sistema, i",
+  "about_whoAreWeMission_part2": "donošenje njih",
+  "about_whoAreWeMission_part3": "našim korisnicima, i",
+  "about_whoAreWeMission_part4": "nudimo sve mogućnosti koje",
+  "about_whoAreWeMission_part5": "tehnologija pruža na najvišem nivou. Proizvodimo",
+  "about_whoAreWeMission_part6": "personalizirana rješenja kako bismo zadovoljili potrebe naših korisnika, pojednostavljujući složenost tehnologije kako bismo",
+  "about_whoAreWeMission_part7": "je učinili dostupnom",
+  "about_whoAreWeMission_part8": "svima.",
+  "about_whoAreWeMission_wholeVisionText": "Naša vizija je postati vodeća tehnološka kompanija koja razvija razne visokotehnološke proizvode i predstavlja ih na globalnom tržištu. Cilj nam je razviti nedostajući hardver koristeći postojeće uređaje do njihovog potencijala i postati simbol povjerenja i kvalitete u industriji sa našim inovativnim rješenjima.",
+
+  "about_whoAreWeVision_visionTitle": "Naša Vizija",
+  "about_whoAreWeVision_part1": "postati vodeća tehnološka kompanija koja razvija razne visokotehnološke proizvode i predstavlja ih",
+  "about_whoAreWeVision_part2": "na globalnom tržištu. Koristeći postojeće uređaje do njihovog potencijala, cilj nam je razviti nedostajući hardver i",
+  "about_whoAreWeVision_part3": "postati simbol",
+  "about_whoAreWeVision_part4": "povjerenja",
+  "about_whoAreWeVision_part5": "i",
+  "about_whoAreWeVision_part6": "kvalitete",
+  "about_whoAreWeVision_part7": "u industriji sa našim inovativnim rješenjima.",
+
+  "about_bentoGrid_centralControl_title": "Centralizirana Kontrola",
+  "about_bentoGrid_centralControl_description": "Ensi Home integriše sve pametne uređaje u kući na jednu platformu.",
+
+  "about_bentoGrid_aiManagement_title": "Upravljanje Pomoću AI",
+  "about_bentoGrid_aiManagement_description": "Osigurava najefikasniji rad uređaja koristeći umjetnu inteligenciju.",
+
+  "about_bentoGrid_personalizedAutomation_title": "Personalizovana Automatizacija",
+  "about_bentoGrid_personalizedAutomation_description": "Stvara automatizacije temeljene na preferencijama i rutinama korisnika.",
+
+  "about_bentoGrid_secureDataManagement_title": "Sigurno Upravljanje Podacima",
+  "about_bentoGrid_secureDataManagement_description": "Osigurava privatnost podataka pomoću enkriptirane mrežne infrastrukture.",
+
+  "about_bentoGrid_voiceAssistantIntegration_title": "Integracija Sa Glasovnim Asistentima",
+  "about_bentoGrid_voiceAssistantIntegration_description": "Dodajte automatizaciju bez otvaranja aplikacije putem glasovnog asistenta.",
+
+  "about_bentoGrid_deviceCompatibility_title": "Široka Kompatibilnost Uređaja",
+  "about_bentoGrid_deviceCompatibility_description": "Podržava Ethernet, Wi-Fi, Zigbee, Bluetooth i Z-Wave.",
+
+  "about_bentoGrid_energyEfficiency_title": "Energetska Efikasnost",
+  "about_bentoGrid_energyEfficiency_description": "Optimizira potrošnju energije kako bi smanjio troškove.",
+
+  "about_bentoGrid_easySetupAndUse_title": "Jednostavna Instalacija i Korištenje",
+  "about_bentoGrid_easySetupAndUse_description": "Nudi korisnički interfejs jednostavan za upotrebu i jednostavan proces instalacije.",
+
+  "about_bentoGrid_skeletonFour_first_description": "Solace razvija pametne sisteme koji poboljšavaju efikasnost i udobnost bez stvaranja ovisnosti o tehnologiji.",
+  "about_bentoGrid_skeletonFour_first_tag": "Inovativno",
+
+  "about_bentoGrid_skeletonFour_second_description": "Cilj mu je uspostaviti novi standard na tržištu osiguravajući sigurnost podataka korisnika.",
+  "about_bentoGrid_skeletonFour_second_tag": "Pouzdano",
+
+  "about_bentoGrid_skeletonFour_third_description": "Nudi rješenja koja su prilagođena kako pojedinačnim tako i korporativnim klijentima.",
+  "about_bentoGrid_skeletonFour_third_tag": "Svestrano",
+
+  "about_bentoGrid_skeletonFive_fullDescription": "Solace razvija pametne sisteme koji poboljšavaju efikasnost i udobnost bez stvaranja ovisnosti o tehnologiji. Cilj mu je uspostaviti novi standard na tržištu osiguravajući sigurnost podataka korisnika. Nudi rješenja koja su prilagođena kako pojedinačnim tako i korporativnim klijentima.",
+  "about_bentoGrid_skeletonFive_footerDescription": "Olakšavamo život sa pametnim sistemima.",
+
+  "about_teamSection_title": "Naš Tim",
+  "about_teamSection_kenan_position": "Vođa Kompanije",
+  "about_teamSection_faris_position": "Vođa Strategije i Finansija",
+  "about_teamSection_furkan_position": "Vođa Robotike i IoT-a",
+  "about_teamSection_semih_position": "Vođa Softverske Arhitekture i Sistema",
+  "about_teamSection_erkam_position": "Glavni Inženjer",
+
+  "faq_header_title": "Često Postavljana Pitanja",
+
+  "faq_vanishingInput_placeholder0": "Da li Ensi Home štedi energiju?",
+  "faq_vanishingInput_placeholder1": "Kako rade sigurnosni sistemi?",
+  "faq_vanishingInput_placeholder2": "Da li Ensi Home zaista može zaštititi moj dom?",
+  "faq_vanishingInput_placeholder3": "Da li će mi trebati dodatni hardver za postavljanje pametnih kućnih sistema?",
+  "faq_vanishingInput_placeholder4": "Koliko traje instalacija Ensi Home-a i koja je cijena?",
+  "faq_vanishingInput_placeholder5": "Kako mogu kontrolirati osvjetljenje sa Ensi Home-om?",
+  "faq_vanishingInput_placeholder6": "Mogu li daljinski kontrolirati sisteme grijanja i hlađenja?",
+  "faq_vanishingInput_placeholder7": "Kako pametni kućni sistemi upravljaju mojim domom kad nisam tu?",
+  "faq_vanishingInput_placeholder8": "Mogu li pametni kućni sistemi raditi bez internet veze?",
+  "faq_vanishingInput_placeholder9": "Da li su pametni kućni sistemi kompatibilni sa uređajima različitih marki?",
+  "faq_vanishingInput_placeholder10": "Može li Ensi Home raditi sa glasovnim komandama?",
+  "faq_vanishingInput_placeholder11": "Kako mogu nadgledati sigurnosne kamere sa Ensi Home-om?",
+  "faq_vanishingInput_placeholder12": "Mogu li automatski isključiti električne uređaje sa Ensi Home-om?",
+  "faq_vanishingInput_placeholder13": "Mogu li otkriti curenja vode ili požare sa Ensi Home-om?",
+  "faq_vanishingInput_placeholder14": "Koliko je složena upotreba pametnih kućnih sistema i da li su pogodni za starije osobe?",
+  "faq_vanishingInput_placeholder15": "Da li je potrebno redovno održavanje ili ažuriranje za Ensi Home?",
+
+  "faq_faqSectionOne_question0": "Šta je Pametna Kuća?",
+  "faq_faqSectionOne_answer0": "Pametna kuća je sistem u kojem se različiti uređaji mogu međusobno komunicirati, kontrolirati daljinski i automatizirati. Ovaj sistem omogućava jednostavnu kontrolu mnogih funkcija u kući, kao što su osvjetljenje, grijanje i sigurnost.",
+
+  "faq_faqSectionOne_question1": "Koje su prednosti Pametne Kuće?",
+  "faq_faqSectionOne_answer1": "Pametna kuća nudi mnoge prednosti poput uštede energije, povećane sigurnosti, udobnosti i jednostavnosti korištenja. Osim toga, komunikacija između uređaja omogućava vlasnicima kuća pametniji i povezaniji stil života.",
+
+  "faq_faqSectionOne_question2": "Koji uređaji se mogu integrirati u sistem Pametne Kuće?",
+  "faq_faqSectionOne_answer2": "Sistemi pametne kuće mogu uključivati osvjetljenje, sisteme grijanja i hlađenja, sigurnosne kamere, sisteme za zaključavanje vrata, kućne bioskope i mnoge kućanske aparate. Generalno se integriraju putem tehnologija kao što su Wi-Fi ili Bluetooth.",
+
+  "faq_faqSectionOne_question3": "Kako sistemi Pametne Kuće štede energiju?",
+  "faq_faqSectionOne_answer3": "Sistemi pametne kuće omogućavaju vlasnicima kuća da efikasnije upravljaju potrošnjom energije. Na primjer, automatski sistemi grijanja i hlađenja mogu štediti energiju kada senzori pokazuju da niko nije kod kuće.",
+
+  "faq_faqSectionOne_question4": "Da li je teško instalirati sisteme Pametne Kuće?",
+  "faq_faqSectionOne_answer4": "Instalacija sistema pametne kuće generalno nije složena i mnogi uređaji se mogu lako instalirati. Međutim, za složenije sisteme može biti korisno dobiti profesionalnu pomoć.",
+
+  "faq_faqSectionOne_question5": "Da li su sigurni sistemi Pametne Kuće?",
+  "faq_faqSectionOne_answer5": "Sigurnost sistema pametne kuće se stalno poboljšava. Sigurnost se osigurava jakim metodama enkripcije i redovnim ažuriranjima. Međutim, važno je da korisnici koriste jake lozinke i redovno ažuriraju svoje sisteme.",
+
+  "faq_faqSectionOne_question6": "Da li su sistemi Pametne Kuće skupi?",
+  "faq_faqSectionOne_answer6": "Cijena sistema pametne kuće varira ovisno o odabranim uređajima i opsegu sistema. Osnovni sistem može biti pristupačan, dok složeniji i integrirani sistemi mogu biti skuplji.",
+
+  "faq_faqSectionOne_question7": "Koje funkcije se mogu kontrolirati daljinski sa sistemom Pametne Kuće?",
+  "faq_faqSectionOne_answer7": "Sa sistemom pametne kuće, funkcije kao što su osvjetljenje, grijanje-hlađenje, sigurnosne kamere, brave na vratima, elektronski uređaji i mnoge druge funkcije u kući mogu se kontrolirati daljinski.",
+
+  "faq_faqSectionOne_question8": "Na šta treba obratiti pažnju prilikom instalacije sistema Pametne Kuće?",
+  "faq_faqSectionOne_answer8": "Prilikom instalacije sistema pametne kuće, važno je obratiti pažnju na kompatibilnost uređaja, sigurnosne postavke, dovoljnost mrežne infrastrukture i potrebe korisnika.",
+
+  "faq_faqSectionOne_question9": "Koje aplikacije su kompatibilne sa sistemima Pametne Kuće?",
+  "faq_faqSectionOne_answer9": "Sistemi pametne kuće su generalno kompatibilni sa mobilnim aplikacijama koje pružaju proizvođači. Na primjer, Google Home, Amazon Alexa i Apple HomeKit su široko korištene aplikacije.",
+
+  "faq_faqSectionOne_question10": "Koje rutine se mogu automatizirati sa sistemom Pametne Kuće?",
+  "faq_faqSectionOne_answer10": "Sa sistemom pametne kuće, mnoge rutine se mogu automatizirati, kao što su rasporedi osvjetljenja, programi grijanja-hlađenja i aktivacija sigurnosnog sistema. Korisnici mogu kreirati svoje personalizirane rutine.",
+
+  "faq_faqSectionOne_question11": "Šta se dešava kada se izgubi internet veza sa sistemima Pametne Kuće?",
+  "faq_faqSectionOne_answer11": "Kada se izgubi internet veza, pametni uređaji koji rade na lokalnoj mreži obično nastavljaju raditi. Međutim, daljinska kontrola i usluge temeljene na oblaku mogu biti onemogućene.",
+
+  "faq_faqSectionOne_question12": "Da li su sistemi Pametne Kuće sigurni za djecu?",
+  "faq_faqSectionOne_answer12": "Sistemi pametne kuće su sigurni za djecu ako su pravilno instalirani i konfigurirani. Roditeljski nadzor i sigurnosne postavke mogu ograničiti pristup djece.",
+
+  "faq_faqSectionOne_question13": "Kako sistemi Pametne Kuće pomažu starijim osobama?",
+  "faq_faqSectionOne_answer13": "Sistemi pametne kuće pružaju udobnost i sigurnost starijim osobama. Funkcije kao što su sistemi za hitne pozive, automatsko osvjetljenje i daljinski pristup mogu poboljšati kvalitetu života starijih osoba.",
+
+  "faq_faqSectionOne_question14": "Kako sistemi Pametne Kuće pomažu vlasnicima kućnih ljubimaca?",
+  "faq_faqSectionOne_answer14": "Sistemi pametne kuće nude veliku pogodnost za vlasnike kućnih ljubimaca. Na primjer, kamere za kućne ljubimce, automatski hranilice i pametna vrata omogućavaju jednostavno praćenje stanja kućnih ljubimaca.",
+
+  "contact_header_title": "Kontaktirajte Nas",
+  "contact_form_title": "Kontaktirajte Nas",
+  "contact_form_description": "Stupite u kontakt sa Solace-om, naši timovi će vas kontaktirati u najkraćem mogućem roku.",
+  "contact_form_nameLabel": "Ime",
+  "contact_form_namePlaceholder": "Vaše Ime",
+  "contact_form_emailLabel": "Email Adresa",
+  "contact_form_emailPlaceholder": "email@primjer.com",
+  "contact_form_messageLabel": "Vaša Poruka",
+  "contact_form_messagePlaceholder": "Napišite svoju poruku ovdje",
+  "contact_form_submitButton": "Pošalji",
+
+  "contact_bulletin_title": "Pretplatite se na Naš Bilten",
+  "contact_bulletin_description": "Pretplatite se na naš bilten o pametnom životu i ostanite u toku.",
+  "contact_bulletin_emailLabel": "Email Adresa",
+  "contact_bulletin_emailPlaceholder": "email@primjer.com",
+  "contact_bulletin_submitButton": "Pretplati se",
+
+  "error_pageNotFound": "Izvinjavamo se, stranica nije pronađena",
+  "error_pageNotFoundDescription": "Stranica koju tražite ne postoji ili je možda izbrisana.",
+  "error_goToHomepage": "Povratak na Početnu Stranicu",
+
+  "main_heroAuroraBackground_tagline": "Donosimo Život U Vaše Ruke",
+  "main_heroAuroraBackground_exploreButton": "Istražite",
+
+  "main_aboutHeroHighlight_tagline": "Dizajniranje i razvoj naprednih tehnologija, donošenje pametnih i inovativnih rješenja",
+  "main_aboutHeroHighlight_highlight": "u Život!",
+
+  "main_solaceFeatures_moreThanSum": "Više Od Zbira Njegovih Dijelova",
+  "main_solaceFeatures_moreThanSumDescription": "Solace donosi vrijednost koja premašuje zbir njegovih dijelova. Cjelina stvara sinergiju izvan pojedinačnih komponenti.",
+  "main_solaceFeatures_humanizingTechnology": "Humanizacija Tehnologije",
+  "main_solaceFeatures_humanizingTechnologyDescription": "Solace nudi jednostavna i jasna rješenja sa pristupom orijentiranim prema ljudima u svojim dizajnima. Pojednostavljuje složenost i daje prioritet korisničkom iskustvu.",
+  "main_solaceFeatures_smartLivingSolutions": "Pametna Rješenja Za Život",
+  "main_solaceFeatures_smartLivingSolutionsDescription": "Solace razvija pametna i inovativna rješenja za život koristeći visoku tehnologiju. Tehnologija čini životne prostore ugodnijim i efikasnijim.",
+  "main_solaceFeatures_safeAndEfficientSystems": "Sigurni i Efikasni Sistemi",
+  "main_solaceFeatures_safeAndEfficientSystemsDescription": "Solace razvija potpuno opremljene, sigurne i efikasne pametne sisteme. Privatnost podataka i sigurnost korisnika uvijek su prioritet.",
+
+  "main_featuresAndBenefitsWobbleCard_moreThanSum": "Više Od Zbira Njegovih Dijelova",
+  "main_featuresAndBenefitsWobbleCard_moreThanSumDescription": "Solace donosi vrijednost koja premašuje zbir njegovih dijelova. Cjelina stvara sinergiju izvan pojedinačnih komponenti.",
+  "main_featuresAndBenefitsWobbleCard_humanizingTechnology": "Humanizacija Tehnologije. Jednostavna i jasna, orijentirana prema ljudima",
+  "main_featuresAndBenefitsWobbleCard_humanizingTechnologyDescription": "Solace nudi jednostavna i jasna rješenja sa pristupom orijentiranim prema ljudima u svojim dizajnima. Pojednostavljuje složenost i daje prioritet korisničkom iskustvu.",
+  "main_featuresAndBenefitsWobbleCard_smartLivingSolutions": "Pametna Rješenja Za Život",
+  "main_featuresAndBenefitsWobbleCard_smartLivingSolutionsDescription": "Solace razvija pametna i inovativna rješenja za život koristeći visoku tehnologiju. Tehnologija čini životne prostore ugodnijim i efikasnijim.",
+  "main_featuresAndBenefitsWobbleCard_safeAndEfficientSystems": "Sigurni i Efikasni Sistemi",
+  "main_featuresAndBenefitsWobbleCard_safeAndEfficientSystemsDescription": "Solace razvija potpuno opremljene, sigurne i efikasne pametne sisteme. Privatnost podataka i sigurnost korisnika uvijek su prioritet.",
+  "main_featuresAndBenefitsWobbleCard_innovativeAndSustainable": "Inovativan i Održljiv",
+  "main_featuresAndBenefitsWobbleCard_innovativeAndSustainableDescription": "Solace stvara održive životne prostore sa inovativnim pristupima. Minimizira uticaj na okoliš kroz energetsku efikasnost i upravljanje resursima.",
+
+  "main_productsLampEffect_ensiHome": "Ensi Home",
+  "main_productsLampEffect_smartHomeSystem": "Pametni Kućni Sistem",
+
+  "home_ensiHomeBoxSection_ensi": "Ensi",
+  "home_ensiHomeBoxSection_homeBox": "Home Box",
+  "home_ensiHomeBoxSection_description": "Sa Ensi Home-om, nudimo vam jedinstveno iskustvo kombiniranjem vaših pametnih kućnih uređaja u jedan mozak. Baš kao dirigent, Ensi osigurava da pametni uređaji u vašem domu rade u savršenoj harmoniji.",
+
+  "main_EnsiHomePageMobileAppSection_ensiHome": "Ensi Home",
+  "main_EnsiHomePageMobileAppSection_mobileApp": "Mobilna Aplikacija",
+
+  "main_ensiHoverFeaturesSection_description": "Sa Ensi Home-om, nudimo vam zaista pametan dom. Integrirajte sve svoje uređaje na jednu platformu i olakšajte svoj život sa AI-pokretanim automatizacijama. Otkrijte Ensi Home za sigurnu i personaliziranu pametnu kućnu iskustvo.",
+  "main_ensiHomePillars_uzaktanKontroller": "Daljinske Kontrole",
+  "main_ensiHomePillars_otomasyonlar": "Automatizacije",
+  "main_ensiHomePillars_yapayZekalar": "Umjetne Inteligencije",
+
+  "main_EnsiHomeFeatures_merkeziKontrol": "Centralizirana Kontrola",
+  "main_EnsiHomeFeatures_merkeziKontrolDescription": "Ensi Home integriše sve pametne uređaje u vašem domu na jednu platformu, eliminirajući potrebu da korisnici rukuju s više aplikacija.",
+  "main_EnsiHomeFeatures_yapayZekaDestekliYonetim": "Upravljanje Pomoću AI",
+  "main_EnsiHomeFeatures_yapayZekaDestekliYonetimDescription": "AI-pokretan sistem upravljanja Ensi Home-a osigurava najefikasniji rad uređaja i minimizira intervenciju korisnika.",
+  "main_EnsiHomeFeatures_kisisellestirilmisOtomasyon": "Personalizovana Automatizacija",
+  "main_EnsiHomeFeatures_kisisellestirilmisOtomasyonDescription": "Stvara personalizirane automatizacije temeljene na preferencijama i rutinama korisnika, čineći životne prostore ugodnijim i efikasnijim.",
+  "main_EnsiHomeFeatures_guvenliVeriYonetimi": "Sigurno Upravljanje Podacima",
+  "main_EnsiHomeFeatures_guvenliVeriYonetimiDescription": "Podaci korisnika se sigurno upravljaju putem enkriptirane mrežne infrastrukture, osiguravajući privatnost i sigurnost podataka.",
+  "main_EnsiHomeFeatures_sesliAsistanEntegrasyonu": "Integracija Sa Glasovnim Asistentima",
+  "main_EnsiHomeFeatures_sesliAsistanEntegrasyonuDescription": "Uz AI-pokretan glasovni asistent, korisnici mogu lako dodati automatizaciju i kontrolirati uređaje bez otvaranja aplikacije.",
+  "main_EnsiHomeFeatures_genisCihazUyumlulugu": "Široka Kompatibilnost Uređaja",
+  "main_EnsiHomeFeatures_genisCihazUyumluluguDescription": "Ensi Home podržava širok raspon uređaja sa Ethernet, Wi-Fi, Zigbee, Bluetooth i Z-Wave IoT komunikacijskim protokolima.",
+  "footer_solace": "Solace",
+  "footer_solaceDescription": "Solace pametni sistemi za život uvijek su uz vas.",
+  "footer_developedBy": "Razvio",
+  "footer_solaceSystems": "Solace Pametni Sistemi Za Život"
+}

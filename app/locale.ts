@@ -19,6 +19,7 @@ export async function getUserLocale(): Promise<Locale> {
 
 export async function setUserLocale(locale: Locale): Promise<void> {
   if (!supportedLocales.includes(locale)) {
+    console.log(locale)
     throw new Error(`Unsupported locale: ${locale}`);
   }
 

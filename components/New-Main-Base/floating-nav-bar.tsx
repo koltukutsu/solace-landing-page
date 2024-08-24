@@ -97,6 +97,16 @@ export const FloatingNav = ({
       ),
     },
     {
+      code: "bs",
+      name: t("newFloatingNavBar_floatingNavBar_bosnian"),
+      icon: (
+        <Image
+          alt={t("newFloatingNavBar_floatingNavBar_english")}
+          src="http://purecatamphetamine.github.io/country-flag-icons/3x2/BA.svg"
+        />
+      ),
+    },
+    {
       code: "es",
       name: t("newFloatingNavBar_floatingNavBar_spanish"),
       icon: (
