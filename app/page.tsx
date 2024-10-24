@@ -64,7 +64,6 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-
   return (
     <div className="md:no-scrollbar z-0 h-screen flex-grow overflow-y-scroll scroll-smooth md:snap-y  md:snap-mandatory">
       <PageNavigation />
@@ -101,17 +100,17 @@ export default function Home() {
           <div className="relative flex w-full flex-col items-center justify-center bg-slate-950 antialiased">
             <BackgroundBeams />
             <div className="flex min-h-screen flex-col">
-            <EnsiHomeBoxSection/>
+              <EnsiHomeBoxSection />
               {/* <div className="flex-grow"><EnsiAnimatedModal /></div> */}
             </div>
           </div>
         </div>
-        <div
+        {/* <div
           className="flex w-full items-center justify-center bg-slate-950 md:snap-center md:snap-always"
           id="ensi-home-mobile-application"
         >
           <EnsiHomePageMobileAppSection />
-        </div>
+        </div> */}
         <div
           className="flex w-full items-center justify-center bg-slate-950 md:snap-center md:snap-always"
           id="ensi-home-features-section"
