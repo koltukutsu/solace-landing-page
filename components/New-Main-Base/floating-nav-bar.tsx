@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import logoImage from "@/public/images/logo/main_logo.svg";
 import logoImageOnlyS from "@/public/images/logo/only_s.svg";
-import { IconLanguage } from "@tabler/icons-react";
+import { IconLanguage, IconChevronDown, IconChevronRight } from "@tabler/icons-react";
 import { setUserLocale } from "@/app/locale";
 import { useTransition } from "react";
 import { Locale } from "@/config";
@@ -46,15 +46,26 @@ const LanguageButton: React.FC<LanguageButtonProps> = ({
   );
 };
 
+interface SubItemProps {
+  brand: string;
+  field: string;
+  link: string;
+  brandColor?: string;
+  items?: { name: string; link: string }[];
+}
+
+interface NavItemProps {
+  name: string;
+  link: string;
+  icon?: JSX.Element;
+  subItems?: SubItemProps[];
+}
+
 export const FloatingNav = ({
   navItems,
   className,
 }: {
-  navItems: {
-    name: string;
-    link: string;
-    icon?: JSX.Element;
-  }[];
+  navItems: NavItemProps[];
   className?: string;
 }) => {
   const t = useTranslations();
@@ -63,6 +74,8 @@ export const FloatingNav = ({
   const [visible, setVisible] = useState(true);
   const [isPending, startTransition] = useTransition();
   const [changingLanguage, setChangingLanguage] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const [activeSubDropdown, setActiveSubDropdown] = useState<string | null>(null);
 
   function changeLanguage(localeString: string) {
     const locale = localeString as Locale;
@@ -194,17 +207,101 @@ export const FloatingNav = ({
               />
             </div>
           </Link>
-          {navItems.map((navItem: any, idx: number) => (
-            <Link
-              key={`link=${idx}`}
-              href={navItem.link}
-              className={cn(
-                "relative mt-1 flex items-center space-x-1 text-neutral-800 hover:text-neutral-500 dark:text-neutral-50 dark:hover:text-neutral-300",
+          {navItems.map((navItem: NavItemProps, idx: number) => (
+            <div key={`nav-item-${idx}`} className="relative">
+              {navItem.subItems ? (
+                <div
+                  onMouseEnter={() => setActiveDropdown(navItem.name)}
+                  onMouseLeave={() => {
+                    setActiveDropdown(null);
+                    setActiveSubDropdown(null);
+                  }}
+                >
+                  <button
+                    className={cn(
+                      "relative mt-1 flex items-center space-x-1 text-neutral-800 hover:text-neutral-500 dark:text-neutral-50 dark:hover:text-neutral-300",
+                    )}
+                  >
+                    <span className="block sm:hidden">{navItem.icon}</span>
+                    <span className="hidden text-sm sm:block">{navItem.name}</span>
+                    <IconChevronDown className="h-4 w-4" />
+                  </button>
+                  
+                  <AnimatePresence>
+                    {activeDropdown === navItem.name && (
+                      <motion.div
+                        initial={{ opacity: 0, y: -10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        className="absolute left-1/2 transform -translate-x-1/2 z-50 mt-2 w-[90vw] sm:w-auto sm:min-w-[200px] sm:left-0 sm:transform-none rounded-md bg-white py-2 shadow-lg dark:bg-black"
+                      >
+                        {navItem.subItems.map((subItem, subIdx) => (
+                          <div
+                            key={subIdx}
+                            className="relative"
+                            onMouseEnter={() => setActiveSubDropdown(subItem.field)}
+                            onMouseLeave={() => setActiveSubDropdown(null)}
+                          >
+                            <div className="flex items-center justify-between px-3 py-2 text-sm text-neutral-800 hover:bg-gray-200 dark:text-neutral-50 dark:hover:bg-gray-700">
+                              <div className="flex items-center gap-2">
+                                {/* Chevron for mobile - at start */}
+                                {subItem.items && (
+                                  <IconChevronDown className="h-3 w-3 sm:hidden block" />
+                                )}
+                                <span className="text-sm">{subItem.brand}</span>
+                                <span className="px-1.5 py-0.5 rounded text-xs font-medium text-white"
+                                  style={{ backgroundColor: subItem.brandColor || '#00A9E0' }}>
+                                  {subItem.field}
+                                </span>
+                              </div>
+                              {/* Chevron for desktop - at end */}
+                              {subItem.items && (
+                                <IconChevronRight className="h-3 w-3 ml-2 sm:block hidden" />
+                              )}
+                            </div>
+                            
+                            {activeSubDropdown === subItem.field && subItem.items && (
+                              <motion.div
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                exit={{ opacity: 0 }}
+                                className={`
+                                  absolute z-50 bg-white py-2 shadow-lg dark:bg-black rounded-md
+                                  sm:left-full sm:top-0 sm:ml-1 sm:w-auto sm:min-w-[160px]
+                                  left-0 top-full w-full mt-1
+                                `}
+                              >
+                                {subItem.items.map((item, itemIdx) => (
+                                  <a
+                                    key={itemIdx}
+                                    href={item.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="block px-4 py-2 text-sm text-neutral-800 hover:bg-gray-200 dark:text-neutral-50 dark:hover:bg-gray-700"
+                                  >
+                                    {item.name}
+                                  </a>
+                                ))}
+                              </motion.div>
+                            )}
+                          </div>
+                        ))}
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              ) : (
+                <Link
+                  href={navItem.link}
+                  className={cn(
+                    "relative mt-1 flex items-center space-x-1 text-neutral-800 hover:text-neutral-500 dark:text-neutral-50 dark:hover:text-neutral-300",
+                  )}
+                >
+                  <span className="block sm:hidden">{navItem.icon}</span>
+                  <span className="hidden text-sm sm:block">{navItem.name}</span>
+                </Link>
               )}
-            >
-              <span className="block sm:hidden">{navItem.icon}</span>
-              <span className="hidden text-sm sm:block">{navItem.name}</span>
-            </Link>
+            </div>
           ))}
           {/* Language Selector */}
           <div

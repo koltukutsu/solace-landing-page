@@ -14,12 +14,9 @@ export function WhoAreWeSVGMaskMission() {
             {t("about_whoAreWeMission_wholeMissionText")}
           </p>
         }
-        className="min-h-screen w-full border rounded-md"
+        className="min-h-screen w-full border"
       >
-        <span className="text-red-500">{t("about_whoAreWeMission_missionTitle")}</span>, {t("about_whoAreWeMission_part1")}
-        <span className="text-red-500">{t("about_whoAreWeMission_part2")}</span> {t("about_whoAreWeMission_part3")}
-        <span className="text-red-500">{t("about_whoAreWeMission_part4")}</span> {t("about_whoAreWeMission_part5")}
-        {t("about_whoAreWeMission_part6")} <span className="text-red-500">{t("about_whoAreWeMission_part7")}</span> {t("about_whoAreWeMission_part8")}
+        <span className="text-red-500">{t("about_whoAreWeMission_missionTitle")}</span> {t("about_whoAreWeMission_part1")} <span className="text-red-500">{t("about_whoAreWeMission_part2")}</span> {t("about_whoAreWeMission_part3")} <span className="text-red-500">{t("about_whoAreWeMission_part4")}</span> {t("about_whoAreWeMission_part5")} {t("about_whoAreWeMission_part6")} <span className="text-red-500">{t("about_whoAreWeMission_part7")}</span> {t("about_whoAreWeMission_part8")}
       </MaskContainer>
     </div>
   );
@@ -36,11 +33,9 @@ export function WhoAreWeSVGMaskVision() {
             {t("about_whoAreWeMission_wholeVisionText")}
           </p>
         }
-        className="min-h-screen w-full border rounded-md"
+        className="min-h-screen w-full border"
       >
-        <span className="text-green-500">{t("about_whoAreWeVision_visionTitle")}</span>, {t("about_whoAreWeVision_part1")}
-        <span className="text-green-500">{t("about_whoAreWeVision_part2")}</span> {t("about_whoAreWeVision_part3")}
-        <span className="text-green-500">{t("about_whoAreWeVision_part4")}</span> {t("about_whoAreWeVision_part5")} <span className="text-green-500">{t("about_whoAreWeVision_part6")}</span> {t("about_whoAreWeVision_part7")}
+        <span className="text-green-500">{t("about_whoAreWeVision_visionTitle")}</span> {t("about_whoAreWeVision_part1")} <span className="text-green-500">{t("about_whoAreWeVision_part2")}</span> {t("about_whoAreWeVision_part3")} <span className="text-green-500">{t("about_whoAreWeVision_part4")}</span> {t("about_whoAreWeVision_part5")} <span className="text-green-500">{t("about_whoAreWeVision_part6")}</span> {t("about_whoAreWeVision_part7")}
       </MaskContainer>
     </div>
   );

@@ -8,7 +8,7 @@ import { useTranslations } from 'next-intl';
 export function AboutSpotlight() {
     const t = useTranslations();
     return (
-        <div className="min-h-screen w-full rounded-md flex items-center justify-center bg-black bg-opacity-95 bg-[url('/path_to_grid_image.png')] bg-[length:100px_100px] relative overflow-hidden">
+        <div className="min-h-screen w-full flex items-center justify-center bg-black bg-opacity-95 bg-[url('/path_to_grid_image.png')] bg-[length:100px_100px] relative overflow-hidden">
             <Spotlight
                 className="absolute top-40 left-0 md:left-60 lg:top-20"
                 fill="white"

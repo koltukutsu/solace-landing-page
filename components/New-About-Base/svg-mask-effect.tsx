@@ -7,7 +7,7 @@ export const MaskContainer = ({
   children,
   revealText,
   size = 10,
-  revealSize = 600,
+  revealSize = 1000,
   className,
 }: {
   children?: string | React.ReactNode;
@@ -17,8 +17,37 @@ export const MaskContainer = ({
   className?: string;
 }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const [mousePosition, setMousePosition] = useState<any>({ x: null, y: null });
+  const [mousePosition, setMousePosition] = useState<any>({ x: 0, y: 0 });
   const containerRef = useRef<any>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setIsHovered(true);
+            if (containerRef.current) {
+              const rect = containerRef.current.getBoundingClientRect();
+              setMousePosition({
+                x: rect.width / 2,
+                y: rect.height / 2
+              });
+            }
+          } else {
+            setIsHovered(false);
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    if (containerRef.current) {
+      observer.observe(containerRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   const updateMousePosition = (e: any) => {
     const rect = containerRef.current.getBoundingClientRect();
     setMousePosition({ x: e.clientX - rect.left, y: e.clientY - rect.top });
