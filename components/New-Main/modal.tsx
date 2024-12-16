@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 import GLTFViewer from "../GLTFViewer/GLTF-viewer";
 
 export function EnsiAnimatedModal() {
-  const modelUrl = '/models/ensi-box.glb'; // Replace with your actual model path
+  const modelUrl = "/models/ensi-box-3.glb"; // Replace with your actual model path
 
   const images = [
     "https://images.unsplash.com/photo-1517322048670-4fba75cbbb62?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -22,27 +22,27 @@ export function EnsiAnimatedModal() {
     "https://images.unsplash.com/photo-1546484475-7f7bd55792da?q=80&w=2581&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   ];
   return (
-    <div className="py-40  flex items-center justify-center">
+    <div className="flex  items-center justify-center py-40">
       <Modal>
-        <ModalTrigger className="bg-black dark:bg-white dark:text-black text-white flex justify-center group/modal-btn">
-          <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500">
+        <ModalTrigger className="group/modal-btn flex justify-center bg-black text-white dark:bg-white dark:text-black">
+          <span className="text-center transition duration-500 group-hover/modal-btn:translate-x-40">
             Deneyimle
           </span>
-          <div className="-translate-x-40 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 text-white z-20">
+          <div className="absolute inset-0 z-20 flex -translate-x-40 items-center justify-center text-white transition duration-500 group-hover/modal-btn:translate-x-0">
             ✈️
           </div>
         </ModalTrigger>
         <ModalBody>
           <ModalContent>
-            <h4 className="text-lg md:text-2xl text-neutral-600 dark:text-neutral-100 font-bold text-center mb-8">
+            <h4 className="mb-8 text-center text-lg font-bold text-neutral-600 dark:text-neutral-100 md:text-2xl">
               Ensi Home Boxı{" "}
-              <span className="px-1 py-0.5 rounded-md bg-gray-100 dark:bg-neutral-800 dark:border-neutral-700 border border-gray-200">
+              <span className="rounded-md border border-gray-200 bg-gray-100 px-1 py-0.5 dark:border-neutral-700 dark:bg-neutral-800">
                 canlı
               </span>{" "}
               deneyimle! ✈️
             </h4>
-            <div className="flex justify-center items-center">
-          <GLTFViewer modelUrl={modelUrl} />
+            <div className="flex items-center justify-center">
+              <GLTFViewer modelUrl={modelUrl} />
 
               {/* {images.map((image, idx) => (
                 <motion.div
@@ -112,10 +112,10 @@ export function EnsiAnimatedModal() {
             </div> */}
           </ModalContent>
           <ModalFooter className="gap-4">
-            <button className="px-2 py-1 bg-gray-200 text-black dark:bg-black dark:border-black dark:text-white border border-gray-300 rounded-md text-sm w-28">
+            <button className="w-28 rounded-md border border-gray-300 bg-gray-200 px-2 py-1 text-sm text-black dark:border-black dark:bg-black dark:text-white">
               Kapat
             </button>
-            <button className="bg-black text-white dark:bg-white dark:text-black text-sm px-2 py-1 rounded-md border border-black w-28">
+            <button className="w-28 rounded-md border border-black bg-black px-2 py-1 text-sm text-white dark:bg-white dark:text-black">
               Bizimle Iletisime Gec
             </button>
           </ModalFooter>

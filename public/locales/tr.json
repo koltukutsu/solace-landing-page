@@ -40,26 +40,26 @@
   "about_spotlight_description": "Yaşamı Avucunuza Sunuyoruz",
   "about_spotlight_description2": "Solace olarak, yüksek teknolojileri tasarlayıp geliştirerek akıllı ve inovatif çözümleri hayata geçiriyoruz.",
 
-  "about_whoAreWeMission_wholeMissionText": "Misyonumuz, tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları kullanıcılarımızla buluşturmak ve teknolojinin sunduğu tüm olanakları en üst düzeyde sunmaktır. Kullanıcılarımızın ihtiyaçlarını karşılamak için kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek herkesin kullanımına sunuyoruz.",
+  "about_whoAreWeMission_wholeMissionText": "Yüksek teknolojiyle inovatif çözümler tasarlayıp geliştirerek, insan odaklı hizmet sunmak ve sürdürülebilir değerler üretmektir.",
   "about_whoAreWeMission_missionTitle": "Misyonumuz",
-  "about_whoAreWeMission_part1": "tam kabiliyetli, verimli ve güvenli akıllı sistemler geliştirerek, bunları",
-  "about_whoAreWeMission_part2": "kullanıcılarımızla",
-  "about_whoAreWeMission_part3": "buluşturmak ve",
-  "about_whoAreWeMission_part4": "teknolojinin",
-  "about_whoAreWeMission_part5": "sunduğu tüm olanakları en üst düzeyde sunmaktır. Kullanıcılarımızın ihtiyaçlarını karşılamak için",
-  "about_whoAreWeMission_part6": "kişiselleştirilmiş çözümler üretiyor ve teknolojinin karmaşıklığını basitleştirerek",
-  "about_whoAreWeMission_part7": "herkesin",
-  "about_whoAreWeMission_part8": "kullanımına sunuyoruz.",
-  "about_whoAreWeMission_wholeVisionText": "Vizyonumuz, çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri global pazara sunan lider bir teknoloji şirketi olmaktır. Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde güven ve kalite sembolü olmayı hedefliyoruz.",
+  "about_whoAreWeMission_part1": "Yüksek teknolojiyle",
+  "about_whoAreWeMission_part2": "inovatif çözümler",
+  "about_whoAreWeMission_part3": "tasarlayıp geliştirerek,",
+  "about_whoAreWeMission_part4": "insan odaklı",
+  "about_whoAreWeMission_part5": "hizmet sunmak ve",
+  "about_whoAreWeMission_part6": "sürdürülebilir",
+  "about_whoAreWeMission_part7": "değerler",
+  "about_whoAreWeMission_part8": "üretmektir.",
+  "about_whoAreWeMission_wholeVisionText": "Köklerimizden aldığımız ilhamla, geleceğin teknolojilerini tasarlayıp geliştirmek; insanlığa değer katan akıllı ve inovatif çözümlerle hayatı kolaylaştırmaktır.",
 
   "about_whoAreWeVision_visionTitle": "Vizyonumuz",
-  "about_whoAreWeVision_part1": "çeşitli yüksek teknoloji ürünleri geliştiren ve bu ürünleri",
-  "about_whoAreWeVision_part2": "global pazara",
-  "about_whoAreWeVision_part3": "sunan lider bir teknoloji şirketi olmaktır. Piyasadaki cihazları potansiyellerine uygun kullanarak eksik kalan donanımları geliştirmeyi ve yenilikçi çözümlerimizle sektörde",
-  "about_whoAreWeVision_part4": "güven",
+  "about_whoAreWeVision_part1": "Köklerimizden aldığımız ilhamla,",
+  "about_whoAreWeVision_part2": "geleceğin teknolojilerini",
+  "about_whoAreWeVision_part3": "tasarlayıp geliştirmek; insanlığa değer katan",
+  "about_whoAreWeVision_part4": "akıllı",
   "about_whoAreWeVision_part5": "ve",
-  "about_whoAreWeVision_part6": "kalite",
-  "about_whoAreWeVision_part7": "sembolü olmayı hedefliyoruz.",
+  "about_whoAreWeVision_part6": "inovatif",
+  "about_whoAreWeVision_part7": "çözümlerle hayatı kolaylaştırmaktır.",
 
   "about_bentoGrid_centralControl_title": "Merkezi Kontrol",
   "about_bentoGrid_centralControl_description": "Ensi Home, tüm akıllı ev cihazlarını tek bir platformda entegre eder.",
@@ -189,12 +189,12 @@
   "error_pageNotFoundDescription": "Aradığınız sayfa mevcut değil ya da silinmiş olabilir.",
   "error_goToHomepage": "Anasayfaya Dön",
 
- "main_heroAuroraBackground_tagline": "Yaşamı Avucunuza Sunuyoruz",
+  "main_heroAuroraBackground_tagline": "Yaşamı Avucunuza Sunuyoruz",
   "main_heroAuroraBackground_exploreButton": "Keşfet",
 
   "main_aboutHeroHighlight_tagline": "Yüksek Teknolojileri tasarlayıp geliştirerek, Akıllı ve İnovatif çözümleri",
   "main_aboutHeroHighlight_highlight": "Hayata Geçiriyoruz!",
-  
+
   "main_solaceFeatures_moreThanSum": "Parçaların Toplamından Daha Fazlası",
   "main_solaceFeatures_moreThanSumDescription": "Solace, parçaların toplamından daha fazlasını değer olarak ortaya koyar. Bütün, bireysel parçaların ötesinde bir sinerji ile değer oluşturur.",
   "main_solaceFeatures_humanizingTechnology": "Teknolojiyi İnsanlaştırma",
@@ -215,7 +215,7 @@
   "main_featuresAndBenefitsWobbleCard_innovativeAndSustainable": "Yenilikçi ve sürdürülebilir",
   "main_featuresAndBenefitsWobbleCard_innovativeAndSustainableDescription": "Solace, yenilikçi yaklaşımlarla sürdürülebilir yaşam alanları yaratır. Enerji verimliliği ve kaynak yönetimi ile çevresel etkileri minimize eder.",
 
- "main_productsLampEffect_ensiHome": "Ensi Home",
+  "main_productsLampEffect_ensiHome": "Ensi Home",
   "main_productsLampEffect_smartHomeSystem": "Akıllı Ev Sistemi",
 
   "home_ensiHomeBoxSection_ensi": "Ensi",
@@ -225,11 +225,11 @@
   "main_EnsiHomePageMobileAppSection_ensiHome": "Ensi Home",
   "main_EnsiHomePageMobileAppSection_mobileApp": "Mobil Uygulama",
 
- "main_ensiHoverFeaturesSection_description": "Ensi Home ile size gerçek bir akıllı ev sunuyoruz. Tüm cihazlarınızı tek bir platformda entegre eder, yapay zeka destekli otomasyonlarla yaşamınızı kolaylaştırır. Güvenli ve kişiselleştirilmiş bir akıllı ev deneyimi için Ensi Home'u keşfedin.",
- "main_ensiHomePillars_uzaktanKontroller": "Uzaktan Kontroller",
- "main_ensiHomePillars_otomasyonlar": "Otomasyonlar",
- "main_ensiHomePillars_yapayZekalar": "Yapay Zekalar",
-  
+  "main_ensiHoverFeaturesSection_description": "Ensi Home ile size gerçek bir akıllı ev sunuyoruz. Tüm cihazlarınızı tek bir platformda entegre eder, yapay zeka destekli otomasyonlarla yaşamınızı kolaylaştırır. Güvenli ve kişiselleştirilmiş bir akıllı ev deneyimi için Ensi Home'u keşfedin.",
+  "main_ensiHomePillars_uzaktanKontroller": "Uzaktan Kontroller",
+  "main_ensiHomePillars_otomasyonlar": "Otomasyonlar",
+  "main_ensiHomePillars_yapayZekalar": "Yapay Zekalar",
+
   "main_EnsiHomeFeatures_merkeziKontrol": "Merkezi Kontrol",
   "main_EnsiHomeFeatures_merkeziKontrolDescription": "Ensi Home, tüm akıllı ev cihazlarını tek bir platformda entegre ederek kullanıcıların birden fazla uygulama ile uğraşma gereksinimini ortadan kaldırır.",
   "main_EnsiHomeFeatures_yapayZekaDestekliYonetim": "Yapay Zeka Destekli Yönetim",
