@@ -1,50 +1,51 @@
-'use client';
+"use client";
 
 import { motion } from "framer-motion";
 import React from "react";
-import { useTranslations } from 'next-intl';
+import { useTranslations } from "next-intl";
 import { AuroraBackground } from "../New-Main-Base/aurora-background";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/New-Main-Base/moving-border";
 
 export function HeroAuroraBackground() {
-    const t = useTranslations();
+  const t = useTranslations();
 
-    return (
-        <div className={`min-h-screen`}>
-            <AuroraBackground>
-                <motion.div
-                    initial={{ opacity: 0.0, y: 40 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{
-                        delay: 0.3,
-                        duration: 0.8,
-                        ease: "easeInOut",
-                    }}
-                    className="relative flex flex-col gap-4 items-center justify-center px-4"
-                >
-                    <div className="w-1/2 md:w-1/3 lg:w-2/5 pb-8">
-                        <Image
-                            src="/images/logo/main_logo.svg"
-                            alt="Description of SVG"
-                            layout="responsive"
-                            width={500}
-                            height={200}
-                        />
-                    </div>
-                    <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
+  return (
+    <div className={`min-h-screen`}>
+      <AuroraBackground>
+        <motion.div
+          initial={{ opacity: 0.0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            delay: 0.3,
+            duration: 0.8,
+            ease: "easeInOut",
+          }}
+          className="relative flex flex-col items-center justify-center gap-4 px-4"
+        >
+          <div className="w-full pb-8">
+            <Image
+              src="/images/logo/main_logo.svg"
+              alt="Description of SVG"
+              layout="responsive"
+              width={500}
+              height={200}
+            />
+          </div>
+          {/* <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
                         {t("main_heroAuroraBackground_tagline")}
-                    </div>
-                    <Link href="#about-hero" className="pt-6">
-                        <Button
-                            borderRadius="1.75rem"
-                            className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-400 dark:border-slate-800 font-light text-2xl sm:text-xl md:text-xl">
-                            {t("main_heroAuroraBackground_exploreButton")}
-                        </Button>
-                    </Link>
-                </motion.div>
-            </AuroraBackground>
-        </div>
-    );
+                    </div> */}
+          <Link href="#about-hero" className="pt-6">
+            <Button
+              borderRadius="1.75rem"
+              className="border-neutral-400 bg-white text-2xl font-light text-black dark:border-slate-800 dark:bg-slate-900 dark:text-white sm:text-xl md:text-xl"
+            >
+              {t("main_heroAuroraBackground_exploreButton")}
+            </Button>
+          </Link>
+        </motion.div>
+      </AuroraBackground>
+    </div>
+  );
 }

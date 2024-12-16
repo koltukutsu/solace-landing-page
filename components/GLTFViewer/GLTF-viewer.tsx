@@ -4,6 +4,7 @@ import React, { Suspense, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
 import { Html, useProgress } from "@react-three/drei";
+import { Rotate3D } from "lucide-react";
 
 interface GLTFViewerProps {
   modelUrl: string;
@@ -31,34 +32,51 @@ export default function GLTFViewer({ modelUrl }: GLTFViewerProps) {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   return (
-    <div style={{ height: "50vh", width: "50vh", overflow: "hidden" }}>
-      <Canvas camera={{ position: [5, 2, 5], fov: 60 }}>
-        {/* Ambient light to give a base level of illumination */}
-        <ambientLight intensity={1.5} />
+    <div style={{ position: "relative" }}>
+      <div
+        style={{
+          height: "50vh",
+          width: "50vh",
+          overflow: "hidden",
+          borderRadius: "1rem",
+          border: "0.25px solid white",
+          opacity: 0.8,
+        }}
+      >
+        <div
+          style={{
+            position: "absolute",
+            top: "10px",
+            right: "10px",
+            zIndex: 10,
+            backgroundColor: "rgba(0, 0, 0, 0.5)",
+            borderRadius: "50%",
+            padding: "8px",
+            color: "white",
+          }}
+        >
+          <Rotate3D size={24} />
+        </div>
 
-        {/* Point light above the model */}
-        <pointLight position={[0, 5, 0]} intensity={2.5} />
+        <Canvas camera={{ position: [5, 2, 5], fov: 60 }}>
+          <ambientLight intensity={1.5} />
+          <pointLight position={[0, 5, 0]} intensity={2.5} />
+          <pointLight position={[-5, 5, 5]} intensity={2.0} />
+          <pointLight position={[5, -5, 5]} intensity={2.0} />
+          <pointLight position={[5, 5, -5]} intensity={2.0} />
+          <directionalLight position={[0, 10, 5]} intensity={2.5} />
+          <directionalLight position={[-10, 10, 10]} intensity={2.5} />
 
-        {/* Additional lights around the model */}
-        <pointLight position={[-5, 5, 5]} intensity={2.0} />
-        <pointLight position={[5, -5, 5]} intensity={2.0} />
-        <pointLight position={[5, 5, -5]} intensity={2.0} />
-
-        {/* Directional light to simulate sunlight */}
-        <directionalLight position={[0, 10, 5]} intensity={2.5} />
-        <directionalLight position={[-10, 10, 10]} intensity={2.5} />
-
-        <Suspense fallback={<Loader />}>
-          <Model url={modelUrl} />
-        </Suspense>
-        <OrbitControls
-          enableZoom={true}
-          // maxPolarAngle={Math.PI / 2}
-          // minPolarAngle={0}
-          minDistance={isSmallScreen ? 18 : 20} // 20% more zoomed out for small screens
-          maxDistance={isSmallScreen ? 18 : 20}
-        />
-      </Canvas>
+          <Suspense fallback={<Loader />}>
+            <Model url={modelUrl} />
+          </Suspense>
+          <OrbitControls
+            enableZoom={true}
+            minDistance={isSmallScreen ? 18 : 20}
+            maxDistance={isSmallScreen ? 18 : 20}
+          />
+        </Canvas>
+      </div>
     </div>
   );
 }
