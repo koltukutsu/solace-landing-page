@@ -1,9 +1,27 @@
-[{
-    "relation": ["delegate_permission/common.handle_all_urls"],
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.yourapp",
-      "sha256_cert_fingerprints": ["<SHA256-Fingerprint-Here>"]
+      "sha256_cert_fingerprints": [
+        "\u003cSHA256-Fingerprint-Here\u003e"
+      ]
     }
-  }]
-  
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.solace.ensi.home",
+      "sha256_cert_fingerprints": [
+        "02:9B:7E:54:15:63:51:34:73:E7:F3:0E:AB:33:E6:66:4F:93:35:92:E0:A9:B0:86:07:10:1C:A8:1F:FE:AB:12"
+      ]
+    }
+  }
+]
