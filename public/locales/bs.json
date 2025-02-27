@@ -243,5 +243,9 @@
   "footer_solace": "Solace",
   "footer_solaceDescription": "Solace pametni sistemi za život uvijek su uz vas.",
   "footer_developedBy": "Razvio",
-  "footer_solaceSystems": "Solace Pametni Sistemi Za Život"
+  "footer_solaceSystems": "Solace Pametni Sistemi Za Život",
+
+  "underMaintenance_title": "Naš web sajt trenutno je u režimu održavanja",
+  "underMaintenance_description": "Naš web sajt trenutno je u režimu održavanja. Vratićemo se online u kratkom roku.",
+  "underMaintenance_contact": "Kontaktirajte nas: solace@solace.com.tr"
 }

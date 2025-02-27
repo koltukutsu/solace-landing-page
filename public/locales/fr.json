@@ -245,5 +245,9 @@
   "footer_solace": "Solace",
   "footer_solaceDescription": "Les systèmes de vie intelligente Solace sont toujours à vos côtés.",
   "footer_developedBy": "Développé par",
-  "footer_solaceSystems": "Solace Systèmes de Vie Intelligente"
+  "footer_solaceSystems": "Solace Systèmes de Vie Intelligente",
+
+  "underMaintenance_title": "Notre site web est en cours de maintenance",
+  "underMaintenance_description": "Notre site web est en cours de maintenance. Nous reviendrons en ligne dans un court délai.",
+  "underMaintenance_contact": "Contactez-nous: solace@solace.com.tr"
 }
