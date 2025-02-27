@@ -54,7 +54,7 @@ const UnderMaintenanceMain = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#F2F2F7] to-[#E5E5EA] px-4 py-12 sm:px-6 lg:px-8">
       {/* Language Selector */}
-      <div className="fixed right-32 top-4 z-50">
+      <div className="fixed right-4 top-4 z-50">
         <div className="relative">
           <button
             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
@@ -111,10 +111,10 @@ const UnderMaintenanceMain = () => {
         <h1 className="mb-4 text-2xl sm:text-3xl font-semibold text-[#1C1C1E] tracking-tight">{t('underMaintenance_title')}</h1>
         <div className="mb-8 h-1 w-20 bg-gradient-to-r from-[#007AFF] to-[#5AC8FA] mx-auto rounded-full"></div>
         
-        <p className="mb-8 text-base sm:text-lg leading-relaxed text-[#3A3A3C] max-w-sm mx-auto">
+        {/* <p className="mb-8 text-base sm:text-lg leading-relaxed text-[#3A3A3C] max-w-sm mx-auto">
           {t('underMaintenance_description')}
         </p>
-        
+         */}
         <div className="mt-10 pt-6 border-t border-gray-100">
           <p className="text-xs sm:text-sm text-[#8E8E93] flex items-center justify-center gap-2">
             <span className="inline-block h-2 w-2 bg-green-400 rounded-full animate-ping"></span>
