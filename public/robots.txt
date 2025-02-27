@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://solace.com.tr
+
+# Sitemaps
+Sitemap: https://solace.com.tr/sitemap.xml
+Sitemap: https://solace.com.tr/my-custom-sitemap-1.xml
+Sitemap: https://solace.com.tr/my-custom-sitemap-2.xml

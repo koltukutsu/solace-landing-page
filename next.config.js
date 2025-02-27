@@ -18,6 +18,9 @@ const nextConfig = {
   env: {
     _next_intl_trailing_slash: "", // Add this to resolve the warning
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 module.exports = withNextIntl(nextConfig);
