@@ -245,5 +245,9 @@
   "footer_solace": "Solace",
   "footer_solaceDescription": "Solace Akıllı Yaşam Sistemleri her daim yanınızda.",
   "footer_developedBy": "Solace Akıllı Yaşam Sistemleri",
-  "footer_solaceSystems": "tarafından geliştirilmiştir."
+  "footer_solaceSystems": "tarafından geliştirilmiştir.",
+
+  "underMaintenance_title": "Sitemiz Kısa Bir Mola Veriyor",
+  "underMaintenance_description": "Web sitemiz şu anda bakımda. Kısa süre içinde yeniden aktif hale geleceğiz.",
+  "underMaintenance_contact": "Bize ulaşmak için: solace@solace.com.tr"
 }

@@ -1,17 +1,21 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react"
 
+import { Providers } from "./providers";
+import { NewFloatingNav } from "@/components/New-Main/new-floating-nav-bar";
+
 import '@mantine/core/styles.css';
 
-import { MantineProvider, ColorSchemeScript } from '@mantine/core';
+import { MantineProvider } from '@mantine/core';
 
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
+import { headers } from 'next/headers';
+import MAINTENANCE_MODE from "@/middleware";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +27,10 @@ const RootLayout = async ({
     const locale = await getLocale();
     const messages = await getMessages();
 
+    const pathname = headers().get('x-pathname') || '';
+    // const isMaintenancePage = pathname === '/under-maintenance';
+
+    const isMaintenancePage = MAINTENANCE_MODE;
     return (
         <html suppressHydrationWarning>
             {/*
@@ -37,13 +45,10 @@ const RootLayout = async ({
                 <NextIntlClientProvider messages={messages}>
                     <MantineProvider>
                         <Providers>
-                            {/*<Header />*/}
-                            {/*<NewNavbarMenu/>*/}
-                            <NewFloatingNav />
+                            {!isMaintenancePage && <NewFloatingNav />}
                             {children}
                             <Analytics />
-                            {/*<Footer/>*/}
-                            <ScrollToTop />
+                            {!isMaintenancePage && <ScrollToTop />}
                         </Providers>
                     </MantineProvider>
                 </NextIntlClientProvider>
@@ -53,7 +58,3 @@ const RootLayout = async ({
 }
 
 export default RootLayout;
-
-import { Providers } from "./providers";
-import { NewNavbarMenu } from "@/components/New-Main/new-navbar-menu";
-import { NewFloatingNav } from "@/components/New-Main/new-floating-nav-bar";
