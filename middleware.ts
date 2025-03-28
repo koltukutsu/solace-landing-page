@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
 // Set this to false to disable maintenance mode
-const MAINTENANCE_MODE = true;
+const MAINTENANCE_MODE = false;
 
 // URLs that should be accessible during maintenance
 const ALLOWED_PATHS = [
