@@ -1,6 +1,7 @@
 import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react"
+import PlausibleProvider from 'next-plausible';
 
 import { Providers } from "./providers";
 import { NewFloatingNav } from "@/components/New-Main/new-floating-nav-bar";
@@ -42,16 +43,18 @@ const RootLayout = async ({
             <body className={`
         no-scrollbar overflow-y-hidden
       bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
-                <NextIntlClientProvider messages={messages}>
-                    <MantineProvider>
-                        <Providers>
-                            {!isMaintenancePage && <NewFloatingNav />}
-                            {children}
-                            <Analytics />
-                            {!isMaintenancePage && <ScrollToTop />}
-                        </Providers>
-                    </MantineProvider>
-                </NextIntlClientProvider>
+                <PlausibleProvider domain="solace.fi">
+                    <NextIntlClientProvider messages={messages}>
+                        <MantineProvider>
+                            <Providers>
+                                {!isMaintenancePage && <NewFloatingNav />}
+                                {children}
+                                <Analytics />
+                                {!isMaintenancePage && <ScrollToTop />}
+                            </Providers>
+                        </MantineProvider>
+                    </NextIntlClientProvider>
+                </PlausibleProvider>
             </body>
         </html>
     );

@@ -4,6 +4,7 @@ import farisImage from "@/public/faces/faris_2.png";
 import furkanImage from "@/public/faces/furkan.png";
 import semihImage from "@/public/faces/semih.png";
 import erkamImage from "@/public/faces/erkam.jpeg";
+import emirImage from "@/public/faces/emir-kisa.jpeg";
 import { FaLinkedin } from "react-icons/fa";
 import Image from "next/image";
 import React from "react";
@@ -48,6 +49,13 @@ const TeamSection = ({ customWidth = "w-56", customHeight = "h-56" }) => {
       position: t("about_teamSection_erkam_position"),
       image: erkamImage,
       linkedin: "https://tr.linkedin.com/in/erkam-kavak-8b8667184",
+    },
+    {
+      id: 6,
+      name: "Emir KISA",
+      position: t("about_teamSection_emir_position"),
+      image: emirImage,
+      linkedin: "https://tr.linkedin.com/in/emir-k%C4%B1sa",
     },
   ];
 
