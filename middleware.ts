@@ -13,6 +13,9 @@ const ALLOWED_PATHS = [
 ];
 
 export function middleware(request: NextRequest) {
+  // Redirect all requests to https://ema.solace.com.tr
+  return NextResponse.redirect('https://ema.solace.com.tr');
+  
   // If maintenance mode is enabled and the path is not in allowed paths
   if (MAINTENANCE_MODE) {
     const path = request.nextUrl.pathname;
